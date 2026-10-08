@@ -1,0 +1,13 @@
+﻿closure_id,reported_road,sensitivity_m,shift_m,shift_label,affected_subedge_count
+C2025_FT003_9.1_10.0,FT003 Jalan Johor Bahru - Kota Tinggi,150,-150,SIDE_A,61
+C2025_FT003_9.1_10.0,FT003 Jalan Johor Bahru - Kota Tinggi,150,0,NOMINAL,59
+C2025_FT003_9.1_10.0,FT003 Jalan Johor Bahru - Kota Tinggi,150,150,SIDE_B,61
+C2025_FT01_19.6_20.0,FT01 Jalan Johor Bahru - Senai,50,-50,SIDE_A,6
+C2025_FT01_19.6_20.0,FT01 Jalan Johor Bahru - Senai,50,0,NOMINAL,6
+C2025_FT01_19.6_20.0,FT01 Jalan Johor Bahru - Senai,50,50,SIDE_B,5
+C2025_J105_7.0_7.5,J105 Jalan Maju Jaya - Seelong,100,-100,SIDE_A,29
+C2025_J105_7.0_7.5,J105 Jalan Maju Jaya - Seelong,100,0,NOMINAL,31
+C2025_J105_7.0_7.5,J105 Jalan Maju Jaya - Seelong,100,100,SIDE_B,32
+C2025_J46_2.0_2.3,J46 Jalan Ulu Pulai,50,-50,SIDE_A,11
+C2025_J46_2.0_2.3,J46 Jalan Ulu Pulai,50,0,NOMINAL,8
+C2025_J46_2.0_2.3,J46 Jalan Ulu Pulai,50,50,SIDE_B,5

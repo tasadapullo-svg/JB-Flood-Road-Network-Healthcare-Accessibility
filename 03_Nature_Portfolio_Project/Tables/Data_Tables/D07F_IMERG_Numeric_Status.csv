@@ -1,0 +1,2 @@
+﻿product,target_window_myt,expected_half_hour_granules,numeric_granules_present,numeric_granules_missing,numeric_1h_peak_status,numeric_3h_peak_status,numeric_6h_peak_status,integrity_rule
+GPM_3IMERGHH.07 V07B Final,2025-03-19 00:00 to 2025-03-21 23:30,144,0,144,NOT_COMPUTABLE_WITHOUT_AUTHENTICATED_DATA_BYTES,NOT_COMPUTABLE_WITHOUT_AUTHENTICATED_DATA_BYTES,NOT_COMPUTABLE_WITHOUT_AUTHENTICATED_DATA_BYTES,"No precipitation value is inferred from metadata, daily rainfall, or unauthenticated placeholders."

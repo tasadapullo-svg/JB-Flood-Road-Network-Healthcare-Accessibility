@@ -1,0 +1,29 @@
+{
+  "original_relative_path": "03_Nature_Portfolio_Project/Supporting_Information/Geospatial_Data/JB_OSM_RoadNetwork_RoutingBuffer10km_WGS84.gpkg",
+  "original_file_name": "JB_OSM_RoadNetwork_RoutingBuffer10km_WGS84.gpkg",
+  "original_size_bytes": 84819968,
+  "original_sha256": "2b29d6e5c579d23afee4e71781036a7907a2ffcf02e8a58bab0c6534687f1add",
+  "part_size_limit_bytes": 20971520,
+  "parts": [
+    {
+      "file": "JB_OSM_RoadNetwork_RoutingBuffer10km_WGS84.gpkg.part001",
+      "sha256": "10cfafc17f9bd38558db89548613e654643d430131fefd65dce3b6b016c7bd09"
+    },
+    {
+      "file": "JB_OSM_RoadNetwork_RoutingBuffer10km_WGS84.gpkg.part002",
+      "sha256": "b59dc2db6d668f1f646b0bcf8918358f0552000bba8e5b0e43b3257ba00280cd"
+    },
+    {
+      "file": "JB_OSM_RoadNetwork_RoutingBuffer10km_WGS84.gpkg.part003",
+      "sha256": "9bb43cbf3c656e9f45af382bc497097909f3e81f7dc60e91ec47c7c94f2d4a53"
+    },
+    {
+      "file": "JB_OSM_RoadNetwork_RoutingBuffer10km_WGS84.gpkg.part004",
+      "sha256": "160012035935b13477a64d945375f4484fa15799df8dfc1f86adb5ab98c4b5a7"
+    },
+    {
+      "file": "JB_OSM_RoadNetwork_RoutingBuffer10km_WGS84.gpkg.part005",
+      "sha256": "d74dc288456d83340452b40c3a626fe633ade60cb26f306b499aa143d3968cc8"
+    }
+  ]
+}

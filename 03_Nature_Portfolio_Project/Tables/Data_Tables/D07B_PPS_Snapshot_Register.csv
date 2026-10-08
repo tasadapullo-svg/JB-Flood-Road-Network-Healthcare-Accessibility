@@ -1,0 +1,5 @@
+﻿event_id,snapshot_date_time,scope,pps_count,families,people,count_note,named_pps,source_id
+JB-FLD-20250319-01,2025-03-20 early phase,Johor Bahru District,3,20,68,68 people / 20 families specifically reported at Dewan MBJB Kampung Ulu Pandan; victim counts at other two PPS were being updated.,SK Bukit Mutiara; Dewan MBJB Kampung Ulu Pandan; SJKC Kuo Kuang,SRC_A03
+JB-FLD-20250319-01,2025-03-21 08:00,Johor Bahru District,27,1138,4291,District snapshot.,,SRC_A05
+JB-FLD-20250319-01,2025-03-22 12:00,Johor Bahru District,27,1532,5392,District snapshot in NADMA SITREP #19.,,SRC_A01
+JB-FLD-20250319-01,retrospective statement reported 2025-03-28,MBJB jurisdiction,11,806,2232,MBJB-scope retrospective total; not directly comparable with district-wide snapshots.,,SRC_A02

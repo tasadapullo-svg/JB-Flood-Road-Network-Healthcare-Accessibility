@@ -1,0 +1,9 @@
+D07-F IMERG AUTHENTICATED-DATA REQUIREMENT
+
+Target: 144 NASA GPM IMERG Final V07B half-hourly HDF5 granules listed in D07F_IMERG_Missing_Granules.csv.
+Current workspace scan: no authenticated IMERG HDF5 numeric files are present.
+
+Do not create 1h/3h/6h rainfall values until all required data bytes are present.
+Once the files are downloaded with the user's NASA Earthdata authorization, place/upload them into this package (any subfolder is acceptable) and run 07_CODE/D07F_process_uploaded_IMERG.py.
+The script computes: half-hour accumulation, rolling 1h/3h/6h totals, per-cell peaks, and district maximum cell-window peaks.
+No credentials are embedded in the package.

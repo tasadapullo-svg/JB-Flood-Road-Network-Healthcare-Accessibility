@@ -1,0 +1,3 @@
+﻿threshold_id,threshold_name,value,unit,duration_context,source,use_in_D07,not_allowed
+RAIN_THR_01,MET Malaysia thunderstorm warning intensity,>20,mm/hour,single warning <=6 h,MET Malaysia,Operational short-duration heavy-rain screening only; event-specific rainfall must still be measured.,Do not assign 20 mm/h to an event without observation.
+RAIN_THR_02,JPS significant-flood rainfall criterion as reported in Johor 2030 policy,>60,mm/hour,JPS Jan-Oct 2024 significant-flood definition context,Johor 2030 flood mitigation policy citing JPS,Severity/context benchmark; alternatively river overflow satisfies the cited significant-flood definition.,Do not convert daily rainfall to this hourly threshold.

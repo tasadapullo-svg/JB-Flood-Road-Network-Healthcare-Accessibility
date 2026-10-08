@@ -1,0 +1,5 @@
+﻿year,doy,granules,first_utc,last_utc,reason
+2025,077,16,2025-03-18T16:00:00+00:00,2025-03-18T23:30:00+00:00,72-hour 2025-03-19 to 2025-03-21 Malaysia-local analysis window
+2025,078,48,2025-03-19T00:00:00+00:00,2025-03-19T23:30:00+00:00,72-hour 2025-03-19 to 2025-03-21 Malaysia-local analysis window
+2025,079,48,2025-03-20T00:00:00+00:00,2025-03-20T23:30:00+00:00,72-hour 2025-03-19 to 2025-03-21 Malaysia-local analysis window
+2025,080,32,2025-03-21T00:00:00+00:00,2025-03-21T15:30:00+00:00,72-hour 2025-03-19 to 2025-03-21 Malaysia-local analysis window

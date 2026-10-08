@@ -1,0 +1,13 @@
+﻿claim_id,claim,evidence,strength,decision
+C1,March 2025 was a strong rainfall/flood episode supporting the observed road-disruption analysis.,D07-C/D07-E/D07-F,STRONG,Freeze
+C2,Observed March-20 road closures caused a localized loss of modeled healthcare-network reachability.,D08,STRONG,Freeze
+C3,"The nominal newly unreachable population is ~4961, with sensitivity range 2554–5079.",D08 sensitivity,STRONG WITH RANGE,Freeze with uncertainty
+C4,The accessibility loss is spatially concentrated in Mukim Tebrau (85.4–94.4% of newly unreachable across sensitivity).,D08 sensitivity,STRONG,Freeze
+C5,J105 and FT01 form the principal connectivity-critical recovery tier.,D08/D09/D10,STRONG,Freeze
+C6,J105 is uniquely the most critical road under all spatial uncertainty.,D08 sensitivity,NOT SUPPORTED,Do not claim
+C7,CRPI identifies network-wide preparedness corridors by combining flood susceptibility and healthcare criticality.,D09,STRONG,Freeze
+C8,CRPI is a calibrated flood probability or expected-loss model.,D09,NOT SUPPORTED,Do not claim
+C9,Nominal J105-first restores 64.9% of the initial modeled loss; J105+FT01 restore 90.7%.,D10,STRONG NOMINAL,Freeze as nominal
+C10,"The robust operational recovery policy is J105+FT01 first tier, then FT003.",D10 + D08 sensitivity,STRONG,Freeze
+C11,The event produced a large citywide travel-time increase.,D08,NOT SUPPORTED,Do not claim
+C12,The study demonstrates spatially unequal resilience impacts despite small citywide mean delay.,D08/D10,STRONG,Freeze

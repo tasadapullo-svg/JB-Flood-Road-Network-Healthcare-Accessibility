@@ -1,0 +1,9 @@
+﻿hydromet_id,event_id,variable,location_or_station,date_time,value,unit,threshold_or_reference,interpretation,source_id,evidence_grade
+HM_001,JB-FLD-20250319-01,DAILY_RAINFALL,Senai,2025-03-20,176.2,mm/day,,Regional official station evidence for very heavy event rainfall; not an hourly JB hotspot measurement.,SRC_A06,A1
+HM_002,JB-FLD-20250319-01,EVENT_RAINFALL,MBJB administrative area,2025-03-19 to 2025-03-20,>150,mm over two days,,Retrospective MBJB Mayor statement; spatially aggregated event context.,SRC_A02,A2
+HM_003,JB-FLD-20250319-01,RIVER_LEVEL,Sungai Skudai at Kampung Laut,reported 2025-03-20,4.29,m,danger level 3.0 m,Danger level exceeded.,SRC_A03,A2
+HM_004,JB-FLD-20250319-01,RIVER_LEVEL,Sungai Skudai at Kampung Laut,2025-03-20 08:00,4.24,m,reported above danger,Morning water-level evidence.,SRC_A04,A2
+HM_005,JB-FLD-20250319-01,RIVER_LEVEL,Parit Keliling at Kampung Pasir,2025-03-20 08:00,1.01,m,reported above danger,Local drainage/river level exceeded danger according to JPBN report.,SRC_A04,A2
+HM_006,JB-FLD-20250319-01,HIGH_TIDE,Johor Bahru; tide station not specified in source,2025-03-19 to 2025-03-20 context,3.0,m,,Compound-flood modifier. Exact station/datum/time not specified; do not use as precise hydraulic boundary condition yet.,SRC_A02,A2_WITH_METADATA_LIMITATION
+HM_007,JB-FLD-20250319-01,JPS_FLOOD_WARNING,Johor Bahru District,issued 2025-03-19 16:30; valid to 2025-03-22,ACTIVE,,,Official flood warning cited in NADMA SITREP.,SRC_A01,A1
+HM_008,JB-FLD-20250319-01,SHORT_DURATION_HEAVY_RAIN_NUMERIC,Johor Bahru event,2025-03-19 to 2025-03-21,,mm/hour,>20 mm/hour operational reference,NUMERIC HOURLY EVENT VALUE NOT YET VERIFIED. JKR road records are officially classified as banjir kilat and are used only as flash-flood proxy evidence.,SRC_A07;SRC_A01,PENDING_NUMERIC_EVENT_VALUE

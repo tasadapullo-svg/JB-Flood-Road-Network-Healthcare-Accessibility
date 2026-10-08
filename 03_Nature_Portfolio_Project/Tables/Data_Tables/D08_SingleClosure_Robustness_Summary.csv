@@ -1,0 +1,5 @@
+﻿closure_id,reported_road,newly_unreachable_min,newly_unreachable_nominal,newly_unreachable_max,mean_delay_min,mean_delay_max,delta30_min_pp,delta30_max_pp,criticality_interpretation
+C2025_FT003_9.1_10.0,FT003 Jalan Johor Bahru - Kota Tinggi,462.2884850502014,462.2884850502014,571.9544243812561,0.009159318883125326,0.01665265231823268,-0.030011903553329944,-0.02425745275448321,Smaller connectivity loss but stable rerouting/delay signal.
+C2025_FT01_19.6_20.0,FT01 Jalan Johor Bahru - Senai,1278.999496564269,1278.999496564269,1278.999496564269,0.0,0.0,-0.06711235703295415,-0.06711235703295415,Stable high-impact connectivity cut across ±50 m.
+C2025_J105_7.0_7.5,J105 Jalan Maju Jaya - Seelong,812.4469844438136,3219.757496956736,3228.12134969607,0.0,0.0010462369817372643,-0.1693877387352387,-0.04263115993150279,High-impact but location-sensitive; not uniquely dominant across all ±100 m shifts.
+C2025_J46_2.0_2.3,J46 Jalan Ulu Pulai,0.0,0.0,0.0,0.0,3.028098405962352e-05,0.0,0.0,Negligible healthcare-accessibility effect across ±50 m.

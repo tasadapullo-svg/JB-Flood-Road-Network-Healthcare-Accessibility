@@ -1,0 +1,6 @@
+﻿jkr_route,osm_candidate_segment_count,osm_candidate_total_length_km,route_level_match_status,exact_jkr_section_status,notes
+FT003,233,34.73139760143978,ROUTE_CORRIDOR_MATCHED,NOT_RESOLVED_IN_D07B,Route-level candidate corridor only; do not treat all candidate segments as flooded.
+FT01,194,34.57621041042774,ROUTE_CORRIDOR_MATCHED,NOT_RESOLVED_IN_D07B,Route-level candidate corridor only; do not treat all candidate segments as flooded.
+FT017,281,64.3136068140614,ROUTE_CORRIDOR_MATCHED,NOT_RESOLVED_IN_D07B,Route-level candidate corridor only; do not treat all candidate segments as flooded.
+J105,18,26.953031940951195,ROUTE_CORRIDOR_MATCHED,NOT_RESOLVED_IN_D07B,Route-level candidate corridor only; do not treat all candidate segments as flooded.
+J46,0,0.0,NO_OSM_ROUTE_REF_MATCH,NOT_RESOLVED_IN_D07B,Route-level candidate corridor only; do not treat all candidate segments as flooded.

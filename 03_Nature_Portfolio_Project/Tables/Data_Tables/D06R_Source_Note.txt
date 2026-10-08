@@ -1,0 +1,1 @@
+D06R derives from D06_Baseline_Routing_Healthcare_Accessibility_Final. Only the one-way origin-departure direction condition is corrected. Graph, speeds, population, hospitals and access mappings are unchanged.

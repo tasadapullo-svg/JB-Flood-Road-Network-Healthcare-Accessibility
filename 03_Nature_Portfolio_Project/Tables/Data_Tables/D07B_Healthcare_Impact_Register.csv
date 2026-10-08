@@ -1,0 +1,4 @@
+﻿event_id,facility_name_reported,operation_status,service_relocated_to,source_id,source_page,evidence_grade,D04_facility_id,facility_id,facility_name,latitude,longitude,D04_match_status
+JB-FLD-20250319-01,KD Kangkar Tebrau,RELOCATED,KK Majidee,SRC_A01,14/20,A1_PRIMARY_KKM_VIA_NADMA,KD_003,KD_003,Klinik Desa Kangkar Tebrau,1.535958,103.7580512,EXACT_NAME_MANUAL_CROSSWALK
+JB-FLD-20250319-01,KD Maju Jaya,OPERATING,,SRC_A01,14/20,A1_PRIMARY_KKM_VIA_NADMA,KD_011,KD_011,Klinik Desa Maju Jaya,1.5814596,103.7180064,EXACT_NAME_MANUAL_CROSSWALK
+JB-FLD-20250319-01,KD Plentong,OPERATING,,SRC_A01,14/20,A1_PRIMARY_KKM_VIA_NADMA,KD_004,KD_004,Klinik Desa Plentong,1.522478,103.8203888,EXACT_NAME_MANUAL_CROSSWALK

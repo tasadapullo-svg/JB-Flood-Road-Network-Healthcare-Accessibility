@@ -1,0 +1,17 @@
+﻿{
+    "working_directory":  "D:\\OneDrive\\桌面\\Nature Portfolio_Project\\ScientificReports_JB_Flood_Healthcare_Accessibility",
+    "README":  "PASS",
+    "DATA_AVAILABILITY":  "PASS",
+    "REPOSITORY_STRUCTURE":  "PASS",
+    "gitignore":  "PASS",
+    "CITATION_cff":  "PASS",
+    "scientific_safety":  "PASS",
+    "files_ge_100_mib":  0,
+    "files_50_100_mib":  7,
+    "external_data_files":  385,
+    "repository_total_size_mib":  1077.73,
+    "D06R_authoritative_baseline":  "YES",
+    "repository_freeze":  "PASS",
+    "github_upload_readiness":  "READY",
+    "git_push":  "NOT PERFORMED"
+}

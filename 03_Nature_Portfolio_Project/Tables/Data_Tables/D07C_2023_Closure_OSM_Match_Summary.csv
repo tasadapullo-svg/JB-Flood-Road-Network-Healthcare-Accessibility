@@ -1,0 +1,3 @@
+﻿closure_id,name_pattern,candidate_segments,candidate_total_length_km,spatial_status,scenario_rule
+2023_CLOSURE_GERTAK_MERAH,Gertak Merah,18,1.2360470834433248,ROAD_NAME_CORRIDOR_MATCHED,Do not close all candidates; direction/approach wording must be spatially resolved before edge closure.
+2023_CLOSURE_KOLAM_AYER,Kolam Air|Kolam Ayer,30,5.796849709567225,ROAD_NAME_CORRIDOR_MATCHED,Do not close all candidates; direction/approach wording must be spatially resolved before edge closure.

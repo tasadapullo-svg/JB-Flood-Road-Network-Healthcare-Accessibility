@@ -1,0 +1,46 @@
+﻿# OS / editor
+.DS_Store
+Thumbs.db
+desktop.ini
+*.tmp
+*.temp
+*.bak
+*.swp
+~$*
+
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+
+# IDE
+.idea/
+.vscode/
+
+# Logs
+*.log
+
+# Local archive / scratch
+_TEMP*/
+TEMP*/
+tmp/
+scratch/
+working/
+cache/
+_PACKAGE_STAGE_DO_NOT_COMMIT/
+
+# Raw large data
+*.osm.pbf
+*.hdf5
+*.h5
+
+# Large compressed working archives
+*_RAW*.zip
+*_FULL_ARCHIVE*.zip
+ARCHIVE_MISSING_RECOVERY_BUNDLE_*.zip
+
+# OneDrive/system
+*.crdownload

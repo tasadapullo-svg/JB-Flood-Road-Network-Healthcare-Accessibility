@@ -1,0 +1,23 @@
+{
+  "dataset_id": "D04",
+  "dataset_substep": "D04-B",
+  "dataset_name": "Johor Bahru Core Private Hospitals and Specialist Hospitals",
+  "core_facility_count": 11,
+  "core_licensed_beds_total": 1534,
+  "study_area": "Johor Bahru District, Johor, Malaysia",
+  "licensing_authority": "Ministry of Health Malaysia, Bahagian Amalan Perubatan / CKAPS",
+  "licensing_source": "https://docs.google.com/spreadsheets/d/1XoPPA0G-2oxFP-ZeJG6H153eHhd0t52k24SBY_bDcVQ/edit?usp=sharing",
+  "source_checked_date": "2026-10-04",
+  "inclusion_rule": "Licensed private hospital within Johor Bahru District and either emergency/A&E relevance or >=20 licensed beds with broad acute/multispecialty inpatient role.",
+  "exclusion_rule": "Ordinary GP clinics, maternity-only centres, narrow specialty centres, and very small licensed inpatient facilities without verified general acute/emergency role.",
+  "emergency_evidence_grades": {
+    "VERIFIED_A": "Explicit/current emergency evidence from official hospital/brand/operator source or current hospital-specific evidence.",
+    "VERIFIED_B": "Strong 24-hour hospital/ambulance evidence but explicit current official A&E webpage not located in this audit."
+  },
+  "verified_b_facility_ids": [
+    "PRIV_004",
+    "PRIV_009"
+  ],
+  "network_snap_status": "Not performed; reserved for D04-C.",
+  "processing_datetime_utc": "2026-10-04T12:02:50.934131+00:00"
+}

@@ -1,0 +1,46 @@
+﻿facility_id,facility_name,acute_emergency_destination,candidate_rank,segment_id,osm_id,road_class,highway,road_name,road_ref,access,service,is_bridge,is_tunnel,distance_m
+HOSP_001,Hospital Sultanah Aminah Johor Bahru,True,1,JB_OSM_00030371,641311700,RESIDENTIAL,residential,,,,,,,0.6024263535518297
+HOSP_001,Hospital Sultanah Aminah Johor Bahru,True,2,JB_OSM_00036146,646479958,RESIDENTIAL,residential,,,,,,,8.17005364905537
+HOSP_001,Hospital Sultanah Aminah Johor Bahru,True,3,JB_OSM_00036367,646663403,RESIDENTIAL,residential,,,,,,,23.86897576673906
+HOSP_002,Hospital Sultan Ismail Johor Bahru,True,1,JB_OSM_00017468,489789176,SERVICE,service,,,,parking_aisle,,,2.6061580154293287
+HOSP_002,Hospital Sultan Ismail Johor Bahru,True,2,JB_OSM_00066508,1015810274,SERVICE,service,,,,,,,17.377004569719524
+HOSP_002,Hospital Sultan Ismail Johor Bahru,True,3,JB_OSM_00017472,489789180,SERVICE,service,,,,parking_aisle,,,20.63463924163621
+HOSP_003,Hospital Pasir Gudang,True,1,JB_OSM_00078593,1396140307,UNCLASSIFIED,unclassified,,,,,,,7.8594534146845545
+HOSP_003,Hospital Pasir Gudang,True,2,JB_OSM_00078592,1396140306,UNCLASSIFIED,unclassified,,,,,,,8.784008245374851
+HOSP_003,Hospital Pasir Gudang,True,3,JB_OSM_00078604,1396140317,SERVICE,service,,,,parking_aisle,,,23.895802882588033
+HOSP_004,Hospital Permai Johor Bahru,False,1,JB_OSM_00070633,1175930689,SERVICE,service,,,,,,,119.8798771137908
+HOSP_004,Hospital Permai Johor Bahru,False,2,JB_OSM_00025543,638250365,SERVICE,service,,,,,,,122.35311214722152
+HOSP_004,Hospital Permai Johor Bahru,False,3,JB_OSM_00072058,1234243638,SERVICE,service,,,,,,,124.3197997334705
+PRIV_001,Columbia Asia Hospital Tebrau,True,1,JB_OSM_00072450,1240355797,SERVICE,service,,,,,,,6.377892270280513
+PRIV_001,Columbia Asia Hospital Tebrau,True,2,JB_OSM_00061799,886607093,SERVICE,service,,,,,,,6.712741559975778
+PRIV_001,Columbia Asia Hospital Tebrau,True,3,JB_OSM_00072449,1240355796,SERVICE,service,,,,,,,25.256146549434128
+PRIV_002,Columbia Asia Hospital Iskandar Puteri,True,1,JB_OSM_00055693,798879976,SERVICE,service,,,,,,,0.7841647199525096
+PRIV_002,Columbia Asia Hospital Iskandar Puteri,True,2,JB_OSM_00028323,640040770,SERVICE,service,,,,parking_aisle,,,0.986796049998879
+PRIV_002,Columbia Asia Hospital Iskandar Puteri,True,3,JB_OSM_00055691,798879974,SERVICE,service,,,,parking_aisle,,,16.710949209069703
+PRIV_003,Gleneagles Hospital Johor,True,1,JB_OSM_00056340,800168950,SERVICE,service,,,,parking_aisle,,,4.701892489652819
+PRIV_003,Gleneagles Hospital Johor,True,2,JB_OSM_00056237,800137415,SERVICE,service,,,,,,,24.136060621816323
+PRIV_003,Gleneagles Hospital Johor,True,3,JB_OSM_00018715,531665217,SERVICE,service,,,,,,,26.126686234695065
+PRIV_004,KPJ Johor Specialist Hospital,True,1,JB_OSM_00064468,988568682,SERVICE,service,,,,,,,35.604617700690895
+PRIV_004,KPJ Johor Specialist Hospital,True,2,JB_OSM_00029599,640350259,SERVICE,service,,,,,,,42.05453788143499
+PRIV_004,KPJ Johor Specialist Hospital,True,3,JB_OSM_00064467,988568681,SERVICE,service,,,,,,,43.314188467678484
+PRIV_005,Hospital Penawar,True,1,JB_OSM_00014003,289327250,UNCLASSIFIED,unclassified,,,,,,,23.602197019787294
+PRIV_005,Hospital Penawar,True,2,JB_OSM_00040925,759886642,SERVICE,service,,,,,,,24.797924982295893
+PRIV_005,Hospital Penawar,True,3,JB_OSM_00057759,802737657,SERVICE,service,,,,,,,29.303988059966372
+PRIV_006,Kempas Medical Centre,True,1,JB_OSM_00066027,998710331,SERVICE,service,,,,,,,15.496755400001673
+PRIV_006,Kempas Medical Centre,True,2,JB_OSM_00066029,998710333,SERVICE,service,,,,,,,23.30952941176426
+PRIV_006,Kempas Medical Centre,True,3,JB_OSM_00005626,171049296,SERVICE,service,,,,alley,,,29.331270192031386
+PRIV_007,Kensington Hospital Johor,True,1,JB_OSM_00027669,639973404,RESIDENTIAL,residential,Jalan Ceria 20,,,,,,7.583412102133342
+PRIV_007,Kensington Hospital Johor,True,2,JB_OSM_00004562,170964491,RESIDENTIAL,residential,Jalan Ceria 20,,,,,,7.735328536805445
+PRIV_007,Kensington Hospital Johor,True,3,JB_OSM_00027655,639973386,SERVICE,service,,,,alley,,,12.283197933344066
+PRIV_008,KPJ Bandar Dato' Onn Specialist Hospital,True,1,JB_OSM_00050170,770682799,SERVICE,service,,,,parking_aisle,,,0.5101794537666252
+PRIV_008,KPJ Bandar Dato' Onn Specialist Hospital,True,2,JB_OSM_00050174,770682803,SERVICE,service,,,,driveway,,,3.009253760016978
+PRIV_008,KPJ Bandar Dato' Onn Specialist Hospital,True,3,JB_OSM_00059642,806236459,SERVICE,service,,,,parking_aisle,,,7.395144209199257
+PRIV_009,KPJ Puteri Specialist Hospital,True,1,JB_OSM_00078258,1386163665,SERVICE,service,,,,,,,30.42795968731894
+PRIV_009,KPJ Puteri Specialist Hospital,True,2,JB_OSM_00050750,771381237,SERVICE,service,,,,,,,33.63685389890417
+PRIV_009,KPJ Puteri Specialist Hospital,True,3,JB_OSM_00078257,1386163664,SERVICE,service,,,,,,,34.53409393234171
+PRIV_010,KPJ Pasir Gudang Specialist Hospital,True,1,JB_OSM_00053098,794539964,SERVICE,service,,,,,,,10.517753124941525
+PRIV_010,KPJ Pasir Gudang Specialist Hospital,True,2,JB_OSM_00078654,1408760083,SERVICE,service,,,,,,,24.68012565942785
+PRIV_010,KPJ Pasir Gudang Specialist Hospital,True,3,JB_OSM_00053103,794539969,SERVICE,service,,,,,,,35.1547122748283
+PRIV_011,Regency Specialist Hospital,True,1,JB_OSM_00072733,1242109094,SERVICE,service,,,,,,,32.0614861042489
+PRIV_011,Regency Specialist Hospital,True,2,JB_OSM_00081210,1486782972,SERVICE,service,,,,,,,36.3474681802991
+PRIV_011,Regency Specialist Hospital,True,3,JB_OSM_00081211,1486782973,SERVICE,service,,,,parking_aisle,,,36.3474681802991

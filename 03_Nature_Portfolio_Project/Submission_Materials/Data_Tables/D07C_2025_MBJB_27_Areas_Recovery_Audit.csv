@@ -1,0 +1,16 @@
+﻿location_name,membership_status,source_id,counts_toward_verified_named_members,note
+Pandan,EXPLICIT_PUBLIC_EXAMPLE_MEMBER_OF_REPORTED_27,SRC_2025_MAYOR,True,Public retrospective source says 27 affected areas and explicitly names this location as an example.
+Kangkar Tebrau,EXPLICIT_PUBLIC_EXAMPLE_MEMBER_OF_REPORTED_27,SRC_2025_MAYOR,True,Public retrospective source says 27 affected areas and explicitly names this location as an example.
+Taman Desa Mutiara,EXPLICIT_PUBLIC_EXAMPLE_MEMBER_OF_REPORTED_27,SRC_2025_MAYOR,True,Public retrospective source says 27 affected areas and explicitly names this location as an example.
+Taman Tampoi Utama,EXPLICIT_PUBLIC_EXAMPLE_MEMBER_OF_REPORTED_27,SRC_2025_MAYOR,True,Public retrospective source says 27 affected areas and explicitly names this location as an example.
+Kampung Pasir,EXPLICIT_PUBLIC_EXAMPLE_MEMBER_OF_REPORTED_27,SRC_2025_MAYOR,True,Public retrospective source says 27 affected areas and explicitly names this location as an example.
+Kampung Seri Serdang,EXPLICIT_PUBLIC_EXAMPLE_MEMBER_OF_REPORTED_27,SRC_2025_MAYOR,True,Public retrospective source says 27 affected areas and explicitly names this location as an example.
+Kampung Melayu Pandan,EXPLICIT_PUBLIC_EXAMPLE_MEMBER_OF_REPORTED_27,SRC_2025_MAYOR,True,Public retrospective source says 27 affected areas and explicitly names this location as an example.
+Kampung Belantik,EXPLICIT_PUBLIC_EXAMPLE_MEMBER_OF_REPORTED_27,SRC_2025_MAYOR,True,Public retrospective source says 27 affected areas and explicitly names this location as an example.
+Taman Tampoi Indah,SAME_EVENT_SEVERE_LOCATION_NOT_EXPLICIT_MEMBER_OF_27_ENUMERATION,SRC_2025_MAYOR,False,"Same March 2025 event evidence exists, but current public authoritative source does not explicitly identify it as one of the enumerated 27."
+Kampung Kangkar Tebrau,EVENT_SITE/PPS_COMMUNITY_NOT_CONFIRMED_MEMBER_OF_27,SRC_2025_PPS,False,"Same March 2025 event evidence exists, but current public authoritative source does not explicitly identify it as one of the enumerated 27."
+Kampung Ulu Pandan,EVENT_SITE/PPS_COMMUNITY_NOT_CONFIRMED_MEMBER_OF_27,SRC_2025_PPS,False,"Same March 2025 event evidence exists, but current public authoritative source does not explicitly identify it as one of the enumerated 27."
+Kampung Bunga Ros,EVENT_SITE/PPS_COMMUNITY_NOT_CONFIRMED_MEMBER_OF_27,SRC_2025_PPS,False,"Same March 2025 event evidence exists, but current public authoritative source does not explicitly identify it as one of the enumerated 27."
+Kampung Paya Kenangan,EVENT_SITE/PPS_COMMUNITY_NOT_CONFIRMED_MEMBER_OF_27,SRC_2025_PPS,False,"Same March 2025 event evidence exists, but current public authoritative source does not explicitly identify it as one of the enumerated 27."
+Kampung Pasir Tebrau,EVENT_SITE/PPS_COMMUNITY_NOT_CONFIRMED_MEMBER_OF_27,SRC_2025_PPS,False,"Same March 2025 event evidence exists, but current public authoritative source does not explicitly identify it as one of the enumerated 27."
+Kampung Laut Skudai,EVENT_SITE/EVACUATION_SITE_NOT_CONFIRMED_MEMBER_OF_27,SRC_2025_PPS,False,"Same March 2025 event evidence exists, but current public authoritative source does not explicitly identify it as one of the enumerated 27."

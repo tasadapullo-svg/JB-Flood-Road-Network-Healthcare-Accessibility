@@ -1,0 +1,77 @@
+D04-A2 COMMUNITY HEALTHCARE FACILITIES QC REPORT
+
+1. Scope
+   Current PKD Johor Bahru community/public primary-care baseline:
+   - Klinik Desa: 17
+   - Klinik Komuniti: 7
+   - Independent KKIA: 1
+   Total: 25
+
+2. Primary official sources
+   PKD Johor Bahru introduction:
+   https://jknjohor.moh.gov.my/pkdjb/index.php/pengenalan/
+
+   Current Klinik Desa page:
+   https://jknjohor.moh.gov.my/pkdjb/index.php/elementor-497/
+
+   Current Klinik Komuniti page:
+   https://jknjohor.moh.gov.my/pkdjb/index.php/klinik-komuniti/
+
+   Klinik Kesihatan / KKIA page:
+   https://jknjohor.moh.gov.my/pkdjb/index.php/klinik-kesihatan/
+
+3. Classification
+   Klinik Desa -> H4_COMMUNITY_PRIMARY
+   Klinik Komuniti -> H4_COMMUNITY_PRIMARY
+   KKIA Jalan Abd Samad -> H4_MATERNAL_CHILD
+
+4. Emergency destination status
+   All D04-A2 facilities: FALSE
+   These facilities must not be pooled with H1 acute/emergency hospitals in the primary emergency-accessibility endpoint.
+
+5. Spatial reference
+   WGS84: EPSG:4326
+   Metric copy: EPSG:3375
+
+6. District containment
+   Inside/touching Johor Bahru District: 25
+   Outside: 0
+
+7. Duplicate checks
+   Duplicate facility_id: 0
+   Duplicate coordinates: 0
+   Duplicate names: 0
+
+8. Coordinate quality
+coordinate_quality
+A_OFFICIAL_MAP_POI                  23
+B_OFFICIAL_ADDRESS_POINT             1
+B_REVIEW_OFFICIAL_MAP_LINK_ERROR     1
+
+9. Explicit review flags
+   Count: 2
+   - KD_013 | Klinik Desa Skudai | B_OFFICIAL_ADDRESS_POINT | Official map target is an address/Street View point rather than a facility POI; verify access entrance in D04-C.
+   - KKOM_003 | Klinik Komuniti Bandar Seri Alam | B_REVIEW_OFFICIAL_MAP_LINK_ERROR | Current PKD map shortcut resolves to the wrong Kuala Lumpur facility; coordinate replaced by cross-validated Seri Alam address point.
+
+10. Source reconciliation
+    Current PKD Johor Bahru source is treated as the primary 2026 baseline authority.
+    - 17 KD are retained.
+    - 7 KKOM are retained.
+    - 1 independent KKIA (Jalan Abd Samad) is retained.
+    - Legacy/current-source discrepancies are documented in D04A2_Source_Reconciliation.csv.
+
+11. Important methodological limits
+    - These are facility reference points, not final road-network access nodes.
+    - D04-C must identify/snap appropriate access entrances to the routing network.
+    - Klinik Desa / Klinik Komuniti / KKIA represent primary/community healthcare and should be analysed separately from H1 acute/emergency hospitals.
+    - Review-flagged coordinates must not be silently treated as entrance-grade locations.
+
+12. Outputs
+    D04A2_Community_Healthcare_Facilities.csv
+    JB_Community_Healthcare_D04A2_WGS84.gpkg
+    JB_Community_Healthcare_D04A2_RSO.gpkg
+    D04A2_Source_Reconciliation.csv
+    D04A2_Community_Healthcare_Facilities_QC.png
+
+13. Final status
+    D04-A2 COMMUNITY HEALTHCARE FACILITIES: PASS WITH 2 REVIEW FLAGS

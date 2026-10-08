@@ -1,0 +1,23 @@
+﻿field_name,description
+facility_id,Stable project private-hospital identifier
+facility_name,Hospital/specialist hospital name
+operator_group,Hospital operator/group
+facility_class,P1_PRIVATE_ACUTE_EMERGENCY for D04-B core set
+licensed_beds,Current CKAPS licensed bed count
+address,Current licensed/official hospital address
+phone,Current general hospital telephone
+latitude,Reference latitude in EPSG:4326
+longitude,Reference longitude in EPSG:4326
+coordinate_source,Coordinate provenance
+coordinate_quality,Coordinate quality flag
+emergency_24h,VERIFIED_A or VERIFIED_B service-evidence grade
+emergency_evidence,Short evidence statement supporting emergency relevance
+official_service_source,Hospital/operator/service webpage used for service validation
+include_primary_accessibility,TRUE for D04-B core destination set
+licensed_under_act586,TRUE for current CKAPS licensed hospital
+ckaps_source,Current MOH/CKAPS licensed-hospital source
+network_snap_status,D04-C hospital access-node status
+inside_jb_district,Facility reference point inside/touching official district boundary
+easting_rso_m,EPSG:3375 easting
+northing_rso_m,EPSG:3375 northing
+dist_to_district_boundary_m,Distance to official district boundary

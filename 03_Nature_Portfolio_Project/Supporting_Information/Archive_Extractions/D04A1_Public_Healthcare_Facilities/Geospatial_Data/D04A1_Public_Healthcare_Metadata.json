@@ -1,0 +1,22 @@
+{
+  "dataset_id": "D04",
+  "dataset_substep": "D04-A1",
+  "dataset_name": "Johor Bahru Public Healthcare Facilities Baseline",
+  "facility_count": 21,
+  "hospital_count": 4,
+  "klinik_kesihatan_count": 17,
+  "study_area": "Johor Bahru District, Johor, Malaysia",
+  "crs_wgs84": "EPSG:4326",
+  "crs_metric": "EPSG:3375",
+  "official_inventory_sources": [
+    "https://jknjohor.moh.gov.my/jknj/hospital/",
+    "https://jknjohor.moh.gov.my/jknj/klinik-kesihatan-daerah-johor-bahru/"
+  ],
+  "coordinate_policy": "Use official facility-map links when available; otherwise use cross-validated public map centroid with explicit quality flag.",
+  "network_snap_status": "Not performed in D04-A1; reserved for D04-C.",
+  "review_flags": [
+    "KK_012",
+    "KK_017"
+  ],
+  "processing_datetime_utc": "2026-10-04T11:50:56.759092+00:00"
+}

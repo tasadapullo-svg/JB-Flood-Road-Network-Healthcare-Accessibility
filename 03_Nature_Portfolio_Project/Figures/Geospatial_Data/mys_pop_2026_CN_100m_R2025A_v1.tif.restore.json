@@ -1,0 +1,17 @@
+{
+  "original_relative_path": "03_Nature_Portfolio_Project/Figures/Geospatial_Data/mys_pop_2026_CN_100m_R2025A_v1.tif",
+  "original_file_name": "mys_pop_2026_CN_100m_R2025A_v1.tif",
+  "original_size_bytes": 29310427,
+  "original_sha256": "a90d85dbdb0c3fe55cae1e352205fe1be8a277a2f7b0907e47dcebdb95f9e783",
+  "part_size_limit_bytes": 20971520,
+  "parts": [
+    {
+      "file": "mys_pop_2026_CN_100m_R2025A_v1.tif.part001",
+      "sha256": "45f2cc5490fa1980c38607b239d0d821e7588f4dc88602a1b34b7b78277d6eb2"
+    },
+    {
+      "file": "mys_pop_2026_CN_100m_R2025A_v1.tif.part002",
+      "sha256": "4e300495b5d0c0e4b6be336af1ca379159fe1c242b81334851a20a572fe70777"
+    }
+  ]
+}

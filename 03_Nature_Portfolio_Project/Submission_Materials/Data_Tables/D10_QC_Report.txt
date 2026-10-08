@@ -1,0 +1,204 @@
+D10 — SPATIAL EQUITY + RECOVERY BENEFIT ANALYSIS
+Version: v1.0
+
+1. PURPOSE
+Evaluate how restoring the three March-20 observed road closures changes:
+- hospital-network reachability;
+- 30/45/60-minute population coverage;
+- the spatial concentration of accessibility loss;
+- the recovery of Mukim Tebrau and Mukim Plentong;
+- the preferred recovery order.
+
+This is a deterministic network-recovery analysis.
+No p-value or random-sampling interpretation is used.
+
+2. STARTING DISRUPTION
+Primary March-20 closures:
+J105 + FT01 + FT003.
+
+Closure-induced newly unreachable population:
+4,961.045479
+
+Baseline 30-min coverage:
+99.625331%
+
+Disrupted 30-min coverage:
+99.365012%
+
+30-min coverage change:
+-0.260319 percentage points.
+
+Absolute 30-min coverage loss:
+0.260319 percentage points.
+
+Mukim Tebrau closure-induced newly unreachable:
+4,682.941160
+(0.970675% of Mukim Tebrau population)
+
+Mukim Plentong closure-induced newly unreachable:
+278.104318
+
+Tebrau share of all newly unreachable:
+94.394240%
+
+Spatial-equity diagnostics at disruption:
+Weighted Gini of subdistrict closure-induced unreachable rate =
+0.714823
+
+Weighted SD of subdistrict unreachable rate =
+0.414033 percentage points.
+
+Maximum subdistrict unreachable rate =
+0.970675%.
+
+3. ALL SIX NOMINAL RECOVERY ORDERS
+ order_id               order first_restored_road  population_restored_after_first  pct_initial_loss_restored_after_first  Tebrau_restored_after_first  remaining_unreachable_after_first  equity_gini_after_first  max_subdistrict_unreachable_rate_after_first_pct  population_restored_after_two  pct_initial_loss_restored_after_two  remaining_unreachable_after_two  equity_gini_after_two  nominal_recovery_order_rank
+        1 J105 → FT01 → FT003                J105                      3219.757497                              64.900786                  3219.757497                        1741.287982                 0.655602                                          0.303287                    4498.756994                            90.681632                       462.288485               0.454188                            1
+        2 J105 → FT003 → FT01                J105                      3219.757497                              64.900786                  3219.757497                        1741.287982                 0.655602                                          0.303287                    3682.045982                            74.219154                      1278.999497               0.746851                            2
+        3 FT01 → J105 → FT003                FT01                      1278.999497                              25.780846                  1278.999497                        3682.045982                 0.703698                                          0.705566                    4498.756994                            90.681632                       462.288485               0.454188                            3
+        4 FT01 → FT003 → J105                FT01                      1278.999497                              25.780846                  1278.999497                        3682.045982                 0.703698                                          0.705566                    1741.287982                            35.099214                      3219.757497               0.746851                            4
+        5 FT003 → J105 → FT01               FT003                       462.288485                               9.318368                   184.184167                        4498.756994                 0.746851                                          0.932498                    3682.045982                            74.219154                      1278.999497               0.746851                            5
+        6 FT003 → FT01 → J105               FT003                       462.288485                               9.318368                   184.184167                        4498.756994                 0.746851                                          0.932498                    1741.287982                            35.099214                      3219.757497               0.746851                            6
+
+4. BEST NOMINAL ORDER
+J105 -> FT01 -> FT003
+
+STEP 1 — restore J105
+Population restored:
+3,219.757497
+Cumulative share of initial loss restored:
+64.900786%
+
+Tebrau population restored:
+3,219.757497
+
+Remaining newly unreachable:
+1,741.287982
+
+Weighted subdistrict Gini:
+0.655602
+
+STEP 2 — restore FT01
+Additional population restored:
+1,278.999497
+
+Cumulative population restored:
+4,498.756994
+(90.681632% of initial loss)
+
+Remaining newly unreachable:
+462.288485
+
+Remaining Tebrau newly unreachable:
+184.184167
+
+Remaining Plentong newly unreachable:
+278.104318
+
+Weighted subdistrict Gini:
+0.454188
+
+STEP 3 — restore FT003
+Additional population restored:
+462.288485
+
+Final remaining closure-induced newly unreachable:
+0.000000
+
+Spatial equity loss returns to zero because all three March-20 closure effects are removed.
+
+5. ROAD-SPECIFIC RECOVERY BENEFIT
+          closure_id  road  closure_length_m  nominal_first_step_population_restored  nominal_Tebrau_population_restored  nominal_Plentong_population_restored  population_restored_per_km_nominal  sensitivity_min_newly_unreachable_if_closed  sensitivity_median_newly_unreachable_if_closed  sensitivity_max_newly_unreachable_if_closed recovery_priority_tier                                                               robustness_note
+  C2025_J105_7.0_7.5  J105       1000.001139                             3219.757497                         3219.757497                              0.000000                         3219.753830                                   812.446984                                     3219.757497                                  3228.121350                 TIER_1                        Highest nominal/median benefit but location-sensitive.
+C2025_FT01_19.6_20.0  FT01        400.000000                             1278.999497                         1278.999497                              0.000000                         3197.498741                                  1278.999497                                     1278.999497                                  1278.999497                 TIER_1                                             Stable high benefit across ±50 m.
+C2025_FT003_9.1_10.0 FT003       1800.000000                              462.288485                          184.184167                            278.104318                          256.826936                                   462.288485                                      462.288485                                   571.954424                 TIER_2 Lower direct recovery benefit; restores remaining Tebrau and Plentong losses.
+
+Nominal population-restoration efficiency:
+J105  ≈ 3,219.754 people/km
+FT01  ≈ 3,197.499 people/km
+FT003 ≈ 256.827 people/km
+
+6. SPATIAL EQUITY
+Initial disruption:
+94.39% of closure-induced newly unreachable population is concentrated in Mukim Tebrau.
+
+After restoring J105:
+Tebrau loss falls from 4,682.941 to
+1,463.184 people.
+
+After restoring FT01:
+Tebrau loss falls further to
+184.184 people.
+At that point the largest remaining loss is shifted to Mukim Plentong
+(278.104 people).
+
+FT003 then restores both the remaining Tebrau and Plentong losses.
+
+Interpretation:
+The first two recovery actions predominantly reduce the highly concentrated Tebrau disadvantage.
+The final FT003 action removes the residual cross-subdistrict loss.
+
+7. NOMINAL CLOSURE INTERACTION
+ union_newly_unreachable_population  sum_of_three_single_closure_newly_unreachable_population  interaction_difference_people  interaction_difference_pct_union                                                                         interpretation
+                        4961.045479                                               4961.045479                            0.0                               0.0 Nominal closure-induced loss is effectively additive for newly unreachable population.
+
+The nominal newly-unreachable effects are exactly additive across the three closures.
+This makes the recovery-benefit decomposition unusually transparent for this event.
+
+8. RECOVERY-ORDER ROBUSTNESS
+ road  nominal_first_step_restored  sensitivity_min  sensitivity_median  sensitivity_max                                                             recovery_order_judgment
+ J105                  3219.757497       812.446984         3219.757497      3228.121350                    Nominal first; not uniquely first under all spatial uncertainty.
+ FT01                  1278.999497      1278.999497         1278.999497      1278.999497 Robust Tier-1 recovery road; can exceed J105 under J105 worst-position sensitivity.
+FT003                   462.288485       462.288485          462.288485       571.954424                                                  Consistent Tier-2 after J105/FT01.
+
+Critical limitation:
+J105 is the nominal best first restoration, but its D07-F spatial uncertainty allows a lower-end
+effect (~812 people) than the stable FT01 effect (~1,279 people).
+
+Therefore the robust operational conclusion is:
+TIER 1 = J105 + FT01
+TIER 2 = FT003
+
+If the nominal J105 closure location is confirmed, J105-first maximizes immediate recovery.
+If closure-position uncertainty remains unresolved, J105 and FT01 should be treated as co-priority
+or near-parallel recovery targets rather than claiming a universally fixed J105-first order.
+
+9. RECOVERY-STAGE ORIGIN AUDIT
+ recovery_stage recovery_stage_name  origin_count  population  population_pct_initial_loss
+              1        STAGE_1_J105           426 3219.757497                    64.900786
+              2        STAGE_2_FT01           104 1278.999497                    25.780846
+              3       STAGE_3_FT003            14  462.288485                     9.318368
+
+10. SCIENTIFIC CLAIMS SUPPORTED
+PASS:
+- restoring J105 and FT01 removes most of the modeled closure-induced healthcare isolation;
+- nominal J105-first restores 64.90% of the loss in one action;
+- restoring J105 + FT01 restores 90.68% of the loss;
+- the main recovery benefit is concentrated in Mukim Tebrau;
+- FT003 removes the remaining Tebrau/Plentong residual;
+- the robust first recovery tier is J105 + FT01.
+
+DO NOT FREEZE:
+- J105 is universally the single best first road under all spatial uncertainty;
+- the exact 4,961-person disruption estimate as a universal value;
+- p-value-based significance claims from 75,149 spatial origins.
+
+11. GIS OUTPUT
+The GIS package contains:
+- initially lost population origins classified by recovery stage;
+- subdistrict polygons with disruption and recovery-stage equity attributes;
+- district reference.
+
+This enables direct mapping of:
+Flood-induced accessibility loss
+Stage-1 J105 recovery
+Stage-2 FT01 recovery
+Stage-3 FT003 recovery
+Tebrau/Plentong spatial equity changes.
+
+12. FINAL STATUS
+D10 RECOVERY BENEFIT: PASS.
+D10 SPATIAL EQUITY: PASS.
+NOMINAL ORDER J105 -> FT01 -> FT003: PASS AS NOMINAL.
+ROBUST ORDER: J105 + FT01 FIRST TIER, THEN FT003.
+FULL CLAIM FREEZE: PASS WITH THE ABOVE UNCERTAINTY LANGUAGE.

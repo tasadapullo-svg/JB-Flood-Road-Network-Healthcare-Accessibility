@@ -1,0 +1,15 @@
+﻿field_name,description,unit_or_values
+origin_id,Stable ID based on original WorldPop raster row/column,text
+population,WorldPop estimated people in source grid cell,people
+worldpop_year,Population reference year,year
+worldpop_release,WorldPop release/version,text
+worldpop_type,CONSTRAINED,category
+source_row,Original Malaysia raster row index,index
+source_col,Original Malaysia raster column index,index
+longitude,Native WorldPop cell-centre longitude,degree
+latitude,Native WorldPop cell-centre latitude,degree
+cell_area_m2,Geodesic area of native cell at that latitude,m2
+inside_jb_district,TRUE for retained origins under centre-in-district rule,boolean
+easting_rso_m,Point easting after reprojection to EPSG:3375,m
+northing_rso_m,Point northing after reprojection to EPSG:3375,m
+network_snap_status,Reserved for D05-C,category

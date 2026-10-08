@@ -1,0 +1,47 @@
+{
+  "dataset_id": "D05",
+  "dataset_substep": "D05-A",
+  "dataset_name": "WorldPop Malaysia 2026 Constrained Population Origins",
+  "source_filename": "mys_pop_2026_CN_100m_R2025A_v1.tif",
+  "source_file_size_bytes": 29310427,
+  "source_md5": "a846e0227183f0ec7cd2938fea77c680",
+  "source_sha256": "a90d85dbdb0c3fe55cae1e352205fe1be8a277a2f7b0907e47dcebdb95f9e783",
+  "source_crs": "EPSG:4326",
+  "source_dimensions": [
+    23554,
+    7832
+  ],
+  "source_resolution_degrees": [
+    0.00083333333,
+    0.00083333333
+  ],
+  "source_resolution_description": "3 arc-seconds (~100 m at the equator)",
+  "source_dtype": "float32",
+  "source_nodata": -99999.0,
+  "worldpop_release": "R2025A_v1",
+  "worldpop_product": "Constrained population counts",
+  "worldpop_units": "people per pixel",
+  "worldpop_year": 2026,
+  "worldpop_doi": "10.5258/SOTON/WP00839",
+  "worldpop_alpha_disclaimer": true,
+  "study_area": "Johor Bahru District, Johor, Malaysia",
+  "boundary_source_file": "JB_Study_Area_Final.gpkg",
+  "metric_origin_crs": "EPSG:3375",
+  "clip_policy": "Native WorldPop grid; district membership by pixel centre (all_touched=False). No raster resampling.",
+  "origin_policy": "Every valid population cell >0 retained; fractional populations below 1 retained.",
+  "origin_count": 75149,
+  "worldpop_jb_total": 1905758.5713106135,
+  "population_weight_preservation_absolute_difference": 0.0,
+  "population_weight_preservation_relative_difference": 0.0,
+  "population_weight_preservation_pass": true,
+  "dosm_benchmark": {
+    "year": 2025,
+    "population": 1814400.0,
+    "difference_worldpop_minus_dosm": 91358.57131061354,
+    "percentage_difference_vs_dosm": 5.035194626907712,
+    "normalization_applied": false,
+    "purpose": "External plausibility check only"
+  },
+  "network_snap_status": "Not performed in D05-A; reserved for D05-C.",
+  "processing_datetime_utc": "2026-10-04T12:24:09.242806+00:00"
+}

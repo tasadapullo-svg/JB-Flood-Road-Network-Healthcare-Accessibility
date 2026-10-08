@@ -1,0 +1,20 @@
+﻿field_name,description
+facility_id,Stable project facility identifier
+facility_name,Official/current facility name used in the baseline
+facility_group,HOSPITAL or KLINIK_KESIHATAN
+facility_class,"H1 acute/emergency, H2 special-purpose psychiatric, or H3 primary care"
+emergency_destination,Whether facility belongs in the primary acute-emergency destination set
+address,Official facility address
+phone,Official contact number(s)
+latitude,Reference latitude in WGS84
+longitude,Reference longitude in WGS84
+coordinate_source,How the reference coordinate was obtained
+coordinate_quality,A / REVIEW / B_APPROX_BUILDING
+status_2026,Operational/listing status or review state
+official_source,Primary official inventory URL
+notes,Data-quality or methodological note
+inside_jb_district,Point is inside/touching official Johor Bahru District boundary
+easting_rso_m,EPSG:3375 easting
+northing_rso_m,EPSG:3375 northing
+dist_to_district_boundary_m,Metric distance to official district boundary
+network_snap_status,D04-C routing-access-node status

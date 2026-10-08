@@ -1,0 +1,4 @@
+﻿mapping_a,mapping_b,spearman_rank_rho
+balanced,linear,0.999106845050767
+balanced,steep,0.9912774417987038
+linear,steep,0.9952794600144947

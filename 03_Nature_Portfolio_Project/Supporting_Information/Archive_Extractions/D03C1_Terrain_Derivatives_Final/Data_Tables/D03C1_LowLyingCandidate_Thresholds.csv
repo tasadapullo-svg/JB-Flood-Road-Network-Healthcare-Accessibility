@@ -1,0 +1,4 @@
+﻿condition_id,variable,criterion,threshold_value,unit,interpretation
+C1,relative_elevation_500m,<= district P10,-6.352357387542725,m,Locally lower than surrounding 500 m-scale terrain
+C2,relative_elevation_1000m,<= district P10,-8.400732040405273,m,Locally lower than surrounding 1000 m-scale terrain
+C3,slope_degree,<= district P25,1.2757341861724854,degree,Relatively flat terrain within Johor Bahru

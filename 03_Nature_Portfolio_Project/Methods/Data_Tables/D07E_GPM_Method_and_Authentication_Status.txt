@@ -1,0 +1,26 @@
+D07-E GPM IMERG TEMPORAL/SPATIAL METHOD
+
+Target local analysis window:
+2025-03-19 00:00 MYT through 2025-03-21 23:30 MYT.
+
+Because Malaysia is UTC+8, this equals:
+2025-03-18 16:00 UTC through 2025-03-21 15:30 UTC.
+
+Therefore a scientifically complete 72-hour local-time window requires 144 half-hour granules
+spanning UTC DOY 077, 078, 079 and 080, not simply all granules on UTC 19-21 March.
+
+Product:
+NASA GPM IMERG Final Half-Hourly V07B / GPM_3IMERGHH.07
+Native resolution: 0.1 degree, 30 min.
+Preferred field: precipitation, mm/hr.
+
+Accumulation:
+30 min = rate * 0.5 h
+1 h = sum 2 consecutive half-hour accumulations
+3 h = sum 6
+6 h = sum 12
+
+Status:
+Manifest complete: YES, 144 granules.
+Actual authenticated numeric data bytes: PENDING EARTHDATA AUTH.
+No 1h/3h/6h numeric GPM rainfall values are claimed in this package until authenticated files are processed.

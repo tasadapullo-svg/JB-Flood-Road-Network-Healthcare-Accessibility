@@ -1,0 +1,32 @@
+{
+  "dataset_id": "D04",
+  "dataset_substep": "D04-C",
+  "dataset_name": "Johor Bahru Healthcare Master and Hospital Road-Network Access Snapping",
+  "master_facility_count": 57,
+  "acute_emergency_destination_count": 14,
+  "primary_care_destination_count": 42,
+  "special_purpose_hospital_count": 1,
+  "hospital_reference_count": 15,
+  "acute_hospital_snap_count": 14,
+  "input_steps": [
+    "D04-A1",
+    "D04-A2",
+    "D04-B",
+    "D03-C2 road network"
+  ],
+  "road_network": "JB_OSM_RoadNetwork_Core_Terrain_RSO.gpkg / motor_vehicle_roads_terrain",
+  "snap_crs": "EPSG:3375",
+  "snap_method": "Nearest motor-vehicle candidate road segment by perpendicular projection.",
+  "snap_quality_rules": {
+    "A_0_10M": "<=10 m",
+    "B_10_30M": ">10 to 30 m",
+    "C_30_50M": ">30 to 50 m",
+    "REVIEW_50_150M": ">50 to 150 m",
+    "FAIL_GT150M": ">150 m"
+  },
+  "critical_limit": "The snapped point is a computational network access point. It is NOT asserted to be a verified physical hospital gate or emergency-department entrance.",
+  "physical_entrance_verified": false,
+  "primary_emergency_set": "3 public H1 acute/emergency hospitals + 11 D04-B private acute/emergency hospitals = 14.",
+  "hospital_permai_policy": "Retained in master and hospital snap audit as special-purpose psychiatric hospital; excluded from primary emergency set.",
+  "processing_datetime_utc": "2026-10-04T12:08:58.599119+00:00"
+}

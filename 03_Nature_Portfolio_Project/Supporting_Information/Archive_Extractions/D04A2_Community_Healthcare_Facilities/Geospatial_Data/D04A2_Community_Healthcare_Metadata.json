@@ -1,0 +1,21 @@
+{
+  "dataset_id": "D04",
+  "dataset_substep": "D04-A2",
+  "dataset_name": "Johor Bahru Community Healthcare Facilities Baseline",
+  "facility_count": 25,
+  "klinik_desa_count": 17,
+  "klinik_komuniti_count": 7,
+  "independent_kkia_count": 1,
+  "study_area": "Johor Bahru District, Johor, Malaysia",
+  "crs_wgs84": "EPSG:4326",
+  "crs_metric": "EPSG:3375",
+  "primary_authority": "Pejabat Kesihatan Daerah Johor Bahru (PKDJB)",
+  "source_checked_date": "2026-10-04",
+  "current_baseline_rule": "Prefer current PKD Johor Bahru facility pages over legacy statewide lists when counts/names conflict; preserve reconciliation log.",
+  "network_snap_status": "Not performed; reserved for D04-C.",
+  "review_flags": [
+    "KD_013",
+    "KKOM_003"
+  ],
+  "processing_datetime_utc": "2026-10-04T11:56:58.774482+00:00"
+}

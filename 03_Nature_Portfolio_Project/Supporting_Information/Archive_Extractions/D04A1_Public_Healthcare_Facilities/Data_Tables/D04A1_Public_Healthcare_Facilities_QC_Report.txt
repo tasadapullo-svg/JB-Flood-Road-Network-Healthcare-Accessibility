@@ -1,0 +1,62 @@
+D04-A1 PUBLIC HEALTHCARE FACILITIES QC REPORT
+
+1. Scope
+   Johor Bahru District public healthcare baseline:
+   - 4 government hospitals
+   - 17 Klinik Kesihatan
+   Total: 21
+
+2. Official facility inventory source
+   Hospitals:
+   https://jknjohor.moh.gov.my/jknj/hospital/
+
+   Klinik Kesihatan:
+   https://jknjohor.moh.gov.my/jknj/klinik-kesihatan-daerah-johor-bahru/
+
+3. Counts
+   Hospitals: 4
+   Klinik Kesihatan: 17
+   H1 acute/emergency hospitals: 3
+   H2 special-purpose psychiatric hospital: 1
+   H3 primary-care facilities: 17
+
+4. Spatial reference
+   WGS84: EPSG:4326
+   Metric copy: EPSG:3375
+
+5. District containment
+   Inside/touching Johor Bahru District: 21
+   Outside: 0
+
+6. Coordinate duplicate check
+   Duplicate coordinate rows: 0
+   Duplicate facility-name rows: 0
+
+7. Coordinate-quality counts
+   {"A": 19, "REVIEW": 1, "B_APPROX_BUILDING": 1}
+
+8. Records requiring explicit review before final destination freeze
+   - KK_012 | Klinik Kesihatan Taman Ungku Tun Aminah | REVIEW | Official sources conflict in 2026: JKN list names Taman Ungku Tun Aminah at Jalan Sri Orkid 36, while MMC/APC records and PKD map identify Skudai Baru at PTD 4418 Jalan Hang Lekir 1. Geometry uses the official PKD map point and requires field verification before final freeze.
+   - KK_017 | Klinik Kesihatan UTC Johor Bahru | B_APPROX_BUILDING | Coordinate represents Galeria Kotaraya building centroid rather than a verified clinic entrance; suitable for inventory, not final network snapping.
+
+9. Important methodological limits
+   - Facility points are reference locations, NOT final road-network access nodes.
+   - No facility has been snapped to the OSM routing network in D04-A1.
+   - Hospital Permai is retained as a special-purpose psychiatric facility and is not part of the H1 general acute-emergency destination set.
+   - Klinik Kesihatan are primary-care destinations and must not be pooled with H1 hospitals for emergency-accessibility metrics.
+   - Hospital and clinic coordinates represent facility/site reference points; later D04-C must identify appropriate entrance/access nodes for routing.
+
+10. Outputs
+   D04A1_Public_Healthcare_Facilities.csv
+   JB_Public_Healthcare_D04A1_WGS84.gpkg
+   JB_Public_Healthcare_D04A1_RSO.gpkg
+   D04A1_Public_Healthcare_Facilities_QC.png
+
+11. Final status
+   D04-A1 PUBLIC HEALTHCARE FACILITIES: PASS WITH REVIEW FLAGS
+
+Reason:
+   Inventory counts and district containment pass.
+   Two coordinate records are intentionally not frozen:
+   - KK_012 Taman Ungku Tun Aminah / Skudai Baru official-source naming/address conflict.
+   - KK_017 UTC Johor Bahru uses an approximate Galeria Kotaraya building centroid pending entrance-level verification.

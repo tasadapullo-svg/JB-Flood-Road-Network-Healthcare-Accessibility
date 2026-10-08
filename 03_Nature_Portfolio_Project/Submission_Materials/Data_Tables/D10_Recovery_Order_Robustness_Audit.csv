@@ -1,0 +1,4 @@
+﻿road,nominal_first_step_restored,sensitivity_min,sensitivity_median,sensitivity_max,recovery_order_judgment
+J105,3219.757496956736,812.4469844438136,3219.757496956736,3228.12134969607,Nominal first; not uniquely first under all spatial uncertainty.
+FT01,1278.999496564269,1278.999496564269,1278.999496564269,1278.999496564269,Robust Tier-1 recovery road; can exceed J105 under J105 worst-position sensitivity.
+FT003,462.2884850502014,462.2884850502014,462.2884850502014,571.9544243812561,Consistent Tier-2 after J105/FT01.

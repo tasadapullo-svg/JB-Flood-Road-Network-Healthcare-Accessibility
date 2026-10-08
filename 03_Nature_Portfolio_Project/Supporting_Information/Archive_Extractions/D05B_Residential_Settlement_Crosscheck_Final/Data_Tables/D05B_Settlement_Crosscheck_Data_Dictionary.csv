@@ -1,0 +1,15 @@
+﻿field_name,description
+origin_id,D05-A stable WorldPop origin ID
+population,Unmodified D05-A WorldPop population weight
+cell_has_residential_landuse,OSM landuse=residential intersects the WorldPop cell
+cell_has_residential_building,Explicit residential building footprint intersects the WorldPop cell
+cell_has_any_building,Any OSM building footprint intersects the WorldPop cell
+dist_residential_landuse_m,Cell-centre distance to nearest residential landuse polygon
+dist_residential_building_m,Cell-centre distance to nearest explicitly residential building
+dist_any_building_m,Cell-centre distance to nearest OSM building
+dist_nearest_residential_evidence_m,Minimum of residential-landuse and residential-building distances
+residential_support_within_100m,Nearest residential evidence <=100 m
+any_building_support_within_100m,Nearest generic building <=100 m
+settlement_support_level,Hierarchical OSM settlement-support category
+settlement_review_flag,"TRUE only for LIMITED_OSM_SUPPORT; diagnostic, not a deletion flag"
+nodata_review_class,For WorldPop NoData cells: hierarchy of residential/building evidence

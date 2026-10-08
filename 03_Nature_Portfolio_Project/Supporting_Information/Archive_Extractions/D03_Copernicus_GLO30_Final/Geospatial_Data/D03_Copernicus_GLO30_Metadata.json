@@ -1,0 +1,117 @@
+{
+  "dataset_id": "D03",
+  "dataset_substep": "D03-B",
+  "dataset_name": "Copernicus DEM GLO-30",
+  "product_type": "DSM",
+  "source_release_note": "2021_Release project folder convention",
+  "source_tiles": [
+    "N01_E103",
+    "N01_E104"
+  ],
+  "source_files": [
+    {
+      "filename": "Copernicus_DSM_COG_10_N01_00_E103_00_DEM.tif",
+      "file_size_bytes": 31871871,
+      "md5": "fbc63deabe46bbc03f42dcb78e3538dd",
+      "sha256": "fe2cf9dbc8a06ac328fb6d3d11a3764adac203e91adfae6cb066e07390480417",
+      "crs": "EPSG:4326",
+      "width": 3600,
+      "height": 3600,
+      "band_count": 1,
+      "dtype": "float32",
+      "nodata": null,
+      "res_x": 0.0002777777777777778,
+      "res_y": 0.0002777777777777778,
+      "bounds": [
+        102.99986111111112,
+        1.000138888888889,
+        103.99986111111112,
+        2.000138888888889
+      ],
+      "min": -54.61104202270508,
+      "max": 653.1136474609375,
+      "mean": 22.048442840576172,
+      "std": 43.61724090576172,
+      "valid_pixel_count": 12960000,
+      "negative_pixel_count": 3489,
+      "zero_pixel_count": 5299745,
+      "block_shape": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "filename": "Copernicus_DSM_COG_10_N01_00_E104_00_DEM.tif",
+      "file_size_bytes": 12044289,
+      "md5": "270a4909e95fda43ca443dc73ed17b22",
+      "sha256": "b33db33b7610096f6eff53d3662513ff12e71837d86682490ca094de189b3d08",
+      "crs": "EPSG:4326",
+      "width": 3600,
+      "height": 3600,
+      "band_count": 1,
+      "dtype": "float32",
+      "nodata": null,
+      "res_x": 0.0002777777777777778,
+      "res_y": 0.0002777777777777778,
+      "bounds": [
+        103.99986111111112,
+        1.000138888888889,
+        104.99986111111112,
+        2.000138888888889
+      ],
+      "min": -30.322751998901367,
+      "max": 356.4936218261719,
+      "mean": 4.623051643371582,
+      "std": 12.174213409423828,
+      "valid_pixel_count": 12960000,
+      "negative_pixel_count": 7771,
+      "zero_pixel_count": 10173622,
+      "block_shape": [
+        1024,
+        1024
+      ]
+    }
+  ],
+  "source_crs": "EPSG:4326",
+  "source_resolution_arcsec": 1,
+  "source_pixel_size_degree": 0.0002777777777777778,
+  "source_dtype": "Float32",
+  "source_nodata": null,
+  "source_checksum_note": "Local MD5/SHA-256 calculated; no external official checksum file was provided in this processing session.",
+  "study_area": "Johor Bahru District, Johor, Malaysia",
+  "boundary_file": "JB_Study_Area_Final.gpkg",
+  "boundary_layer": "study_area_district",
+  "context_buffer_m": 10000,
+  "core_coverage_ratio": 1.0,
+  "context_coverage_ratio": 1.0,
+  "mosaic_seam_check": "PASS",
+  "core_output": "JB_Copernicus_GLO30_Core_WGS84.tif",
+  "context_output": "JB_Copernicus_GLO30_Context10km_WGS84.tif",
+  "metric_crs": "EPSG:3375",
+  "metric_resolution_m": 30,
+  "reprojection_resampling": "bilinear",
+  "clip_output_nodata": -9999,
+  "negative_elevation_policy": "preserved and reported, not modified",
+  "software": {
+    "python": "3.13.5",
+    "rasterio": "1.5.0",
+    "geopandas": "1.1.2",
+    "numpy": "2.3.5"
+  },
+  "processing_datetime_utc": "2026-10-04T11:17:57.212712+00:00",
+  "processing_steps": [
+    "Validated D01 district boundary",
+    "Validated two Copernicus GLO-30 source tiles",
+    "Checked tile seam/alignment",
+    "Created native-grid WGS84 mosaic",
+    "Clipped Johor Bahru district core on native grid",
+    "Created 10 km context buffer in EPSG:3375 and clipped context DEM",
+    "Created EPSG:3375 30 m bilinear metric working copies",
+    "Computed QC statistics, coverage ratios and diagnostic figures"
+  ],
+  "warnings": [
+    "Copernicus DEM is a DSM rather than a bare-earth DTM.",
+    "Negative elevations were preserved; they were not clamped to zero.",
+    "Local checksums were generated, but no official checksum sidecar was supplied for external byte-for-byte source verification."
+  ]
+}

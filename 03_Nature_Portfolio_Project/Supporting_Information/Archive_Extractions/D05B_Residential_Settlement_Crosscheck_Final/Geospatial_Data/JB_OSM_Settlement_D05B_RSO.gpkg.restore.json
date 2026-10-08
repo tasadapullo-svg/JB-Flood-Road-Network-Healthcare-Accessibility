@@ -1,0 +1,17 @@
+{
+  "original_relative_path": "03_Nature_Portfolio_Project/Supporting_Information/Archive_Extractions/D05B_Residential_Settlement_Crosscheck_Final/Geospatial_Data/JB_OSM_Settlement_D05B_RSO.gpkg",
+  "original_file_name": "JB_OSM_Settlement_D05B_RSO.gpkg",
+  "original_size_bytes": 36347904,
+  "original_sha256": "4be9b600a83e3e8a662eba8ad6461f633d6346e55dcec4630cc320f7397909f8",
+  "part_size_limit_bytes": 20971520,
+  "parts": [
+    {
+      "file": "JB_OSM_Settlement_D05B_RSO.gpkg.part001",
+      "sha256": "f08161027cd2088d3c73ff2f2b3ff665eeef6885c8434abe5ead06f817ddf9af"
+    },
+    {
+      "file": "JB_OSM_Settlement_D05B_RSO.gpkg.part002",
+      "sha256": "c76c529fda028b405a3a72225210986a6131a138b88560cf05a51331a0ad07fc"
+    }
+  ]
+}

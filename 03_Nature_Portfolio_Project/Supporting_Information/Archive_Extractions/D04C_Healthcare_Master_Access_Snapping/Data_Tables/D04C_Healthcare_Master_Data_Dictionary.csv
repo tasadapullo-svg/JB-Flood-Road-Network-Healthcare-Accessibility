@@ -1,0 +1,23 @@
+﻿field_name,description
+facility_id,Stable facility identifier
+facility_name,Healthcare facility name
+ownership,PUBLIC or PRIVATE
+facility_group,Hospital/clinic/community facility group
+facility_class,Source-specific project healthcare class
+destination_role,Harmonised analytical role
+acute_emergency_destination,TRUE if included in acute/emergency destination set
+primary_care_destination,TRUE if included in primary/community-care destination set
+include_primary_accessibility,Whether the record belongs in its primary accessibility analysis set
+licensed_beds,Private hospital CKAPS licensed beds where available
+coordinate_review_flag,Facility coordinate requires explicit review
+service_review_flag,Hospital service evidence requires explicit review
+any_review_flag,Coordinate or service review flag
+network_snap_status,D04-C computational snapping status
+snap_segment_id,OSM-derived selected road segment identifier
+snap_distance_m,Perpendicular distance from facility reference point to selected road segment
+snap_quality,Distance-based computational snap-quality grade
+access_point_type,COMPUTATIONAL_NETWORK_SNAP
+physical_entrance_verified,Always FALSE in D04-C
+entrance_status,PROVISIONAL_NOT_PHYSICAL_ENTRANCE
+use_in_primary_emergency,TRUE for the 14 acute/emergency hospitals
+connector_length_m,Straight connector distance from facility reference point to snapped network point

@@ -1,0 +1,42 @@
+{
+  "dataset_id": "D05",
+  "dataset_substep": "D05-B",
+  "dataset_name": "WorldPop Residential / Settlement Distribution Cross-check",
+  "worldpop_origin_input": "D05-A WorldPop 2026 constrained 100 m origins",
+  "osm_source_file": "malaysia-singapore-brunei-261003.osm.pbf",
+  "osm_snapshot_date": "2026-10-03",
+  "osm_md5": "c7ddd154bd34d0c910837832600c8a1c",
+  "osm_sha256": "33174694771c7bc3b34cf740497a46a371b4acd6bd1e2fdff7e9052a659039df",
+  "osm_matches_frozen_D02_snapshot": true,
+  "study_area": "Johor Bahru District",
+  "processing_crs": "EPSG:3375",
+  "distance_context_m": 250,
+  "residential_building_types": [
+    "apartments",
+    "bungalow",
+    "detached",
+    "dormitory",
+    "house",
+    "residential",
+    "semidetached_house",
+    "terrace"
+  ],
+  "cell_overlap_rule": "OSM polygon intersects WorldPop cell; rasterized with all_touched=True.",
+  "distance_rule": "Distance from WorldPop cell centre to nearest OSM polygon, calculated in EPSG:3375 using OSM features from district + 250 m context.",
+  "support_class_rules": {
+    "DIRECT_RESIDENTIAL": "WorldPop cell intersects OSM landuse=residential or an explicitly residential building footprint.",
+    "DIRECT_BUILT_CONTEXT": "No direct residential overlap, but WorldPop cell intersects another OSM building footprint.",
+    "NEAR_RESIDENTIAL_100M": "No direct building overlap; nearest residential landuse/building evidence <=100 m.",
+    "NEAR_BUILT_100M": "No residential evidence <=100 m; nearest generic OSM building <=100 m.",
+    "LIMITED_OSM_SUPPORT": "No residential or generic-building evidence within 100 m under the above hierarchy."
+  },
+  "worldpop_modification_policy": "No WorldPop population value was deleted, moved, normalized, or reweighted in D05-B.",
+  "osm_interpretation_limit": "Absence of an OSM building/residential polygon is not evidence of absence of population; OSM completeness is spatially heterogeneous.",
+  "processing_datetime_utc": "2026-10-04T12:40:28.736814+00:00",
+  "subdistrict_assignment": {
+    "primary_rule": "point within D01 subdistrict polygon",
+    "nearest_fallback_count": 4,
+    "maximum_fallback_distance_m": 13.689359339455505,
+    "final_unmatched_count": 0
+  }
+}

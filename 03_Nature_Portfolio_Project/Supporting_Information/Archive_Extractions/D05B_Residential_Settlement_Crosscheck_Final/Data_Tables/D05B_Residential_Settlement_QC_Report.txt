@@ -1,0 +1,114 @@
+D05-B RESIDENTIAL / SETTLEMENT DISTRIBUTION CROSS-CHECK REPORT
+
+1. Purpose
+   Cross-check D05-A WorldPop 2026 constrained population origins against
+   OSM residential land-use and building evidence.
+   OSM evidence is diagnostic only and does NOT replace WorldPop.
+
+2. OSM input
+   malaysia-singapore-brunei-261003.osm.pbf
+   Size: 251,629,147 bytes
+   Snapshot: 2026-10-03
+   MD5: c7ddd154bd34d0c910837832600c8a1c
+   SHA-256: 33174694771c7bc3b34cf740497a46a371b4acd6bd1e2fdff7e9052a659039df
+   Matches frozen D02 snapshot: PASS
+
+3. Study area / spatial framework
+   Johor Bahru District (D01)
+   Processing CRS: EPSG:3375
+   Distance support context: district + 250 m
+
+4. OSM extraction — core district
+   Residential land-use source features: 961
+   Residential land-use polygon parts: 974
+   Explicit residential-building source features: 92,485
+   Explicit residential-building polygon parts: 92,491
+   All-building source features: 133,635
+   All-building polygon parts: 133,664
+
+5. Mapped-area diagnostics
+   Residential land-use feature-area sum: 172.051527 km2
+   Explicit residential-building footprint-area sum: 18.134325 km2
+   All-building footprint-area sum: 40.187838 km2
+   These are feature-area sums; overlaps are not dissolved and are diagnostic only.
+
+6. Residential building definition
+   apartments, bungalow, detached, dormitory, house, residential, semidetached_house, terrace
+
+7. WorldPop positive origins
+   Origin count: 75,149
+   Population weight: 1,905,758.571311
+   Population values were not modified.
+
+8. Origin settlement-support results
+   DIRECT_RESIDENTIAL: 27,383 (36.438276% of origins)
+   Residential evidence within 100 m: 32,014 (42.600700%)
+   Any OSM building within 100 m: 27,775 (36.959906%)
+   LIMITED_OSM_SUPPORT: 33,420 (44.471650%)
+
+9. Population-weighted support
+   Population in DIRECT_RESIDENTIAL origins: 1,129,503.132170 (59.267903%)
+   Population with residential evidence within 100 m: 1,236,736.291361 (64.894699%)
+   Population with any building within 100 m: 1,041,502.797370 (54.650301%)
+   Population in LIMITED_OSM_SUPPORT origins: 418,996.782859 (21.985827%)
+
+10. Low-population origins (0 < population < 1)
+    Origin count: 9,236
+    Population sum: 2,906.048181
+    Residential evidence within 100 m: 1,160 (12.559550%)
+    LIMITED_OSM_SUPPORT: 7,818 (84.647033%)
+    Population weight in limited-support low-pop origins: 2,370.426835
+
+11. WorldPop source-NoData audit
+    NoData cell centres inside district: 54,285
+    Direct residential-overlap review candidates: 1,237 (2.278714%)
+    Residential evidence within 100 m: 1,588 (2.925302%)
+    Any OSM building within 100 m: 454 (0.836327%)
+    All non-null review/auxiliary candidates: 1,847
+    These are settlement-evidence inconsistency candidates, NOT proof that WorldPop is wrong.
+
+12. WorldPop valid zero-population cells
+    Zero-population cells: 259
+    DIRECT_RESIDENTIAL: 61
+    Any OSM building within 100 m: 238
+
+13. Subdistrict assignment
+    Primary within-polygon assignments completed.
+    Nearest-subdistrict fallback cases: 4
+    Maximum fallback distance: 13.689359 m
+    Final unmatched origins: 0
+    The fallback handles small D01 subdistrict boundary/gap precision effects only.
+
+14. Scientific interpretation
+    OSM is used as an independent settlement-support layer.
+    A WorldPop origin is NEVER deleted because OSM lacks mapped buildings.
+    WorldPop NoData is NEVER converted to population because OSM contains buildings.
+    OSM coverage is heterogeneous, and generic buildings can be commercial,
+    industrial, institutional, or other non-residential structures.
+
+15. Cross-check hierarchy
+    DIRECT_RESIDENTIAL
+    DIRECT_BUILT_CONTEXT
+    NEAR_RESIDENTIAL_100M
+    NEAR_BUILT_100M
+    LIMITED_OSM_SUPPORT
+
+16. CHECK 1 — OSM SNAPSHOT CONSISTENCY
+    PASS
+
+17. CHECK 2 — WORLDPOP WEIGHT INTEGRITY
+    PASS
+    D05-B does not alter D05-A population weights.
+
+18. CHECK 3 — NODATA / LOW-POPULATION AUDIT
+    PASS
+    Review candidates are explicitly retained rather than silently recoded.
+
+19. Method limitation
+    OSM mapping completeness cannot be assumed spatially uniform.
+    Therefore settlement-support classes are validation diagnostics,
+    not exclusion criteria and not population-reallocation weights.
+
+20. Final status
+    D05-B RESIDENTIAL / SETTLEMENT CROSS-CHECK:
+    PASS WITH OSM COMPLETENESS LIMITATION

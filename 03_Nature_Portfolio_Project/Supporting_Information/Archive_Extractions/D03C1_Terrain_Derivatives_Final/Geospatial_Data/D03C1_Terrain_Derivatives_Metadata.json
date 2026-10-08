@@ -1,0 +1,48 @@
+{
+  "dataset_id": "D03",
+  "dataset_substep": "D03-C1",
+  "dataset_name": "Johor Bahru Terrain Derivatives",
+  "input_dem": "JB_Copernicus_GLO30_Context10km_RSO.tif",
+  "input_dem_crs": "EPSG:3375",
+  "input_dem_resolution_m": 30,
+  "study_area": "Johor Bahru District, Johor, Malaysia",
+  "district_area_km2": 1108.1730873232111,
+  "slope_method": "Horn 3x3 finite-difference gradient",
+  "relative_elevation_definition": "cell elevation minus focal median elevation",
+  "focal_neighborhood_shape": "circular",
+  "nominal_scales_m": [
+    500,
+    1000
+  ],
+  "effective_raster_radii_m": [
+    510.0,
+    1020.0
+  ],
+  "median_quantisation_step_m": 0.02,
+  "maximum_median_quantisation_error_m": 0.01,
+  "edge_effect_policy": "Computed from 10 km context DEM with >1 km support margin before clipping to district.",
+  "low_lying_candidate_definition": {
+    "warning": "Terrain screening only; not a flood map.",
+    "score": "Number of conditions met, 0-3",
+    "strict_candidate": "score == 3",
+    "conditions": {
+      "relative_elevation_500m": "<= district P10 (-6.352357 m)",
+      "relative_elevation_1000m": "<= district P10 (-8.400732 m)",
+      "slope_degree": "<= district P25 (1.275734 degree)"
+    }
+  },
+  "strict_candidate_pixels": 14893,
+  "strict_candidate_area_km2": 13.4037,
+  "strict_candidate_percent_of_core_pixels": 1.209531691224662,
+  "processing_datetime_utc": "2026-10-04T11:35:16.507259+00:00",
+  "scientific_boundary": {
+    "allowed_interpretation": "low-lying terrain / topographic susceptibility candidate",
+    "not_allowed_without_external_validation": [
+      "flood zone",
+      "flood hotspot",
+      "flood-prone road",
+      "inundated area",
+      "historical flood area"
+    ]
+  }
+}

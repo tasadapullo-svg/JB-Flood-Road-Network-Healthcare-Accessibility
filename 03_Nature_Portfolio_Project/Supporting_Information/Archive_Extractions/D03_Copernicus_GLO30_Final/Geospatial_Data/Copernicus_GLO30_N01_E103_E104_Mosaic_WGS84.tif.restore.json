@@ -1,0 +1,17 @@
+{
+  "original_relative_path": "03_Nature_Portfolio_Project/Supporting_Information/Archive_Extractions/D03_Copernicus_GLO30_Final/Geospatial_Data/Copernicus_GLO30_N01_E103_E104_Mosaic_WGS84.tif",
+  "original_file_name": "Copernicus_GLO30_N01_E103_E104_Mosaic_WGS84.tif",
+  "original_size_bytes": 32484395,
+  "original_sha256": "b8a3f810fe405df08a649f75aff45de34799ec45f8a9cae6809f0442d0f43c98",
+  "part_size_limit_bytes": 20971520,
+  "parts": [
+    {
+      "file": "Copernicus_GLO30_N01_E103_E104_Mosaic_WGS84.tif.part001",
+      "sha256": "0c32f1b93e148c6482b005c3f4432018b8d7ac073c8ba9f8ef31cf78ccfaf6ab"
+    },
+    {
+      "file": "Copernicus_GLO30_N01_E103_E104_Mosaic_WGS84.tif.part002",
+      "sha256": "d7f2ec1628d6078283949dbc3dd8b0f3dc4b232813b7d5a9def4de56bac496b6"
+    }
+  ]
+}

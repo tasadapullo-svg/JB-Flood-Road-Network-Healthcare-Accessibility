@@ -1,0 +1,7 @@
+﻿dataset,variable,description,unit,dtype,nodata,crs,resolution
+JB_Terrain_Slope_Degree_RSO.tif,slope_degree,Terrain slope from Horn 3x3 gradient,degree,Float32,-9999,EPSG:3375,30 m
+JB_Terrain_Slope_Percent_RSO.tif,slope_percent,Terrain gradient as percent rise,percent,Float32,-9999,EPSG:3375,30 m
+JB_Terrain_RelativeElevation_500m_RSO.tif,relative_elevation_500m,Cell elevation minus circular focal median at nominal 500 m scale,m,Float32,-9999,EPSG:3375,30 m
+JB_Terrain_RelativeElevation_1000m_RSO.tif,relative_elevation_1000m,Cell elevation minus circular focal median at nominal 1000 m scale,m,Float32,-9999,EPSG:3375,30 m
+JB_Terrain_LowLyingScore_RSO.tif,low_lying_score,"Count of terrain-screening conditions met, 0-3",count,UInt8,255,EPSG:3375,30 m
+JB_Terrain_LowLyingCandidate_Strict_RSO.tif,low_lying_candidate_strict,1 if all three terrain-screening conditions are met; otherwise 0,binary,UInt8,255,EPSG:3375,30 m

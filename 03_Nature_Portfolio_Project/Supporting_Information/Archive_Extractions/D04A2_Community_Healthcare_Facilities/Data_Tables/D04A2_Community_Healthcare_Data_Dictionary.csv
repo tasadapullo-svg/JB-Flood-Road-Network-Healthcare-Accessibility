@@ -1,0 +1,22 @@
+﻿field_name,description
+facility_id,Stable project facility identifier
+facility_name,Current facility name used in the D04-A2 baseline
+facility_group,"KLINIK_DESA, KLINIK_KOMUNITI, or KKIA"
+facility_class,H4 community-primary or maternal-child class
+address,Current PKD facility address
+phone,Official contact number where available
+latitude,Facility reference latitude in EPSG:4326
+longitude,Facility reference longitude in EPSG:4326
+coordinate_quality,Coordinate evidence/quality flag
+coordinate_source,Coordinate provenance or review note
+emergency_destination,Always FALSE for D04-A2
+primary_destination_role,Community primary-care or maternal-child role
+inventory_authority,Primary official facility-list authority
+inventory_status,Current baseline status
+network_snap_status,D04-C entrance/access-node status
+inside_jb_district,Point falls inside/touches official Johor Bahru District
+easting_rso_m,EPSG:3375 easting
+northing_rso_m,EPSG:3375 northing
+dist_to_district_boundary_m,Metric distance to official district boundary
+review_flag,TRUE if the coordinate requires explicit D04-C verification
+review_reason,Reason for review flag

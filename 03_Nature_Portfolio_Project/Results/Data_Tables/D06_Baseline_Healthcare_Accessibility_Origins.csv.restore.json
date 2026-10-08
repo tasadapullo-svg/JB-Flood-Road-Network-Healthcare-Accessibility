@@ -1,0 +1,21 @@
+{
+  "original_relative_path": "03_Nature_Portfolio_Project/Results/Data_Tables/D06_Baseline_Healthcare_Accessibility_Origins.csv",
+  "original_file_name": "D06_Baseline_Healthcare_Accessibility_Origins.csv",
+  "original_size_bytes": 51394197,
+  "original_sha256": "b67b2d3ecd115ef020837bac4b0784eaaa3cc13cedd9c1e1919c0a8f84042332",
+  "part_size_limit_bytes": 20971520,
+  "parts": [
+    {
+      "file": "D06_Baseline_Healthcare_Accessibility_Origins.csv.part001",
+      "sha256": "11c0c7b38c71bd2b33effd7aa37a1ed506f4e3dfc17c06ef4df56d06001de8ea"
+    },
+    {
+      "file": "D06_Baseline_Healthcare_Accessibility_Origins.csv.part002",
+      "sha256": "1920a5b3e96f8ff281b8912e00a94950b246321db30707a625708a5c07831f9f"
+    },
+    {
+      "file": "D06_Baseline_Healthcare_Accessibility_Origins.csv.part003",
+      "sha256": "80e3b956e2593917bd59bd7b1dc24e89b7ff73c1ae9436a9c3f8149a6e94c060"
+    }
+  ]
+}

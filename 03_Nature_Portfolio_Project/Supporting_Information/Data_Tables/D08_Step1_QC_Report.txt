@@ -1,0 +1,141 @@
+D08 STEP 1 — 2025 OBSERVED FLOOD-CLOSURE HEALTHCARE ACCESSIBILITY
+Version: v0.1
+
+1. BASELINE AUDIT
+The archived D06 script contained a directional logic error for population origins on one-way roads.
+Affected origins: 11,170
+Affected population: 215,931.614 (11.330%)
+
+D06 original weighted mean = 7.217096 min
+D06R corrected weighted mean = 7.210856 min
+Difference = -0.006240 min
+
+D06 original reachable population = 1,900,800.615
+D06R corrected reachable population = 1,900,604.088
+Difference = -196.527
+
+SCIENTIFIC DECISION:
+D06 original is deprecated.
+D06R corrected baseline is the required comparator for D08.
+
+2. SCENARIOS
+MAR20_OBSERVED:
+FT003 km9.1-10.0 + FT01 km19.6-20.0 + J105 km7.0-7.5.
+
+MAR21_OBSERVED:
+J46 km2.0-2.3.
+
+EVENT_FOOTPRINT_UNION:
+All four authorized 2025 closure geometries combined.
+This is an event-footprint upper-bound scenario, NOT a claim that all four roads were closed simultaneously.
+
+3. GLOBAL RESULTS
+             scenario  closure_count  affected_d06_subedges  reachable_population  reachable_population_pct  newly_unreachable_origins  newly_unreachable_population  newly_unreachable_population_pct_total  baseline_weighted_mean_min  scenario_weighted_mean_min  weighted_mean_increase_common_reachable_min  weighted_mean_increase_pct_vs_baseline  weighted_median_increase_min  weighted_p90_increase_min  weighted_p95_increase_min  population_delay_ge_1min  population_delay_ge_5min  population_delay_ge_10min  population_pct_delay_ge_1min  population_pct_delay_ge_5min  population_pct_delay_ge_10min  baseline_30min_population_pct  scenario_30min_population_pct  delta_30min_pp  baseline_45min_population_pct  scenario_45min_population_pct  delta_45min_pp  baseline_60min_population_pct  scenario_60min_population_pct  delta_60min_pp  baseline_p90_min  scenario_p90_min  p90_change_min  origin_access_points_inside_closure_count  dijkstra_elapsed_s descriptive_effect_class
+       MAR20_OBSERVED              3                     96          1.895643e+06                 99.469212                        544                   4961.045479                                0.260319                    7.210856                    7.213223                                     0.009188                                0.127423                           0.0                        0.0                        0.0              11143.042743                       0.0                        0.0                      0.584704                           0.0                            0.0                      99.625331                      99.365012       -0.260319                      99.729531                      99.469212       -0.260319                      99.729531                      99.469212       -0.260319         12.422815         12.425267        0.002452                                          5            1.091903                 MODERATE
+       MAR21_OBSERVED              1                      8          1.900604e+06                 99.729531                          0                      0.000000                                0.000000                    7.210856                    7.210856                                     0.000000                                0.000000                           0.0                        0.0                        0.0                  0.000000                       0.0                        0.0                      0.000000                           0.0                            0.0                      99.625331                      99.625331        0.000000                      99.729531                      99.729531        0.000000                      99.729531                      99.729531        0.000000         12.422815         12.422815        0.000000                                          0            1.113596                  LIMITED
+EVENT_FOOTPRINT_UNION              4                    104          1.895643e+06                 99.469212                        544                   4961.045479                                0.260319                    7.210856                    7.213223                                     0.009188                                0.127423                           0.0                        0.0                        0.0              11143.042743                       0.0                        0.0                      0.584704                           0.0                            0.0                      99.625331                      99.365012       -0.260319                      99.729531                      99.469212       -0.260319                      99.729531                      99.469212       -0.260319         12.422815         12.425267        0.002452                                          5            1.038170                 MODERATE
+
+4. FOUR PRIMARY QUESTIONS — EVENT FOOTPRINT UNION
+Travel-time increase:
+0.009188 min population-weighted mean increase
+among origins reachable in both baseline and scenario.
+Relative to baseline mean: 0.127423%.
+
+Newly unreachable:
+544 origins
+4,961.045 people
+0.260319% of total population.
+
+30-min coverage:
+baseline 99.625331%
+scenario 99.365012%
+change -0.260319 percentage points.
+
+45-min coverage change:
+-0.260319 percentage points.
+
+60-min coverage change:
+-0.260319 percentage points.
+
+5. MAR20 OBSERVED — TEMPORALLY COHERENT PRIMARY DAY
+Mean increase:
+0.009188 min
+(0.127423%).
+
+Newly unreachable population:
+4,961.045
+(0.260319%).
+
+30-min coverage change:
+-0.260319 pp.
+
+P90 travel-time change:
+0.002452 min.
+
+Descriptive engineering effect class:
+MODERATE.
+
+6. SUBDISTRICT CONCENTRATION — EVENT FOOTPRINT UNION
+Top five by weighted mean travel-time increase:
+       subdistrict  weighted_mean_increase_common_reachable_min  newly_unreachable_population  newly_unreachable_pct_subdistrict  delta_30min_pp
+    Mukim Plentong                                     0.023905                    278.104318                           0.045863       -0.045863
+      Mukim Tebrau                                     0.006230                   4682.941160                           0.970675       -0.970675
+     Bandar Tebrau                                     0.000000                      0.000000                           0.000000        0.000000
+Bandar Johor Bahru                                     0.000000                      0.000000                           0.000000        0.000000
+    Mukim Jelutong                                     0.000000                      0.000000                           0.000000        0.000000
+
+7. INTERPRETATION
+The effect class is descriptive, not a p-value.
+100-m population cells are spatially dependent and should not be treated as 75,149 independent random observations.
+
+A small citywide mean effect can still support a strong resilience paper if disruption is concentrated
+in identifiable subdistricts or creates meaningful tail-risk / loss of reachability.
+
+8. GRAPH IMPLEMENTATION
+Affected D06 road subedges are blocked for traversal.
+Partial boundary subedges are topologically blocked across the flood interval.
+For the six population origins mapped directly to affected J105 edges, access is evaluated relative
+to the open/closed side of the boundary interval and the one-way direction.
+Hospitals mapped to affected closure edges: 0.
+
+9. STATUS
+D06R corrected baseline: PASS.
+D08 nominal observed-closure Step 1: PASS.
+D08 full freeze: NOT YET.
+
+NEXT REQUIRED:
+D08 closure-location sensitivity using D07-F:
+FT003 ±150 m
+FT01 ±50 m
+J105 ±100 m
+J46 ±50 m
+before final scientific claims are frozen.
+
+
+10. SINGLE-CLOSURE ATTRIBUTION
+          closure_id                         reported_road reported_section  affected_subedges  newly_unreachable_origins  newly_unreachable_population  newly_unreachable_population_pct_total  weighted_mean_increase_common_reachable_min  population_delay_ge_1min  population_delay_ge_5min  scenario_30min_population_pct  delta_30min_pp  scenario_45min_population_pct  delta_45min_pp  scenario_60min_population_pct  delta_60min_pp
+  C2025_J105_7.0_7.5        J105 Jalan Maju Jaya - Seelong       km 7.0-7.5                 31                        426                   3219.757497                                0.168949                                     0.000000                  0.000000                       0.0                      99.456382       -0.168949                      99.560582       -0.168949                      99.560582       -0.168949
+C2025_FT01_19.6_20.0        FT01 Jalan Johor Bahru - Senai     km 19.6-20.0                  6                        104                   1278.999497                                0.067112                                     0.000000                  0.000000                       0.0                      99.558219       -0.067112                      99.662419       -0.067112                      99.662419       -0.067112
+C2025_FT003_9.1_10.0 FT003 Jalan Johor Bahru - Kota Tinggi      km 9.1-10.0                 59                         14                    462.288485                                0.024257                                     0.009167              11143.042743                       0.0                      99.601073       -0.024257                      99.705274       -0.024257                      99.705274       -0.024257
+   C2025_J46_2.0_2.3                   J46 Jalan Ulu Pulai       km 2.0-2.3                  8                          0                      0.000000                                0.000000                                     0.000000                  0.000000                       0.0                      99.625331        0.000000                      99.729531        0.000000                      99.729531        0.000000
+
+11. NETWORK-ISOLATION INTERPRETATION
+Corrected baseline unreachable population:
+5,154.483588
+
+Event-footprint unreachable population:
+10,115.529067
+
+Additional unreachable population:
+4,961.045479
+
+Relative increase in unreachable population compared with the corrected baseline unreachable stock:
+96.247187%
+
+This distinction is important:
+the citywide mean travel-time increase is very small, but the flood closures nearly double
+the population that is outside the modelled hospital-access network.
+
+Mukim Tebrau accounts for the dominant share of newly unreachable population:
+4,682.941160 people
+(0.970675% of Mukim Tebrau population).

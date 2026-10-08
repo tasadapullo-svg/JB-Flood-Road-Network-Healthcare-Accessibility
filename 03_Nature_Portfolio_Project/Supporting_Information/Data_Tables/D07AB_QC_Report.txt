@@ -1,0 +1,103 @@
+D07-A + D07-B FIRST DATABASE — QC REPORT
+Version: v0.1
+Event: JB-FLD-20250319-01
+
+1. PURPOSE
+PASS.
+The database is evidence-driven and auditable.
+It does not generate a generic flood-risk surface and does not randomly close roads.
+
+2. NEW CORE CONDITIONS FORMALLY ADDED
+C1 Short-duration heavy rainfall:
+   Official operational reference: >20 mm/hour where hourly observations exist.
+   If event-hourly rainfall is missing, an official 'banjir kilat' classification may be stored only as a proxy.
+C2 Urban inundation / waterlogging:
+   Direct evidence of flooded roads, residential areas, neighbourhoods or urban surfaces.
+C3 Road impassability:
+   JKR T = road closed.
+   JKR B3 = heavy vehicles only -> ordinary private car treated as impassable.
+   JKR B1 = one lane open -> impaired but still passable; no arbitrary speed penalty yet.
+C4 Compound modifiers:
+   River danger exceedance and high tide are stored separately.
+
+3. 2025 MARCH ANCHOR EVENT
+One standard event record created.
+Event type:
+COMPOUND_URBAN_FLASH_RIVERINE_TIDAL_FLOOD
+Role:
+PRIMARY_HISTORICAL_ANCHOR
+
+4. ROAD IMPACT REGISTER
+Johor Bahru JKR road-impact records transcribed: 8
+Official event type BK / banjir kilat: 8/8
+T road-closed records: 2
+B3 heavy-vehicle-only records: 2
+General-car impassable records (T+B3): 4
+B1 one-lane-open records: 4
+
+5. ROAD SPATIAL MATCHING
+Route-level OSM candidate corridors were generated where possible.
+Exact JKR chainage-to-OSM segment matching is NOT claimed in D07-B.
+No candidate corridor is automatically treated as fully flooded.
+J46 may remain unmatched in the frozen OSM core and is explicitly flagged.
+
+6. AFFECTED AREAS
+Official MBJB retrospective total: 27 affected areas.
+The public source names only a subset/examples.
+Named evidence rows currently stored: 15
+The remaining unnamed members of the 27 are NOT invented.
+Full 27-name recovery remains a D07-C/D07-F evidence-retrieval task.
+
+7. HEALTHCARE IMPACTS
+Johor Bahru flood-affected KKM facilities: 3
+KD Kangkar Tebrau: relocated to KK Majidee
+KD Maju Jaya: operating
+KD Plentong: operating
+D04 exact manual crosswalk matches: 3/3
+
+8. RAINFALL
+Senai daily rainfall, 20 Mar 2025: 176.2 mm/day — verified in MET Malaysia RP01_2025.
+MBJB Mayor retrospective event context: >150 mm over two days.
+Important:
+A numeric 1 h / 3 h / 6 h rainfall value for the 2025 anchor event has NOT yet been verified in the current official source set.
+Therefore no hourly value is fabricated.
+JKR's official 'banjir kilat' classification is retained as flash-flood proxy evidence only.
+
+9. RIVER / TIDE
+Sungai Skudai at Kampung Laut: 4.29 m, danger level 3.0 m — stored.
+20 Mar 08:00 Sungai Skudai: 4.24 m — stored.
+Parit Keliling at Kampung Pasir: 1.01 m and reported above danger — stored.
+High tide around Johor Bahru: 3.0 m — stored with metadata limitation because exact station/datum/time are not specified in the retrospective source.
+
+10. PPS / EVACUATION
+Early phase: 3 PPS.
+21 Mar district snapshot: 27 PPS, 1,138 families, 4,291 people.
+22 Mar district snapshot: 27 PPS, 1,532 families, 5,392 people.
+Retrospective MBJB-scope statement: 11 PPS, 806 families, 2,232 people.
+Scope differences are preserved rather than merged.
+
+11. EVENT ADMISSION TO LATER ACCESSIBILITY MODELLING
+PASS AS ANCHOR EVENT.
+Reason:
+- official JKR flash-flood road records,
+- direct general-car impassability on 4 of 8 JB JKR road-impact records,
+- urban/residential inundation,
+- river danger exceedance,
+- high-tide compound context,
+- official rainfall evidence.
+
+12. WHAT IS NOT YET FROZEN
+- exact full list of all 27 MBJB affected areas,
+- exact 1 h / 3 h / 6 h event rainfall at each hotspot,
+- exact JKR chainage-to-OSM segment mapping for all eight road records,
+- precise tide station/datum/timestamp,
+- flood depth for each road section.
+
+13. RECURRENT VALIDATION EVENTS
+2022-08-02 queued.
+2023-12-06 queued.
+They are not yet merged into the 2025 anchor record.
+
+14. FINAL STATUS
+D07-A SOURCE INVENTORY: PASS / v0.1
+D07-B 2025 MARCH EVENT REGISTER: PASS WITH SPATIAL-CHAINAGE AND HOURLY-RAINFALL FIELDS PENDING

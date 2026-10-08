@@ -1,0 +1,150 @@
+D08 SENSITIVITY + GIS FLOOD-SUSCEPTIBILITY SCREENING
+Version: v1.0
+
+1. D08 SENSITIVITY DESIGN
+The four D07-F authorized 2025 closures were shifted along the reconstructed D06 road chain
+using the frozen uncertainty ranges:
+FT003: ±150 m
+FT01: ±50 m
+J105: ±100 m
+J46: ±50 m
+
+Each nominal reconstruction exactly reproduces the D07-F affected-subedge set.
+The March-20 primary scenario was evaluated under all 3^3 = 27 independent combinations
+of SIDE_A / NOMINAL / SIDE_B shifts for FT003, FT01, and J105.
+
+2. NOMINAL MARCH-20 RESULT
+Newly unreachable population:
+4,961.045479
+
+Newly unreachable share of total population:
+0.260319%
+
+Mukim Tebrau newly unreachable:
+4,682.941160
+
+Tebrau share of all newly unreachable:
+94.394240%
+
+3. 27-COMBINATION UNCERTAINTY RANGE
+Newly unreachable population:
+minimum = 2,553.734966
+median  = 4,961.045479
+nominal = 4,961.045479
+maximum = 5,079.075271
+
+Share of total population:
+0.134001% to
+0.266512%
+
+Mukim Tebrau newly unreachable:
+2,275.630648
+to
+4,691.305013
+
+Tebrau share of all newly unreachable:
+85.440785%
+to
+94.403675%
+
+30-min population coverage change:
+-0.266512
+to
+-0.134001
+percentage points.
+
+4. ROBUSTNESS JUDGMENT
+PASS for the qualitative core finding:
+the observed March-20 road closures produce a localized loss of hospital-network reachability,
+and the loss remains concentrated in Mukim Tebrau throughout all 27 closure-location combinations.
+
+DO NOT freeze the exact number 4,961 as a universal effect size.
+The supported sensitivity range is approximately
+2,554 to 5,079
+newly unreachable people under the declared road-location uncertainty.
+
+5. J105 CRITICALITY
+Nominal J105 newly unreachable:
+3,219.757497
+
+J105 range under ±100 m:
+812.446984
+to
+3,228.121350
+
+J105 ranks first in 2/3 single-road shift positions.
+Therefore:
+J105 is a high-impact corridor in the nominal and one shifted configuration,
+but 'J105 is uniquely the most critical road' is NOT robust enough to freeze.
+The defensible finding is that J105 and FT01 form the principal connectivity-critical corridor group,
+while FT003 has a smaller but persistent rerouting/connectivity effect and J46 is negligible for healthcare access.
+
+6. GIS FEASIBILITY
+YES — the existing evidence can already be represented in GIS at three scientifically distinct levels:
+
+A_OBSERVED_ROAD_DISRUPTION:
+road sections with direct documented 2025 closure/disruption geometry.
+
+B_HIGH_EVIDENCE_SUSCEPTIBILITY:
+roads supported by recurrent/official hotspot evidence plus terrain low-lying support,
+or by overlapping official and historical recurrent screening evidence.
+
+C_POTENTIAL_SUSCEPTIBILITY:
+roads supported by at least one of:
+official hotspot proximity,
+historical recurrent-location proximity,
+or strong terrain low-lying evidence.
+
+The package also includes:
+- 31 spatially verified official recurrent hotspot points;
+- exact historical recurrent locations;
+- 250 m screening zones;
+- the D03 strict low-lying terrain raster;
+- all D03 road segments with screening class.
+
+7. IMPORTANT GIS LIMIT
+The B/C classes are evidence-based SUSCEPTIBILITY SCREENING classes.
+They are NOT calibrated annual flood probabilities.
+
+Do NOT label them:
+'80% flood probability',
+'high probability of flooding',
+or a return-period probability.
+
+Safe map terminology:
+Observed recurrent flood hotspot
+Observed flood-disrupted road
+High-evidence flood susceptibility
+Potential flood susceptibility
+Terrain low-lying screening
+
+To claim quantitative flood probability, a later hazard model must be fitted and validated
+using repeated event/non-event samples, rainfall frequency, drainage/river/tide conditions,
+and preferably inundation/depth observations.
+
+8. GIS ROAD SCREENING COUNTS
+         flood_screening_class  road_segments  road_length_km
+    A_OBSERVED_ROAD_DISRUPTION             43       10.346592
+B_HIGH_EVIDENCE_SUSCEPTIBILITY            301       32.195770
+    C_POTENTIAL_SUSCEPTIBILITY           1766      222.884162
+                  D_BACKGROUND          79204    10826.860754
+
+9. FINAL STATUS
+D08 closure-location sensitivity:
+PASS FOR QUALITATIVE CORE CLAIM.
+EXACT 4,961-PEOPLE CLAIM:
+SENSITIVITY-DEPENDENT; report nominal + range.
+
+Mukim Tebrau spatial concentration:
+PASS / ROBUST.
+
+J105 uniquely dominant road:
+NOT PASS as a standalone frozen claim.
+
+J105 + FT01 critical corridor group:
+PASS / supported.
+
+GIS observed/recurrent/susceptibility mapping:
+PASS FOR EVIDENCE-BASED SCREENING.
+QUANTITATIVE 'HIGH PROBABILITY' MAP:
+NOT YET AUTHORIZED.

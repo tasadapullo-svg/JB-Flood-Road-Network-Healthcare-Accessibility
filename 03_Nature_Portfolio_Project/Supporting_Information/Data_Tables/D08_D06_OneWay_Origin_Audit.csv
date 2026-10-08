@@ -1,0 +1,2 @@
+﻿issue_id,issue,D06_original_logic,correct_logic,affected_origin_count,affected_population,affected_population_pct,action
+D06-OW-ORIGIN-001,Origin departure direction on one-way subedges,allow_u=(oneway_code!=-1); allow_v=(oneway_code!=1),allow_u=(oneway_code!=1); allow_v=(oneway_code!=-1),11170,215931.61384878866,11.330481053551807,Recompute corrected D06R baseline; use D06R for D08.

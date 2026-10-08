@@ -1,0 +1,13 @@
+﻿field_name,definition
+closure_id,Stable D07-F closure record ID
+spatialization_status,Evidence-to-network spatialization confidence/status
+d08_authorized,Whether the record has enough spatial precision for D08 edge disruption
+subedge_idx,D06 vertex-level routing subedge
+closure_overlap_m,Length of reported chainage overlap within the D06 subedge
+overlap_fraction,closure_overlap_m / D06 subedge length
+requires_graph_split,Reported closure boundary falls within rather than exactly on D06 subedge endpoints
+d08_edge_action,CLOSE_SUBEDGE or SPLIT_THEN_CLOSE_OVERLAP
+file_present_in_workspace,Whether the expected authenticated IMERG HDF5 file is actually present
+numeric_1h_peak_status,IMERG numeric result status
+anchor_source,External chainage anchor used to calibrate reported road kilometre interval.
+recommended_anchor_sensitivity_m,Mandatory sensitivity range around non-survey chainage anchor.

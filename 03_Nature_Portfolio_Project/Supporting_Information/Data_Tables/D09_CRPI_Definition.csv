@@ -1,0 +1,13 @@
+﻿component,definition_or_class,score_or_rule,interpretation
+Flood evidence tier A,A_OBSERVED_ROAD_DISRUPTION,1.00 (balanced),Direct documented 2025 road disruption within the D01 core.
+Flood evidence tier B,B_HIGH_EVIDENCE_SUSCEPTIBILITY,0.75 (balanced),"Recurrent/official flood evidence with supporting terrain evidence, or overlapping recurrent evidence."
+Flood evidence tier C,C_POTENTIAL_SUSCEPTIBILITY,0.40 (balanced),At least one flood-evidence or strong low-lying terrain signal.
+Flood evidence tier D,D_BACKGROUND,0.00,No current evidence-based susceptibility flag.
+Healthcare criticality,healthcare_criticality_percentile,0–1,Percentile of segment-level population dependency among core roads with positive healthcare dependency.
+Population dependency,healthcare_dependency_population,people-proxy,"max(shortest-path through-flow population, local origin-access population) transferred from D06R graph."
+CRPI,100 × flood evidence score × healthcare criticality percentile,0–100,Relative preparedness screening index; not probability and not expected annual loss.
+P1 Critical,CRPI percentile ≥95% among eligible A/B/C roads with positive dependency,,Top preparedness tier.
+P2 High,80–<95%,,High preparedness tier.
+P3 Moderate,50–<80%,,Moderate preparedness tier.
+P4 Watchlist,<50% positive,,Watchlist among eligible roads.
+P0 Not priority,Background or zero healthcare dependency,,Not prioritized by this screening framework.

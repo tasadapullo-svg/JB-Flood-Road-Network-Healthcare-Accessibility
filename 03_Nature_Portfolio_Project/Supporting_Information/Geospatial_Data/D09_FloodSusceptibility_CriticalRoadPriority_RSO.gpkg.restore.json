@@ -1,0 +1,17 @@
+{
+  "original_relative_path": "03_Nature_Portfolio_Project/Supporting_Information/Geospatial_Data/D09_FloodSusceptibility_CriticalRoadPriority_RSO.gpkg",
+  "original_file_name": "D09_FloodSusceptibility_CriticalRoadPriority_RSO.gpkg",
+  "original_size_bytes": 28131328,
+  "original_sha256": "fa6acf201242c3a76f087893edc9871d1e2588992b84eaf1144a08270a624554",
+  "part_size_limit_bytes": 20971520,
+  "parts": [
+    {
+      "file": "D09_FloodSusceptibility_CriticalRoadPriority_RSO.gpkg.part001",
+      "sha256": "43cabd50fb75e1a7ac0e0bac938a39f4113747b5dded7337772bdb615355294c"
+    },
+    {
+      "file": "D09_FloodSusceptibility_CriticalRoadPriority_RSO.gpkg.part002",
+      "sha256": "c9b824360b9e107ae2b1b3a45139617ee55554bdcd92dc0c3d139dc5970f9410"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "original_relative_path": "03_Nature_Portfolio_Project/Supporting_Information/Geospatial_Data/JB_Baseline_Healthcare_Accessibility_RSO_1.gpkg",
+  "original_file_name": "JB_Baseline_Healthcare_Accessibility_RSO_1.gpkg",
+  "original_size_bytes": 48787456,
+  "original_sha256": "8add70561c72aa9b2610fb9a70e9833f57d5c5183aa634623c8aa1aefec28401",
+  "part_size_limit_bytes": 20971520,
+  "parts": [
+    {
+      "file": "JB_Baseline_Healthcare_Accessibility_RSO_1.gpkg.part001",
+      "sha256": "a15af848c4dc4fa1fb89113d0aee5cebbc485defae0de50b95f1ed5d1394a2e4"
+    },
+    {
+      "file": "JB_Baseline_Healthcare_Accessibility_RSO_1.gpkg.part002",
+      "sha256": "d5185c0c35cf6d0a488653aca1a6d9e5ab9b9f9760a371276096222ae75794d5"
+    },
+    {
+      "file": "JB_Baseline_Healthcare_Accessibility_RSO_1.gpkg.part003",
+      "sha256": "2eb616f791538abcaa5cd32bf8d17eedd9e3649efdff58934c3693e229318d43"
+    }
+  ]
+}

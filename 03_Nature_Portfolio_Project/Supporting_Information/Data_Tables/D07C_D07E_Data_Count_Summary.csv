@@ -1,0 +1,11 @@
+﻿dataset_component,row_count,interpretation
+Source inventory,28,provenance records
+Event master,3,reconstructed event records
+Official 2025 policy hotspots,52,authoritative hotspot gazetteer
+Historical location evidence,131,source-location evidence rows; overlaps intentionally preserved
+Unique canonical historical/evidence locations,80,"deduplicated names, not all spatially verified"
+Road impact register,29,road-specific impact records
+Observed general-car closure candidates,6,closure-admissible after exact edge spatialization
+GPM half-hour granule manifest,144,metadata rows; numeric data bytes pending auth
+GPM JB-intersecting grid cells,20,spatial grid cells
+Hydromet alignment register,4,station/source alignment records

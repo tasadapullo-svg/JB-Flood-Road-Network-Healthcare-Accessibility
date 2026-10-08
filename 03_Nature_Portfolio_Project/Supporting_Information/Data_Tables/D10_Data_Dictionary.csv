@@ -1,0 +1,9 @@
+﻿field_name,definition
+incremental_population_restored,Closure-induced unreachable population restored at the current recovery step
+cumulative_population_restored,Total restored population from the initial three-road disruption
+cumulative_recovery_pct_of_initial_loss,"Cumulative restored population divided by the initial 4,961.045 closure-induced loss"
+newly_unreachable_pct_subdistrict,Closure-induced newly unreachable population divided by subdistrict population
+subdistrict_weighted_gini_unreachable_rate,Weighted Gini across the eight subdistrict closure-induced unreachable rates
+subdistrict_weighted_sd_unreachable_rate_pct,Population-weighted SD of subdistrict unreachable rates
+population_restored_per_km_nominal,Nominal first-step recovered population divided by observed closure length
+recovery_stage,"1=J105, 2=FT01, 3=FT003 in the best nominal sequence"

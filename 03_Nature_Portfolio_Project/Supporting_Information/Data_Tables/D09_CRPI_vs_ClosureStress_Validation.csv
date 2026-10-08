@@ -1,0 +1,2 @@
+﻿top_CRPI_segments_tested,stress_tests_passed,spearman_CRPI_vs_newly_unreachable_top20,spearman_CRPI_vs_mean_delay_top20,interpretation
+20,20,0.07679416643362656,0.8401093115116662,"CRPI is a preparedness screening index, not a substitute for explicit edge-removal accessibility loss. Observed-event recovery priorities remain based on D08 disruption consequences."

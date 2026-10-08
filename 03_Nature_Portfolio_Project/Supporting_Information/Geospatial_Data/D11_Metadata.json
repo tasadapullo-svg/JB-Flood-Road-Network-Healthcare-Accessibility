@@ -1,0 +1,11 @@
+{
+  "dataset": "D11 Final Results Architecture / Figure-Table Freeze",
+  "version": "v1.0",
+  "main_figures": 5,
+  "main_tables": 4,
+  "results_architecture_status": "PASS",
+  "scientific_reports_story_sufficient": true,
+  "primary_positioning": "event-based urban flood-road-healthcare-accessibility resilience",
+  "do_not_position_as": "probabilistic flood-hazard model",
+  "main_effect": "localized network disconnection and spatial inequality, not citywide mean delay"
+}

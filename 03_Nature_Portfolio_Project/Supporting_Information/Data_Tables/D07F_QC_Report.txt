@@ -1,0 +1,53 @@
+D07-F EXACT ROAD-SPATIALIZATION + IMERG NUMERIC READINESS — QC REPORT
+Version: v0.3-recalibrated
+
+1. PURPOSE
+Map the six evidence-admissible general-car closures to the frozen OSM/D06 routing network, and compute actual IMERG 1 h / 3 h / 6 h peaks only when authenticated NASA data bytes exist.
+
+2. ROAD CLOSURE RECORDS
+Total closure-admissible records reviewed: 6.
+Chainage-resolved and D08-authorized with explicit sensitivity rules: 4.
+Source-limited exact-edge extent pending: 2.
+
+3. AUTHORIZED 2025 RECORDS
+FT003 km9.1-10.0: PASS AFTER RECALIBRATION.
+- Previous raw-OSM-route-origin chainage interpretation is withdrawn.
+- Official Petron station evidence identifies Petron Pandan Ulu/Pandan Ulung at 9 KM Jalan Kota Tinggi.
+- Adjacent OSM roadside feature Petron Pandan (node 9794057450; 1.52502 N, 103.77113 E) is used as a spatial proxy for the km9 anchor.
+- Proxy-to-carriageway distances: 10.24 m and 25.42 m.
+- Reported km9.1-10.0 interval is mapped as +0.1 to +1.0 km from the calibrated km9 anchor on both carriageways.
+- D06 subedges: 59; total dual-carriageway overlap: 1800.000 m; partial boundary edges: 4.
+- D08 rule: primary mapping + mandatory ±150 m anchor-sensitivity test; not survey-grade kilometre-marker positioning.
+
+FT01 km19.6-20.0: PASS / high-confidence km19 anchor + D06 trunk distance; ±50 m sensitivity retained.
+J105 km7.0-7.5: PASS / topology-chainage mapping; ±100 m chainage-origin sensitivity retained.
+J46 km2.0-2.3: PASS / reconstructed route length 5246.828 m vs published 5237 m; ±50 m km0-orientation sensitivity retained.
+
+4. 2023 EXPLICIT CLOSURES
+Gertak Merah toward Wisma Persekutuan: exact Gertak Merah x Jalan Ayer Molek junction resolved, but source does not state closure start/end length. D08 edge closure is NOT authorized yet.
+Jalan Kolam Ayer toward city centre/Nong Chik Heights: named corridor and exact Nong Chik Heights junction resolved, but “sebahagian” has no chainage/start-end. D08 edge closure is NOT authorized yet.
+
+5. GRAPH-BOUNDARY PRECISION
+Reported/calibrated chainage boundaries may cut through a D06 subedge. Such records are marked requires_graph_split=True. D08 must split those subedges at the closure boundary rather than closing an unnecessarily long whole edge.
+
+6. IMERG AVAILABILITY
+Expected authenticated half-hourly V07B granules: 144.
+Numeric granules found in workspace: 0.
+Missing: 144.
+Therefore actual 1 h / 3 h / 6 h rainfall peaks are NOT computable in the current workspace and are NOT claimed.
+
+7. IMERG PROCESSOR
+A deterministic HDF5 processor is included. Once all 144 authenticated files are uploaded, it calculates 20 JB grid-cell half-hour values, rolling 1 h/3 h/6 h totals, per-cell peaks, and district maximum cell-window peaks.
+
+8. D08 GATE
+Full D08 remains NOT AUTHORIZED.
+Reason A: 2 of 6 explicit 2023 closures remain source-limited in edge extent.
+Reason B: IMERG numeric data bytes are absent, so event rainfall peaks are not frozen.
+
+9. PARTIAL D08 READINESS
+The four 2025 chainage-based closures are spatialized with declared sensitivity rules and can be used later in an anchor-event sensitivity run after the IMERG/event gate is completed.
+
+10. FINAL STATUS
+D07-F ROAD SPATIALIZATION: PARTIAL PASS — 4/6 D08-authorized with sensitivity rules; 2/6 exact junction/corridor resolved but edge extent pending.
+D07-E IMERG NUMERIC PEAKS: BLOCKED BY AUTHENTICATED DATA BYTES — 0/144 numeric granules present.
+FULL D08: NOT AUTHORIZED.

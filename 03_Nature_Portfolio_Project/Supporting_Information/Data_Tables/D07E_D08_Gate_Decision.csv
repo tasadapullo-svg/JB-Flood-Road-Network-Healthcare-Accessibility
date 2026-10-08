@@ -1,0 +1,8 @@
+﻿gate_item,status,basis
+GPM raw data 144/144,PASS,All authenticated HDF5 granules present and continuous.
+1h/3h/6h rainfall peaks,PASS,Computed from half-hour accumulation; no fabricated values.
+Senai gauge comparison,PASS_WITH_LIMITATION,IMERG 143.23 mm vs gauge 176.20 mm on 20 Mar.
+2025 JKR rainfall context,PASS_WITH_LIMITATION,Road dates aligned; exact closure onset times unavailable.
+D07-F 2025 closure geometry,PASS_WITH_SENSITIVITY,Use four spatially authorized 2025 closures with frozen sensitivity rules.
+2023 closure exact extent,NOT_PASS,Two source-limited closures remain outside primary observed-edge D08 scenario.
+D08 primary 2025 observed closure scenario,AUTHORIZED,Proceed with four D07-F-authorized 2025 closures only.

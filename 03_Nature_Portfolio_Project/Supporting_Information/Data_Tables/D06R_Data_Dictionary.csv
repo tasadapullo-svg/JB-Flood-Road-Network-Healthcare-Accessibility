@@ -1,0 +1,7 @@
+﻿field_name,definition
+D06R_reachable,Reachability to at least one acute/emergency hospital under corrected D06R.
+D06R_nearest_hospital_id,Nearest acute/emergency hospital under corrected D06R.
+D06R_min_travel_time_min,Reference/free-flow network travel time to nearest acute/emergency hospital.
+D06R_accessible_within_30min,Corrected 30-minute accessibility indicator.
+D06R_accessible_within_45min,Corrected 45-minute accessibility indicator.
+D06R_accessible_within_60min,Corrected 60-minute accessibility indicator.

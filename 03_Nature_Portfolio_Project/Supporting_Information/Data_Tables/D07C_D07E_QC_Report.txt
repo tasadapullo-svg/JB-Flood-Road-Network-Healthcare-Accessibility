@@ -1,0 +1,154 @@
+D07-C + D07-E QC REPORT — VERSION 0.2
+
+1. RESEARCH PURPOSE
+PASS.
+The database targets the causal chain:
+short-duration intense rainfall -> urban inundation / flash flood ->
+road impassability or documented traffic impairment ->
+healthcare accessibility disruption.
+
+It is NOT a generic flood-risk surface.
+
+2. OFFICIAL JOHOR BAHRU HOTSPOT GAZETTEER
+Official 2025 Johor policy hotspots recovered: 52 / 52.
+Policy definition: flood frequency >=3 times within the latest 3 years.
+The same policy reports 108 Johor Bahru flood events in JPS annual records for 2006-2022.
+This supersedes the older 36/44-count references as the current primary hotspot baseline,
+while older counts are retained as historical provenance.
+
+3. HOTSPOT SPATIALIZATION
+Official 52 hotspot OSM matches:
+31 exact/accepted OSM matches at current automated stage.
+Remaining names are retained as fuzzy-review/unresolved and are NOT assigned coordinates by guess.
+
+Historical/evidence canonical locations: 80
+Exact/accepted historical-location OSM spatial matches: 45
+Unresolved/fuzzy historical locations remain review-only.
+
+4. HISTORICAL LOCATION EVIDENCE
+Source-location evidence rows: 131
+Unique canonical locations: 80
+Official-policy hotspot matches among evidence locations: 14
+Additional multi-event/multi-year recurrent locations: 11
+Additional multi-source-supported single-event locations: 5
+
+Important:
+131 is an evidence-row count, NOT 131 independent unique flood sites.
+Repeated sources/event observations are deliberately preserved for auditability.
+
+5. 2025 MBJB 27-AFFECTED-AREA RECOVERY
+Official reported total: 27.
+Exact examples explicitly named in the public authoritative retrospective source: 8.
+Unresolved exact member identities: 19.
+Taman Tampoi Indah is strongly documented as severely affected in the same event,
+but is NOT silently counted as an explicitly enumerated member of the 27.
+PPS/evacuation communities are also retained separately rather than used to fabricate the missing names.
+Status: SOURCE-DISCLOSURE GAP / NOT FABRICATED.
+
+6. ROAD IMPACT EVIDENCE
+Road-impact rows: 29.
+General-car closure-admissible records: 6.
+These currently include:
+- 2025 JKR T / B3 road records;
+- 2023 explicit MBJB road closures carried by reputable reporting.
+All other inundated/one-lane-open records remain passable or unpenalized until evidence supports a cost change.
+
+7. EXACT ROAD SPATIALIZATION STATUS
+2025 JKR route/landmark candidates have been recorded.
+Pasar Borong Pandan was found in OSM and nearby FT003/Jalan Pandan candidate segments were logged.
+2023 Jalan Gertak Merah and Jalan Kolam Ayer road-name corridors were found in OSM.
+However, entire candidate corridors are NOT closed.
+Exact direction/chainage-to-edge matching remains mandatory before D08 routing scenarios.
+
+8. 2022 RECURRENT URBAN FLASH-FLOOD RECONSTRUCTION
+PASS / v0.2.
+Evidence includes:
+- short intense rainfall reported near 100 mm in one hour by an official-statement source;
+- multiple inundated city roads;
+- Hospital Sultanah Aminah and Kampung Mohd Amin impacts;
+- high-tide context.
+Road inundation is preserved without inventing a closure where closure was not explicitly stated.
+
+9. 2023 RECURRENT URBAN FLASH-FLOOD RECONSTRUCTION
+PASS / v0.2.
+Evidence includes:
+- MBJB-reported 25 affected locations;
+- >2 h heavy-rain event wording;
+- high-tide context;
+- multiple independently reported road/area locations;
+- two explicit road-closure records.
+Source wording on rainfall is preserved exactly and is not converted into an unsupported mm/h value.
+
+10. LONGER-TERM RECURRENCE EVIDENCE
+Official Johor legislative records and JPS annual flood records add recurrent sites from 2015-2022.
+Kampung Belantik retains a 2012-2025 recurrence record with approximately two-hour heavy-rain triggering
+and near-1-m water depth reported in 2025 official-agency coverage.
+
+11. SHORT-DURATION RAINFALL CRITERIA
+MET Malaysia operational thunderstorm-warning reference:
+rain intensity >20 mm/hour, single warning <=6 h.
+Johor 2030 policy citing JPS significant-flood context:
+rain >60 mm/hour OR river overflow.
+These are reference criteria only.
+They are NOT substituted for missing event observations.
+
+12. GPM IMERG DATASET
+Product: NASA GPM IMERG Final Half-Hourly V07B / GPM_3IMERGHH.07.
+Native resolution: 0.1 degree / 30 min.
+Johor Bahru-intersecting grid cells: 20.
+
+13. GPM EVENT WINDOW
+Target window:
+2025-03-19 00:00 MYT to 2025-03-21 23:30 MYT.
+Equivalent UTC:
+2025-03-18 16:00 to 2025-03-21 15:30.
+Half-hour granules required: 144.
+Manifest rows generated: 144.
+UTC DOY coverage: 077, 078, 079 and 080.
+
+This UTC+8 correction is deliberate; using UTC calendar dates 19-21 alone would misalign
+the Malaysia-local event window by 8 hours.
+
+14. GPM NUMERIC DATA STATUS
+Authenticated HDF5 data bytes: PENDING EARTHDATA AUTH.
+1 h / 3 h / 6 h GPM rainfall values: NOT YET CLAIMED.
+An authenticated earthaccess processing script and 144-granule manifest are included.
+No numeric GPM rainfall is fabricated.
+
+15. HYDROMET ALIGNMENT
+Senai MET station 48679:
+1.63 N, 103.67 E.
+Nearest standard IMERG cell in this grid:
+GPM_1.65_103.65.
+Observed daily rain:
+176.2 mm on 20 Mar 2025.
+This daily value is NOT divided by 24 to create an hourly intensity.
+
+Sungai Skudai/Kampung Laut and Parit Keliling/Kampung Pasir:
+river-level evidence is retained.
+Exact station coordinates are left pending rather than guessed.
+
+High tide:
+~3.0 m event context retained.
+Station/datum/exact timestamp remain pending.
+
+16. DATA-INTEGRITY RULES
+PASS.
+- no unnamed member of the official 27 areas fabricated;
+- no fuzzy OSM candidate accepted as a coordinate;
+- no daily rainfall divided into hourly rainfall;
+- no inundated road automatically converted into a closure;
+- no B1 road assigned an arbitrary speed penalty;
+- source-specific inconsistencies are retained rather than silently reconciled.
+
+17. FINAL STATUS
+D07-C FLOOD HOTSPOT GAZETTEER:
+PASS v0.2 WITH SPATIAL REVIEW FLAGS AND 2025 27-AREA SOURCE-DISCLOSURE GAP.
+
+D07-E HYDROMETEOROLOGICAL ALIGNMENT:
+PASS FOR DESIGN / MANIFEST / TIME ALIGNMENT;
+NUMERIC IMERG 1h/3h/6h RESULTS PENDING AUTHENTICATED NASA DATA BYTES.
+
+D08 ROAD-DISRUPTION ROUTING:
+NOT YET AUTHORISED AS A FULL SCENARIO.
+Only closure-admissible records with exact edge spatialization may proceed.

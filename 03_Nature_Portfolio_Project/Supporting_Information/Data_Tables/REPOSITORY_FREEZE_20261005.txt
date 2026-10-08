@@ -1,0 +1,49 @@
+﻿SCIENTIFIC REPORTS GITHUB REPOSITORY FREEZE
+
+Date:
+2026-10-05
+
+Scientific data archive:
+FROZEN
+
+D06R authoritative baseline:
+YES
+
+Repository structure:
+PASS
+
+README:
+PASS
+
+DATA_AVAILABILITY:
+PASS
+
+REPOSITORY_STRUCTURE:
+PASS
+
+.gitignore:
+PASS
+
+CITATION.cff:
+PASS / PENDING DOI
+
+File manifest:
+PASS
+
+External data manifest:
+PASS
+
+Files >=100 MiB tracked:
+0
+
+Repository total size:
+1077.73 MiB
+
+GitHub upload readiness:
+READY
+
+Git push performed:
+NO
+
+NEXT ACTION:
+Manual review -> create GitHub repository -> initial commit -> push.

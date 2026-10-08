@@ -1,0 +1,4 @@
+﻿metric,D06_original,D06R_corrected,difference
+reachable_origin_count,74175.0,74168.0,-7.0
+reachable_population,1900800.614911089,1900604.0877224302,-196.5271886587143
+population_weighted_mean_min,7.2170960396299835,7.210855926674443,-0.006240112955540056

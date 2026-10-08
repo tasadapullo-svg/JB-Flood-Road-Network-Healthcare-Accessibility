@@ -1,0 +1,21 @@
+{
+  "original_relative_path": "03_Nature_Portfolio_Project/Supporting_Information/Geospatial_Data/JB_D06R_Corrected_Healthcare_Accessibility_RSO.gpkg",
+  "original_file_name": "JB_D06R_Corrected_Healthcare_Accessibility_RSO.gpkg",
+  "original_size_bytes": 54329344,
+  "original_sha256": "3c477791a31682cdc36a5f6c306be32cf5120bce6edc79125874b82cfa3996c7",
+  "part_size_limit_bytes": 20971520,
+  "parts": [
+    {
+      "file": "JB_D06R_Corrected_Healthcare_Accessibility_RSO.gpkg.part001",
+      "sha256": "792d463b6e99e6d3e0dcb07adad602a0e13efcc1d6526e0688fc313b9c6aa075"
+    },
+    {
+      "file": "JB_D06R_Corrected_Healthcare_Accessibility_RSO.gpkg.part002",
+      "sha256": "26f32b15aa7d11afe955ed14d3f9d2db57344a1ff5b0ef27e78c74abbb7a05c2"
+    },
+    {
+      "file": "JB_D06R_Corrected_Healthcare_Accessibility_RSO.gpkg.part003",
+      "sha256": "f803b8865971ddf101b08b3b420b16c54692936cbb4b666287661d92383755bd"
+    }
+  ]
+}

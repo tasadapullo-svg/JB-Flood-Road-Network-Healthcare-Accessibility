@@ -1,0 +1,199 @@
+D09 — FLOOD SUSCEPTIBILITY / CRITICAL ROAD PRIORITY INDEX
+Version: v1.0
+
+1. PURPOSE
+Combine the evidence-based flood susceptibility screening from D08 with
+healthcare-network structural criticality from the corrected D06R routing model.
+
+Two distinct products are intentionally kept separate:
+
+A) NETWORK-WIDE PREPAREDNESS CRPI
+   For all D01 core road segments.
+   Answers: which flood-susceptible roads deserve proactive resilience / inspection / mitigation attention?
+
+B) OBSERVED-2025 RECOVERY PRIORITY
+   For the four D07-F/D08 observed road closures.
+   Answers: during the reconstructed March-2025 event, which documented closure sections matter most
+   for restoring healthcare accessibility?
+
+This separation prevents a structural screening index from being misrepresented as an observed causal effect.
+
+2. D06R HEALTHCARE CRITICALITY
+Corrected D06R origins: 75,149
+Population: 1,905,758.571311
+Acute/emergency hospitals: 14
+
+D06 routing subedges with positive healthcare dependency: 202,949
+Same-OSM-way subedges mapped to D01 core road segments: 201,035
+Mapping rate: 99.056906%
+Maximum accepted map distance: 1.854252 m
+
+Core road segments with positive healthcare dependency: 53,202
+A/B/C flood-susceptible core segments with positive healthcare dependency: 1,458
+
+Segment structural dependency is defined as:
+max(
+  maximum shortest-path population flow across mapped D06R subedges,
+  summed local-origin access population
+).
+
+This is a population-dependency proxy, not a count of unique independent travellers on every road.
+
+3. FLOOD SUSCEPTIBILITY EVIDENCE
+Primary balanced evidence scores:
+A Observed road disruption = 1.00
+B High-evidence susceptibility = 0.75
+C Potential susceptibility = 0.40
+D Background = 0.00
+
+Alternative score-spacing checks:
+Linear: A=1.00, B=0.667, C=0.333
+Steep:  A=1.00, B=0.60, C=0.25
+
+These are ordinal evidence scores.
+They are NOT flood probabilities.
+
+4. CRPI
+CRPI = 100 × flood evidence score × healthcare criticality percentile.
+
+CRPI is a relative preparedness screening index.
+It is NOT:
+- annual flood probability;
+- expected annual loss;
+- return period;
+- a direct prediction of newly unreachable population.
+
+5. PREPAREDNESS PRIORITY CLASSES
+Eligible roads:
+A/B/C susceptibility + positive healthcare dependency.
+
+P1 Critical: top 5% CRPI among eligible roads.
+P2 High: 80th–<95th percentile.
+P3 Moderate: 50th–<80th percentile.
+P4 Watchlist: below 50th percentile but positive.
+P0: background or zero healthcare dependency.
+
+P1 road segments: 74
+P2 road segments: 218
+
+Observed 2025 core-road segments by preparedness class:
+{'P1_CRITICAL': 30, 'P4_WATCHLIST': 4, 'P0_NOT_PRIORITY': 4, 'P2_HIGH': 3, 'P3_MODERATE': 2}
+
+6. RANK ROBUSTNESS
+mapping_a mapping_b  spearman_rank_rho
+ balanced    linear           0.999107
+ balanced     steep           0.991277
+   linear     steep           0.995279
+
+Top-100 overlap across all three evidence-score mappings:
+99 common of
+101 total distinct top-100 candidates.
+
+Interpretation:
+The highest-priority network-wide candidates are highly stable to reasonable changes in the ordinal
+spacing assigned to A/B/C flood evidence tiers.
+
+7. TOP NAMED NON-OBSERVED PREPAREDNESS CORRIDORS
+These are not claimed to have failed in March 2025.
+They are high-priority preparedness candidates because recurrent/high-evidence flood susceptibility
+coincides with strong healthcare-network dependency.
+
+ corridor_rank                     corridor_key  max_CRPI  max_healthcare_dependency_population
+            10     Jalan Yahya Awal | SECONDARY 71.735085                           5640.805148
+            11  J1 | Persiaran Abu Bakar Sultan 69.637420                           7266.259629
+            12            J3 | Jalan Kolam Ayer 68.599865                           2326.881199
+            13     Jalan Ayer Molek | SECONDARY 68.537132                           1779.341669
+            14   Jalan Nong Chik | UNCLASSIFIED 67.982407                           1381.122595
+            17        Jalan Enau | UNCLASSIFIED 66.475414                            988.368988
+            18  Jalan Bunga Melor | RESIDENTIAL 66.361227                           1038.814779
+            19    Jalan Mohd Amin | RESIDENTIAL 64.245235                            846.050598
+            20        Jalan Nipah | RESIDENTIAL 64.188846                            646.442295
+            21 Jalan Engku Endot | UNCLASSIFIED 63.254906                            554.731150
+
+8. OBSERVED 2025 EVENT RECOVERY PRIORITY
+          closure_id                         reported_road  newly_unreachable_min  newly_unreachable_median  newly_unreachable_max                  recovery_priority_group
+C2025_FT003_9.1_10.0 FT003 Jalan Johor Bahru - Kota Tinggi             462.288485                462.288485             571.954424 GROUP_2_SECONDARY_CONNECTIVITY_REROUTING
+C2025_FT01_19.6_20.0        FT01 Jalan Johor Bahru - Senai            1278.999497               1278.999497            1278.999497    GROUP_1_PRIMARY_CONNECTIVITY_RECOVERY
+  C2025_J105_7.0_7.5        J105 Jalan Maju Jaya - Seelong             812.446984               3219.757497            3228.121350    GROUP_1_PRIMARY_CONNECTIVITY_RECOVERY
+   C2025_J46_2.0_2.3                   J46 Jalan Ulu Pulai               0.000000                  0.000000               0.000000     GROUP_4_LOW_HEALTHCARE_ACCESS_EFFECT
+
+Frozen interpretation:
+GROUP 1: J105 + FT01
+GROUP 2: FT003
+GROUP 4: J46
+
+J105 has the largest nominal/median isolation consequence but is position-sensitive.
+FT01 has a smaller but extremely stable isolation consequence.
+Therefore J105 and FT01 should be treated as the principal connectivity-critical recovery group,
+not as an assertion that J105 is uniquely dominant under every uncertainty position.
+
+9. CORE-vs-CONTEXT GEOGRAPHY
+          closure_id  total_length_m  length_inside_D01_m  inside_share_pct
+C2025_FT003_9.1_10.0     1800.000000               1800.0             100.0
+C2025_FT01_19.6_20.0      399.993051                  0.0               0.0
+  C2025_J105_7.0_7.5     1000.000000               1000.0             100.0
+   C2025_J46_2.0_2.3      299.988540                  0.0               0.0
+
+FT003 and J105 are fully within the D01 district core.
+FT01 and J46 are outside the D01 core but inside the D06 routing context and still affect D01 residents.
+Therefore:
+- network-wide CRPI GIS ranks D01 core roads;
+- the observed-event recovery table retains all four closures, including context-road failures.
+
+10. TOP-20 CRPI FULL-SEGMENT STRESS TEST
+ top_CRPI_segments_tested  stress_tests_passed  spearman_CRPI_vs_newly_unreachable_top20  spearman_CRPI_vs_mean_delay_top20                                                                                                                                                                         interpretation
+                       20                   20                                  0.076794                           0.840109 CRPI is a preparedness screening index, not a substitute for explicit edge-removal accessibility loss. Observed-event recovery priorities remain based on D08 disruption consequences.
+
+The CRPI has strong association with rerouting/delay consequence in this targeted validation,
+but weak association with newly unreachable population.
+
+This is scientifically important:
+high baseline population dependency does not automatically mean that closing one segment creates isolation,
+because network redundancy matters.
+
+Therefore:
+- CRPI is appropriate for PREPAREDNESS SCREENING;
+- actual EVENT RECOVERY ORDER should use explicit D08 closure-removal consequences.
+
+11. GIS OUTPUT
+The GIS package contains:
+- all 81,314 D01 core roads with CRPI fields;
+- P1 critical segments;
+- P1+P2 segments;
+- official recurrent flood hotspots;
+- historical recurrent locations;
+- observed 2025 closure sections;
+- district boundary.
+
+The map can therefore show:
+Observed flood-disrupted roads
+High-evidence flood-susceptible and healthcare-critical roads
+Potential flood-susceptible healthcare routes
+Future preparedness priorities
+
+12. SCIENTIFIC TERMINOLOGY
+Allowed:
+- Critical Road Priority Index (CRPI)
+- Flood susceptibility
+- High-evidence susceptibility
+- Potential susceptibility
+- Healthcare-network criticality
+- Recovery priority
+- Preparedness priority
+
+Not allowed without a later probability model:
+- high flood probability
+- 80% probability of flooding
+- 1-in-N-year road failure probability
+
+13. FINAL STATUS
+D09 NETWORK-WIDE PREPAREDNESS CRPI: PASS.
+D09 OBSERVED-2025 RECOVERY PRIORITY: PASS.
+CRPI RANK ROBUSTNESS: PASS.
+GIS PRIORITY MAP: PASS.
+QUANTITATIVE FLOOD-PROBABILITY INTERPRETATION: NOT AUTHORIZED.
+
+Recommended scientific use:
+Use CRPI to identify preparedness corridors.
+Use D08 observed closure consequences to prioritize actual March-2025 recovery.
+Do not collapse the two into a single causal metric.

@@ -1,0 +1,13 @@
+{
+  "dataset": "D06R Corrected Baseline Healthcare Accessibility",
+  "version": "v1.0",
+  "created_utc": "2026-10-05T06:14:02.732482+00:00",
+  "correction": "one-way origin-departure direction logic only",
+  "origin_count": 75149,
+  "population_total": 1905758.5713106135,
+  "hospital_count": 14,
+  "reachable_population": 1900604.0877224302,
+  "weighted_mean_min": 7.210855926674443,
+  "weighted_p90_min": 12.422815071450964,
+  "scientific_status": "PASS / replaces D06 for downstream scientific comparison"
+}

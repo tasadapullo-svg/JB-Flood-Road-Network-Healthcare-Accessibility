@@ -1,0 +1,36 @@
+{
+  "dataset": "D09 Flood Susceptibility / Critical Road Priority Index",
+  "version": "v1.0",
+  "created_utc": "2026-10-05T04:27:59.437735+00:00",
+  "study_area": "Johor Bahru District core; D06 routing context retained for observed-event closure consequences",
+  "core_road_segments": 81314,
+  "positive_healthcare_dependency_segments": 53202,
+  "eligible_susceptible_dependency_segments": 1458,
+  "P1_segments": 74,
+  "P2_segments": 218,
+  "CRPI_formula": "100 * flood_evidence_score_balanced * healthcare_criticality_percentile",
+  "flood_evidence_scores_balanced": {
+    "A_OBSERVED_ROAD_DISRUPTION": 1.0,
+    "B_HIGH_EVIDENCE_SUSCEPTIBILITY": 0.75,
+    "C_POTENTIAL_SUSCEPTIBILITY": 0.4,
+    "D_BACKGROUND": 0.0
+  },
+  "priority_percentiles": {
+    "P1": ">=95",
+    "P2": "80-<95",
+    "P3": "50-<80",
+    "P4": "<50 positive",
+    "P0": "not eligible"
+  },
+  "probability_interpretation_allowed": false,
+  "observed_event_primary_recovery_group": [
+    "C2025_J105_7.0_7.5",
+    "C2025_FT01_19.6_20.0"
+  ],
+  "observed_event_secondary_group": [
+    "C2025_FT003_9.1_10.0"
+  ],
+  "observed_event_low_healthcare_effect": [
+    "C2025_J46_2.0_2.3"
+  ]
+}

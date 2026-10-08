@@ -1,0 +1,25 @@
+{
+  "original_relative_path": "03_Nature_Portfolio_Project/Supporting_Information/Data_Tables/D09_RoadSegment_CRPI.csv",
+  "original_file_name": "D09_RoadSegment_CRPI.csv",
+  "original_size_bytes": 64404512,
+  "original_sha256": "e32d0a96d629211fc38fc0e17131ae09fa8c97f7e558457804ed6eeb9cac1afd",
+  "part_size_limit_bytes": 20971520,
+  "parts": [
+    {
+      "file": "D09_RoadSegment_CRPI.csv.part001",
+      "sha256": "01d00ae40141db322d971ccd5d1200bc4a987318db8723df3dcf9a05dab849e6"
+    },
+    {
+      "file": "D09_RoadSegment_CRPI.csv.part002",
+      "sha256": "ac7be465e634dd9df1cb7897f2e24cd56d6c87d7d50c99de4f9d7b747c9d8bb8"
+    },
+    {
+      "file": "D09_RoadSegment_CRPI.csv.part003",
+      "sha256": "b497e6b219c7328443b55bf3d757aadb0557ae42277859a6f70a199e957afa88"
+    },
+    {
+      "file": "D09_RoadSegment_CRPI.csv.part004",
+      "sha256": "8a8cd8489a54c3d9e3aa0d6508c072b9ab5e1912c7da3ba1f51b2a0d686c48a2"
+    }
+  ]
+}

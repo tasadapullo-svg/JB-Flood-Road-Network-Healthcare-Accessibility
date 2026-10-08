@@ -1,0 +1,17 @@
+{
+  "original_relative_path": "03_Nature_Portfolio_Project/Supporting_Information/Data_Tables/D05C_WorldPop_Origins_RoadSnap.csv",
+  "original_file_name": "D05C_WorldPop_Origins_RoadSnap.csv",
+  "original_size_bytes": 32162081,
+  "original_sha256": "6fadf8c7449ade7f02e3b2ff255d0439a10e0b9826ee3900a75f58342f2fbd13",
+  "part_size_limit_bytes": 20971520,
+  "parts": [
+    {
+      "file": "D05C_WorldPop_Origins_RoadSnap.csv.part001",
+      "sha256": "245f2d18072cd81944268a73163b1565d58ace9747ea7322e10fe8df69006740"
+    },
+    {
+      "file": "D05C_WorldPop_Origins_RoadSnap.csv.part002",
+      "sha256": "2834ef2837c00bca7fb9b0bf42482bd0a9a325211146e1cf2941a54e14577fba"
+    }
+  ]
+}

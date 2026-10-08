@@ -1,0 +1,91 @@
+D06 BASELINE ROAD ROUTING GRAPH + HEALTHCARE ACCESSIBILITY REPORT
+
+1. Scope
+   Flood-free/reference baseline for 75,149 WorldPop origins and 14 acute/emergency hospitals.
+
+2. Routing context
+   Johor Bahru District + 10 km routing buffer.
+   Singapore administrative polygon is explicitly excluded to prevent cross-border shortcuts.
+
+3. OSM source
+   malaysia-singapore-brunei-261003.osm.pbf
+   Snapshot: 2026-10-03
+   SHA-256: 33174694771c7bc3b34cf740497a46a371b4acd6bd1e2fdff7e9052a659039df
+
+4. Routing graph construction
+   Allowed OSM highway classes include motorway/trunk/primary/secondary/tertiary and *_link,
+   residential, unclassified, service, and living_street.
+   access=no subedges are excluded.
+   Every OSM LineString vertex is used for topology; routing is directed using oneway tags.
+
+5. Graph size
+   Parent roads after context/class filter: 192,366
+   Vertex-level subedges: 441,799
+   Routing nodes: 390,090
+   Directed time arcs after duplicate-pair minimization: 775,374
+   Weak components: 108
+   Largest weak component node share: 98.417545%
+
+6. Reference speed model
+   Explicit OSM maxspeed subedge length: 558.971 km (3.815757%)
+   Class-fallback subedge length: 14090.052 km (96.184243%)
+   Fallback speeds (km/h): {"MOTORWAY": 90.0, "TRUNK": 80.0, "PRIMARY": 60.0, "SECONDARY": 50.0, "TERTIARY": 40.0, "UNCLASSIFIED": 35.0, "RESIDENTIAL": 30.0, "SERVICE": 20.0, "LIVING_STREET": 15.0}
+   IMPORTANT: This is a reference/free-flow routing model, not an observed network-wide traffic-time surface.
+
+7. Access-point mapping to routing graph
+   Origin access points: 75,149
+   Origin mapping gap median/max: 0.000000 / 0.000103 m
+   Hospital access points: 14
+   Hospital mapping gap median/max: 0.000000 / 0.000000 m
+
+8. Population reachability
+   Total population: 1,905,758.571311
+   Reachable population: 1,900,800.614911 (99.739843%)
+   Unreachable population: 4,957.956400 (0.260157%)
+   Reachable origins: 74,175 / 75,149
+
+9. Population-weighted baseline nearest-hospital travel time (reachable population)
+   Mean: 7.217096 min
+   P10: 3.243034 min
+   P25: 4.597471 min
+   P50: 6.487752 min
+   P75: 8.849668 min
+   P90: 12.424492 min
+   P95: 14.924933 min
+
+10. 30/45/60-minute accessibility
+       metric  origin_count  origin_pct   population  population_pct  weighted_mean_min  weighted_p50_min  weighted_p90_min  weighted_p95_min
+    REACHABLE         74175   98.703908 1.900801e+06       99.739843           7.217096          6.487752         12.424492         14.924933
+WITHIN_30_MIN         73069   97.232165 1.898815e+06       99.635643                NaN               NaN               NaN               NaN
+WITHIN_45_MIN         74175   98.703908 1.900801e+06       99.739843                NaN               NaN               NaN               NaN
+WITHIN_60_MIN         74175   98.703908 1.900801e+06       99.739843                NaN               NaN               NaN               NaN
+
+11. Routing-time interpretation
+    Origin and hospital off-network snap distances are treated as map-matching offsets and are NOT added to road travel time.
+    The baseline therefore represents road-network travel time between computational access points.
+
+12. Shortest path output policy
+    Dijkstra shortest paths are calculated on the directed network.
+    To keep the reproducibility package tractable, 75,149 full path geometries are not materialized.
+    Each origin stores its nearest hospital, minimum travel time, minimum directed network distance,
+    threshold coverage, and hospital redundancy. The graph node/arc tables permit path reconstruction.
+
+13. CHECK 1 — ROUTING CONTEXT / CROSS-BORDER CONTROL
+    PASS
+
+14. CHECK 2 — DIRECTED TOPOLOGY
+    PASS
+
+15. CHECK 3 — ORIGIN / HOSPITAL ACCESS MAPPING
+    PASS
+
+16. CHECK 4 — ACCESSIBILITY COMPUTATION
+    PASS
+
+17. Method limitation
+    Reference travel times depend partly on road-class fallback speeds where OSM maxspeed is absent.
+    They must not be described as observed congestion travel times.
+    Later flood scenarios should use this same baseline graph/speed model so that differences are caused by flood-network disruption rather than a changed baseline specification.
+
+18. Final status
+    D06 BASELINE ROAD ROUTING + HEALTHCARE ACCESSIBILITY: PASS WITH REFERENCE-SPEED LIMITATION

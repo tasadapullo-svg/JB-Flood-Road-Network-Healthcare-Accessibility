@@ -1,0 +1,14 @@
+﻿field_name,definition
+event_id,Stable event identifier
+road_event_id,Stable road-impact record identifier
+jkr_route,JKR route identifier exactly as reported
+jkr_section_km,JKR reported chainage/section
+jkr_event_code,JKR hazard code; BK=banjir kilat
+jkr_status_code,JKR route status code
+general_car_impassable,Derived only from explicit JKR T or B3 status for general private-car mode
+short_duration_numeric_verified,Whether an event-specific numeric hourly rainfall intensity is verified
+reported_mbjb_affected_area_count,Total affected MBJB area count stated by official retrospective source
+public_list_completeness,Whether all named affected areas are publicly enumerated in the current source set
+D04_facility_id,Crosswalk to frozen D04 healthcare database where available
+evidence_grade,Strength/provenance category
+source_id,Foreign key to D07-A source inventory

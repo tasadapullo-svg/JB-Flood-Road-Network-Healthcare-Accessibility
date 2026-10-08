@@ -1,0 +1,28 @@
+{
+  "dataset": "D08 Step 1 2025 Observed Flood Closure Healthcare Accessibility",
+  "version": "v0.1",
+  "created_utc": "2026-10-05T03:49:12.077755+00:00",
+  "population_total": 1905758.5713106135,
+  "origin_count": 75149,
+  "hospital_count": 14,
+  "baseline": "D06R corrected one-way origin departure baseline",
+  "D06_original_deprecated": true,
+  "scenario_definitions": {
+    "MAR20_OBSERVED": [
+      "C2025_FT003_9.1_10.0",
+      "C2025_FT01_19.6_20.0",
+      "C2025_J105_7.0_7.5"
+    ],
+    "MAR21_OBSERVED": [
+      "C2025_J46_2.0_2.3"
+    ],
+    "EVENT_FOOTPRINT_UNION": [
+      "C2025_FT003_9.1_10.0",
+      "C2025_FT01_19.6_20.0",
+      "C2025_J105_7.0_7.5",
+      "C2025_J46_2.0_2.3"
+    ]
+  },
+  "event_footprint_union_simultaneous_claim": false,
+  "next_step": "closure-location sensitivity"
+}

@@ -1,0 +1,3 @@
+﻿event_id_candidate,date,role,short_duration_evidence,road_inundation,road_closure_or_impassability,compound_tide,healthcare_relevance,primary_next_source,reconstruction_status
+JB-FLD-20220802-01,2022-08-02,RECURRENT_URBAN_FLASH_FLOOD_VALIDATION,heavy rain / flash flood; reported rainfall nearly 100 mm; exact 1 h value requires source reconciliation,YES,YES / stranded vehicles; exact road-status table pending,YES,Hospital Sultanah Aminah affected,SRC_V02,QUEUED_D07_NEXT
+JB-FLD-20231206-01,2023-12-06,RECURRENT_URBAN_FLASH_FLOOD_VALIDATION,>2 h heavy rain; MBJB reports >100 mm intensity wording over 12:45–15:30; unit/time interpretation to be preserved exactly,YES,YES; some roads closed,YES,not yet resolved,SRC_V01,QUEUED_D07_NEXT

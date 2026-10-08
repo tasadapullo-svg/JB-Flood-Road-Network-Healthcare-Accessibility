@@ -1,0 +1,59 @@
+D11 SCIENTIFIC-RESULTS STRENGTH AUDIT
+Version: v1.0
+
+OVERALL JUDGMENT
+RESULT STRUCTURE: SUFFICIENTLY STRONG FOR A COHERENT SCIENTIFIC REPORTS MANUSCRIPT,
+provided the paper is framed as an event-based urban flood–road–healthcare-accessibility resilience study,
+not as a probabilistic flood-hazard model.
+
+WHY THE RESULTS ARE STRONG
+1. The evidence chain is complete:
+   rainfall / flood evidence
+   -> documented road disruption
+   -> healthcare-network disconnection
+   -> spatial concentration
+   -> critical-road preparedness
+   -> quantified recovery benefit.
+
+2. The main accessibility result is not dependent on a single closure geometry:
+   newly unreachable range = 2554–5079 people.
+
+3. Spatial inequality is highly consistent:
+   Tebrau share = 85.4–94.4% of newly unreachable across sensitivity.
+
+4. Recovery benefits are directly quantified:
+   J105-first nominally restores 64.9% of initial loss.
+   J105 + FT01 restore 90.7%.
+
+5. Negative/limited findings are retained:
+   - citywide mean delay is very small;
+   - J46 has negligible healthcare-accessibility consequence;
+   - J105 is not uniquely first under all spatial uncertainty;
+   - CRPI does not equal flood probability.
+
+WHAT THE PAPER MUST NOT BECOME
+- A claim of citywide travel-time collapse.
+- A claim of statistically significant independent observations based on 75,149 population cells.
+- A calibrated flood-probability map.
+- A general causal statement that rainfall directly caused every closure at an exact timestamp.
+
+MAIN REMAINING SCIENTIFIC LIMITATIONS
+1. Quantitative accessibility/recovery results are anchored to one major March-2025 event.
+2. Exact road-closure onset/clearance timestamps are unavailable.
+3. Two observed context-road closures lie outside the D01 district core but influence the routing context.
+4. The susceptibility layer is evidence-based screening, not annual probability.
+5. FCD is not used to calibrate event-specific flood speeds across the entire road network.
+
+FIGURE/TABLE DECISION
+Recommended final main text:
+- 5 core figures.
+- 4 core tables.
+This is enough. Do not add another major result family unless peer-review or a clear research question requires it.
+
+FINAL D11 DECISION
+Results architecture: PASS.
+Scientific story coherence: PASS.
+Sensitivity support: PASS.
+Spatial-equity contribution: PASS.
+Recovery-priority contribution: PASS.
+Ready to move from calculation to manuscript figure/table production: YES.

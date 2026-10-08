@@ -1,0 +1,133 @@
+D07-E FINAL — NASA GPM IMERG V07B HYDROMETEOROLOGICAL ANALYSIS
+Version: v1.0
+
+1. RAW DATA INTEGRITY
+Uploaded ZIP parts: 6
+Unique HDF5 granules: 144
+Expected granules: 144
+Duplicate filenames: 0
+Half-hour cadence: CONTINUOUS
+First UTC interval: 2025-03-18T16:00:00+00:00
+Last UTC interval: 2025-03-21T15:30:00+00:00
+HDF5 Grid/time vs filename mismatches: 0
+Result: PASS
+
+2. LOCAL EVENT WINDOW
+Malaysia Time:
+2025-03-19 00:00 through 2025-03-21 23:30
+Equivalent UTC:
+2025-03-18 16:00 through 2025-03-21 15:30
+Result: PASS
+
+3. PRODUCT FIELD
+Dataset: Grid/precipitation
+Units: mm/hr
+Native temporal resolution: 30 min
+Native spatial resolution: 0.1 degree
+JB-intersecting grid cells: 20
+Grid-time rows analysed: 2880
+Negative/fill values in selected cells: 0
+
+4. JOHOR BAHRU AREA-WEIGHTED DAILY RAINFALL
+local_date  JB_area_weighted_daily_total_mm  JB_area_weighted_72h_total_mm
+2025-03-19                        99.590193                     271.329627
+2025-03-20                       156.471472                     271.329627
+2025-03-21                        15.267962                     271.329627
+
+72-hour area-weighted total:
+271.329627 mm
+
+5. JOHOR BAHRU AREA-WEIGHTED ROLLING PEAKS
+1 h peak: 16.001945 mm; window end 2025-03-20T09:00:00+08:00
+3 h peak: 38.782600 mm; window end 2025-03-20T11:00:00+08:00
+6 h peak: 61.949706 mm; window end 2025-03-20T12:00:00+08:00
+
+6. MAXIMUM AMONG JB-INTERSECTING IMERG CELLS
+Maximum 30-min precipitation rate:
+26.539999 mm/hr
+Cell: GPM_1.55_103.75
+Interval start: 2025-03-20T08:00:00+08:00
+
+Maximum rolling 1 h:
+20.674999 mm
+Cell: GPM_1.35_103.65
+Window end: 2025-03-20T10:00:00+08:00
+
+Maximum rolling 3 h:
+52.689999 mm
+Cell: GPM_1.35_103.65
+Window end: 2025-03-20T12:00:00+08:00
+
+Maximum rolling 6 h:
+97.514997 mm
+Cell: GPM_1.25_103.65
+Window end: 2025-03-20T12:00:00+08:00
+
+Interpretation:
+The maximum-cell values are local grid-cell estimates, not Johor Bahru district means.
+Some edge-intersecting cells cover only a small fraction of the district.
+Use area-weighted values for district-scale statements and cell-specific values for local/road alignment.
+
+7. SHORT-DURATION HEAVY-RAIN REFERENCE
+IMERG half-hour precipitation-rate observations >20 mm/hr:
+Rows: 7
+Unique JB-intersecting cells: 7
+This is satellite evidence of locally intense half-hour rainfall.
+It is not a substitute for an official ground-gauge warning record.
+
+8. SENAI VALIDATION
+MET Senai gauge, 20 Mar 2025:
+176.200000 mm/day
+
+Nearest IMERG grid:
+GPM_1.65_103.65
+Center: 103.649994 E, 1.650000 N
+
+IMERG 20 Mar 2025 daily accumulation:
+143.229995 mm
+
+IMERG - gauge:
+-32.970005 mm
+Difference vs gauge:
+-18.711694%
+
+Interpretation:
+IMERG underestimates the Senai gauge daily total in this event.
+This single event/station comparison is a plausibility check, not a general calibration model.
+
+9. 2025 JKR ROAD-RAIN ALIGNMENT
+          closure_id reported_date       gpm_cells  same_day_total_mm  previous_calendar_day_total_mm  peak_30min_rate_mm_hr  peak_1h_mm  peak_3h_mm  peak_6h_mm
+C2025_FT003_9.1_10.0    2025-03-20 GPM_1.55_103.75         163.739996                      101.389998              26.539999   20.020000   43.589999   65.444998
+C2025_FT01_19.6_20.0    2025-03-20 GPM_1.55_103.65         150.684997                      100.979997              20.449999   15.364999   36.019999   56.069998
+  C2025_J105_7.0_7.5    2025-03-20 GPM_1.55_103.75         163.739996                      101.389998              26.539999   20.020000   43.589999   65.444998
+   C2025_J46_2.0_2.3    2025-03-21 GPM_1.45_103.55          18.835000                      160.279996               7.330000    6.155000   13.640000   26.209999
+
+Important:
+JKR records provide road-impact dates, not exact onset timestamps.
+Therefore rainfall-road alignment is day-level / rolling-context evidence.
+No exact lag or causal onset time is claimed.
+
+10. ROAD-SPECIFIC OBSERVATIONS
+FT003 km9.1-10.0 and J105 km7.0-7.5 fall in the same 0.1-degree IMERG cell
+within the current closure geometry representation.
+FT01 maps to a separate northern/western grid cell.
+J46 was reported on 21 Mar; its same-day rainfall is modest, while the previous calendar day
+contains substantial rainfall. This supports considering antecedent accumulation / persistence,
+but does not establish exact flood lag without a closure onset timestamp.
+
+11. D07-E FINAL STATUS
+RAW NASA IMERG DATA: PASS
+144/144 GRANULE COMPLETENESS: PASS
+UTC/MYT TIME ALIGNMENT: PASS
+20-CELL JB EXTRACTION: PASS
+1 h / 3 h / 6 h NUMERIC PEAKS: PASS
+SENAI DAILY PLAUSIBILITY CHECK: PASS WITH SATELLITE UNDERESTIMATION
+JKR ROAD-RAIN ALIGNMENT: PASS WITH ROAD-TIMESTAMP LIMITATION
+
+12. D08 GATE
+HYDROMET GATE: PASS.
+
+FULL D08 remains conditional on using only road closures whose D07-F geometry is spatially
+authorized, with the stated chainage/anchor sensitivity ranges and graph splitting where required.
+The two 2023 source-limited closures remain excluded from the primary observed-edge scenario
+unless a predefined source-limited sensitivity abstraction is separately introduced.

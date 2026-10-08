@@ -1,0 +1,28 @@
+{
+  "dataset": "D10 Spatial Equity + Recovery Benefit Analysis",
+  "version": "v1.0",
+  "created_utc": "2026-10-05T04:36:32.295903+00:00",
+  "primary_disruption": "March-20 2025 observed closures: J105 + FT01 + FT003",
+  "initial_newly_unreachable_population": 4961.045478571206,
+  "tebrau_share_initial_loss_pct": 94.39423969517748,
+  "nominal_best_order": [
+    "J105",
+    "FT01",
+    "FT003"
+  ],
+  "robust_recovery_tiers": {
+    "Tier1": [
+      "J105",
+      "FT01"
+    ],
+    "Tier2": [
+      "FT003"
+    ]
+  },
+  "stage1_population_restored": 3219.757496956736,
+  "stage1_pct_initial_loss_restored": 64.90078574897552,
+  "stage2_cumulative_population_restored": 4498.756993521005,
+  "stage2_pct_initial_loss_restored": 90.68163178412665,
+  "spatial_equity_metrics": "descriptive subdistrict weighted Gini/SD/max; not inferential statistics",
+  "p_value_claim_authorized": false
+}

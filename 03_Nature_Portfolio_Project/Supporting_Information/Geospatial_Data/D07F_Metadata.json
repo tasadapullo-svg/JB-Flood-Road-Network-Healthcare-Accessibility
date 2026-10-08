@@ -1,0 +1,33 @@
+{
+  "dataset": "D07-F closure spatialization and IMERG numeric readiness",
+  "version": "v0.3",
+  "created_utc": "2026-10-05T01:00:55.626096+00:00",
+  "closure_records_total": 6,
+  "d08_authorized_road_records": 4,
+  "source_limited_records": 2,
+  "d06_edge_overlap_records": 104,
+  "requires_graph_split_records": 12,
+  "imerg_expected_granules": 144,
+  "imerg_numeric_granules_present": 0,
+  "imerg_numeric_peaks_frozen": false,
+  "full_D08_authorized": false,
+  "integrity_rules": [
+    "No source-limited corridor is converted into an arbitrary closure length.",
+    "Partial chainage-boundary subedges require graph splitting.",
+    "FT003 chainage is calibrated to an official 9-km landmark and evaluated with ±150 m anchor sensitivity; raw OSM route-origin chainage is not used.",
+    "No IMERG peak is claimed without authenticated numeric data bytes."
+  ],
+  "updated_utc": "2026-10-05T01:08:30.014217+00:00",
+  "FT003_chainage_calibration": {
+    "previous_raw_route_origin_mapping_withdrawn": true,
+    "official_chainage_anchor": "Petron Pandan Ulu/Pandan Ulung, Lot 1699, 9 KM Jalan Kota Tinggi",
+    "spatial_proxy": "OSM roadside bus stop Petron Pandan, node 9794057450, 1.52502 N 103.77113 E",
+    "proxy_route_offsets_m": [
+      10.2391732989,
+      25.4189094689
+    ],
+    "recommended_anchor_sensitivity_m": 150,
+    "calibrated_total_dual_carriageway_overlap_m": 1800.000000000001,
+    "survey_grade": false
+  }
+}

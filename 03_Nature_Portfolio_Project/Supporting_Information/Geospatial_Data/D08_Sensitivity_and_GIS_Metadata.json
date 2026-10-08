@@ -1,0 +1,19 @@
+{
+  "dataset": "D08 Sensitivity and Flood Susceptibility GIS",
+  "version": "v1.0",
+  "created_utc": "2026-10-05T04:08:49.070963+00:00",
+  "mar20_sensitivity_combinations": 27,
+  "closure_uncertainty_m": {
+    "C2025_FT003_9.1_10.0": 150,
+    "C2025_FT01_19.6_20.0": 50,
+    "C2025_J105_7.0_7.5": 100,
+    "C2025_J46_2.0_2.3": 50
+  },
+  "nominal_newly_unreachable_population": 4961.045478571206,
+  "sensitivity_newly_unreachable_min": 2553.734966058284,
+  "sensitivity_newly_unreachable_max": 5079.075270641595,
+  "tebrau_share_min_pct": 85.44078524985306,
+  "tebrau_share_max_pct": 94.40367456973814,
+  "gis_screening_buffer_m": 250,
+  "gis_probability_interpretation": "susceptibility screening only; not calibrated probability"
+}

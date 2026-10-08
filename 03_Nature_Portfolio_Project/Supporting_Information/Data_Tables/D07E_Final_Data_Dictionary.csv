@@ -1,0 +1,9 @@
+﻿field_name,definition,unit
+precipitation_rate_mm_hr,IMERG Grid/precipitation rate for one 30-min interval,mm/hr
+half_hour_accum_mm,precipitation_rate_mm_hr × 0.5 h,mm
+rolling_1h_mm,Sum of 2 consecutive half-hour accumulations,mm
+rolling_3h_mm,Sum of 6 consecutive half-hour accumulations,mm
+rolling_6h_mm,Sum of 12 consecutive half-hour accumulations,mm
+area_weight,Share of Johor Bahru district intersection area represented by an IMERG cell,fraction
+same_day_total_mm,Road-section GPM accumulation on the JKR reported local date,mm
+previous_calendar_day_total_mm,Road-section GPM accumulation on the preceding local calendar date,mm

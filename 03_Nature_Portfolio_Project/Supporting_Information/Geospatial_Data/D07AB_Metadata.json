@@ -1,0 +1,17 @@
+{
+  "dataset": "D07 Historical Flood Event Register",
+  "version": "v0.1",
+  "event_id": "JB-FLD-20250319-01",
+  "created_utc": "2026-10-04T15:46:46.549673+00:00",
+  "study_area": "Johor Bahru District, Johor, Malaysia",
+  "primary_event": "March 2025",
+  "primary_mode": "general private car",
+  "key_method_rule": "Only road-specific evidence can generate observed road closure/impassability in later routing scenarios.",
+  "short_rain_rule": ">20 mm/hour when verified; official flash-flood classification can serve only as a non-numeric proxy.",
+  "known_limitations": [
+    "full 27-area MBJB list not publicly enumerated in retrieved official source",
+    "hourly 2025 event rainfall not yet verified",
+    "exact JKR chainage-to-OSM segment mapping pending",
+    "tide station/datum/time unspecified in retrospective MBJB statement"
+  ]
+}

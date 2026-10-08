@@ -1,0 +1,24 @@
+{
+  "purpose": "Build an auditable Johor Bahru historical flood-event and road-impact database for evidence-driven healthcare accessibility disruption modelling.",
+  "core_priority_conditions": {
+    "C1_SHORT_DURATION_HEAVY_RAIN": {
+      "quantitative_rule": "rainfall intensity >20 mm/hour where official hourly observations are available",
+      "source_basis": "MET Malaysia thunderstorm-warning criterion",
+      "duration_context": "short-period warning <=6 hours",
+      "proxy_rule": "If numeric hourly rainfall is unavailable, official JKR/agency classification as BANJIR KILAT may be used only as a flash-flood proxy; it does NOT create a numeric rainfall value."
+    },
+    "C2_URBAN_INUNDATION": {
+      "rule": "Official/reputable evidence of road, residential, neighbourhood or urban surface inundation / flash flooding / waterlogging.",
+      "required_for_core_road_scenario": true
+    },
+    "C3_ROAD_IMPASSABILITY_GENERAL_CAR": {
+      "rule": "JKR status T (road closed) OR B3 (open to heavy vehicles only) is treated as impassable to ordinary private cars.",
+      "partial_impairment": "B1 = one lane open; retained as passable-but-impaired and not assigned an arbitrary speed penalty until calibrated."
+    },
+    "C4_COMPOUND_DRIVERS": {
+      "rule": "River danger exceedance and/or high tide are stored as causal/contextual modifiers, not substitutes for direct road-impact evidence."
+    }
+  },
+  "scenario_admission_rule": "A road edge may enter an observed closure scenario only when road-specific evidence supports closure/impassability. Area-level flood reports alone cannot automatically close nearby roads.",
+  "population_accessibility_mode": "general private car; emergency-vehicle behaviour must be modelled separately."
+}

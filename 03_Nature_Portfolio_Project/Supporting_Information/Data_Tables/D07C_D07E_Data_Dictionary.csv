@@ -1,0 +1,10 @@
+﻿field_name,definition
+hotspot_id,Stable ID for one of the 52 official Johor Bahru policy hotspots
+canonical_location,Normalized historical/event location name; source raw names remain separately stored
+independence_group,Evidence-origin grouping used to avoid treating repeated republication as independent corroboration
+recurrence_class,Official policy hotspot / multi-event / multi-source / single-source evidence class
+general_car_scenario_action,Road-disruption action allowed by evidence; non-closure records receive no arbitrary penalty
+gpm_cell_id,IMERG 0.1-degree cell intersecting D01 Johor Bahru District
+myt_start,Malaysia local half-hour timestamp used for event alignment
+half_hour_accumulation_formula,IMERG precipitation rate (mm/h) multiplied by 0.5 h
+download_status,Whether authenticated NASA numeric bytes have been downloaded and verified

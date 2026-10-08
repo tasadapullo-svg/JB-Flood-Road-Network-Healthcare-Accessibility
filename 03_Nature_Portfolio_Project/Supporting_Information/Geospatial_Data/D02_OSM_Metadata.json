@@ -1,0 +1,85 @@
+{
+  "dataset_id": "D02",
+  "dataset_name": "Johor Bahru OSM Road Network Extraction and Standardisation",
+  "provider": "OpenStreetMap / Geofabrik",
+  "snapshot_date": "2026-10-03",
+  "raw_filename": "malaysia-singapore-brunei-261003.osm.pbf",
+  "raw_path": "D:\\OneDrive\\桌面\\Nature Portfolio_Project\\06_Road_Network\\OSM\\RAW\\malaysia-singapore-brunei-261003.osm.pbf",
+  "raw_md5": "c7ddd154bd34d0c910837832600c8a1c",
+  "raw_sha256": "33174694771c7bc3b34cf740497a46a371b4acd6bd1e2fdff7e9052a659039df",
+  "raw_file_size": 251629147,
+  "raw_modified_time": "2026-10-04T18:34:51.925323",
+  "study_area": "Johor Bahru District",
+  "boundary_source": "D01 frozen official Johor Bahru District boundary",
+  "boundary_file": "D:\\OneDrive\\桌面\\Nature Portfolio_Project\\01_Study_Area\\Study_Area_Final\\JB_Study_Area_Final.gpkg",
+  "core_definition": "Johor Bahru District official boundary",
+  "routing_buffer_distance_m": 10000,
+  "original_format": "OSM PBF",
+  "output_formats": [
+    "OSM PBF",
+    "GeoPackage",
+    "PNG",
+    "JSON",
+    "CSV",
+    "TXT"
+  ],
+  "working_crs": "EPSG:4326",
+  "metric_crs": "EPSG:3375",
+  "software": {
+    "python": "3.10.11",
+    "platform": "Windows-10-10.0.19045-SP0",
+    "geopandas": "1.1.4",
+    "shapely": "2.1.2",
+    "pyogrio": "0.13.0",
+    "osmium_python": "installed",
+    "matplotlib": "3.10.9",
+    "networkx": "3.4.2"
+  },
+  "software_version": {
+    "python": "3.10.11",
+    "platform": "Windows-10-10.0.19045-SP0",
+    "geopandas": "1.1.4",
+    "shapely": "2.1.2",
+    "pyogrio": "0.13.0",
+    "osmium_python": "installed",
+    "matplotlib": "3.10.9",
+    "networkx": "3.4.2"
+  },
+  "processing_method": "pyogrio/GDAL OSM PBF line extraction, pyosmium selected-object PBF writing, GeoPandas/Shapely polygon clipping",
+  "road_types_included": [
+    "living_street",
+    "motorway",
+    "motorway_link",
+    "primary",
+    "primary_link",
+    "residential",
+    "road",
+    "secondary",
+    "secondary_link",
+    "service",
+    "tertiary",
+    "tertiary_link",
+    "trunk",
+    "trunk_link",
+    "unclassified"
+  ],
+  "road_types_auxiliary": [
+    "track"
+  ],
+  "processing_datetime": "2026-10-04T18:52:01.021172",
+  "processing_steps": [
+    "Validated D01 frozen boundary layers and CRS.",
+    "Validated raw PBF MD5 and calculated SHA-256.",
+    "Built Johor Bahru District core extent and 10 km routing buffer in EPSG:3375.",
+    "Read OSM PBF lines with highway tags within each extent.",
+    "Clipped road geometries to core and routing buffer polygons.",
+    "Standardized road attributes and computed length_m in EPSG:3375.",
+    "Wrote WGS84 and RSO GeoPackages, clipped OSM PBF subsets, QC maps, metadata, dictionary, and logs."
+  ],
+  "notes": [
+    "RAW files were copied into the required RAW directory and not modified.",
+    "Track roads are retained only in road_auxiliary.",
+    "Routing buffer is not the formal study area.",
+    "Clipped PBF files contain selected highway ways intersecting each extent, referenced nodes, and relations referencing selected ways; geometries are not simplified or snapped."
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "dataset": "D07-C + D07-E Flood Hotspot Gazetteer and Hydro-Meteorological Alignment",
+  "version": "v0.2",
+  "created_utc": "2026-10-04T17:13:13.912929+00:00",
+  "study_area": "Johor Bahru District, Johor, Malaysia",
+  "research_focus": "short-duration intense rainfall -> urban inundation/flash flood -> road impassability -> healthcare accessibility disruption",
+  "official_2025_policy_hotspots": 52,
+  "official_hotspot_definition": ">=3 flood occurrences within the latest 3 years",
+  "JPS_2006_2022_JB_flood_event_frequency": 108,
+  "historical_location_evidence_rows": 131,
+  "unique_canonical_evidence_locations": 80,
+  "historical_locations_exact_or_alias_OSM_matches": 45,
+  "road_impact_rows": 29,
+  "closure_admissible_general_car_records_before_exact_edge_resolution": 6,
+  "mbjb_2025_reported_affected_areas": 27,
+  "mbjb_2025_explicit_public_examples_recovered": 8,
+  "mbjb_2025_unresolved_exact_members": 19,
+  "gpm_product": "GPM_3IMERGHH.07 V07B Final",
+  "gpm_native_resolution": "0.1 degree / 30 min",
+  "gpm_local_analysis_window": "2025-03-19 00:00 through 2025-03-21 23:30 MYT",
+  "gpm_manifest_granules": 144,
+  "gpm_data_bytes_status": "PENDING_EARTHDATA_AUTH",
+  "gpm_numeric_1h_3h_6h_status": "NOT_YET_COMPUTED; NO FABRICATED VALUES",
+  "gpm_JB_intersecting_cells": 20,
+  "primary_method_limits": [
+    "Full authoritative enumeration of all 27 March-2025 MBJB affected areas was not found in public sources; only 8 examples are explicitly named.",
+    "NASA IMERG HDF5 numeric data are controlled by Earthdata authentication in the available access path.",
+    "Exact JKR chainage-to-OSM edge spatialization remains pending for all 2025 road records.",
+    "Fuzzy OSM place-name matches are audit candidates only and are not accepted coordinates.",
+    "Inundated roads without explicit closure/passability evidence receive no arbitrary speed penalty."
+  ]
+}

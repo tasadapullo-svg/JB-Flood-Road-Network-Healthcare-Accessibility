@@ -1,0 +1,81 @@
+﻿canonical_location,target_name,match_status,osm_name,osm_layer,candidate_count,fuzzy_score,longitude,latitude,accepted_coordinate
+Kampung Kangkar Tebrau,Kampung Kangkar Tebrau,EXACT_OSM,Kampung Kangkar Tebrau,multipolygons,1,100.0,103.75660417305872,1.531815,True
+Kampung Laut Skudai,Kampung Skudai Laut,FUZZY_REVIEW_90,Skudai,points,4,90.0,,,False
+Kampung Maju Jaya,Kampung Maju Jaya,EXACT_OSM,Kampung Maju Jaya,points,1,100.0,103.71591810000001,1.5810921,True
+Kampung Pasir Tebrau,Kampung Pasir Tebrau,FUZZY_REVIEW_90,Tebrau,points,1,90.0,,,False
+Kampung Paya Kenangan,Kampung Paya Kenangan,FUZZY_REVIEW_86,Paya Lebar,points,16,85.5,,,False
+Jalan Ayer Molek,Jalan Ayer Molek,EXACT_OSM,Jalan Ayer Molek,lines,15,100.0,103.7587117,1.4594963,True
+Kampung Mohd Amin,Kampung Mohd Amin,EXACT_OSM,Kampung Mohd Amin,points,2,100.0,103.7354126,1.4673637000000002,True
+Jalan Kolam Ayer,Jalan Kolam Air,EXACT_ALIAS_OSM,Jalan Kolam Air,lines,3,100.0,103.7220526,1.4823854,True
+Kampung Melayu Pandan,Kampung Melayu Pandan,EXACT_OSM,Kampung Melayu Pandan,multipolygons,1,100.0,103.77385834642078,1.52264915,True
+Kampung Pasir,Kampung Pasir,EXACT_OSM,Kampung Pasir,points,1,100.0,103.6969651,1.4955303000000002,True
+Kampung Plentong Baru,Kampung Plentong Baru,EXACT_OSM,Kampung Plentong Baru,points,2,100.0,103.81668850000001,1.5179158000000001,True
+Kampung Sentosa Barat,Kampung Sentosa Barat,FUZZY_REVIEW_90,Sentosa,lines,4,90.0,,,False
+Kampung Sri Serdang,Kampung Sri Serdang,EXACT_OSM,Kampung Sri Serdang,points,1,100.0,103.6919335,1.5017487,True
+Taman Tampoi Indah,Taman Tampoi Indah,EXACT_OSM,Taman Tampoi Indah,points,1,100.0,103.68188860000001,1.5104756000000001,True
+Kampung Belantik,Kampung Belantik,FUZZY_REVIEW_86,Kampung Pengkalan Rinting,points,1,85.5,,,False
+Jalan Stulang Darat,Jalan Stulang Darat,EXACT_OSM,Jalan Stulang Darat,lines,21,100.0,103.7773894,1.4724632,True
+Jalan Tun Abdul Razak,Jalan Tun Abdul Razak,EXACT_OSM,Jalan Tun Abdul Razak,points,90,100.0,103.75273290000001,1.4803791000000002,True
+Jalan Yahya Awal,Jalan Yahya Awal,EXACT_OSM,Jalan Yahya Awal,lines,43,100.0,103.7553464,1.4633725,True
+Jalan Mahmoodiah,Jalan Mahmoodiah,EXACT_OSM,Jalan Mahmoodiah,lines,23,100.0,103.7482815,1.4629658,True
+Jalan Tebrau,Jalan Tebrau,EXACT_OSM,Jalan Tebrau,lines,142,100.0,103.762918,1.4748694,True
+Jalan Sungai Chat,Jalan Sungai Chat,EXACT_OSM,Jalan Sungai Chat,lines,22,100.0,103.7385575,1.4609922,True
+Kampung Bunga Ros,Kampung Bunga Ros,FUZZY_REVIEW_95,Surau Kampung Bunga Ros,multipolygons,1,95.0,,,False
+Kampung Tawakal,Kampung Tawakal,FUZZY_REVIEW_86,Kampung Pengkalan Rinting,points,1,85.5,,,False
+Kampung Tengah Tebrau,Kampung Tengah Tebrau,FUZZY_REVIEW_90,Tengah,points,7,90.0,,,False
+Taman Istimewa,Taman Istimewa,EXACT_OSM,Taman Istimewa,points,1,100.0,103.7698568,1.5305637,True
+Jalan Wong Ah Fook,Jalan Wong Ah Fook,EXACT_OSM,Jalan Wong Ah Fook,lines,6,100.0,103.7656178,1.4576093,True
+Dataran Bandaraya Johor Bahru,Dataran Bandaraya Johor Bahru,EXACT_OSM,Dataran Bandaraya Johor Bahru,multipolygons,1,100.0,103.7419633654604,1.4597388,True
+Hospital Sultanah Aminah,Hospital Sultanah Aminah,EXACT_OSM,Hospital Sultanah Aminah,points,2,100.0,103.7466457,1.4575013,True
+Jalan Ibrahim Sultan,Jalan Ibrahim Sultan,EXACT_OSM,Jalan Ibrahim Sultan,lines,23,100.0,103.7755173,1.4644141,True
+Jalan Padi Makmur,Jalan Padi Makmur,EXACT_OSM,Jalan Padi Makmur,lines,4,100.0,103.7208677,1.4866099,True
+Hutan Bandar Johor Bahru,Hutan Bandar Johor Bahru,FUZZY_REVIEW_90,Johor Bahru,points,80,90.0,,,False
+Jalan Bilal Mahmood,Jalan Bilal Mahmood,EXACT_OSM,Jalan Bilal Mahmood,lines,7,100.0,103.7460468,1.46528,True
+"Jalan Cempaka, Taman Plentong Baru","Jalan Cempaka, Taman Plentong Baru",FUZZY_REVIEW_90,Plentong,points,1,90.0,,,False
+Jalan Dato Sulaiman,Jalan Dato Sulaiman,EXACT_OSM,Jalan Dato Sulaiman,lines,42,100.0,103.7570514,1.4807312,True
+Jalan Dato' Sulaiman,Jalan Dato' Sulaiman,EXACT_OSM,Jalan Dato Sulaiman,lines,42,100.0,103.7570514,1.4807312,True
+Jalan Ismail Sultan,Jalan Ismail Sultan,EXACT_OSM,Jalan Ismail Sultan,points,42,100.0,103.67636920000001,1.4725852000000001,True
+Jalan Kolam Ayer menghala pusat bandar/Nong Chik Heights,Jalan Kolam Ayer menghala pusat bandar/Nong Chik Heights,FUZZY_REVIEW_90,Jalan Kolam Ayer,lines,53,90.0,,,False
+Jalan Lurah 3,Jalan Lurah 3,EXACT_OSM,Jalan Lurah 3,lines,1,100.0,103.7155955,1.5302594,True
+"Jalan Makmur 19-24, Taman Damai Jaya","Jalan Makmur 19-24, Taman Damai Jaya",FUZZY_REVIEW_90,Makmur,points,1,90.0,,,False
+Jalan Mohd Amin,Jalan Mohd Amin,EXACT_OSM,Jalan Mohd Amin,lines,17,100.0,103.7363992,1.4675757,True
+Jalan Padi Huma 10,Jalan Padi Huma 10,EXACT_OSM,Jalan Padi Huma 10,lines,1,100.0,103.7234744,1.4989124,True
+Jalan Padi Huma 9,Jalan Padi Huma 9,EXACT_OSM,Jalan Padi Huma 9,lines,1,100.0,103.7237744,1.4983831,True
+Jalan Pantai Lido,Jalan Pantai Lido,FUZZY_REVIEW_95,Jalan Pantai,lines,26,95.0,,,False
+Jalan Seelong Jaya 2,Jalan Seelong Jaya 2,FUZZY_REVIEW_95,Jalan Seelong 2,lines,1,95.0,,,False
+Jalan Seri Pelangi,Jalan Seri Pelangi,FUZZY_REVIEW_97,Jalan Sri Pelangi,lines,12,97.14285714285714,,,False
+Jalan Serigala,Jalan Serigala,EXACT_OSM,Jalan Serigala,lines,7,100.0,103.760885,1.4853831,True
+Jalan Skudai Pantai Lido hadapan IBS,Jalan Skudai Pantai Lido hadapan IBS,FUZZY_REVIEW_90,Skudai,points,4,90.0,,,False
+Jalan Tun Abdul Razak Susur 2,Jalan Tun Abdul Razak Susur 2,FUZZY_REVIEW_97,Jalan Tun Abdul Razak Susur 7,lines,14,96.55172413793103,,,False
+Jalan Tun Abdul Razak Susur 3,Jalan Tun Abdul Razak Susur 3,FUZZY_REVIEW_97,Jalan Tun Abdul Razak Susur 7,lines,14,96.55172413793103,,,False
+KD Kangkar Tebrau,KD Kangkar Tebrau,FUZZY_REVIEW_95,Kangkar Tebrau,points,1,95.0,,,False
+KD Maju Jaya,KD Maju Jaya,FUZZY_REVIEW_90,Maju,lines,1,90.0,,,False
+KD Plentong,KD Plentong,FUZZY_REVIEW_95,Plentong,points,1,95.0,,,False
+Kampung Baru Sri Aman,Kampung Baru Sri Aman,FUZZY_REVIEW_86,Kempas Baru,points,4,85.5,,,False
+Kampung Bendahara,Kampung Bendahara,EXACT_OSM,Kampung Bendahara,points,1,100.0,103.76279310000001,1.5126160000000002,True
+Kampung Laut Batu 10,Kampung Laut Batu 10,FUZZY_REVIEW_90,Kampung Melayu Batu 10,multipolygons,1,90.47619047619048,,,False
+Kampung Poh Chi Leng,Kampung Poh Chi Leng,FUZZY_REVIEW_95,Kampung Poh Che Leng,multipolygons,1,95.0,,,False
+Kampung Saujana,Kampung Saujana,FUZZY_REVIEW_95,Kampung Saujana Baru,points,2,95.0,,,False
+Kampung Ubi,Kampung Ubi,FUZZY_REVIEW_95,Kampung Ubi Baru,multipolygons,1,95.0,,,False
+Kampung Ubi Majidee,Kampung Ubi Majidee,FUZZY_REVIEW_90,Ubi,points,3,90.0,,,False
+Kampung Ulu Pandan,Kampung Ulu Pandan,EXACT_OSM,Kampung Ulu Pandan,points,1,100.0,103.7683272,1.5345501000000001,True
+Majidee,Majidee,EXACT_OSM,Majidee,points,1,100.0,103.75790760000001,1.5145389,True
+Nong Chik,Nong Chik,FUZZY_REVIEW_90,Kampung Nong Chik,points,1,90.0,,,False
+Pandan,Pandan,EXACT_OSM,Pandan,points,6,100.0,103.76394730000001,1.5218297,True
+Persiaran Abu Bakar Sultan,Persiaran Abu Bakar Sultan,EXACT_OSM,Persiaran Abu Bakar Sultan,lines,91,100.0,103.7190029,1.4843025,True
+Persimpangan Jalan Gertak Merah menghala Wisma Persekutuan,Persimpangan Jalan Gertak Merah menghala Wisma Persekutuan,FUZZY_REVIEW_90,Wisma Persekutuan,points,3,90.0,,,False
+Puteri Harbour Iskandar Puteri,Puteri Harbour Iskandar Puteri,EXACT_OSM,Puteri harbour (Iskandar Puteri),points,2,100.0,103.66077,1.414074,True
+SK Kampung Maju Jaya,SK Kampung Maju Jaya,EXACT_OSM,SK Kampung Maju Jaya,multipolygons,1,100.0,103.71827520455457,1.5804887,True
+SK Kangkar Tebrau,SK Kangkar Tebrau,FUZZY_REVIEW_95,Kangkar Tebrau,points,1,95.0,,,False
+SK Perigi Acheh,SK Perigi Acheh,FUZZY_REVIEW_90,He,points,1,90.0,,,False
+Taman Abad,Taman Abad,FUZZY_REVIEW_86,Taman Jurong Greens,points,2,85.5,,,False
+Taman Bunga Ros,Taman Bunga Ros,EXACT_OSM,Taman Bunga Ros,points,3,100.0,103.8206509,1.5212749,True
+Taman Dato' Onn,Taman Dato' Onn,EXACT_OSM,Taman Dato Onn,points,3,100.0,103.7515869,1.4877309,True
+Taman Desa Mutiara,Taman Desa Mutiara,EXACT_OSM,Taman Desa Mutiara,multipolygons,1,100.0,103.7472561674363,1.5406298,True
+Taman Melodies,Taman Melodies,EXACT_OSM,Taman Melodies,points,1,100.0,103.76138940000001,1.4901965000000001,True
+Taman Nong Chik,Taman Nong Chik,EXACT_OSM,Taman Nong Chik,points,1,100.0,103.7395647,1.4765564,True
+Taman Saujana,Taman Saujana,FUZZY_REVIEW_95,Taman Sri Saujana,points,2,95.0,,,False
+Taman Seri Pandan,Taman Seri Pandan,FUZZY_REVIEW_90,Pandan,points,6,90.0,,,False
+Taman Setia Indah,Taman Setia Indah,EXACT_OSM,Taman Setia Indah,points,1,100.0,103.7592769,1.5689894000000002,True
+Taman Tampoi Utama,Taman Tampoi Utama,EXACT_OSM,Taman Tampoi Utama,points,1,100.0,103.68595540000001,1.502518,True
+Tasek Merdeka,Tasek Merdeka,FUZZY_REVIEW_90,De,points,1,90.0,,,False

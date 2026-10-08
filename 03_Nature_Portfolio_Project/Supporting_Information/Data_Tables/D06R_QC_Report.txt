@@ -1,0 +1,34 @@
+D06R CORRECTED BASELINE — HEALTHCARE ACCESSIBILITY
+Version: v1.0
+
+Correction:
+Only the one-way origin-departure direction logic was corrected.
+
+Affected one-way origin mappings:
+Origins = 11,170
+Population = 215,931.613849
+Share = 11.330481%
+
+Corrected D06R:
+Reachable population = 1,900,604.087722
+Reachable population share = 99.729531%
+Weighted mean nearest-hospital time = 7.210856 min
+Weighted P50 = 6.482191 min
+Weighted P90 = 12.422815 min
+Weighted P95 = 14.920947 min
+30-min coverage = 99.625331%
+45-min coverage = 99.729531%
+60-min coverage = 99.729531%
+
+D06 vs D06R:
+Original weighted mean = 7.217096 min
+Corrected weighted mean = 7.210856 min
+Difference = -0.006240 min
+
+Original reachable population = 1,900,800.614911
+Corrected reachable population = 1,900,604.087722
+Difference = -196.527189
+
+Scientific status:
+D06 original baseline = DEPRECATED FOR SCIENTIFIC COMPARISON.
+D06R corrected baseline = PASS / REQUIRED FOR D08-D10 AND MANUSCRIPT RESULTS.

@@ -1,0 +1,17 @@
+{
+  "original_relative_path": "03_Nature_Portfolio_Project/Supporting_Information/Geospatial_Data/D09_FloodSusceptibility_CriticalRoadPriority_WGS84.gpkg",
+  "original_file_name": "D09_FloodSusceptibility_CriticalRoadPriority_WGS84.gpkg",
+  "original_size_bytes": 28200960,
+  "original_sha256": "93b2742dd0e4523825f4fde6f0ee567332cd591381969e78ad2936dd22d60c39",
+  "part_size_limit_bytes": 20971520,
+  "parts": [
+    {
+      "file": "D09_FloodSusceptibility_CriticalRoadPriority_WGS84.gpkg.part001",
+      "sha256": "a24636cdd4d6ddead529c16990c70af21dfcedc1d684a84d3f1b8d5f35605a0a"
+    },
+    {
+      "file": "D09_FloodSusceptibility_CriticalRoadPriority_WGS84.gpkg.part002",
+      "sha256": "9e2b2be4a6cb0d105022a15fca145c2d4dee4cc88b57e4e635514ff410b471fa"
+    }
+  ]
+}

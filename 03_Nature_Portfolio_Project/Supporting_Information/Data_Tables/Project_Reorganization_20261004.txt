@@ -1,0 +1,33 @@
+﻿PROJECT REORGANIZATION LOG
+Date: 2026-10-04
+Root: D:\OneDrive\桌面\Nature Portfolio_Project
+
+Actions completed:
+1. Moved root-level Copernicus raw DEM tiles to:
+   04_DEM_Terrain\Copernicus_DEM\RAW\
+
+2. Moved root-level processed Johor Bahru DEM files to:
+   04_DEM_Terrain\Copernicus_DEM\PROCESSED\
+
+3. Moved D03 Copernicus final zip to:
+   04_DEM_Terrain\Copernicus_DEM\ARCHIVE\
+
+4. Verified old OSM PBF and MD5 at 06_Road_Network root matched canonical copies in:
+   06_Road_Network\OSM\RAW\
+   Then moved old root-location copies to:
+   99_Temporary\Reorganized_Archive\20261004_root_cleanup\06_Road_Network_old_root_osm\
+
+5. Copied D02-B processing script for reproducibility to:
+   22_Code\08_Road_Network\D02B_process_osm.py
+
+No files were deleted.
+No target files were overwritten.
+Canonical D02-B outputs remain unchanged.
+
+Root-level files remaining:
+- README.md
+- 数据支撑下载.xlsx
+
+Notes:
+- Many empty thematic folders remain because they are part of the project scaffold and may be needed by later D03-Dxx steps.
+- D02-B TEMP run folders were retained for auditability.

@@ -1,0 +1,13 @@
+﻿field_name,definition
+segment_id,Frozen D03/D08 core road-segment identifier
+flood_screening_class,Evidence-based flood susceptibility class from D08 GIS
+path_population_max,Maximum D06R shortest-path population flow among mapped D06 subedges within the core segment
+access_population_sum,Population whose D05/D06 access point maps onto D06 subedges belonging to the core segment
+healthcare_dependency_population,"max(path_population_max, access_population_sum)"
+healthcare_criticality_percentile,Percentile among core segments with positive healthcare dependency
+flood_evidence_score_balanced,"Primary ordinal evidence score A=1.00, B=0.75, C=0.40, D=0"
+CRPI,100 × flood_evidence_score_balanced × healthcare_criticality_percentile
+CRPI_percentile_eligible,CRPI percentile among A/B/C segments with positive healthcare dependency
+recovery_priority_class,P1/P2/P3/P4 preparedness class; P0 otherwise
+observed_newly_unreachable_min/max,D08 observed-closure sensitivity consequence where the segment belongs to a spatialized 2025 closure
+rank_min/rank_max,CRPI rank range across balanced/linear/steep susceptibility score mappings

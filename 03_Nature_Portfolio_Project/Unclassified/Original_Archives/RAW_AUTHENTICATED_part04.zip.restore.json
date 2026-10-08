@@ -1,0 +1,49 @@
+{
+  "original_relative_path": "03_Nature_Portfolio_Project/Unclassified/Original_Archives/RAW_AUTHENTICATED_part04.zip",
+  "original_file_name": "RAW_AUTHENTICATED_part04.zip",
+  "original_size_bytes": 189900287,
+  "original_sha256": "f15b961e20de845d3949004d86d9b90cdd3e74e340791c26c829b6501c0a0176",
+  "part_size_limit_bytes": 20971520,
+  "parts": [
+    {
+      "file": "RAW_AUTHENTICATED_part04.zip.part001",
+      "sha256": "1e51e4051deda967af941ac241681cb0d279ff340bdb08d93c33b1473dd43756"
+    },
+    {
+      "file": "RAW_AUTHENTICATED_part04.zip.part002",
+      "sha256": "557975fa8497d62880734776c80159df76b0de7a1a878a12588b346ba7b2726e"
+    },
+    {
+      "file": "RAW_AUTHENTICATED_part04.zip.part003",
+      "sha256": "2a156aa71ca60baf9dda3d002765f4f695fc92775e475261ac2326b77cc2611a"
+    },
+    {
+      "file": "RAW_AUTHENTICATED_part04.zip.part004",
+      "sha256": "9d424eb0bd55c63a151ced3209791bce4a457011f64bae42bb3e13ea815c830f"
+    },
+    {
+      "file": "RAW_AUTHENTICATED_part04.zip.part005",
+      "sha256": "125bf525e4f99c09dc37eaabe3841f0c8493d09dab4a38150581cd203ba4374d"
+    },
+    {
+      "file": "RAW_AUTHENTICATED_part04.zip.part006",
+      "sha256": "fb3867e13565c40e729cb600884ae404456f4e42fc3191af35f4eb162508cadc"
+    },
+    {
+      "file": "RAW_AUTHENTICATED_part04.zip.part007",
+      "sha256": "95dcba8a1b8bb4682a53b2a0463f376e2bfad9c95cf83d71de4cf71ffe11ea77"
+    },
+    {
+      "file": "RAW_AUTHENTICATED_part04.zip.part008",
+      "sha256": "ebd649aa223d761474f00c0c65473341f70bb099dcae61989c6b6b166b496ca2"
+    },
+    {
+      "file": "RAW_AUTHENTICATED_part04.zip.part009",
+      "sha256": "cf8a29b01fc06b5a3db0dfb2193bdbc21a19cab1617dfdb8f644f5bdf632e2f7"
+    },
+    {
+      "file": "RAW_AUTHENTICATED_part04.zip.part010",
+      "sha256": "c5a1380b8eb8f9ba7d56d44e25892eecb39c406c613eaf2e08309d64701ceb69"
+    }
+  ]
+}

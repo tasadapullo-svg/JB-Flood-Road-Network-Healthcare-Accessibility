@@ -1,0 +1,25 @@
+{
+  "original_relative_path": "03_Nature_Portfolio_Project/Supporting_Information/Archive_Extractions/D06_Routing_Graph_Arcs_Time.csv/Data_Tables/D06_Routing_Graph_Arcs_Time.csv",
+  "original_file_name": "D06_Routing_Graph_Arcs_Time.csv",
+  "original_size_bytes": 83359500,
+  "original_sha256": "c8688912c96834b11157333bc54d058542856c59b7d132ffe0d9d10ac41ff1b8",
+  "part_size_limit_bytes": 20971520,
+  "parts": [
+    {
+      "file": "D06_Routing_Graph_Arcs_Time.csv.part001",
+      "sha256": "840a0936017cdeae1ed83ee9e1f97b89315f76be7db85880bae42dfdc2a0188c"
+    },
+    {
+      "file": "D06_Routing_Graph_Arcs_Time.csv.part002",
+      "sha256": "d57823729190754d7ac3548691f8531cdc6b4725f42c86d1db80215d1b409e8c"
+    },
+    {
+      "file": "D06_Routing_Graph_Arcs_Time.csv.part003",
+      "sha256": "4aacf3956a64e6776ab41a68b9a956125d0dfb837d6d069457a7d737a659d55f"
+    },
+    {
+      "file": "D06_Routing_Graph_Arcs_Time.csv.part004",
+      "sha256": "7e5af30f84d1f5ddfe408e9662d594ad7110a6e58efb7ef4af6532b74d303961"
+    }
+  ]
+}

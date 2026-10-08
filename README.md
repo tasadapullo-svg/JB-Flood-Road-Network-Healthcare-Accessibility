@@ -73,7 +73,7 @@ Files split for GitHub: 35
 Reconstruction verification failures: 0
 
 GitHub-ready total files: 1,113
-GitHub-ready total size: 5,635,875,776 bytes
+GitHub-ready total size: 5,635,876,548 bytes
 GitHub file-size compliance: all files are no larger than 20 MiB
 ```
 

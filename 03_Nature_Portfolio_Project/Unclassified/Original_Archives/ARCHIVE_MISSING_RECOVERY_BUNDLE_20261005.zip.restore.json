@@ -1,0 +1,29 @@
+{
+  "original_relative_path": "03_Nature_Portfolio_Project/Unclassified/Original_Archives/ARCHIVE_MISSING_RECOVERY_BUNDLE_20261005.zip",
+  "original_file_name": "ARCHIVE_MISSING_RECOVERY_BUNDLE_20261005.zip",
+  "original_size_bytes": 93672972,
+  "original_sha256": "2fc63964d411196705912b0dd77509b4d29c3023b735b2c20b98ae91bc37d815",
+  "part_size_limit_bytes": 20971520,
+  "parts": [
+    {
+      "file": "ARCHIVE_MISSING_RECOVERY_BUNDLE_20261005.zip.part001",
+      "sha256": "35b18ed3d3994c5614857a023ba878fd07bce950159efba12d41c8fdb715cd65"
+    },
+    {
+      "file": "ARCHIVE_MISSING_RECOVERY_BUNDLE_20261005.zip.part002",
+      "sha256": "86b8872ead11f7a75849a15693643e37dec22abb25cb000c7eee39c2040ec7c7"
+    },
+    {
+      "file": "ARCHIVE_MISSING_RECOVERY_BUNDLE_20261005.zip.part003",
+      "sha256": "d2593f754fea1bb121d7e3e8a4223b156bb0c1795dc9b5d05df57204059163a5"
+    },
+    {
+      "file": "ARCHIVE_MISSING_RECOVERY_BUNDLE_20261005.zip.part004",
+      "sha256": "ed6faecfd52ce962df8d850780af11ccf216e72a40c742aac22747ccccf49127"
+    },
+    {
+      "file": "ARCHIVE_MISSING_RECOVERY_BUNDLE_20261005.zip.part005",
+      "sha256": "4bb5d3e6f95e6433d71e69deb1f71188e8d1c47c0852b56dc66c7fc1fbd83f72"
+    }
+  ]
+}

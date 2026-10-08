@@ -1,0 +1,77 @@
+{
+  "original_relative_path": "03_Nature_Portfolio_Project/Unclassified/Original_Archives/02_D02_ROAD_NETWORK.zip",
+  "original_file_name": "02_D02_ROAD_NETWORK.zip",
+  "original_size_bytes": 344083818,
+  "original_sha256": "f0ce33fa482483f96545dcf9382d9a35ca4c1c4a2a8e76900796868ec8473593",
+  "part_size_limit_bytes": 20971520,
+  "parts": [
+    {
+      "file": "02_D02_ROAD_NETWORK.zip.part001",
+      "sha256": "3c753cdbbd0c21e58ce7844ed25d20fd126cb22437cf85c475a343c2da5a0ff0"
+    },
+    {
+      "file": "02_D02_ROAD_NETWORK.zip.part002",
+      "sha256": "3090c15285ded06df4e961ecc58aacdc49537ecc211081a79fc5fdbebce1ec45"
+    },
+    {
+      "file": "02_D02_ROAD_NETWORK.zip.part003",
+      "sha256": "26be14b7d1c0a3c16b84b2c0b79bfb7e2d934f71e2a37c5f08dd7571469d2efb"
+    },
+    {
+      "file": "02_D02_ROAD_NETWORK.zip.part004",
+      "sha256": "b66b8f0bfd3b3b10c761bc747d3eab87b7da81aa88dde149e93a00af1524e67c"
+    },
+    {
+      "file": "02_D02_ROAD_NETWORK.zip.part005",
+      "sha256": "bc0f1cb738a94cf5b3fa3b2e9a6572f1ec8ab0ecbc8eb701d9e5d19f08bac93a"
+    },
+    {
+      "file": "02_D02_ROAD_NETWORK.zip.part006",
+      "sha256": "c9ad4ecc17c81341b10269a2ae20fa1553c3a0bdef16d96f6eb3ab57e48884d2"
+    },
+    {
+      "file": "02_D02_ROAD_NETWORK.zip.part007",
+      "sha256": "b58b7830a652b57a817a5f5c4c2045a172ee71e9bf89569f3e6e33a2d6b02272"
+    },
+    {
+      "file": "02_D02_ROAD_NETWORK.zip.part008",
+      "sha256": "b2f7f025028d850edcf0ba478353b92186e6aa94c2a2d440dc055e4abfa4b9a5"
+    },
+    {
+      "file": "02_D02_ROAD_NETWORK.zip.part009",
+      "sha256": "517bc7744fbbe1b68be61caa1ccd413198a84dd72143e19aa0dd981a9adcef5f"
+    },
+    {
+      "file": "02_D02_ROAD_NETWORK.zip.part010",
+      "sha256": "511838874d7429b465fc154cb02e67807432c5f4793dc41c62278aedb3f5c952"
+    },
+    {
+      "file": "02_D02_ROAD_NETWORK.zip.part011",
+      "sha256": "8ceeda92691f773f6e1d501cd344c055d1ca2ed6701c193e00b7c1b7aa7310d5"
+    },
+    {
+      "file": "02_D02_ROAD_NETWORK.zip.part012",
+      "sha256": "26d208bb323b9d12d553788a602e05bf0551bec5811f43c194184156a02a4dfa"
+    },
+    {
+      "file": "02_D02_ROAD_NETWORK.zip.part013",
+      "sha256": "572867de29d9e324c80a6d8fae101a794358a261c0a2b48413e56c40bfec1d00"
+    },
+    {
+      "file": "02_D02_ROAD_NETWORK.zip.part014",
+      "sha256": "635961abfc54798a806db837cb1f3e26008caa007355be64d10f58e51697f1f5"
+    },
+    {
+      "file": "02_D02_ROAD_NETWORK.zip.part015",
+      "sha256": "0ff80a57de5ace834bd58ecb609a5446d3fe4cc37c71e99d3964e4f64df4940b"
+    },
+    {
+      "file": "02_D02_ROAD_NETWORK.zip.part016",
+      "sha256": "c05e2077a8bbf3678abc3546f01bd3aceb96754579549b801f4c0626683b1390"
+    },
+    {
+      "file": "02_D02_ROAD_NETWORK.zip.part017",
+      "sha256": "fa5417c35a8e96b9b7309f723d41c78db6f10edd4f17ac4d9a0812f1b7b8a85b"
+    }
+  ]
+}

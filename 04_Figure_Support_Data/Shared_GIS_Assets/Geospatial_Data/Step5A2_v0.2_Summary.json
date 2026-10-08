@@ -1,0 +1,17 @@
+{
+  "version": "v0.2",
+  "worldcover_tile": "N00E102",
+  "worldcover_local_execution_ready": true,
+  "imerg_v07_final_end": "2025-09-30",
+  "imerg_primary_climatology": "2016-01-01/2024-12-31",
+  "imerg_primary_daily_expected": 3288,
+  "imerg_primary_monthly_expected": 108,
+  "imerg_2025_extension": "2025-01-01/2025-09-30",
+  "osm_pbf_snapshot": "malaysia-singapore-brunei-261003.osm.pbf",
+  "osm_local_extraction_ready": true,
+  "jps_request_status": "REQUEST_SUBMITTED",
+  "jps_request_time": "2026-10-05 18:49 MYT",
+  "f01_f19_accessed": false,
+  "d09_used": false,
+  "step5a3_authorized": false
+}

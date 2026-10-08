@@ -1,0 +1,17 @@
+{
+  "original_relative_path": "04_Figure_Support_Data/Shared_GIS_Assets/Geospatial_Data/ESA_WorldCover_10m_2021_v200_N00E102_Map.tif",
+  "original_file_name": "ESA_WorldCover_10m_2021_v200_N00E102_Map.tif",
+  "original_size_bytes": 36505930,
+  "original_sha256": "24f5c220bc195e2d9e136666901cafad26b8e16790ac19a9a6d7016199c1bfdf",
+  "part_size_limit_bytes": 20971520,
+  "parts": [
+    {
+      "file": "ESA_WorldCover_10m_2021_v200_N00E102_Map.tif.part001",
+      "sha256": "fad91fed508f05c07361f94602a93039ff63ee3baebe1973beacf3c483722aee"
+    },
+    {
+      "file": "ESA_WorldCover_10m_2021_v200_N00E102_Map.tif.part002",
+      "sha256": "59dab853414b30e0ce6f57d139e04e28a08f56c54e55a2312de407ec49e91fc7"
+    }
+  ]
+}

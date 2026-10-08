@@ -1,0 +1,7 @@
+station_id,station_name,main_basin,sub_basin,normal_m,alert_m,warning_m,danger_m,district,source,source_url,target_archive
+11111222,Sg. Tiram di Kg. Bukit Dagang,Sungai Johor,Sg. Tiram,1.0,2.0,3.0,4.0,Johor Bahru,JPS Johor SPHTN,https://infobanjirjpsjohor.water.gov.my/WaterLevel/District/2,Prefer 2016-2025 or longest consistent period
+1536413,Sg. Skudai di Kg. Laut,Sungai Skudai,Sg. Skudai,1.0,2.3,2.6,3.0,Johor Bahru,JPS Johor SPHTN,https://infobanjirjpsjohor.water.gov.my/WaterLevel/District/2,Prefer 2016-2025 or longest consistent period
+1537401,Sg. Tebrau di Kg. Maju Jaya,Sungai Tebrau,Sg. Tebrau,7.9,8.2,8.8,9.4,Johor Bahru,JPS Johor SPHTN,https://infobanjirjpsjohor.water.gov.my/WaterLevel/District/2,Prefer 2016-2025 or longest consistent period
+1537402,Sg. Tebrau di Taman Sri Pandan,Sungai Tebrau,Sg. Tebrau,1.0,1.8,2.0,2.3,Johor Bahru,JPS Johor SPHTN,https://infobanjirjpsjohor.water.gov.my/WaterLevel/District/2,Prefer 2016-2025 or longest consistent period
+1538401,Sg. Plentong di Klinik Desa Plentong,Sungai Tebrau,Sg. Plentong,1.0,3.0,3.5,4.0,Johor Bahru,JPS Johor SPHTN,https://infobanjirjpsjohor.water.gov.my/WaterLevel/District/2,Prefer 2016-2025 or longest consistent period
+7239550,Kolam Air di Nusa Duta,Sungai Danga,Sg. Danga,3.0,4.0,5.0,6.0,Johor Bahru,JPS Johor SPHTN,https://infobanjirjpsjohor.water.gov.my/WaterLevel/District/2,Prefer 2016-2025 or longest consistent period

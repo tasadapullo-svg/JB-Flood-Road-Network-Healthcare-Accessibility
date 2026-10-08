@@ -1,0 +1,33 @@
+STEP 7 METHOD FREEZE
+
+1. Primary quantitative event:
+   20 March 2025, using the previously authorized FT003, FT01 and J105 disruption geometries.
+
+2. Secondary negative/limited-impact event:
+   21 March 2025 J46 disruption.
+
+3. Baseline:
+   D06R corrected directed-routing healthcare-accessibility baseline.
+   The deprecated original D06 baseline is not used.
+
+4. Outcome hierarchy:
+   Primary: newly unreachable population and coverage loss.
+   Secondary: common-reachable travel-time change.
+   This prevents a small citywide mean delay from hiding a meaningful connectivity loss.
+
+5. Sensitivity:
+   Use all 27 declared closure-location combinations.
+   Report nominal result plus min/median/max range.
+   Do not freeze 4,961 people as a universal effect size.
+
+6. Recovery:
+   Preserve all six recovery orders.
+   J105 and FT01 are Tier-1 as a corridor group.
+   J105 may be described as the highest nominal/median-benefit road, but not as uniquely dominant under all spatializations.
+
+7. 2023:
+   Retained as observed operational validation only.
+   No quantitative healthcare-accessibility simulation is introduced because Gertak Merah exact affected edges remain unresolved.
+
+8. Negative result:
+   J46's zero modelled healthcare-accessibility effect must be retained and reported.

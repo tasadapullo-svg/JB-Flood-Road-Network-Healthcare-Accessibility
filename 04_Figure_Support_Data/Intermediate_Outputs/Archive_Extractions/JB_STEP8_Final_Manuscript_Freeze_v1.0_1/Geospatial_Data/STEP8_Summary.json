@@ -1,0 +1,23 @@
+{
+  "step": "Step 8",
+  "version": "v1.0",
+  "status": "CORE_ANALYSIS_COMPLETE_MANUSCRIPT_ARCHITECTURE_FROZEN",
+  "main_figures": 5,
+  "main_tables": 4,
+  "supplementary_tables": 5,
+  "primary_event": "2025-03-20 FT003 + FT01 + J105",
+  "secondary_event": "2025-03-21 J46",
+  "historical_zones": 19,
+  "hospitals": 14,
+  "primary_accessibility_loss_people": 4961.045478571206,
+  "tebrau_share_pct": 94.39423969517748,
+  "sensitivity_range_people": [
+    2553.734966058284,
+    5079.075270641595
+  ],
+  "tier1_recovery_group": [
+    "J105",
+    "FT01"
+  ],
+  "new_experiments": false
+}

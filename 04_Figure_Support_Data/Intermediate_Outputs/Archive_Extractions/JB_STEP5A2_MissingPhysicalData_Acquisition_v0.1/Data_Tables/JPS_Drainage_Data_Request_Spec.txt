@@ -1,0 +1,31 @@
+JPS OFFICIAL DRAINAGE / HYDROGRAPHY DATA REQUEST SPECIFICATION
+
+Study:
+Johor Bahru District flood–road–healthcare-accessibility research.
+
+Spatial scope:
+Johor Bahru District, Johor, plus a small hydrological context margin where required.
+
+Requested geospatial datasets, if available:
+1. Urban storm-drain / main drainage network.
+2. Primary and secondary drainage channels.
+3. River and stream centreline/network.
+4. Canal / engineered channel network.
+5. Drainage-basin / sub-basin boundaries.
+6. Culvert / outlet / pump / tide-gate locations, if distributable.
+7. Channel hierarchy/class, width/capacity/design attributes where distributable.
+8. CRS, update date, lineage, data dictionary and completeness statement.
+
+Preferred format:
+GeoPackage / File Geodatabase / Shapefile / GeoJSON.
+
+Purpose:
+Construction of leakage-free physical flood-susceptibility predictors:
+distance to drainage, drainage density and hydrological context.
+
+Explicit exclusion:
+Historical flood-hotspot labels will not be used to generate the physical predictors.
+
+Official JPS routes identified:
+- Hydrological-data request: SPRHIN / h2o.water.gov.my.
+- Geospatial-data request: JPS SPD geospatial data system.

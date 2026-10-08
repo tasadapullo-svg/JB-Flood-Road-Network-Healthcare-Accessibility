@@ -1,0 +1,45 @@
+JB ANALYSIS GRID FREEZE v1.0
+================================
+
+STATUS: FROZEN
+
+MASTER STUDY BOUNDARY
+- JB_Study_Boundary_v1.0
+- Johor Bahru District
+- Source: MyGDI / JUPEM
+- Metric CRS: EPSG:3377 (GDM2000 / Johor Grid)
+
+COMMON GRID ORIGIN
+- Origin X: -3000.000 m
+- Origin Y: -84000.000 m
+- Origin rule: floor(master boundary minimum x/y to the previous 1000 m)
+- The same origin is used for ALL scales.
+
+GRID SCALES
+1. 500 m x 500 m = PRIMARY analysis grid
+2. 250 m x 250 m = sensitivity grid
+3. 1000 m x 1000 m = sensitivity grid
+
+GRID ID
+- 500 m: JB0500_R####_C####
+- 250 m: JB0250_R####_C####
+- 1000 m: JB1000_R####_C####
+- Rows increase south -> north.
+- Columns increase west -> east.
+- IDs are permanent and must not be renumbered after flood evidence is added.
+
+EDGE-CELL POLICY
+- The analytical square cell remains the permanent grid unit.
+- A clipped geometry is stored separately for exact calculations inside the study boundary.
+- coverage_frac records the fraction of each square inside Johor Bahru District.
+- is_edge = 1 when a cell is partially intersected by the study boundary.
+
+FLOOD EVIDENCE POLICY
+No historical flood severity or recurrence class is encoded in Step 2.
+Future 2022 / 2023 / 2025 and multi-year evidence will be joined to these permanent Grid_ID values.
+
+FUTURE FLOOD MAP STYLE
+- Severe = red, 30% opacity
+- Recurrent = yellow, 30% opacity
+- Mild = blue, 30% opacity
+Display priority: Severe > Recurrent > Mild

@@ -1,0 +1,10 @@
+check,observed,expected,pass
+Zone count,19,19,True
+Severe count,9,9,True
+Recurrent count,8,8,True
+Mild count,2,2,True
+All geometries valid,1,1,True
+All elevation metrics finite,1,1,True
+All slope metrics finite,1,1,True
+D09 used,0,0,True
+Susceptibility model trained,0,0,True

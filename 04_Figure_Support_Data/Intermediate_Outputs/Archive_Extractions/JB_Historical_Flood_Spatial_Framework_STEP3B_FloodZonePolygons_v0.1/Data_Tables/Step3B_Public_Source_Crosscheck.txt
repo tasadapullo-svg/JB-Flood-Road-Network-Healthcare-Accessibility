@@ -1,0 +1,13 @@
+PUBLIC CROSS-CHECKS USED IN STEP 3B
+
+Kampung Laut Skudai:
+- MBIP/NADMA reporting confirms Kampung Laut / Kampung Laut Skudai as the affected locality.
+- Reference coordinate is GeoNames-based (1.5453 N, 103.6605 E), used only as a spatial anchor.
+
+Kampung Tengah Tebrau:
+- JPS Annual Flood Report 2022 explicitly records Kampung Tengah Tebrau.
+- MyGeoName Johor gazetteer contains two 'Kg. Tengah' entries.
+- The urban Johor Bahru/Tebrau candidate (1.51143829 N, 103.76595541 E) is retained
+  as a disambiguated reference coordinate, not as an official settlement boundary.
+
+Public URLs are stored in the geocoding/evidence files.

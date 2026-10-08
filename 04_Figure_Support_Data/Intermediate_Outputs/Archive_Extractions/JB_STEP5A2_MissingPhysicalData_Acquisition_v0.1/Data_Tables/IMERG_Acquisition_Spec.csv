@@ -1,0 +1,4 @@
+tier,product,name,period,expected_time_steps,purpose,priority,note
+PRIMARY_A,GPM_3IMERGM_07,IMERG Final Monthly,2016-01 to 2025-12,120,Monthly climatology; annual and wet-season rainfall,MANDATORY,Smallest practical long-term archive.
+PRIMARY_B,GPM_3IMERGDF_07,IMERG Final Daily,2016-01-01 to 2025-12-31,3653,P95/P99 daily rainfall; extreme-day frequency; annual maxima,MANDATORY,Use GES DISC spatial subsetting to the JB bbox; do not download global archive if avoidable.
+SENSITIVITY,GPM_3IMERGHH_07,IMERG Final Half-hourly,2016-01-01 to 2025-12-31,175344,Climatological rolling 1h/3h/6h extremes,OPTIONAL,"175,344 half-hourly steps; acquire only as spatial subset if needed."

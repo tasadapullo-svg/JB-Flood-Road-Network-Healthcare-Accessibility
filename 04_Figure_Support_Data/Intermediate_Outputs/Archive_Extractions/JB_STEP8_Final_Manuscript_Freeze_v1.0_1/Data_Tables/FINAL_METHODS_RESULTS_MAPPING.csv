@@ -1,0 +1,11 @@
+Methods section,Frozen method content,Results link,Primary outputs
+2.1 Study area and evidence architecture,"Boundary, spatial framework, evidence hierarchy",3.1,Fig. 1; Table 1
+2.2 Historical flood evidence extraction and zone delineation,2012–2025 evidence; 2022/2023/2025 core overlap; F01–F19 freeze,3.1,Fig. 1; Table 2; Table S1
+2.3 Physical-context characterization,"DEM, slope, relative elevation, low-lying screen; descriptive only",3.2,Fig. 1C; Table 2
+2.4 Observed road-disruption definition,2023 named-road impacts; 2025 JKR spatialized sections,3.3,Fig. 3; Tables S2–S3
+2.5 Corrected healthcare-accessibility baseline,Directed routing; population origins; 14 acute/emergency hospitals,3.4,Fig. 2; Table 3
+2.6 Flood-road disruption simulation,Remove authorized FT003/FT01/J105 subedges; J46 secondary case,3.4,Fig. 4; Table 3
+2.7 Spatial inequality assessment,Subdistrict population loss and coverage change,3.5,Fig. 2B; Fig. 4C; Table 3
+2.8 Spatial sensitivity analysis,27 closure-location combinations and rank robustness,3.6,Fig. 5A–B; Table S4
+2.9 Recovery-priority analysis,All six road-recovery orders; first/two-step restoration benefit,3.6,Fig. 2C; Fig. 5C; Table 4; Table S5
+2.10 Quality control and reproducibility,"Frozen geometry, leakage audit, negative-result retention, file manifests",All,Supplementary / Data availability

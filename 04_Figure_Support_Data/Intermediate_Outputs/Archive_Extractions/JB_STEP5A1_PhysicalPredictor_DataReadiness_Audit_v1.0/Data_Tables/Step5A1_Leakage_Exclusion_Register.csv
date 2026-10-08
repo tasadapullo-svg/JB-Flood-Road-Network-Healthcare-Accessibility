@@ -1,0 +1,14 @@
+asset_or_variable,status,reason
+JB_Historical_Flood_Zones_v1.0,EXCLUDE_FROM_MODEL,External validation labels only
+2022/2023/2025 historical flood points/events,EXCLUDE_FROM_MODEL,Validation / interpretation only
+Official flood hotspots / 52-hotspot list,EXCLUDE_FROM_MODEL,Would create leakage
+D09 A/B/C/D classes,EXCLUDE_FROM_MODEL,Contains historical/official flood evidence
+D09 CRPI,EXCLUDE_FROM_MODEL,"Preparedness index, not physical hazard predictor"
+2025 observed road closures,EXCLUDE_FROM_MODEL,Event outcome labels
+Historical flood frequency / recurrence count,EXCLUDE_FROM_MODEL,Outcome-derived
+Distance to historical hotspot,EXCLUDE_FROM_MODEL,Leakage
+Population / WorldPop,EXCLUDE_FROM_MODEL,"Exposure, not physical susceptibility"
+Hospitals / healthcare accessibility,EXCLUDE_FROM_MODEL,Consequence stage
+Road criticality / routing centrality,EXCLUDE_FROM_MODEL,Consequence/network stage
+FCD traffic data,EXCLUDE_FROM_MODEL,"Traffic response, not physical susceptibility"
+March-2025 event IMERG,EXCLUDE_FROM_STATIC_MODEL,Use for event-context validation only

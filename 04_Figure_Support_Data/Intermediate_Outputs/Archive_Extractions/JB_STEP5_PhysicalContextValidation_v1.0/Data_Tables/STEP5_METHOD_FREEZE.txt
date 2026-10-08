@@ -1,0 +1,19 @@
+STEP 5 METHOD FREEZE
+
+Historical Flood Zones:
+JB_Historical_Flood_Zones_v1.0 remains immutable.
+
+Step 5 may:
+- attach physical-context attributes;
+- visualize the zones over independent terrain;
+- report descriptive zone-level terrain statistics.
+
+Step 5 may not:
+- modify zone geometry;
+- modify Severe/Recurrent/Mild class;
+- use D09;
+- tune a susceptibility model;
+- create a new historical flood label.
+
+Any later WorldCover or river/stream layer can be added as supplementary physical context
+without changing the frozen zone geometry or classification.

@@ -1,0 +1,20 @@
+zone_id,canonical_location,historical_class,geometry_confidence,d09_input_status,d09_hist_input_250m_exposed,d09_official_input_250m_exposed,d09_2025_closure_input_exposed,hit_AB_strict,hit_ABC_strict,hit_AB_within250m,hit_ABC_within250m
+F01,Kampung Kangkar Tebrau,SEVERE,HIGH,INPUT_EXPOSED_NOT_INDEPENDENT,True,True,False,True,True,True,True
+F02,Kampung Laut Skudai,SEVERE,LOW,INPUT_UNEXPOSED_HOLDOUT,False,False,False,False,False,False,False
+F03,Kampung Pasir Tebrau,SEVERE,MEDIUM,INPUT_UNEXPOSED_HOLDOUT,False,False,False,False,False,False,False
+F04,Kampung Paya Kenangan,SEVERE,MEDIUM,INPUT_UNEXPOSED_HOLDOUT,False,False,False,False,False,False,False
+F05,Jalan Ayer Molek,SEVERE,MEDIUM,INPUT_EXPOSED_NOT_INDEPENDENT,True,True,False,True,True,True,True
+F06,Kampung Mohd Amin,RECURRENT,HIGH,INPUT_EXPOSED_NOT_INDEPENDENT,True,True,False,True,True,True,True
+F07,Jalan Kolam Ayer,SEVERE,MEDIUM,INPUT_EXPOSED_NOT_INDEPENDENT,True,True,False,True,True,True,True
+F08,Kampung Belantik,SEVERE,LOW,INPUT_UNEXPOSED_HOLDOUT,False,False,False,False,False,False,False
+F09,Jalan Stulang Darat,RECURRENT,MEDIUM,INPUT_EXPOSED_NOT_INDEPENDENT,True,False,False,False,True,False,True
+F10,Jalan Tun Abdul Razak,RECURRENT,MEDIUM,INPUT_EXPOSED_NOT_INDEPENDENT,True,False,False,True,True,True,True
+F11,Jalan Yahya Awal,RECURRENT,MEDIUM,INPUT_EXPOSED_NOT_INDEPENDENT,True,False,False,True,True,True,True
+F12,Jalan Mahmoodiah,RECURRENT,MEDIUM,INPUT_EXPOSED_NOT_INDEPENDENT,True,False,False,False,True,False,True
+F13,Jalan Tebrau,RECURRENT,MEDIUM,INPUT_EXPOSED_NOT_INDEPENDENT,True,False,False,False,True,False,True
+F14,Jalan Sungai Chat,RECURRENT,MEDIUM,INPUT_EXPOSED_NOT_INDEPENDENT,True,False,False,False,True,True,True
+F15,Kampung Bunga Ros,SEVERE,HIGH,INPUT_UNEXPOSED_HOLDOUT,False,False,False,False,False,True,True
+F16,Kampung Tengah Tebrau,RECURRENT,LOW,INPUT_EXPOSED_NOT_INDEPENDENT,False,True,False,False,True,False,True
+F17,Kampung Sentosa Barat,SEVERE,MEDIUM,INPUT_UNEXPOSED_HOLDOUT,False,False,False,False,True,False,True
+F18,Puteri Harbour Iskandar Puteri,MILD,LOW,INPUT_UNEXPOSED_HOLDOUT,False,False,False,False,False,False,False
+F19,Kampung Paya Mengkuang,MILD,MEDIUM,INPUT_UNEXPOSED_HOLDOUT,False,False,False,False,False,False,True

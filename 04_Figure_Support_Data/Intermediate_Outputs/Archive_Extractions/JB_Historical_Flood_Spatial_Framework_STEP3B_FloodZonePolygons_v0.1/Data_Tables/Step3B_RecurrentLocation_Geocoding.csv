@@ -1,0 +1,17 @@
+canonical_location,longitude,latitude,grid_id_500m,coordinate_source,coordinate_status,coordinate_note,newly_resolved_in_step3b,new_resolution_url
+Kampung Kangkar Tebrau,103.75660417305872,1.531815,JB0500_R0055_C0049,Existing D07C exact OSM/alias match,EXACT_OSM,,False,
+Kampung Laut Skudai,103.6605,1.5453,JB0500_R0058_C0028,GeoNames-based locality coordinate; identity cross-checked with MBIP/NADMA reporting,RESOLVED_MEDIUM,Kampung Laut locality near Skudai; used only as spatial anchor.,True,https://mapcarta.com/29059014
+Kampung Pasir Tebrau,103.74288131,1.54457461,JB0500_R0057_C0046,MyGeoName/MyGeoportal Official Gazetteer,OFFICIAL_GAZETTEER_EXACT_NAME,Official Johor gazetteer entry: Kg. Pasir Tebrau.,False,
+Kampung Paya Kenangan,103.74961954,1.5403203,JB0500_R0056_C0047,MyGeoName/MyGeoportal Official Gazetteer,OFFICIAL_GAZETTEER_EXACT_NAME,Official Johor gazetteer entry: Kg. Paya Kenangan.,False,
+Jalan Ayer Molek,103.7587117,1.4594963,JB0500_R0039_C0049,Existing D07C exact OSM/alias match,EXACT_OSM,,False,
+Kampung Mohd Amin,103.7354126,1.4673637000000002,JB0500_R0040_C0044,Existing D07C exact OSM/alias match,EXACT_OSM,,False,
+Jalan Kolam Ayer,103.7220526,1.4823854,JB0500_R0044_C0041,Existing D07C exact OSM/alias match,EXACT_ALIAS_OSM,,False,
+Kampung Belantik,103.76650814,1.51378258,JB0500_R0051_C0051,MyGeoName/MyGeoportal Official Gazetteer,OFFICIAL_GAZETTEER_EXACT_NAME,Official Johor gazetteer entry: Kg. Belantik.,False,
+Jalan Stulang Darat,103.7773894,1.4724632,JB0500_R0041_C0054,Existing D07C exact OSM/alias match,EXACT_OSM,,False,
+Jalan Tun Abdul Razak,103.7527329,1.4803791000000002,JB0500_R0043_C0048,Existing D07C exact OSM/alias match,EXACT_OSM,,False,
+Jalan Yahya Awal,103.7553464,1.4633725,JB0500_R0039_C0049,Existing D07C exact OSM/alias match,EXACT_OSM,,False,
+Jalan Mahmoodiah,103.7482815,1.4629658,JB0500_R0039_C0047,Existing D07C exact OSM/alias match,EXACT_OSM,,False,
+Jalan Tebrau,103.762918,1.4748694,JB0500_R0042_C0050,Existing D07C exact OSM/alias match,EXACT_OSM,,False,
+Jalan Sungai Chat,103.7385575,1.4609922,JB0500_R0039_C0045,Existing D07C exact OSM/alias match,EXACT_OSM,,False,
+Kampung Bunga Ros,103.75965347,1.53411714,JB0500_R0055_C0050,MyGeoName/MyGeoportal Official Gazetteer,OFFICIAL_GAZETTEER_EXACT_NAME,Official Johor gazetteer entry: Kg. Bunga Ros.,False,
+Kampung Tengah Tebrau,103.76595541,1.51143829,JB0500_R0050_C0051,"MyGeoName official Johor gazetteer, disambiguated urban Kg. Tengah candidate",RESOLVED_MEDIUM,Two Kg. Tengah entries exist in the gazetteer; the urban Johor Bahru/Tebrau candidate is used and retained as a disambiguated coordinate.,True,https://mygeoname.mygeoportal.gov.my/exportpdffasa3.jsp?kodnegeri=01

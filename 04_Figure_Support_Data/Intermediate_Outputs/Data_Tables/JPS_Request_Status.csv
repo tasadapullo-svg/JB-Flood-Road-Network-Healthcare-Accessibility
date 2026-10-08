@@ -1,0 +1,2 @@
+request_subject,recipient,sent_local_time,status,blocking_status,fallback,tide_rule
+Request for Johor Bahru Drainage GIS and Historical Water-Level Data for Academic Research,bsma@water.gov.my,2026-10-05 18:49 MYT,REQUEST_SUBMITTED,NOT_BLOCKING_STEP5A2_BASELINE,Use OSM major hydrography as baseline physical source; formal drainage remains optional enhancement if no reply.,Remain optional unless defensible observed historical series is obtained.

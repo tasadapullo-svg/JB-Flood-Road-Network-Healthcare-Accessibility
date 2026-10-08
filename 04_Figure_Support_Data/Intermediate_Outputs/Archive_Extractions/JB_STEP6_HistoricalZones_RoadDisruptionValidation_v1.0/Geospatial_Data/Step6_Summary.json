@@ -1,0 +1,15 @@
+{
+  "step": "Step 6",
+  "version": "v1.0",
+  "historical_zones": 19,
+  "road_type_zones": 8,
+  "road_type_zones_with_2023_same_road_impact": 8,
+  "same_road_2023_correspondence_pct": 100.0,
+  "explicit_2023_closures": 2,
+  "resolved_explicit_2023_zone_correspondence": 1,
+  "authorized_2025_disruption_sections": 4,
+  "authorized_2025_direct_zone_intersections": 0,
+  "d09_susceptibility_used": false,
+  "historical_zone_geometry_modified": false,
+  "next_step": "Step 7 — Flood-related Road Disruption → Healthcare Accessibility Impact"
+}

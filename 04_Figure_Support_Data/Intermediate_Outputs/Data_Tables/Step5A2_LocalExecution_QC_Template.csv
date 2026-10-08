@@ -1,0 +1,10 @@
+check,expected,status
+WorldCover raw tile exists,,PASS/FAIL
+WorldCover CRS EPSG:4326,,PASS/FAIL
+WorldCover contains JB boundary,,PASS/FAIL
+IMERG daily primary count,3288,PASS if exact after subset
+IMERG monthly primary count,108,PASS if exact after subset
+IMERG primary period complete years only,2016-2024,PASS/FAIL
+OSM major hydrography non-empty,,PASS/FAIL
+OSM coastline non-empty,,PASS/FAIL
+No F01-F19 or D09 used,0,PASS/FAIL

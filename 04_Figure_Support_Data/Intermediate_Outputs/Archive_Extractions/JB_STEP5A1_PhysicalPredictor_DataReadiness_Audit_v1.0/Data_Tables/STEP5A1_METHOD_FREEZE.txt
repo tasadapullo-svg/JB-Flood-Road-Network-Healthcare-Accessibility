@@ -1,0 +1,10 @@
+STEP 5A-1 METHOD FREEZE
+
+1. F01–F19 remain external validation labels and cannot influence predictor creation.
+2. D09 cannot be reused as a predictor.
+3. No threshold is selected using historical-zone performance.
+4. Missing data acquisition is restricted to independent physical/environmental data.
+5. Existing OSM hydrography/coastline extraction is allowed because it is physical source data,
+   not historical-flood evidence.
+6. Existing March-2025 IMERG remains event context only; long-term IMERG is a separate climatology asset.
+7. All predictor products must be versioned before external validation begins.

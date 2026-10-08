@@ -1,0 +1,13 @@
+WorldCover use rule
+
+Primary variable:
+    built_up_fraction_500m
+
+WorldCover class 50 is 'Built-up' and includes buildings, roads and other man-made structures.
+It is therefore used as a built-up fraction proxy.
+
+Do NOT rename this variable to exact 'impervious surface percentage' in the manuscript.
+A separate imperviousness product would be required for that stronger terminology.
+
+The 2021 v200 map is frozen as the representative land-cover epoch.
+No F01–F19 information is used to choose or alter this layer.

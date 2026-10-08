@@ -1,0 +1,23 @@
+STEP 3B POLYGON DELINEATION HIERARCHY v0.1
+
+The polygons are evidence-support geometries, not modeled hydraulic inundation extents.
+
+Priority:
+A. OSM_NAMED_RESIDENTIAL_POLYGON
+   Exact named mapped residential polygon; HIGH confidence.
+
+B. OSM_RESIDENTIAL_POLYGON_CONTAINING_OFFICIAL_POINT
+   Mapped residential polygon containing the independently resolved place coordinate;
+   MEDIUM confidence; proxy for the local settlement support area.
+
+B. OSM_NAMED_ROAD_CORRIDOR_WITHIN_FROZEN_500M_GRID
+   Actual named OSM road segment(s) intersecting the location's permanent 500 m evidence
+   cell. The closed polygon follows the road centerline using OSM width, lanes, or road-class
+   defaults. MEDIUM confidence; represents the road-impact support corridor, not water extent.
+
+C. FROZEN_500M_GRID_SUPPORT
+   Used only when no defensible settlement polygon is available. LOW confidence.
+   The already-frozen primary grid cell is retained rather than inventing a neighbourhood
+   boundary with a circular buffer.
+
+No manually drawn polygon and no D09-derived boundary is allowed.

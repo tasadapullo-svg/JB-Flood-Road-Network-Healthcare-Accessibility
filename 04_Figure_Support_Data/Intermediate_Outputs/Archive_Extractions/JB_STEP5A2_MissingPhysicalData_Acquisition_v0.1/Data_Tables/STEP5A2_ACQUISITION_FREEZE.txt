@@ -1,0 +1,18 @@
+STEP 5A-2 ACQUISITION FREEZE
+
+Allowed:
+- acquire independent physical/environmental source data;
+- clip to the already frozen study extent;
+- verify file integrity and spatial coverage.
+
+Not allowed:
+- inspect F01–F19 to decide which source looks best;
+- tune rainfall period or built-up definition against flood-zone hit rate;
+- use D09 classes as predictor targets;
+- discard a physical source because it lowers apparent validation performance.
+
+Step 5A-3 may begin only after:
+1. long-term rainfall raw/subset data are actually acquired;
+2. WorldCover built-up layer is acquired;
+3. baseline hydrography is extracted;
+4. drainage/tide availability is explicitly resolved as acquired or documented unavailable/optional.

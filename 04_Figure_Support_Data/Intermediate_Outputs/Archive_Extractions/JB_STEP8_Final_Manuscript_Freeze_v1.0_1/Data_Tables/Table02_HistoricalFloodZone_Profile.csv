@@ -1,0 +1,4 @@
+final_class,zone_count,core_overlap_mean,high_confidence,medium_confidence,low_confidence,total_area_km2,median_zone_mean_elevation_m,median_zone_mean_slope_deg,zones_with_any_strict_lowlying
+MILD,2,1.0,0,1,1,0.49487238251130705,8.859379231929779,2.328831434249878,0
+RECURRENT,8,2.0,1,6,1,0.4816141614474102,10.983059406280518,3.3978383541107178,3
+SEVERE,9,2.2222222222222223,2,5,2,1.6233599531880136,7.138348579406738,1.9586392641067505,3

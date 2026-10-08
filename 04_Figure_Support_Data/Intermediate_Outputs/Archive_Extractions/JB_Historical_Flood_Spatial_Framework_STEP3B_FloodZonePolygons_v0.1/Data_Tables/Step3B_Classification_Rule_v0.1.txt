@@ -1,0 +1,25 @@
+STEP 3B CLASSIFICATION RULE v0.1
+
+Purpose:
+Create the first closed GIS evidence-support polygons for the 16 recurrent locations
+that occur in at least two of the 2022/2023/2025 core years.
+
+D09 exclusion:
+D09 susceptibility is NOT used in delineation or classification.
+
+Display classes:
+1. SEVERE (red, 30% opacity)
+   Triggered only by high-consequence historical evidence:
+   - evacuation / rescue;
+   - trapped vehicle;
+   - formal road closure / impassability;
+   - or an independently documented high-depth/high-household-impact case.
+2. RECURRENT (yellow, 30% opacity)
+   At least two of the three core years, without a Step 3B severe trigger.
+3. MILD (blue, 30% opacity)
+   Style is frozen, but no location in this recurrent-only subset qualifies as MILD.
+   No blue polygon is fabricated merely to complete the colour legend.
+
+Important:
+Frequency and severity remain separate analytical attributes. The final_class field is a
+map-display class using the frozen priority Severe > Recurrent > Mild.

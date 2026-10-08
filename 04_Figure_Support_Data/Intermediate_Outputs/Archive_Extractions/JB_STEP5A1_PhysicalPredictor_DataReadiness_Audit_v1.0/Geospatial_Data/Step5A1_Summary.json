@@ -1,0 +1,17 @@
+{
+  "step": "5A-1",
+  "version": "v1.0",
+  "ready_count": 5,
+  "need_processing_count": 6,
+  "missing_count": 8,
+  "exclude_count": 1,
+  "missing_families": [
+    "Long-term Rainfall",
+    "Imperviousness",
+    "Urban Drainage",
+    "Tide/Water Level"
+  ],
+  "training_authorized": false,
+  "threshold_selection_authorized": false,
+  "historical_zone_use_authorized": false
+}

@@ -1,0 +1,7 @@
+metric,value,unit
+Nominal best recovery sequence,J105 → FT01 → FT003,sequence
+Population restored after first step,3219.757496956736,people
+Initial loss restored after first step,64.90078574897552,%
+Population restored after first two steps,4498.756993521005,people
+Initial loss restored after first two steps,90.68163178412664,%
+Remaining newly unreachable after first two steps,462.2884850502014,people

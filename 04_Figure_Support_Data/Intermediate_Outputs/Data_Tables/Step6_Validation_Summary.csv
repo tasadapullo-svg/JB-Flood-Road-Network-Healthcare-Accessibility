@@ -1,0 +1,11 @@
+metric,value,unit
+Frozen historical flood zones,19.0,zones
+Frozen road-type flood zones,8.0,zones
+Road-type zones with same-road 2023 observed impact,8.0,zones
+Same-road 2023 consequence correspondence,100.0,%
+Road-type zones with explicit 2023 closure,1.0,zones
+2023 source-reported explicit closures,2.0,closures
+2023 closures countable as resolved zone correspondence,1.0,closures
+2025 spatially authorized JKR disruption sections,4.0,closures/restrictions
+2025 authorized sections directly intersecting frozen zones,0.0,closures/restrictions
+2025 direct-intersection rate,0.0,%

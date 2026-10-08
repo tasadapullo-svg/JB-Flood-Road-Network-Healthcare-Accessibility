@@ -1,0 +1,12 @@
+metric,value
+major_hydrography_features,608
+river,268
+stream,290
+canal,50
+osm_drain_baseline_features,347
+drain,275
+ditch,72
+coastline_features,48
+all_major_valid,True
+all_drain_valid,True
+all_coast_valid,True

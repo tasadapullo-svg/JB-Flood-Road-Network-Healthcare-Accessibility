@@ -1,0 +1,12 @@
+STEP 6 METHOD FREEZE
+
+Primary spatial rules:
+1. Historical zone geometry remains JB_Historical_Flood_Zones_v1.0 without modification.
+2. 2023 same-road correspondence is based on exact/normalized road-name matching to the frozen road-zone set.
+3. Explicit Jalan Kolam Ayer closure can be linked to F07 at named-corridor level.
+4. Gertak Merah candidate corridor crossings are not counted as exact closure-zone matches because the
+   affected directional approach has not been resolved.
+5. 2025 primary spatial validation uses only four JKR disruptions with previously authorized geometry.
+6. No arbitrary distance threshold is introduced. Minimum distance is reported continuously.
+7. Passable/negative 2025 JKR observations remain in the contextual register and are not hidden.
+8. D09 susceptibility classes are not used to create or improve the correspondence result.

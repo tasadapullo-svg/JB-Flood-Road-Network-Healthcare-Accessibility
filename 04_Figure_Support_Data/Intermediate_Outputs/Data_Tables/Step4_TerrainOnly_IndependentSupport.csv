@@ -1,0 +1,20 @@
+zone_id,canonical_location,historical_class,geometry_confidence,terrain_lowlying25_strict,terrain_lowlying50_strict,terrain25_within250m,terrain50_within250m,max_lowlying_fraction
+F01,Kampung Kangkar Tebrau,SEVERE,HIGH,False,False,False,False,0.0
+F02,Kampung Laut Skudai,SEVERE,LOW,False,False,False,False,0.0
+F03,Kampung Pasir Tebrau,SEVERE,MEDIUM,False,False,False,False,0.0
+F04,Kampung Paya Kenangan,SEVERE,MEDIUM,False,False,False,False,0.0
+F05,Jalan Ayer Molek,SEVERE,MEDIUM,True,False,True,True,0.4
+F06,Kampung Mohd Amin,RECURRENT,HIGH,True,True,True,True,1.0
+F07,Jalan Kolam Ayer,SEVERE,MEDIUM,False,False,False,False,0.0
+F08,Kampung Belantik,SEVERE,LOW,False,False,False,False,0.0
+F09,Jalan Stulang Darat,RECURRENT,MEDIUM,False,False,False,False,0.0
+F10,Jalan Tun Abdul Razak,RECURRENT,MEDIUM,True,False,True,True,0.3333333333333333
+F11,Jalan Yahya Awal,RECURRENT,MEDIUM,True,True,True,True,1.0
+F12,Jalan Mahmoodiah,RECURRENT,MEDIUM,False,False,False,False,0.0
+F13,Jalan Tebrau,RECURRENT,MEDIUM,False,False,False,False,0.0
+F14,Jalan Sungai Chat,RECURRENT,MEDIUM,False,False,True,False,0.0
+F15,Kampung Bunga Ros,SEVERE,HIGH,False,False,False,False,0.0
+F16,Kampung Tengah Tebrau,RECURRENT,LOW,False,False,False,False,0.0
+F17,Kampung Sentosa Barat,SEVERE,MEDIUM,True,True,True,True,1.0
+F18,Puteri Harbour Iskandar Puteri,MILD,LOW,False,False,False,False,0.0
+F19,Kampung Paya Mengkuang,MILD,MEDIUM,False,False,False,False,0.0

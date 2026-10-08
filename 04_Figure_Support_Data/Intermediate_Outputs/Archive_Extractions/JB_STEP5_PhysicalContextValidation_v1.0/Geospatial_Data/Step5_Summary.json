@@ -1,0 +1,13 @@
+{
+  "total_zones": 19,
+  "severe": 9,
+  "recurrent": 8,
+  "mild": 2,
+  "median_zone_mean_elevation_m": 7.3887810707092285,
+  "median_zone_mean_slope_deg": 2.533017635345459,
+  "median_zone_rel_elev_500m_m": -1.6539158821105957,
+  "median_zone_rel_elev_1000m_m": -2.6483333110809326,
+  "zones_with_any_strict_lowlying_pixels": 6,
+  "d09_used": false,
+  "model_trained": false
+}

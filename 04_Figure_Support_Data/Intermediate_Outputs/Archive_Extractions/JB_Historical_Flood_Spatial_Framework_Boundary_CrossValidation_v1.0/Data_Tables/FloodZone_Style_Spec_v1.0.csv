@@ -1,0 +1,4 @@
+class_code,label_en,label_cn,fill_color,fill_opacity,outline_color,priority,map_rule
+SEVERE,Severe Flood Zone,严重洪涝区域,#FF0000,0.3,#B30000,1,Highest display priority
+RECURRENT,Recurrent Flood Zone,经常内涝区域,#FFD700,0.3,#B38F00,2,Used when not classified as Severe
+MILD,Mild Flood Zone,轻度内涝区域,#0000FF,0.3,#0000B3,3,Used when not Severe or Recurrent

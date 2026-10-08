@@ -1,0 +1,2 @@
+dataset,tile,tile_extent,jb_bbox_intersection,filename,public_url,source_crs,pixel_size,built_up_code,primary_derived_variable,interpretation
+ESA WorldCover 2021 v200,N00E102,"102E–105E, 0N–3N",YES,ESA_WorldCover_10m_2021_v200_N00E102_Map.tif,https://esa-worldcover.s3.eu-central-1.amazonaws.com/v200/2021/map/ESA_WorldCover_10m_2021_v200_N00E102_Map.tif,EPSG:4326,~10 m,50,built_up_fraction_500m,Built-up fraction proxy; not a direct engineering imperviousness measurement

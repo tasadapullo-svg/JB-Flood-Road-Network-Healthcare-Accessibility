@@ -1,0 +1,14 @@
+FLOOD-ZONE MAP DISPLAY RULE v1.0
+
+The colours are fixed for future GIS figures:
+- Severe flood zone: RED, 30% fill opacity.
+- Recurrent flood zone: YELLOW, 30% fill opacity.
+- Mild flood zone: BLUE, 30% fill opacity.
+
+Display priority:
+SEVERE > RECURRENT > MILD.
+
+Important:
+Severity and recurrence are stored as separate analytical attributes.
+The priority rule affects only the final map display so one polygon is not ambiguously coloured.
+No red/yellow/blue internal polygons are created before historical flood evidence is spatially validated.

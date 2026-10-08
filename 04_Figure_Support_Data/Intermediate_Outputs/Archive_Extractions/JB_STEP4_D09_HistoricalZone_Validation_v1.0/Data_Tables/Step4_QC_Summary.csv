@@ -1,0 +1,9 @@
+check,observed,expected,pass
+Frozen zone count,19,19,True
+D09 road count,81314,81314,True
+A roads,43,43,True
+B roads,301,301,True
+C roads,1766,1766,True
+D roads,79204,79204,True
+All Zone_ID unique,19,19,True
+No D09 mutation of historical layer,0,0,True

@@ -1,0 +1,5 @@
+evidence_id,canonical_location,date,event_type,depth_or_level,source_tier,source,url,use
+S3C_E001,Kampung Sentosa Barat,2023-12-01,EVACUATION/FLOOD,,A2/B1 cross-confirmed,Media Digital Johor / Bernama-Malay Mail,https://mediadigitaljohor.gov.my/menteri-besar-lawat-mangsa-banjir/,Reclassify Sentosa Barat: not Mild; Severe due evacuation/PPS.
+S3C_E002,Kampung Sentosa Barat,2017,HISTORICAL_RECURRENT_FLOOD,0.5 m and 0.5–1.0 m in reported 2017 events,A1 historical report,JPS Annual Flood Report 2017/2018,https://library.water.gov.my/cgi-bin/koha/opac-detail.pl?biblionumber=21644,Historical recurrence/depth corroboration.
+S3C_E003,Puteri Harbour Iskandar Puteri,2022-09-05,OBSERVED_SHALLOW_FLOOD,0.1–0.3 m event-level maximum-depth range,A1,JPS Annual Flood Report 2022,https://www.water.gov.my/jps/resources/Anual%20Flood%20Reporting%20/LBT_2022.pdf,Mild candidate accepted.
+S3C_E004,Kampung Paya Mengkuang,2022-05-04,OBSERVED_SHALLOW_FLOOD,0.1–0.3 m event-level maximum-depth range,A1,JPS Annual Flood Report 2022,https://www.water.gov.my/jps/resources/Anual%20Flood%20Reporting%20/LBT_2022.pdf,Mild candidate accepted.

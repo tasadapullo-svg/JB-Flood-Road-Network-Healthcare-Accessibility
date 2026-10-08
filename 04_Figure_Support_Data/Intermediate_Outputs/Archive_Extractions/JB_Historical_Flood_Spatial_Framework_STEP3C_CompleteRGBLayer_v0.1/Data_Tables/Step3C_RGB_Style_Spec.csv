@@ -1,0 +1,4 @@
+class,label_cn,fill_hex,fill_opacity,outline_hex,display_priority
+SEVERE,严重洪涝区域,#FF0000,0.3,#B30000,1
+RECURRENT,经常内涝区域,#FFD700,0.3,#B38F00,2
+MILD,轻度内涝区域,#0066FF,0.3,#003D99,3

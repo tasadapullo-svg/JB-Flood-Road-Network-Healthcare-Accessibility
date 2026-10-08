@@ -1,0 +1,9 @@
+component,resolution_or_unit,crs_or_state,rule
+Master study boundary,JB_Study_Boundary_v1.0,EPSG:4326 storage / EPSG:3377 analysis,Frozen
+Primary validation lattice,500 m × 500 m,EPSG:3377,Frozen
+Terrain source resolution,30 m,Existing D03 products currently EPSG:3375,Reproject once to EPSG:3377
+Continuous predictors,30 m working raster then 500 m summaries,EPSG:3377,bilinear/cubic where scientifically appropriate
+Categorical land cover,native 10–30 m then 500 m fractions,EPSG:3377,nearest-neighbor before fractional aggregation
+Hydrography,vector,EPSG:3377,derive metric distance/density
+Rainfall,0.1° / 30 min source,WGS84 source; no pseudo-downscaling,summarize to grid without pretending road-scale precision
+Validation labels,F01–F19 frozen polygons,EPSG:3377,never used during predictor construction or weight selection

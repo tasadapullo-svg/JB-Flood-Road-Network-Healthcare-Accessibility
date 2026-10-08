@@ -1,0 +1,5 @@
+question,decision,reason
+Can current D09 A/B coverage be called independent validation of the frozen historical zones?,NO,"D09 tiers A/B/C were constructed partly from observed closures, official hotspot proximity, and historical recurrent-location proximity. The frozen historical layer overlaps those same evidence families."
+Can D09–historical-zone overlap still be reported?,"YES, DESCRIPTIVELY","Report as retrospective coverage / concordance, not independent predictive validation."
+What is the leakage-controlled check?,USE INPUT-UNEXPOSED HOLDOUT + TERRAIN-ONLY COMPONENT,Zones outside D09's encoded 250 m historical/official inputs and observed closure footprint provide a feature-construction holdout; terrain flags are independent of historical event labels.
+Is a strong independent-validation claim supported?,NO,The input-unexposed holdout shows weak coverage; terrain-only support is also limited.

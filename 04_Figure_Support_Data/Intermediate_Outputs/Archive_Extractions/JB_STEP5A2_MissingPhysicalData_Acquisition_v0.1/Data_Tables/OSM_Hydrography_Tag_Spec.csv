@@ -1,0 +1,7 @@
+osm_key,osm_value,role,interpretation
+waterway,river,PRIMARY,Major river
+waterway,stream,PRIMARY,Stream
+waterway,canal,PRIMARY,Canal
+waterway,drain,BASELINE_ONLY,Mapped open drain; completeness variable
+waterway,ditch,BASELINE_ONLY,Mapped ditch; completeness variable
+natural,coastline,PRIMARY,Coastline

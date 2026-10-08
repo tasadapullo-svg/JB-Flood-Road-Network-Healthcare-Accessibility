@@ -1,0 +1,9 @@
+RIVER / TIDE MODEL-USE RULE
+
+1. Distance to river and distance to coast are static physical predictors and can be used once frozen.
+2. Water-level/tide observations are not automatically converted into a district-wide raster.
+3. A station time series can enter the final static susceptibility model only if a reproducible
+   spatialization rule is defined independently of F01–F19.
+4. If no defensible long-term tide/river-stage spatialization is possible, retain these data as
+   physical context / event interpretation rather than force them into the susceptibility index.
+5. Predicted tide tables are not equivalent to observed sea-level time series.

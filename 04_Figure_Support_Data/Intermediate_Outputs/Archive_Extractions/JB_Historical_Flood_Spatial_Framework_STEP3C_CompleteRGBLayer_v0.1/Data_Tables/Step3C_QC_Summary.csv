@@ -1,0 +1,12 @@
+metric,value,unit
+Total closed polygons,19,zones
+Severe zones,9,zones
+Recurrent zones,8,zones
+Mild zones,2,zones
+High-confidence geometry,3,zones
+Medium-confidence geometry,12,zones
+Low-confidence geometry,4,zones
+Valid geometries,1,boolean
+Empty geometries,0,zones
+Unique Zone_ID,1,boolean
+D09 used,0,boolean

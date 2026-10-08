@@ -1,0 +1,24 @@
+{
+  "version": "Step3C_v0.1",
+  "total_zones": 19,
+  "severe": 9,
+  "recurrent": 8,
+  "mild": 2,
+  "geometry_high": 3,
+  "geometry_medium": 12,
+  "geometry_low": 4,
+  "remaining_low_confidence_zone_ids": [
+    "F02",
+    "F08",
+    "F16",
+    "F18"
+  ],
+  "d09_used": false,
+  "boundary": "JB_Study_Boundary_v1.0",
+  "primary_grid": "500 m",
+  "new_zones": [
+    "F17 Kampung Sentosa Barat — SEVERE",
+    "F18 Puteri Harbour Iskandar Puteri — MILD",
+    "F19 Kampung Paya Mengkuang — MILD"
+  ]
+}

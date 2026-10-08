@@ -1,0 +1,4 @@
+grid_version,grid_role,cell_size_m,origin_x_epsg3377,origin_y_epsg3377,crs_metric,crs_exchange,boundary_version,boundary_source,id_pattern,row_direction,col_direction,n_cells,n_edge_cells
+v1.0,PRIMARY,500,-3000.0,-84000.0,EPSG:3377 GDM2000 / Johor Grid,EPSG:4326,JB_Study_Boundary_v1.0,MyGDI/JUPEM,JB0500_R####_C####,south_to_north,west_to_east,4689,525
+v1.0,SENSITIVITY,250,-3000.0,-84000.0,EPSG:3377 GDM2000 / Johor Grid,EPSG:4326,JB_Study_Boundary_v1.0,MyGDI/JUPEM,JB0250_R####_C####,south_to_north,west_to_east,18276,1066
+v1.0,SENSITIVITY,1000,-3000.0,-84000.0,EPSG:3377 GDM2000 / Johor Grid,EPSG:4326,JB_Study_Boundary_v1.0,MyGDI/JUPEM,JB1000_R####_C####,south_to_north,west_to_east,1236,256

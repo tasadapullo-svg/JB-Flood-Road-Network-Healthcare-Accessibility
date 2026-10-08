@@ -1,0 +1,12 @@
+metric,value,unit,note
+DOSM vertices,147.0,count,DOSM ADM2 simplified geometry
+MyGDI/JUPEM vertices,861.0,count,Detailed district geometry
+MyGDI ARM,1108.1730878972098,km2,Source attribute ARM
+DOSM vs MyGDI IoU,0.9843254620214382,ratio,100 m grid approximation
+Overlap of DOSM,99.0863579474343,%,100 m grid approximation
+Overlap of MyGDI,99.33411602333733,%,100 m grid approximation
+Symmetric difference,17.65,km2,100 m grid approximation
+Approx area difference,0.25004256997160723,%,"DOSM minus MyGDI, 100 m approximation"
+District vs 8-subdistrict union IoU,0.9993193074849307,ratio,100 m grid approximation
+District covered by subdistrict union,99.99551891019897,%,100 m grid approximation
+Subdistrict union covered by district,99.936406140838,%,100 m grid approximation

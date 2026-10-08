@@ -1,0 +1,5 @@
+source,data_type,access,use,priority
+JPS Johor SPHTN,River/water-level observations,Web station tables; current/24h; station system,Identify JB station network and retrieve available history,PRIMARY_FOR_RIVER_STAGE
+Public Infobanjir,Historical hydrograph/time-series export,Hydrograph and time-series report pages support CSV export,Acquire consistent long-term river-stage time series where available,PRIMARY_FOR_ARCHIVE
+MET Malaysia myTide,Current sea level / storm-tide operational monitoring,Public operational portal; formal historical data via MyMetData request,Tide/sea-level context if an appropriate Johor station and historical archive are available,OPTIONAL
+National Hydrographic Centre,Predicted tide tables,Commercial publication (2026 tide table listed at RM60),Do not substitute predicted tide table for observed long-term sea-level series,REFERENCE_ONLY

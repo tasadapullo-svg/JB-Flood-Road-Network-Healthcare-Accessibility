@@ -1,0 +1,18 @@
+METADATA QC WARNING
+
+The MyGDI/JUPEM district feature used in the existing project asset reports:
+- FCD = DA0085
+- FNM = "District or Jajahan Coverage Administrative"
+
+Under MS 1759 terminology, DA0080 is normally District/Jajahan Coverage Administrative,
+whereas DA0085 denotes District/Jajahan Coverage Land.
+
+This inconsistency is retained as a metadata warning and is NOT silently corrected.
+The v1.0 spatial decision therefore relies on:
+1) NAM = JOHOR BAHRU;
+2) KOD_NEGERI = 01 and KOD_DAERAH = 02;
+3) Sumber = JUPEM;
+4) geometry agreement with DOSM ADM2;
+5) near-complete agreement with the union of the 8 MyGDI subdistrict units.
+
+The FCD field is not used as the sole identifier for the study boundary.

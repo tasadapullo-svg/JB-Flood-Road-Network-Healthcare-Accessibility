@@ -1,0 +1,4 @@
+source_id,organization,dataset,feature,code,source_detail,version_or_update,role
+DOSM_ADM2,Department of Statistics Malaysia (DOSM),administrative_2_district.geojson,Johor Bahru,1_2,dosm-malaysia/data-open,Git blob 5dc846b26ca0fb5fc2f9c1fb33abf1c800ee0f88,Independent reproducible cross-check; not final master
+MYGDI_JUPEM,JUPEM / MyGDI,JB_District_Boundary_MyGDI_WGS84.geojson,JOHOR BAHRU,KOD_NEGERI=01; KOD_DAERAH=02,OBJECTID=78; source attribute Sumber=JUPEM,OGOS 2019; received 2019,MASTER boundary geometry for v1.0
+MYGDI_SUBDISTRICTS,JUPEM / MyGDI,JB_Subdistrict_Boundaries_MyGDI_WGS84.geojson,6 Mukim + 2 Bandar,8 features,"Plentong, Pulai, Sungai Tiram, Jelutong, Tanjung Kupang, Tebrau, Bandar Johor Bahru, Bandar Tebrau",2019-2020,Internal topology/coverage cross-check

@@ -1,0 +1,17 @@
+{
+  "step": "5A-2",
+  "version": "v0.1",
+  "status": "PARTIAL_ACQUISITION_SOURCE_LOCK_COMPLETE",
+  "rainfall_source_locked": true,
+  "rainfall_raw_acquired": false,
+  "worldcover_source_locked": true,
+  "worldcover_raw_acquired_in_current_runtime": false,
+  "osm_hydrography_source_available_in_project": true,
+  "osm_hydrography_extracted_in_current_runtime": false,
+  "formal_drainage_acquired": false,
+  "jb_waterlevel_station_targets_locked": 6,
+  "historical_waterlevel_archive_acquired": false,
+  "training_authorized": false,
+  "threshold_selection_authorized": false,
+  "historical_zone_access_authorized": false
+}

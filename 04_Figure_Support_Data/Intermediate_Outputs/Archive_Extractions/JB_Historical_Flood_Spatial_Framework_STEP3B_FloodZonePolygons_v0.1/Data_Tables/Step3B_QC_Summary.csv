@@ -1,0 +1,11 @@
+metric,value,unit
+Recurrent locations processed,16,zones
+Severe zones,8,zones
+Recurrent zones,8,zones
+Mild zones,0,zones
+High-confidence geometries,3,zones
+Medium-confidence geometries,10,zones
+Low-confidence grid-support geometries,3,zones
+All polygon geometries valid,1,boolean
+Empty geometries,0,zones
+D09 used,0,boolean

@@ -1,0 +1,22 @@
+LOCAL EXECUTION ORDER
+
+1. WORLDCOVER
+   Folder: 01_WORLDCOVER
+   Run: RUN_WORLDCOVER_WINDOWS.bat
+
+2. OSM HYDROGRAPHY
+   Put these two existing files next to the script:
+   - malaysia-singapore-brunei-261003.osm.pbf
+   - JB_District_Boundary_MyGDI_WGS84.geojson
+   Run: RUN_OSM_HYDROGRAPHY_WINDOWS.bat
+
+3. IMERG
+   Use the current GES DISC web interface to make a spatial subset.
+   Primary dates: 2016-01-01 to 2024-12-31.
+   Download the generated links-list TXT.
+   Then run:
+       python download_gesdisc_links.py YOUR_LINK_LIST.txt IMERG_JB_2016_2024
+
+4. JPS
+   Request already submitted. Do not wait for reply to complete the baseline predictor stack.
+   If data arrive later, add them as v1.1 optional enhancement.

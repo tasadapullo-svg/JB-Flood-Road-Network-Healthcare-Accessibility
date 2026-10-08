@@ -1,0 +1,6 @@
+asset,source_status,execution_status,model_role
+WorldCover 2021 v200 N00E102,PUBLIC_SOURCE_LOCKED,LOCAL_DOWNLOAD_REQUIRED,10 m built-up fraction proxy
+IMERG Final V07B daily/monthly,SOURCE_LOCKED,AUTHENTICATED_SUBSET_REQUIRED,Primary climatology 2016-2024 complete years
+IMERG Final V07B Jan-Sep 2025,SOURCE_LOCKED,OPTIONAL_EXTENSION,Do not use for complete-year annual climatology
+OSM hydrography/coastline,RAW_SOURCE_ALREADY_AVAILABLE,LOCAL_EXTRACTION_REQUIRED,river/stream/canal + drain/ditch baseline + coastline
+JPS formal drainage / historical water-level,REQUEST_SUBMITTED,AWAITING_REPLY_OPTIONAL,Email sent 2026-10-05 18:49 MYT

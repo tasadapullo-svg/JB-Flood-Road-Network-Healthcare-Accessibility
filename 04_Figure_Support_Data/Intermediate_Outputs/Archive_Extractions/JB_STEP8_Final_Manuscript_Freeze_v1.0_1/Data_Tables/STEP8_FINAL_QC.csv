@@ -1,0 +1,12 @@
+check,observed,expected,pass
+Frozen historical zone count,19,19,True
+Severe/Recurrent/Mild counts,9/8/2,9/8/2,True
+Acute/emergency hospital count,14,14,True
+Initially lost origins,544,544,True
+Final main figures,5,5,True
+Final main tables,4,4,True
+Supplementary tables,5,5,True
+New experimental model introduced,0,0,True
+Frozen F01–F19 geometry modified,0,0,True
+2023 forced network simulation introduced,0,0,True
+D09 treated as independent validation,0,0,True

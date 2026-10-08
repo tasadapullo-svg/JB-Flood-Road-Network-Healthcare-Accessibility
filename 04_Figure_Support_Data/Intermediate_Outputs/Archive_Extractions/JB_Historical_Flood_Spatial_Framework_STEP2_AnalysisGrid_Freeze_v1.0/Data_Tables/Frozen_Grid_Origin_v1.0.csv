@@ -1,0 +1,2 @@
+origin_x_epsg3377,origin_y_epsg3377,anchor_rule,alignment_base_m,primary_grid_m,sensitivity_grid_m_1,sensitivity_grid_m_2,status
+-3000.0,-84000.0,floor(master_boundary_min_xy / 1000 m) * 1000 m,1000,500,250,1000,FROZEN

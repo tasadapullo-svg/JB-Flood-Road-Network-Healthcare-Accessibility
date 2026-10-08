@@ -1,0 +1,17 @@
+metric,value,unit
+Total population modelled,1905758.5713106135,people
+Corrected baseline reachable population,1900604.0877224302,people
+Corrected baseline unreachable population,5154.483588183299,people
+MAR20 reachable population,1895643.042243859,people
+MAR20 newly unreachable population,4961.045478571206,people
+MAR20 newly unreachable origins,544.0,origins
+MAR20 newly unreachable share of total,0.2603186758939478,%
+MAR20 event total unreachable population,10115.529066754505,people
+Relative increase in unreachable population vs baseline unreachable stock,96.2471873990335,%
+Baseline 30-min population coverage,99.62533094465734,%
+MAR20 30-min population coverage,99.3650122687634,%
+30-min coverage change,-0.2603186758939415,percentage points
+Mean travel-time increase among commonly reachable origins,0.0091882884931889,min
+Relative mean travel-time increase,0.127422993700368,%
+Population with delay >=1 min,11143.042743215336,people
+MAR21 newly unreachable population (J46),0.0,people

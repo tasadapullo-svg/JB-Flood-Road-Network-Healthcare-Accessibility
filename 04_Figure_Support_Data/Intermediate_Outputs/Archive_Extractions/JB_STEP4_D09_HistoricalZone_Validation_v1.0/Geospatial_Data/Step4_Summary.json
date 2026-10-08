@@ -1,0 +1,37 @@
+{
+  "step": "Step 4",
+  "version": "v1.0",
+  "historical_zone_layer": "JB_Historical_Flood_Zones_v1.0",
+  "d09_source": "D09_FloodSusceptibility_CriticalRoadPriority_v1.0",
+  "zone_count": 19,
+  "d09_road_count": 81314,
+  "d09_classes": {
+    "A": 43,
+    "B": 301,
+    "C": 1766,
+    "D": 79204
+  },
+  "strict_AB_all": {
+    "k": 6,
+    "n": 19,
+    "pct": 31.57894736842105
+  },
+  "strict_ABC_all": {
+    "k": 12,
+    "n": 19,
+    "pct": 63.1578947368421
+  },
+  "holdout_AB": {
+    "k": 0,
+    "n": 8,
+    "pct": 0.0
+  },
+  "holdout_ABC": {
+    "k": 1,
+    "n": 8,
+    "pct": 12.5
+  },
+  "independent_validation_authorized": false,
+  "descriptive_concordance_authorized": true,
+  "next_recommended_action": "Decide whether to rebuild a leakage-free physical susceptibility model or retain D09 as descriptive preparedness screening only."
+}

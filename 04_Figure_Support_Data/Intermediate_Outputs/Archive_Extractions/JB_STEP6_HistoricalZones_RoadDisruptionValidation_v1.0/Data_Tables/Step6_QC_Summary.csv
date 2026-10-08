@@ -1,0 +1,9 @@
+check,observed,expected,pass
+Frozen historical zone count unchanged,19,19,True
+Road-type historical zone count,8,8,True
+2023 road-type zones with observed same-road impact,8,8,True
+2023 explicit closures in source register,2,2,True
+2025 spatially authorized disruption sections,4,4,True
+2025 direct overlaps with frozen zones,0,0,True
+Historical zone geometry modified,0,0,True
+D09 susceptibility used as validation predictor,0,0,True

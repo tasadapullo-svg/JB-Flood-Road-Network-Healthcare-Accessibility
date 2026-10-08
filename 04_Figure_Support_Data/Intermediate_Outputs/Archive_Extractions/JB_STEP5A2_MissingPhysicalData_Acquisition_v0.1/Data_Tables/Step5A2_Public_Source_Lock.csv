@@ -1,0 +1,10 @@
+source_id,source_name,url,locked_use
+NASA_GPM_DIRECTORY,NASA GPM IMERG data directory,https://gpm.nasa.gov/data/directory,"IMERG V07B, 0.1 degree, Jan 1998-present; Final products available through GES DISC"
+NASA_IMERG_FINAL,NASA IMERG Final Run GES DISC,https://gpm.nasa.gov/node/3328,30-min Final product; GES DISC access/subsetting
+ESA_WORLDCOVER,ESA WorldCover data access,https://esa-worldcover.org/en/data-access,"WorldCover 2021 v200, 10 m, public AWS"
+ESA_PUM,WorldCover Product User Manual v2,https://worldcover2021.esa.int/data/docs/WorldCover_PUM_V2.0.pdf,3x3 degree tile naming; built-up class code 50
+JPS_DATA_REQUEST,JPS drainage/hydrology data request information,https://storm.water.gov.my/faq,Hydrology and GIS data request routes
+JPS_JOHOR_SPHTN,JPS Johor SPHTN water-level stations,https://infobanjirjpsjohor.water.gov.my/WaterLevel/District/2,Johor Bahru station network and thresholds
+PUBLIC_INFOBANJIR_TS,Public Infobanjir time-series report,https://publicinfobanjir.water.gov.my/laporan-harian/?lang=en,Station/date/frequency selection with CSV export
+MET_MYTIDE,MET Malaysia myTide,https://mytide.met.gov.my/,Operational sea-level / storm-tide monitoring; formal history via MyMetData
+PHN_TIDE,National Hydrographic Centre tide publication,https://ehydro.hydro.gov.my/index.php?path=61&route=product%2Fcategory,Predicted tide-table reference; not observational substitute

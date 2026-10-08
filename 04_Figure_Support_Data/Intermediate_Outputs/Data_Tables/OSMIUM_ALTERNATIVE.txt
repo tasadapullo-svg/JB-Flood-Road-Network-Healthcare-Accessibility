@@ -1,0 +1,12 @@
+OSMIUM ALTERNATIVE
+
+If pyrosm installation is inconvenient, use osmium-tool:
+
+osmium tags-filter malaysia-singapore-brunei-261003.osm.pbf ^
+  w/waterway=river,stream,canal,drain,ditch ^
+  w/natural=coastline ^
+  -o JB_hydrography_source.osm.pbf --overwrite
+
+Then open the filtered PBF in QGIS and clip it using JB_Study_Boundary_v1.0.
+
+This route is equivalent at source-selection level; exact layer conversion is frozen in Step 5A-3.

@@ -1,0 +1,14 @@
+{
+  "version": "Step3B_v0.1",
+  "recurrent_locations_processed": 16,
+  "severe_zones": 8,
+  "recurrent_zones": 8,
+  "mild_zones": 0,
+  "geometry_high": 3,
+  "geometry_medium": 10,
+  "geometry_low": 3,
+  "d09_used": false,
+  "boundary_version": "JB_Study_Boundary_v1.0",
+  "primary_grid": "500 m",
+  "zone_id_range": "F01-F16"
+}

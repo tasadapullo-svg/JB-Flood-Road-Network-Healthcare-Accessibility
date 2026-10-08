@@ -1,0 +1,26 @@
+{
+  "step": "Step 7",
+  "version": "v1.0",
+  "primary_event": "2025-03-20",
+  "primary_closures": [
+    "FT003 km9.1-10.0",
+    "FT01 km19.6-20.0",
+    "J105 km7.0-7.5"
+  ],
+  "secondary_event": "2025-03-21 J46 km2.0-2.3",
+  "newly_unreachable_population_nominal": 4961.045478571206,
+  "newly_unreachable_population_sensitivity_min": 2553.734966058284,
+  "newly_unreachable_population_sensitivity_median": 4961.045478571206,
+  "newly_unreachable_population_sensitivity_max": 5079.075270641595,
+  "tebrau_share_nominal_pct": 94.39423969517748,
+  "relative_increase_unreachable_stock_pct": 96.2471873990335,
+  "nominal_best_recovery_order": "J105 → FT01 → FT003",
+  "first_step_recovery_pct": 64.90078574897552,
+  "two_step_recovery_pct": 90.68163178412664,
+  "robust_recovery_group": [
+    "J105",
+    "FT01"
+  ],
+  "j46_negative_result_retained": true,
+  "next_step": "Step 8 — Final GIS/Figures/Tables + Results Architecture + Manuscript Freeze"
+}

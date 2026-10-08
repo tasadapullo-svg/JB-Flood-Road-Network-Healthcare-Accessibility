@@ -1,0 +1,5 @@
+closure_id,reported_road,reported_section,newly_unreachable_population,weighted_mean_increase_common_reachable_min,delta_30min_pp,recovery_priority_tier,robustness_note,publication_interpretation
+C2025_J105_7.0_7.5,J105 Jalan Maju Jaya - Seelong,km 7.0-7.5,3219.757496956736,0.0,-0.1689488661064899,TIER_1,Highest nominal/median benefit but location-sensitive.,Highest nominal loss; location-sensitive; Tier 1.
+C2025_FT01_19.6_20.0,FT01 Jalan Johor Bahru - Senai,km 19.6-20.0,1278.999496564269,0.0,-0.0671123570329541,TIER_1,Stable high benefit across ±50 m.,Stable high-impact corridor; Tier 1.
+C2025_FT003_9.1_10.0,FT003 Jalan Johor Bahru - Kota Tinggi,km 9.1-10.0,462.2884850502014,0.0091665343919246,-0.0242574527544832,TIER_2,Lower direct recovery benefit; restores remaining Tebrau and Plentong losses.,Smaller direct loss; residual connectivity/rerouting role; Tier 2.
+C2025_J46_2.0_2.3,J46 Jalan Ulu Pulai,km 2.0-2.3,0.0,0.0,0.0,,,Observed disruption with zero modeled healthcare-accessibility loss.

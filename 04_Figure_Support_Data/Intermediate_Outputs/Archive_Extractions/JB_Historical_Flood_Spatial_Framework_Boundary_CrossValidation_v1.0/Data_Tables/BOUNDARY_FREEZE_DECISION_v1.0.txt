@@ -1,0 +1,47 @@
+JB STUDY BOUNDARY FREEZE DECISION v1.0
+
+STATUS: FROZEN
+
+MASTER BOUNDARY
+- Johor Bahru District
+- Geometry source: MyGDI/JUPEM
+- Existing source asset: JB_District_Boundary_MyGDI_WGS84.geojson
+- OBJECTID: 78
+- KOD_NEGERI: 01
+- KOD_DAERAH: 02
+- Source update: OGOS 2019
+- Source area attribute (ARM): 1,108.173087897 km2
+
+WHY MyGDI/JUPEM IS THE MASTER
+1. It is materially more detailed than the DOSM simplified ADM2 geometry (861 vs 147 exterior vertices).
+2. DOSM–MyGDI spatial agreement is high:
+   - 100 m approximate IoU: 0.98433
+   - DOSM overlap: 99.09%
+   - MyGDI overlap: 99.33%
+   - Approximate area difference: 0.25%
+3. Internal MyGDI validation is extremely strong:
+   - District vs union of 8 subdistrict units: IoU 0.99932
+   - District covered by union: 99.9955%
+4. Most boundary discrepancies are local line-generalisation/coastal-detail differences, not a different study region.
+
+CRS FREEZE
+- Storage/interchange: EPSG:4326
+- Distance/area/grid analysis: EPSG:3377 (GDM2000 / Johor Grid)
+
+FIXED BOUNDING EXTENT OF MASTER GEOMETRY
+- West: 103.5352318143 E
+- East: 104.0278971763 E
+- South: 1.2880318215 N
+- North: 1.6730875531 N
+
+IMPORTANT
+- DOSM geometry remains an independent cross-check only.
+- Do not replace the master polygon with a rectangular bounding box.
+- Do not redraw the boundary manually.
+- Do not modify the outer study boundary when 2022/2023/2025 flood evidence is added.
+- Historical flood zones are internal polygons and must be generated from evidence after this boundary freeze.
+
+NEXT STEP
+Generate the fixed analysis grid inside this frozen boundary.
+Primary candidate: 500 m x 500 m.
+Sensitivity grids: 250 m and 1000 m.

@@ -1,0 +1,9 @@
+zone_id,canonical_location,historical_class,geometry_confidence,observed_2023_impact_match,n_2023_impact_records,2023_impact_types,2023_reported_statuses,2023_source_ids,explicit_closure_2023,vehicle_trapped_2023,interpretation
+F05,Jalan Ayer Molek,SEVERE,MEDIUM,True,2,FLASH_FLOOD; ROAD_INUNDATED,PASSABILITY_NOT_EXPLICIT; VEHICLE_TRAPPED,SRC_2023_MKINI; SRC_2023_UTUSAN,False,True,Observed 2023 road-impact consequence on the same named road.
+F07,Jalan Kolam Ayer,SEVERE,MEDIUM,True,1,FLASH_FLOOD,CLOSED,SRC_2023_MKINI,True,False,Observed 2023 road-impact consequence on the same named road.
+F09,Jalan Stulang Darat,RECURRENT,MEDIUM,True,1,ROAD_INUNDATED,PASSABILITY_NOT_EXPLICIT,SRC_2023_MDJ_MAIN,False,False,Observed 2023 road-impact consequence on the same named road.
+F10,Jalan Tun Abdul Razak,RECURRENT,MEDIUM,True,1,ROAD_INUNDATED,PASSABILITY_NOT_EXPLICIT,SRC_2023_MDJ_MAIN,False,False,Observed 2023 road-impact consequence on the same named road.
+F11,Jalan Yahya Awal,RECURRENT,MEDIUM,True,1,ROAD_INUNDATED,PASSABILITY_NOT_EXPLICIT,SRC_2023_MDJ_MAIN,False,False,Observed 2023 road-impact consequence on the same named road.
+F12,Jalan Mahmoodiah,RECURRENT,MEDIUM,True,1,ROAD_INUNDATED,PASSABILITY_NOT_EXPLICIT,SRC_2023_MDJ_MAIN,False,False,Observed 2023 road-impact consequence on the same named road.
+F13,Jalan Tebrau,RECURRENT,MEDIUM,True,1,ROAD_INUNDATED,PASSABILITY_NOT_EXPLICIT,SRC_2023_MDJ_MAIN,False,False,Observed 2023 road-impact consequence on the same named road.
+F14,Jalan Sungai Chat,RECURRENT,MEDIUM,True,1,ROAD_INUNDATED,PASSABILITY_NOT_EXPLICIT,SRC_2023_UTUSAN,False,False,Observed 2023 road-impact consequence on the same named road.

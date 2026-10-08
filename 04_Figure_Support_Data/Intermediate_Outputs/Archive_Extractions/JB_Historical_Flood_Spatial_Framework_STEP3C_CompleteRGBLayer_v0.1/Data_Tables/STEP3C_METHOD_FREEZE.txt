@@ -1,0 +1,19 @@
+STEP 3C METHOD FREEZE
+
+MILD acceptance requires all of:
+1. official or equivalent high-grade observed flood evidence;
+2. documented event-level maximum depth upper bound <= 0.3 m;
+3. no evacuation, rescue, trapped vehicle, formal closure or impassability evidence
+   in the curated evidence base and targeted review;
+4. no >=2-core-year recurrence in 2022/2023/2025;
+5. sufficient location identity to create a reproducible support polygon.
+
+A shallow event does not force a Mild label if later high-consequence evidence exists.
+
+Polygon hierarchy remains:
+- exact named residential polygon;
+- residential polygon linked to an independently resolved official locality;
+- actual named road corridor;
+- frozen 500 m evidence-support cell as last resort.
+
+No D09, DEM, rainfall or susceptibility layer is allowed to define the Step 3C zone boundary.

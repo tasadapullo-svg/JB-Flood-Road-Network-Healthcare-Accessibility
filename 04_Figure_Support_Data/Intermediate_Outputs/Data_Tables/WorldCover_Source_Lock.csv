@@ -1,0 +1,2 @@
+dataset,tile,url,source_crs,native_resolution,built_up_class_code,future_variable,terminology_rule
+ESA WorldCover 2021 v200,N00E102,https://esa-worldcover.s3.eu-central-1.amazonaws.com/v200/2021/map/ESA_WorldCover_10m_2021_v200_N00E102_Map.tif,EPSG:4326,10 m,50,built_up_fraction_500m,Built-up fraction proxy; do not call exact impervious-surface percentage

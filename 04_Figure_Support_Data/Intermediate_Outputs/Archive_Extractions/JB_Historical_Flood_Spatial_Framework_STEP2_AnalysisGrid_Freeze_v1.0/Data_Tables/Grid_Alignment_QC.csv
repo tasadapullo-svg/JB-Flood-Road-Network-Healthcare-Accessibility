@@ -1,0 +1,4 @@
+check,same_origin,ratio,status,rule
+250_to_500,True,2,PASS,500 m boundaries occur on every second 250 m grid line
+500_to_1000,True,2,PASS,1000 m boundaries occur on every second 500 m grid line
+250_to_1000,True,4,PASS,1000 m boundaries occur on every fourth 250 m grid line

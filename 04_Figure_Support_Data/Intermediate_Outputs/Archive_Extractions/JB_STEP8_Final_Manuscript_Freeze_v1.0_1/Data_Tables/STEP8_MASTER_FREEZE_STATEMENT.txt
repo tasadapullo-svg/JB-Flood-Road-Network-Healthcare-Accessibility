@@ -1,0 +1,34 @@
+STEP 8 — FINAL MANUSCRIPT FREEZE v1.0
+
+STATUS: CORE ANALYSIS COMPLETE
+
+No new experiment is introduced in Step 8.
+Step 8 only:
+1. harmonizes final GIS presentation layers;
+2. reorganizes frozen Step 1–7 evidence into publication figures/tables;
+3. freezes Results and Methods architecture;
+4. freezes claims and prohibited overclaims;
+5. freezes Discussion logic.
+
+PRIMARY SCIENTIFIC CHAIN:
+Historical evidence
+→ closed recurrent flood-zone geography
+→ descriptive physical context
+→ observed road disruption
+→ healthcare-accessibility loss
+→ spatial inequality
+→ recovery priority
+
+PRIMARY QUANTITATIVE EVENT:
+20 March 2025: FT003 + FT01 + J105.
+
+SECONDARY CASE:
+21 March 2025 J46 as an observed zero healthcare-accessibility-effect case.
+
+2023:
+Operational validation only; no forced quantitative network simulation.
+
+D09:
+Preparedness screening only; not independent validation and not calibrated flood probability.
+
+Any future numerical, geometry or classification change requires a new version (v1.1+).

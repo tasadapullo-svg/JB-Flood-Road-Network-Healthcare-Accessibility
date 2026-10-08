@@ -1,0 +1,10 @@
+check,observed,expected,pass
+Primary scenario closure count,3.0,3.0,True
+MAR20 newly unreachable population,4961.045478571206,4961.045478571206,True
+MAR21 J46 newly unreachable population,0.0,0.0,True
+Sensitivity combinations,27.0,27.0,True
+Recovery orders,6.0,6.0,True
+Single-road attribution rows,4.0,4.0,True
+2023 quantitative simulation introduced,0.0,0.0,True
+Deprecated D06 baseline used,0.0,0.0,True
+Negative J46 result retained,1.0,1.0,True

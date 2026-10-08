@@ -1,0 +1,5 @@
+tier,product,name,start,end,expected_steps,purpose,use_rule
+PRIMARY,GPM_3IMERGM_07,Monthly Final,2016-01-01,2024-12-31,108,annual/wet-season climatology,COMPLETE_YEARS_ONLY
+PRIMARY,GPM_3IMERGDF_07,Daily Final,2016-01-01,2024-12-31,3288,P95/P99; wet-day/extreme-day frequency; annual maxima,COMPLETE_YEARS_ONLY
+EXTENSION,GPM_3IMERGDF_07,Daily Final,2025-01-01,2025-09-30,273,recent extension / QC; not complete-year annual climatology,OPTIONAL
+SENSITIVITY,GPM_3IMERGHH_07,Half-hourly Final,2016-01-01,2024-12-31,157824,1h/3h/6h climatological extreme sensitivity only,OPTIONAL_AFTER_PRIMARY

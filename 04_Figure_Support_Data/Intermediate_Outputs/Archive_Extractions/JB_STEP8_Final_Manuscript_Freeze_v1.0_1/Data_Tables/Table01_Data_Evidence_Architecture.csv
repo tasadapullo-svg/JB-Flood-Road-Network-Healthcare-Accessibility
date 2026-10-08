@@ -1,0 +1,10 @@
+Evidence/data component,Frozen scope,Role in manuscript,Status
+Historical flood evidence,"Official/reported flood records, 2012–2025; core overlap 2022/2023/2025",Define recurrent observed flood geography,Primary evidence
+Frozen flood zones,"F01–F19; 9 Severe, 8 Recurrent, 2 Mild",Closed GIS evidence-support polygons,Primary spatial layer
+Terrain context,Copernicus GLO-30; slope; relative elevation; strict low-lying screen,Physical-context interpretation only,Contextual
+Road network,OSM/HERE-derived routing network and observed road disruption geometry,Network disruption and routing,Primary transport layer
+Hospitals,14 acute/emergency destinations in corrected baseline,Healthcare destinations,Primary accessibility layer
+Population,WorldPop origin population surface,Population-weighted accessibility,Primary exposure layer
+2023 road impacts,Observed inundation/closures on named roads,Secondary operational validation,Validation
+2025 JKR disruptions,"FT003, FT01, J105, J46 observed sections",Primary quantitative disruption event,Primary event
+D09 preparedness screening,Evidence-based road screening,Preparedness context only; not independent flood validation,Secondary/context

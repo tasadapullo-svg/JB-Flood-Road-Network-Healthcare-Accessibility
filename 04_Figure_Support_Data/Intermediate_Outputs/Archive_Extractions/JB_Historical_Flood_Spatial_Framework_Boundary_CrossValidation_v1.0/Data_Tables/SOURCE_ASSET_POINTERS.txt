@@ -1,0 +1,14 @@
+Existing source assets used for cross-validation:
+1. JB_District_Boundary_MyGDI_WGS84.geojson
+2. JB_Subdistrict_Boundaries_MyGDI_WGS84.geojson
+3. D01B_Subdistrict_QC_Report.txt
+4. D01_Johor_Bahru_Study_Area_Final.zip
+
+DOSM independent cross-check:
+- dosm-malaysia/data-open
+- datasets/geodata/administrative_2_district.geojson
+- Johor / Johor Bahru feature
+- blob SHA: 5dc846b26ca0fb5fc2f9c1fb33abf1c800ee0f88
+
+This cross-validation package records derived results and freeze decisions.
+The original MyGDI source geometry is intentionally not rewritten or altered.

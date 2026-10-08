@@ -1,0 +1,45 @@
+{
+  "original_relative_path": "03_Nature_Portfolio_Project/Unclassified/Original_Archives/RAW_AUTHENTICATED_part01.zip",
+  "original_file_name": "RAW_AUTHENTICATED_part01.zip",
+  "original_size_bytes": 186507374,
+  "original_sha256": "9306318473b7db24f102d0fcdabb625e6194601d2899ac9e37ab38b3f630a584",
+  "part_size_limit_bytes": 20971520,
+  "parts": [
+    {
+      "file": "RAW_AUTHENTICATED_part01.zip.part001",
+      "sha256": "922baaa2661c54fe8d5cd1fe65faf1d08e9d173d30d82235ba13fe8babf48aa0"
+    },
+    {
+      "file": "RAW_AUTHENTICATED_part01.zip.part002",
+      "sha256": "558937b081b9c618fb8d85f4b0ce4533d96601e248555971660de60ea4b6159f"
+    },
+    {
+      "file": "RAW_AUTHENTICATED_part01.zip.part003",
+      "sha256": "d0fcf9f71fa09a937a1eae7fa16610b5dca7adaa5789c2d421f53021258840df"
+    },
+    {
+      "file": "RAW_AUTHENTICATED_part01.zip.part004",
+      "sha256": "eca3874e8c93b7086910ba7d6e909747dcb02f272b4bc3fc6eb9d2f5556a1cd8"
+    },
+    {
+      "file": "RAW_AUTHENTICATED_part01.zip.part005",
+      "sha256": "751d6757b7e4990cfdc1dc0cd92db502a3b8cd4feee5eebcea2c8d8304420a89"
+    },
+    {
+      "file": "RAW_AUTHENTICATED_part01.zip.part006",
+      "sha256": "44bc6a8235a86e5a8ceb4c203989c6d910269b821405b4451d6047df7c762b94"
+    },
+    {
+      "file": "RAW_AUTHENTICATED_part01.zip.part007",
+      "sha256": "76c26bef9a0d442331d5e03922b9fd34fcf754e7ca87861e9e1aadc3b495ec58"
+    },
+    {
+      "file": "RAW_AUTHENTICATED_part01.zip.part008",
+      "sha256": "5b4e77ba9daf6b99635e8c2c000ff9c90a590419a10d8ed8929082a622d31e0e"
+    },
+    {
+      "file": "RAW_AUTHENTICATED_part01.zip.part009",
+      "sha256": "96c8b4f96e7350a357bd48f199940ced6f8f270aad90502d4e4951511a8661f6"
+    }
+  ]
+}

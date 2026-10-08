@@ -1,0 +1,21 @@
+{
+  "original_relative_path": "03_Nature_Portfolio_Project/Supporting_Information/Geospatial_Data/JB_OSM_RoadNetwork_Core_Terrain_RSO.gpkg",
+  "original_file_name": "JB_OSM_RoadNetwork_Core_Terrain_RSO.gpkg",
+  "original_size_bytes": 46456832,
+  "original_sha256": "c80ad83eab06075435e29f9a269c338d3ad26587066577526aca4cba47a681cd",
+  "part_size_limit_bytes": 20971520,
+  "parts": [
+    {
+      "file": "JB_OSM_RoadNetwork_Core_Terrain_RSO.gpkg.part001",
+      "sha256": "5903780b82f6a50eb63a6a449f58f8afaf68ddc05b184376332478657e2e23cb"
+    },
+    {
+      "file": "JB_OSM_RoadNetwork_Core_Terrain_RSO.gpkg.part002",
+      "sha256": "0c3f68d577dbeb4a442c694ef8c20e8492659cb44678cb5c243a0683d4aabdbf"
+    },
+    {
+      "file": "JB_OSM_RoadNetwork_Core_Terrain_RSO.gpkg.part003",
+      "sha256": "81934e53eedade37a708229a28b513542b62803ac788e2e4f099f5f4d33de48c"
+    }
+  ]
+}

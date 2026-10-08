@@ -1,0 +1,21 @@
+{
+  "original_relative_path": "03_Nature_Portfolio_Project/Supporting_Information/Geospatial_Data/JB_Flood_Evidence_and_Road_Susceptibility_Screening_RSO.gpkg",
+  "original_file_name": "JB_Flood_Evidence_and_Road_Susceptibility_Screening_RSO.gpkg",
+  "original_size_bytes": 55484416,
+  "original_sha256": "cc5e4d6a6e65fff716ab578d5f8a98bd8bee189d48bb3ca2a437e8aa1584d8f4",
+  "part_size_limit_bytes": 20971520,
+  "parts": [
+    {
+      "file": "JB_Flood_Evidence_and_Road_Susceptibility_Screening_RSO.gpkg.part001",
+      "sha256": "7b7b0c3eaa88094fa14616122d85ee9541dc2929f82b07eb84f8e8f32513cdaa"
+    },
+    {
+      "file": "JB_Flood_Evidence_and_Road_Susceptibility_Screening_RSO.gpkg.part002",
+      "sha256": "164f7c3cf603d163e53fc57b4971a0487565342ca02082b87960360be6c344fa"
+    },
+    {
+      "file": "JB_Flood_Evidence_and_Road_Susceptibility_Screening_RSO.gpkg.part003",
+      "sha256": "6abb5e26daa707210641cde6547204169dc3bbc3a5a748c06d0b06129fea6eb5"
+    }
+  ]
+}

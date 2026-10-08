@@ -1,0 +1,17 @@
+{
+  "original_relative_path": "03_Nature_Portfolio_Project/Supporting_Information/Geospatial_Data/JB_OSM_RoadNetwork_Core_WGS84.gpkg",
+  "original_file_name": "JB_OSM_RoadNetwork_Core_WGS84.gpkg",
+  "original_size_bytes": 31956992,
+  "original_sha256": "582aa61c60412876e2a10590d1df5e0c38a2afb3c2a031107de7bfb68b2c2125",
+  "part_size_limit_bytes": 20971520,
+  "parts": [
+    {
+      "file": "JB_OSM_RoadNetwork_Core_WGS84.gpkg.part001",
+      "sha256": "e922dbb77f1b4b99d15588a651270e7957d0b36d16171b89253f5b657ba94892"
+    },
+    {
+      "file": "JB_OSM_RoadNetwork_Core_WGS84.gpkg.part002",
+      "sha256": "003b7941972916c222d37cc4cb4d215d529fb0ec87889aa87e6928aecee9d02e"
+    }
+  ]
+}

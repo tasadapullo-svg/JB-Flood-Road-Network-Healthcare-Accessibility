@@ -1,0 +1,29 @@
+{
+  "original_relative_path": "03_Nature_Portfolio_Project/Supporting_Information/Geospatial_Data/JB_OSM_RoadNetwork_RoutingBuffer10km_RSO.gpkg",
+  "original_file_name": "JB_OSM_RoadNetwork_RoutingBuffer10km_RSO.gpkg",
+  "original_size_bytes": 84766720,
+  "original_sha256": "71830853caa9408cd3cc7d87ae5a0df96d43308369c103e8d5aee700c6f6f183",
+  "part_size_limit_bytes": 20971520,
+  "parts": [
+    {
+      "file": "JB_OSM_RoadNetwork_RoutingBuffer10km_RSO.gpkg.part001",
+      "sha256": "9bcf63a33e4d0aa0db7da2f788915e592766f81846e0f71cc75f344910a46238"
+    },
+    {
+      "file": "JB_OSM_RoadNetwork_RoutingBuffer10km_RSO.gpkg.part002",
+      "sha256": "700964713fc126512acf1a63a4bb817b0f28c9a6ae82b1f77a1f312b13d0f751"
+    },
+    {
+      "file": "JB_OSM_RoadNetwork_RoutingBuffer10km_RSO.gpkg.part003",
+      "sha256": "a810a4a1d72a2daa78000ed0fc51e3a7125798b1969ee0fe7bfd56574030e4c4"
+    },
+    {
+      "file": "JB_OSM_RoadNetwork_RoutingBuffer10km_RSO.gpkg.part004",
+      "sha256": "f1a6ac581f4fb0d446aa5a6f09fea671ee3648f71fe76ee7d5829b02ad771413"
+    },
+    {
+      "file": "JB_OSM_RoadNetwork_RoutingBuffer10km_RSO.gpkg.part005",
+      "sha256": "01cd5c93db8bbc5d3b8762b4f5665ff282f2d4ebbe3ada09c6dde3e2f42648bc"
+    }
+  ]
+}

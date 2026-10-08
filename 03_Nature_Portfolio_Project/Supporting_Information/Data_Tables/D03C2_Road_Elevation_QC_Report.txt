@@ -1,0 +1,112 @@
+D03-C2 ROAD ELEVATION / ROAD TERRAIN REPORT
+
+1. Road input
+   JB_OSM_RoadNetwork_Core_RSO.gpkg
+
+2. Formal road layer
+   motor_vehicle_roads
+
+3. CRS
+   EPSG:3375
+
+4. Formal motor-vehicle road segments
+   81,314
+
+5. Auxiliary road segments
+   1,746
+
+6. Sampling method
+   30 m regular along-line terrain sampling with endpoints and midpoint included.
+
+7. Terrain inputs
+   Elevation: JB_Copernicus_GLO30_Core_RSO.tif
+   Slope: JB_Terrain_Slope_Degree_RSO.tif
+   Relative elevation 500 m: JB_Terrain_RelativeElevation_500m_RSO.tif
+   Relative elevation 1000 m: JB_Terrain_RelativeElevation_1000m_RSO.tif
+   Strict low-lying candidate: JB_Terrain_LowLyingCandidate_Strict_RSO.tif
+
+8. Geometry preservation
+   PASS
+   Segment count unchanged: 81,314
+   segment_id unique: True
+
+9. Terrain coverage
+   FULL: 81,140
+   PARTIAL: 150
+   NONE: 24
+
+10. Road sampled elevation — segment-level summary
+    Mean of segment means: 24.513482 m
+    Median of segment means: 22.928314 m
+    P05 of segment means: 5.382870 m
+    P95 of segment means: 48.929188 m
+    Minimum of segment minima: -8.680869 m
+
+11. Bridge / tunnel caution
+    Bridge segments: 1,026
+    Tunnel segments: 285
+    These segments retain terrain metrics but are flagged BRIDGE_TUNNEL_CAUTION.
+    Copernicus DEM is a DSM and does not provide surveyed bridge-deck or tunnel-carriageway elevation.
+
+12. Low-lying terrain screening
+    Segments with any sampled point in strict D03-C1 candidate cells: 2,033
+    Segments with >=50% samples in strict candidate cells: 549
+    IMPORTANT: This is topographic screening only, not flood exposure.
+
+13. Output GPKG — RSO
+    JB_OSM_RoadNetwork_Core_Terrain_RSO.gpkg
+
+14. Output GPKG — WGS84
+    JB_OSM_RoadNetwork_Core_Terrain_WGS84.gpkg
+
+15. Road terrain metrics CSV
+    D03C2_Road_Terrain_Metrics.csv
+
+16. Metadata
+    D03C2_Road_Elevation_Metadata.json
+
+17. Data dictionary
+    D03C2_Road_Terrain_Data_Dictionary.csv
+
+18. QC figures
+    D03C2_Road_MinElevation_QC.png
+    D03C2_Road_LowLyingFraction_QC.png
+
+19. CHECK 1 — INPUT
+    PASS
+    OSM road layers, CRS and all five terrain rasters were readable.
+
+20. CHECK 2 — PROCESSING
+    PASS
+    Original road geometry and segment_id were preserved.
+    Metrics were sampled from EPSG:3375 terrain products at 30 m along-line spacing.
+
+21. CHECK 3 — SCIENTIFIC INTERPRETATION
+    PASS
+    road_elev_* fields represent Copernicus DSM surface samples, not surveyed road-deck elevation.
+    lowlying_fraction is not a flood-prone-road label.
+
+22. Final status
+    D03-C2 ROAD ELEVATION: PASS WITH WARNING
+
+
+23. Coverage warning audit
+    FULL coverage: 99.786015% of road segments
+    PARTIAL coverage: 0.184470% (150 segments)
+    NO coverage: 0.029515% (24 segments)
+
+    All 24 no-coverage segments are located extremely close to the official district boundary:
+    mean distance = 0.356721 m
+    median distance = 0.000042 m
+    maximum distance = 6.163279 m
+
+    Partial-coverage segments are also predominantly boundary-adjacent:
+    median distance = 0.000027 m
+    maximum distance = 28.976808 m
+
+    Interpretation:
+    This warning is consistent with raster/polygon edge-cell effects at the district boundary,
+    not a general DEM coverage failure. No road geometry was deleted or altered.
+
+    Detailed issue table:
+    D03C2_Terrain_Coverage_Issues.csv

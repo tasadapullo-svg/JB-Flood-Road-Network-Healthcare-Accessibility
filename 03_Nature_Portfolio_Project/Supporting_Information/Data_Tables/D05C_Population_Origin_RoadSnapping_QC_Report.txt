@@ -1,0 +1,96 @@
+D05-C POPULATION ORIGIN CONSOLIDATION + ROAD-NETWORK SNAPPING REPORT
+
+1. Primary decision
+   RETAIN ALL 75,149 WORLDPOP ORIGINS.
+   Do not spatially aggregate them before accessibility modelling.
+
+2. Consolidation decision
+   Native origins: 75,149
+   Unique selected access segments: 31,482
+   Segment-only aggregation would reduce records by 58.107227%.
+   It is NOT adopted because distinct positions along the same edge would be collapsed.
+
+3. Computational strategy
+   Origins are NOT inserted into the routing graph as graph nodes.
+   Each origin is stored by edge ID + projected chainage + U/V endpoint nodes + off-network distance.
+
+4. Population integrity
+   D05-A population: 1,905,758.571310614
+   D05-C population: 1,905,758.571310614
+   Difference: 0.000000000000
+   Result: PASS
+
+5. Road network
+   Core motor-vehicle segments: 81,314
+   Stable endpoint nodes: 106,924
+   Access-candidate segments: 77,000
+
+6. Access-candidate policy
+   Excluded: MOTORWAY / TRUNK / bridge / tunnel / access=no / access=emergency
+
+7. Snap-distance distribution
+   Mean: 63.713265 m
+   Median: 26.450380 m
+   P90: 154.630399 m
+   P95: 220.599159 m
+   P99: 569.952952 m
+   Maximum: 2454.198960 m
+
+8. Population-weighted snap distance
+   Weighted mean: 21.744493 m
+   Weighted P50: 12.020768 m
+   Weighted P90: 49.327317 m
+   Weighted P95: 71.592175 m
+   Weighted P99: 139.376549 m
+
+9. Cumulative road-snap coverage
+ threshold_m  origin_count  origin_pct   population  population_pct
+          25         36568   48.660661 1.416817e+06       74.343973
+          50         49325   65.636269 1.719045e+06       90.202688
+         100         61179   81.410265 1.861530e+06       97.679208
+         200         70595   93.940039 1.897520e+06       99.567715
+         500         74206   98.745160 1.904057e+06       99.910736
+        1000         74979   99.773783 1.905481e+06       99.985428
+
+10. Long-distance flags
+    Origins >500 m: 943
+    Population >500 m: 1,701.156544
+    Share of total population: 0.089264%
+    These are retained and flagged, not dropped.
+
+11. Used segments
+    Unique used access segments: 31,482
+    Median origins per used segment: 1.000000
+    P95 origins per used segment: 7.000000
+    Maximum origins on one used segment: 140
+
+12. Subdistrict assignment
+    Nearest-subdistrict fallback cases: 4
+    Maximum fallback distance: 13.689359 m
+    Final unmatched: 0
+
+13. Directed-routing readiness
+    Oneway tags are preserved. Each origin stores U/V endpoints and along-edge distances.
+    Future routing must respect directionality.
+
+14. Interpretation limit
+    Snap points are computational road-access projections, not verified driveways or household gates.
+
+15. CHECK 1 — POPULATION CONSERVATION
+    PASS
+
+16. CHECK 2 — ALL ORIGINS NETWORK-REFERENCED
+    PASS
+
+17. CHECK 3 — GRAPH-SIZE CONTROL
+    PASS — added population-origin graph nodes: 0
+
+18. CHECK 4 — LONG-DISTANCE TRANSPARENCY
+    PASS
+
+19. Final status
+    D05-C POPULATION ORIGIN ROAD SNAPPING: PASS WITH LONG-DISTANCE ACCESS FLAGS
+
+20. Frozen modelling rule
+    Use all 75,149 WorldPop origins in the primary population-weighted healthcare accessibility analysis.
+    Do not aggregate before routing unless a separate sensitivity experiment explicitly tests aggregation.

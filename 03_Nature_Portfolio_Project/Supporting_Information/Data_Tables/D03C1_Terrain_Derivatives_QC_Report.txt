@@ -1,0 +1,36 @@
+D03-C1 TERRAIN DERIVATIVES REPORT
+
+1. Input DEM
+   JB_Copernicus_GLO30_Context10km_RSO.tif
+2. Input CRS / resolution
+   EPSG:3375 / 30 m
+3. Study area
+   Johor Bahru District; area 1108.173087 km2
+4. Slope method
+   Horn 3x3 terrain gradient
+5. Relative elevation
+   Cell elevation minus circular focal median elevation
+6. Neighborhoods
+   500 m nominal: effective raster radius 510 m
+   1000 m nominal: effective raster radius 1020 m
+   Focal-median quantisation step: 0.02 m (maximum median quantisation error <= 0.01 m)
+7. Edge-effect control
+   PASS — calculations used D03-B 10 km context DEM before clipping to district.
+8. Slope degree statistics
+   Min 0.000000; Max 48.037903; Mean 3.778886; Median 2.980255; P25 1.275734; P95 10.273324
+9. Relative elevation 500 m
+   Min -61.496750 m; Max 93.115463 m; Mean 0.610720 m; Median 0.000000 m; P10 -6.352357 m; P90 8.004751 m
+10. Relative elevation 1000 m
+    Min -53.933060 m; Max 125.075462 m; Mean 0.866341 m; Median 0.000000 m; P10 -8.400732 m; P90 10.531047 m
+11. Strict candidate thresholds
+    rel500 <= P10: -6.352357 m
+    rel1000 <= P10: -8.400732 m
+    slope <= P25: 1.275734 degree
+12. Strict candidate coverage
+    Pixels 14,893; area 13.403700 km2; percent of valid district pixels 1.209532%
+13. Scientific interpretation
+    Terrain screening only. NOT a flood map, flood hotspot, flood-prone road, inundation map, or historical flood area.
+14. Integrity
+    All inside-district derived values finite: True
+15. Final status
+    D03-C1 TERRAIN DERIVATIVES: PASS

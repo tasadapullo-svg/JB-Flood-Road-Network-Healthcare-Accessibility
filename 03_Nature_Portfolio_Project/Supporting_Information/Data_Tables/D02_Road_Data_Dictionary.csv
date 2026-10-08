@@ -1,0 +1,36 @@
+field_name,description,type,source,derived_or_original,unit,allowed_values,notes
+segment_id,Stable project segment identifier,string,derived,derived,,JB_OSM_########,Assigned after deterministic sorting within each dataset.
+source,Data source,string,derived,derived,,OSM,
+snapshot_date,OSM snapshot date,date,derived,derived,,2026-10-03,
+study_area,Spatial processing extent name,string,derived,derived,,Johor Bahru District; Johor Bahru District + 10 km routing buffer,
+road_class,Standardized road class,string,derived from highway,derived,,LIVING_STREET; MOTORWAY; PRIMARY; RESIDENTIAL; ROAD_OTHER; SECONDARY; SERVICE; TERTIARY; TRACK_AUXILIARY; TRUNK; UNCLASSIFIED,
+length_m,Segment length calculated in EPSG:3375,float,derived,derived,m,>=0,
+is_oneway,Standardized oneway flag,boolean,OSM oneway,derived,,TRUE; FALSE; NULL,
+is_bridge,Standardized bridge flag,boolean,OSM bridge,derived,,TRUE; FALSE; NULL,
+is_tunnel,Standardized tunnel flag,boolean,OSM tunnel,derived,,TRUE; FALSE; NULL,
+is_service,Service-road diagnostic flag,boolean,OSM highway/service,derived,,TRUE; FALSE,
+motor_vehicle_candidate,Included in formal motor-vehicle candidate network,boolean,OSM highway,derived,,TRUE; FALSE,Track is retained in road_auxiliary with FALSE.
+geometry_valid,Geometry validity diagnostic,boolean,geometry,derived,,TRUE; FALSE,
+osm_id,Original or parsed OSM tag: osm_id,string,OSM PBF,original,,,Null if absent; other_tags is GDAL OSM HSTORE text.
+osm_type,Original or parsed OSM tag: osm_type,string,OSM PBF,original,,,Null if absent; other_tags is GDAL OSM HSTORE text.
+highway,Original or parsed OSM tag: highway,string,OSM PBF,original,,,Null if absent; other_tags is GDAL OSM HSTORE text.
+name,Original or parsed OSM tag: name,string,OSM PBF,original,,,Null if absent; other_tags is GDAL OSM HSTORE text.
+ref,Original or parsed OSM tag: ref,string,OSM PBF,original,,,Null if absent; other_tags is GDAL OSM HSTORE text.
+oneway,Original or parsed OSM tag: oneway,string,OSM PBF,original,,,Null if absent; other_tags is GDAL OSM HSTORE text.
+lanes,Original or parsed OSM tag: lanes,string,OSM PBF,original,,,Null if absent; other_tags is GDAL OSM HSTORE text.
+maxspeed,Original or parsed OSM tag: maxspeed,string,OSM PBF,original,,,Null if absent; other_tags is GDAL OSM HSTORE text.
+bridge,Original or parsed OSM tag: bridge,string,OSM PBF,original,,,Null if absent; other_tags is GDAL OSM HSTORE text.
+tunnel,Original or parsed OSM tag: tunnel,string,OSM PBF,original,,,Null if absent; other_tags is GDAL OSM HSTORE text.
+junction,Original or parsed OSM tag: junction,string,OSM PBF,original,,,Null if absent; other_tags is GDAL OSM HSTORE text.
+access,Original or parsed OSM tag: access,string,OSM PBF,original,,,Null if absent; other_tags is GDAL OSM HSTORE text.
+service,Original or parsed OSM tag: service,string,OSM PBF,original,,,Null if absent; other_tags is GDAL OSM HSTORE text.
+surface,Original or parsed OSM tag: surface,string,OSM PBF,original,,,Null if absent; other_tags is GDAL OSM HSTORE text.
+width,Original or parsed OSM tag: width,string,OSM PBF,original,,,Null if absent; other_tags is GDAL OSM HSTORE text.
+layer,Original or parsed OSM tag: layer,string,OSM PBF,original,,,Null if absent; other_tags is GDAL OSM HSTORE text.
+lit,Original or parsed OSM tag: lit,string,OSM PBF,original,,,Null if absent; other_tags is GDAL OSM HSTORE text.
+toll,Original or parsed OSM tag: toll,string,OSM PBF,original,,,Null if absent; other_tags is GDAL OSM HSTORE text.
+motor_vehicle,Original or parsed OSM tag: motor_vehicle,string,OSM PBF,original,,,Null if absent; other_tags is GDAL OSM HSTORE text.
+vehicle,Original or parsed OSM tag: vehicle,string,OSM PBF,original,,,Null if absent; other_tags is GDAL OSM HSTORE text.
+bicycle,Original or parsed OSM tag: bicycle,string,OSM PBF,original,,,Null if absent; other_tags is GDAL OSM HSTORE text.
+foot,Original or parsed OSM tag: foot,string,OSM PBF,original,,,Null if absent; other_tags is GDAL OSM HSTORE text.
+other_tags,Original or parsed OSM tag: other_tags,string,OSM PBF,original,,,Null if absent; other_tags is GDAL OSM HSTORE text.

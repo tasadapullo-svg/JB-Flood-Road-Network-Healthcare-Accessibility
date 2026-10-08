@@ -1,0 +1,127 @@
+D03-B COPERNICUS GLO-30 REPORT
+
+1. RAW Tile N01_E103
+   Copernicus_DSM_COG_10_N01_00_E103_00_DEM.tif
+2. RAW Tile N01_E104
+   Copernicus_DSM_COG_10_N01_00_E104_00_DEM.tif
+
+3. File sizes
+   N01_E103: 31,871,871 bytes
+   N01_E104: 12,044,289 bytes
+
+4. MD5
+   N01_E103: fbc63deabe46bbc03f42dcb78e3538dd
+   N01_E104: 270a4909e95fda43ca443dc73ed17b22
+   Note: local checksums generated; no official checksum sidecar was supplied.
+
+5. SHA-256
+   N01_E103: fe2cf9dbc8a06ac328fb6d3d11a3764adac203e91adfae6cb066e07390480417
+   N01_E104: b33db33b7610096f6eff53d3662513ff12e71837d86682490ca094de189b3d08
+
+6. Source CRS
+   EPSG:4326
+
+7. Source dimensions
+   N01_E103: 3600 x 3600
+   N01_E104: 3600 x 3600
+
+8. Source resolution
+   0.0002777777777778 degree x 0.0002777777777778 degree (~1 arc-second)
+
+9. Source NoData
+   N01_E103: None
+   N01_E104: None
+
+10. Mosaic seam check
+    PASS
+    Same CRS: True
+    Same resolution: True
+    Horizontal adjacency: True
+    Same vertical extent: True
+
+11. D01 boundary validation
+    PASS
+
+12. Core coverage
+    Extent covered by source tiles: True
+    Valid-pixel coverage ratio inside district: 1.000000000
+
+13. Context 10 km coverage
+    Extent covered by source tiles: True
+    Valid-pixel coverage ratio inside context buffer: 1.000000000
+
+14. Core valid pixels
+    1,167,520
+
+15. Core NoData percentage
+    52.550215%
+
+16. Core min elevation
+    -15.280698 m
+
+17. Core max elevation
+    172.242203 m
+
+18. Core mean elevation
+    25.148811 m
+
+19. Core median elevation
+    22.202482 m
+
+20. Core P05 / P50 / P95
+    P05: 0.000000 m
+    P50: 22.202482 m
+    P95: 62.902506 m
+
+21. Core negative pixel count and percentage
+    Count: 301
+    Percentage: 0.025781%
+
+22. Context min / max / mean
+    Min: -37.000000 m
+    Max: 653.113647 m
+    Mean: 26.508739 m
+
+23. WGS84 outputs
+    Copernicus_GLO30_N01_E103_E104_Mosaic_WGS84.tif
+    JB_Copernicus_GLO30_Core_WGS84.tif
+    JB_Copernicus_GLO30_Context10km_WGS84.tif
+
+24. RSO outputs
+    JB_Copernicus_GLO30_Core_RSO.tif
+    JB_Copernicus_GLO30_Context10km_RSO.tif
+
+25. Metadata
+    D03_Copernicus_GLO30_Metadata.json
+
+26. Data dictionary
+    D03_Copernicus_GLO30_Data_Dictionary.csv
+
+27. QC figures
+    D03_Copernicus_GLO30_Core_QC.png
+    D03_Copernicus_GLO30_Context10km_QC.png
+    D03_Copernicus_GLO30_Elevation_Distribution_QC.png
+
+28. CHECK 1 — RAW
+    PASS
+    RAW files opened successfully and were not modified.
+
+29. CHECK 2 — PROCESSING
+    PASS
+    Core = Johor Bahru District.
+    Context = District + 10 km.
+    WGS84 clips preserve native grid.
+    EPSG:3375 metric copies use bilinear resampling at 30 m.
+    Negative elevations were preserved.
+    Clip exterior NoData = -9999.
+
+30. CHECK 3 — OUTPUT
+    PASS
+    Mosaic, Core, Context, metric copies, metadata, data dictionary,
+    boundary references, QC report and three QC images were generated.
+
+31. Warnings
+        - None affecting dataset usability.
+
+32. Final status
+    D03-B COPERNICUS GLO-30: PASS

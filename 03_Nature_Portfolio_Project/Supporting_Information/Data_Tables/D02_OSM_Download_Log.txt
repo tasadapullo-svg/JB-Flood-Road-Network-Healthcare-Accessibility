@@ -1,0 +1,9 @@
+D02 OSM Download Log
+Dataset: OSM / Geofabrik
+Snapshot date: 2026-10-03
+Raw path: D:\OneDrive\桌面\Nature Portfolio_Project\06_Road_Network\OSM\RAW\malaysia-singapore-brunei-261003.osm.pbf
+Raw file size: 251629147
+MD5: c7ddd154bd34d0c910837832600c8a1c
+SHA-256: 33174694771c7bc3b34cf740497a46a371b4acd6bd1e2fdff7e9052a659039df
+No new OSM data downloaded during D02-B.
+QC result: PASS

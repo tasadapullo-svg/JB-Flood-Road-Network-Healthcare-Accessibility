@@ -1,0 +1,21 @@
+﻿RESULT FILE COPY SUMMARY
+Date: 2026-10-04
+Source root: D:\OneDrive\桌面\Nature Portfolio_Project
+Destination: D:\OneDrive\桌面\Nature Portfolio_Project\所有下载文件\Results_Copy_20261004_1936
+Files copied: 21
+Total bytes: 320695557
+
+Copied groups:
+- 01_Study_Area\Study_Area_Final
+- 04_DEM_Terrain\Copernicus_DEM\PROCESSED
+- 04_DEM_Terrain\Copernicus_DEM\ARCHIVE
+- 06_Road_Network\OSM\CLIPPED
+- 06_Road_Network\OSM\PROCESSED
+- 06_Road_Network\OSM\VALIDATION
+- 06_Road_Network\OSM\METADATA
+- 22_Code\08_Road_Network
+- 23_Metadata_Logs\Download_Log
+- 23_Metadata_Logs\Processing_Log
+
+No source files were moved or deleted.
+No existing result-copy folder was overwritten.

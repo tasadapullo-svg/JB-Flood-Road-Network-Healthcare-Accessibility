@@ -1,0 +1,124 @@
+D05-A WORLDPOP 2026 POPULATION ORIGINS REPORT
+
+1. RAW file
+   mys_pop_2026_CN_100m_R2025A_v1.tif
+
+2. RAW file size
+   29,310,427 bytes
+
+3. MD5
+   a846e0227183f0ec7cd2938fea77c680
+
+4. SHA-256
+   a90d85dbdb0c3fe55cae1e352205fe1be8a277a2f7b0907e47dcebdb95f9e783
+
+5. Source CRS
+   EPSG:4326
+
+6. Source dimensions
+   23,554 x 7,832
+
+7. Source resolution
+   0.00083333333 x 0.00083333333 degree
+   3 arc-seconds (~100 m at the equator)
+
+8. Source dtype / NoData
+   dtype: float32
+   NoData: -99999.0
+
+9. Study-area validation
+   Johor Bahru District / D01: PASS
+   District area: 1108.173087 km2
+   Source raster extent fully covers district: True
+
+10. Clipping rule
+    Native WorldPop grid.
+    all_touched=False.
+    Pixel-centre-in-district assignment.
+    NO raster reprojection or bilinear resampling.
+
+11. District-grid coverage
+    Pixel centres inside district: 129,693
+    Valid source cells inside district: 75,408
+    Source NoData cells inside district: 54,285
+    Valid-source coverage ratio: 0.581434619
+
+12. Population cells
+    Positive population cells: 75,149
+    Zero-population valid cells: 259
+    Negative valid cells: 0
+
+13. Johor Bahru WorldPop 2026 population
+    1,905,758.571311
+
+14. Positive-cell population statistics
+    Min: 0.000878000
+    Max: 83.051773
+    Mean: 25.359733
+    Median: 16.844015
+    P05: 0.228706
+    P50: 16.844015
+    P95: 70.805818
+    P99: 77.022314
+
+15. Fractional population cells
+    Population >0 and <1: 9,236
+    Combined population of those cells: 2,906.048181
+    These cells were RETAINED.
+
+16. Population origins
+    Origin count: 75,149
+    Every valid cell >0 retained as one weighted origin.
+    No population threshold was applied.
+
+17. Population-weight preservation audit
+    Raster population total: 1,905,758.571310614
+    Origin population total: 1,905,758.571310614
+    Absolute difference: 0.000000000000
+    Relative difference: 0.000000000000e+00
+    Result: PASS
+
+18. Origin CRS
+    Native reference points: EPSG:4326
+    Metric point copy: EPSG:3375
+    Raster itself was NOT resampled to EPSG:3375.
+
+19. DOSM external plausibility benchmark
+    DOSM Johor Bahru 2025: 1,814,400
+    WorldPop Johor Bahru 2026: 1,905,758.571311
+    Difference (WorldPop - DOSM): 91,358.571311
+    Percentage difference vs DOSM: 5.035195%
+    Assessment: CLOSE (<10% difference)
+
+    IMPORTANT:
+    This is not a calibration target.
+    The reference years and population-estimation methods differ.
+    WorldPop was NOT normalized to DOSM.
+
+20. Outputs
+    JB_WorldPop_2026_Core_WGS84.tif
+    D05A_WorldPop_Origins.csv
+    JB_WorldPop_2026_Origins_WGS84.gpkg
+    JB_WorldPop_2026_Origins_RSO.gpkg
+    D05A_WorldPop_DOSM_Validation.csv
+    D05A_WorldPop_Population_Surface_QC.png
+    D05A_WorldPop_Cell_Weight_Distribution_QC.png
+    D05A_WorldPop_DOSM_Comparison_QC.png
+
+21. CHECK 1 — RAW / D01
+    PASS
+
+22. CHECK 2 — NATIVE-GRID POPULATION PROCESSING
+    PASS
+
+23. CHECK 3 — POPULATION-WEIGHT CONSERVATION
+    PASS
+
+24. Methodological boundary
+    D05-A defines population-weighted accessibility origins.
+    It does NOT yet refine population with residential polygons,
+    aggregate origins, snap origins to the road network,
+    or calculate healthcare accessibility.
+
+25. Final status
+    D05-A WORLDPOP POPULATION ORIGINS: PASS

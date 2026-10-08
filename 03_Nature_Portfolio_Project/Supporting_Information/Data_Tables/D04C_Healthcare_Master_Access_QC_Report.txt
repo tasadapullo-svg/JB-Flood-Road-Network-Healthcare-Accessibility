@@ -1,0 +1,103 @@
+D04-C HEALTHCARE MASTER + HOSPITAL ROAD-NETWORK SNAPPING REPORT
+
+1. Master input integration
+   D04-A1 + D04-A2 + D04-B
+
+2. Healthcare master count
+   Total facilities: 57
+
+3. Harmonised destination sets
+   Acute/emergency destinations: 14
+   Primary/community-care destinations: 42
+   Special-purpose psychiatric hospital: 1
+
+4. Master duplicate checks
+   Duplicate facility_id: 0
+   All records inside/touching Johor Bahru District: True
+
+5. Master review flags
+   Coordinate review flags: 4
+   Service-evidence review flags: 2
+   Any review flag: 6
+
+6. Hospital reference records
+   All hospital-type records: 15
+   Primary acute/emergency hospitals: 14
+   Special-purpose hospital excluded from primary emergency set: 1
+
+7. Road-network input
+   motor_vehicle_roads_terrain
+   Road segments: 81,314
+   CRS: EPSG:3375
+
+8. Snap method
+   Nearest eligible motor-vehicle road segment followed by perpendicular projection to the selected LineString.
+
+9. Acute/emergency hospital snapping
+   Hospitals snapped: 14/14
+   Mean snap distance: 12.766882 m
+   Median snap distance: 7.721433 m
+   Maximum snap distance: 35.604618 m
+   Acute hospitals >50 m: 0
+   Acute hospitals >100 m: 0
+
+10. Acute snap-quality distribution
+snap_quality
+A_0_10M     8
+C_30_50M    3
+B_10_30M    3
+
+11. Special-purpose Hospital Permai
+    Snap distance: 119.879877 m
+    Snap quality: REVIEW_50_150M
+    It is NOT included in the primary acute/emergency destination set.
+
+12. Physical-entrance interpretation
+    IMPORTANT:
+    The D04-C snap point is a COMPUTATIONAL NETWORK ACCESS POINT.
+    It is NOT claimed to be a field-verified hospital gate,
+    ambulance entrance, emergency-department entrance, or driveway entrance.
+
+    This prevents hospital-centroid coordinates from being used directly as graph nodes,
+    while avoiding unsupported claims about exact physical entrance locations.
+
+13. Primary emergency accessibility set
+    3 public H1 acute/emergency hospitals
+    + 11 D04-B private acute/emergency hospitals
+    = 14 hospitals
+
+14. Primary/community-care set
+    17 Klinik Kesihatan
+    + 17 Klinik Desa
+    + 7 Klinik Komuniti
+    + 1 independent KKIA
+    = 42 facilities
+
+15. Outputs
+    D04C_Healthcare_Master.csv
+    D04C_Hospital_Network_Access_Points.csv
+    JB_Healthcare_Master_D04C_RSO.gpkg
+    JB_Healthcare_Master_D04C_WGS84.gpkg
+    D04C_Hospital_Snap_Top3_Candidates.csv
+    D04C_Healthcare_Master_QC.png
+    D04C_Acute_Hospital_Snapping_QC.png
+    D04C_Hospital_Snap_Distance_QC.png
+
+16. CHECK 1 — MASTER INTEGRATION
+    PASS
+
+17. CHECK 2 — SPATIAL / ROAD SNAP
+    PASS
+
+18. CHECK 3 — SCIENTIFIC INTERPRETATION
+    PASS
+    Computational network snap points are explicitly distinguished from verified physical entrances.
+
+19. Final status
+    D04-C HEALTHCARE MASTER + ROAD SNAPPING: PASS WITH METHOD LIMITATION
+
+Method limitation:
+    Physical hospital entrances were not independently field-verified in D04-C.
+    The 14 acute/emergency hospitals all have computational road-network snap distances <= 50 m,
+    so the access-node geometry is suitable for subsequent routing-graph construction,
+    provided the manuscript describes them as network access points rather than verified entrances.

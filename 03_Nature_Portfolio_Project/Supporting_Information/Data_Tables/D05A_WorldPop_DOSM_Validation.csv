@@ -1,0 +1,2 @@
+﻿benchmark_name,district,benchmark_year,benchmark_population,worldpop_year,worldpop_population_native_grid_center_mask,difference_worldpop_minus_dosm,percentage_difference_vs_dosm,normalization_applied,interpretation
+DOSM Current Population Estimates by Administrative District 2025,Johor Bahru,2025,1814400.0,2026,1905758.5713106135,91358.57131061354,5.035194626907712,False,External plausibility check only; reference year and estimation methodology differ.

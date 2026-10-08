@@ -1,0 +1,38 @@
+D01 FINAL SPATIAL CONSISTENCY QC
+Study area: Johor Bahru District, Johor, Malaysia
+
+SOURCE INPUTS
+District file: JB_District_Boundary_MyGDI_WGS84.geojson
+Subdistrict file: JB_Subdistrict_Boundaries_MyGDI_WGS84.geojson
+
+STRUCTURE
+District feature count: 1
+Subdistrict feature count: 8
+Mukim count: 6
+Bandar count: 2
+
+GEOMETRY
+District geometry valid: True
+Subdistrict geometries valid: True
+District empty geometry count: 0
+Subdistrict empty geometry count: 0
+
+SPATIAL CONSISTENCY (EPSG:3375)
+District area (km2): 1108.173087
+Subdistrict union area (km2): 1108.732932
+Intersection area (km2): 1108.048555
+Coverage ratio: 0.999887624
+Subdistrict area outside district (km2): 0.684377
+District area not covered by subdistricts (km2): 0.124533
+
+WGS84 BOUNDING BOX
+West: 103.535231814
+South: 1.288031821
+East: 104.027897176
+North: 1.673087553
+
+FINAL FILES
+WGS84: JB_Study_Area_Final.gpkg
+Metric RSO: JB_Study_Area_Final_RSO.gpkg
+
+FINAL STATUS: PASS

@@ -1,0 +1,54 @@
+D02 OSM Road Network QC Report
+Processing start: 2026-10-04T18:52:01.021172
+Processing end: 2026-10-04T18:59:27.157115
+
+1. RAW PBF path: D:\OneDrive\桌面\Nature Portfolio_Project\06_Road_Network\OSM\RAW\malaysia-singapore-brunei-261003.osm.pbf
+2. MD5 expected: c7ddd154bd34d0c910837832600c8a1c
+3. MD5 actual: c7ddd154bd34d0c910837832600c8a1c
+4. MD5 match: TRUE
+5. SHA-256: 33174694771c7bc3b34cf740497a46a371b4acd6bd1e2fdff7e9052a659039df
+6. D01 boundary validation: PASS
+7. Core boundary area: 1108.173 sq km
+8. Routing buffer distance: 10000 m
+9. Core segment count: 81314
+10. Core road length km: 11092.287
+11. Buffer segment count: 192693
+12. Buffer road length km: 20608.811
+13. road_class summary:
+   road_class  segment_count   length_km
+LIVING_STREET             74    8.619961
+     MOTORWAY            970  310.046589
+      PRIMARY           3450  432.617338
+  RESIDENTIAL          26372 3864.369598
+    SECONDARY           3023  426.397998
+      SERVICE          33741 3614.627856
+     TERTIARY           4512  691.780472
+        TRUNK           2479  383.913762
+ UNCLASSIFIED           6693 1359.913704
+14. bridge count: core=1026; buffer=2368
+15. tunnel count: core=285; buffer=1573
+16. oneway count: core=23067; buffer=66726
+17. invalid geometry count: core=0; buffer=0
+18. empty geometry count: core=0; buffer=0
+19. duplicate diagnostic: core duplicated osm_id rows=458; buffer duplicated osm_id rows=645
+20. spatial extent check: core inside=81167, crossing_boundary=147, outside=0; buffer inside=192363, crossing_boundary=330, outside=0
+21. CRS check: WGS84 outputs EPSG:4326; RSO outputs EPSG:3375; length_m calculated in EPSG:3375
+22. files generated:
+D:\OneDrive\桌面\Nature Portfolio_Project\06_Road_Network\OSM\CLIPPED\CORE\JB_OSM_Core_20261003.osm.pbf
+D:\OneDrive\桌面\Nature Portfolio_Project\06_Road_Network\OSM\CLIPPED\ROUTING_BUFFER\JB_OSM_RoutingBuffer10km_20261003.osm.pbf
+D:\OneDrive\桌面\Nature Portfolio_Project\06_Road_Network\OSM\PROCESSED\CORE\JB_OSM_RoadNetwork_Core_WGS84.gpkg
+D:\OneDrive\桌面\Nature Portfolio_Project\06_Road_Network\OSM\PROCESSED\CORE\JB_OSM_RoadNetwork_Core_RSO.gpkg
+D:\OneDrive\桌面\Nature Portfolio_Project\06_Road_Network\OSM\PROCESSED\ROUTING_BUFFER\JB_OSM_RoadNetwork_RoutingBuffer10km_WGS84.gpkg
+D:\OneDrive\桌面\Nature Portfolio_Project\06_Road_Network\OSM\PROCESSED\ROUTING_BUFFER\JB_OSM_RoadNetwork_RoutingBuffer10km_RSO.gpkg
+D:\OneDrive\桌面\Nature Portfolio_Project\06_Road_Network\OSM\VALIDATION\D02_OSM_Core_RoadNetwork_QC.png
+D:\OneDrive\桌面\Nature Portfolio_Project\06_Road_Network\OSM\VALIDATION\D02_OSM_RoutingBuffer_QC.png
+D:\OneDrive\桌面\Nature Portfolio_Project\06_Road_Network\OSM\METADATA\D02_OSM_Metadata.json
+D:\OneDrive\桌面\Nature Portfolio_Project\06_Road_Network\OSM\METADATA\D02_Road_Data_Dictionary.csv
+D:\OneDrive\桌面\Nature Portfolio_Project\06_Road_Network\OSM\VALIDATION\D02_OSM_RoadNetwork_QC_Report.txt
+23. warnings:
+- ROAD CLASS CHECK: PASS
+- Component diagnostic core: {'component_count': 32175, 'largest_component_edges': 28284, 'small_component_count': 28531}
+- Component diagnostic buffer: {'component_count': 46592, 'largest_component_edges': 113285, 'small_component_count': 41267}
+- Clipped PBF counts core: {'nodes': 351734, 'ways': 87034, 'relations': 9213}
+- Clipped PBF counts buffer: {'nodes': 935941, 'ways': 248897, 'relations': 72922}
+24. final status: PASS

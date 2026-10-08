@@ -1,0 +1,17 @@
+{
+  "original_relative_path": "03_Nature_Portfolio_Project/Supporting_Information/Data_Tables/D03C2_Road_Terrain_Metrics.csv",
+  "original_file_name": "D03C2_Road_Terrain_Metrics.csv",
+  "original_size_bytes": 26935634,
+  "original_sha256": "0d8baae7b23d10b4ac325bad205af17f266059b11ba17064cc1ced312194f04b",
+  "part_size_limit_bytes": 20971520,
+  "parts": [
+    {
+      "file": "D03C2_Road_Terrain_Metrics.csv.part001",
+      "sha256": "754b740833483eda1d22d5e0a5621311bb90d1fd7495c82c03a640b3a8b83405"
+    },
+    {
+      "file": "D03C2_Road_Terrain_Metrics.csv.part002",
+      "sha256": "0ba543263c10c3bc4f4b2edf6392aeadad9f3d2dc5b0a119cf1b640f789de312"
+    }
+  ]
+}

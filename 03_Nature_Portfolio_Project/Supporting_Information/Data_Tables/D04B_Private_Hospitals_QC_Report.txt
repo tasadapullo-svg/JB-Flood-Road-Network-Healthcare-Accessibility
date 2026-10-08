@@ -1,0 +1,68 @@
+D04-B PRIVATE HOSPITALS / SPECIALIST HOSPITALS QC REPORT
+
+1. Scope
+   Core private-hospital destination baseline for Johor Bahru District.
+   Ordinary private GP clinics are excluded.
+
+2. Primary licensing authority
+   Ministry of Health Malaysia, Bahagian Amalan Perubatan / CKAPS
+   Current licensed private-hospital list under Act 586:
+   https://hq.moh.gov.my/medicalprac/statistik/
+   https://docs.google.com/spreadsheets/d/1XoPPA0G-2oxFP-ZeJG6H153eHhd0t52k24SBY_bDcVQ/edit?usp=sharing
+
+3. Core inclusion rule
+   A licensed private hospital within Johor Bahru District is included if it:
+   (a) has verified emergency/A&E relevance, OR
+   (b) has at least 20 licensed beds and a broad acute/multispecialty inpatient role.
+
+4. Core facility count
+   11
+
+5. Total current CKAPS licensed beds represented by core layer
+   1534
+
+6. Emergency evidence grades
+   VERIFIED_A = explicit/current emergency evidence from hospital/brand/operator source or current hospital-specific evidence.
+   VERIFIED_B = strong 24-hour hospital/ambulance evidence, but explicit current official A&E webpage not located in this audit.
+   Counts: {"VERIFIED_A": 9, "VERIFIED_B": 2}
+
+7. District containment
+   Inside/touching Johor Bahru District: 11
+   Outside: 0
+
+8. Duplicate checks
+   Duplicate facility_id: 0
+   Duplicate coordinates: 0
+   Duplicate facility names: 0
+
+9. Coordinate quality
+coordinate_quality
+A_CROSS_VALIDATED    11
+
+10. Excluded / secondary licensed facilities
+    7 current licensed Johor Bahru District facilities were not placed in the core emergency/private-hospital accessibility layer.
+    Reasons are documented in:
+    D04B_Excluded_or_Secondary_Licensed_Facilities.csv
+
+11. Planned but non-operational facilities
+    A planned Iskandar Puteri private hospital project is documented separately and excluded from the 2026 baseline because it is not operational.
+    See:
+    D04B_Planned_Not_Operational_Facilities.csv
+
+12. Methodological boundary
+    - D04-B points are facility reference locations, NOT final routing entrances.
+    - D04-C must identify/snap appropriate hospital access entrances to the OSM routing network.
+    - The core private-hospital layer is suitable as a candidate private acute/emergency destination set.
+    - VERIFIED_B records should remain traceable and can receive one more service-level verification before final manuscript freeze.
+    - Small maternity-only, narrow specialty, and very small inpatient facilities are not treated as equivalent to general acute/emergency hospitals.
+
+13. Outputs
+    D04B_Private_Hospitals_Core.csv
+    JB_Private_Hospitals_D04B_WGS84.gpkg
+    JB_Private_Hospitals_D04B_RSO.gpkg
+    D04B_Excluded_or_Secondary_Licensed_Facilities.csv
+    D04B_Planned_Not_Operational_Facilities.csv
+    D04B_Private_Hospitals_QC.png
+
+14. Final status
+    D04-B PRIVATE HOSPITALS: PASS WITH 2 SERVICE-EVIDENCE REVIEW FLAGS

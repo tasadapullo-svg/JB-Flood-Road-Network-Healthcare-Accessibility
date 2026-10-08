@@ -1,0 +1,57 @@
+{
+  "original_relative_path": "04_Figure_Support_Data/Shared_GIS_Assets/Geospatial_Data/malaysia-singapore-brunei-261003.osm.pbf",
+  "original_file_name": "malaysia-singapore-brunei-261003.osm.pbf",
+  "original_size_bytes": 251629147,
+  "original_sha256": "33174694771c7bc3b34cf740497a46a371b4acd6bd1e2fdff7e9052a659039df",
+  "part_size_limit_bytes": 20971520,
+  "parts": [
+    {
+      "file": "malaysia-singapore-brunei-261003.osm.pbf.part001",
+      "sha256": "8e4a9427fc30a742b4273166b41badfeb7d52952c2545f045ba305f8600d1661"
+    },
+    {
+      "file": "malaysia-singapore-brunei-261003.osm.pbf.part002",
+      "sha256": "44a487d76c471eb538206c32720a5618b8d94637c9794d1b253fa24d96b22e2c"
+    },
+    {
+      "file": "malaysia-singapore-brunei-261003.osm.pbf.part003",
+      "sha256": "a8bc770928a8466d294908bb265a36d489fced297774302b836a3cb5352d19e8"
+    },
+    {
+      "file": "malaysia-singapore-brunei-261003.osm.pbf.part004",
+      "sha256": "f84e31ddee04e743623913e56403de35ef708d98b93c80c9ccc0a7cbf8b5fef2"
+    },
+    {
+      "file": "malaysia-singapore-brunei-261003.osm.pbf.part005",
+      "sha256": "57416c6d68a1cef012df9be073f5d5e920d3826171dc32c9aa62fa521ea7559e"
+    },
+    {
+      "file": "malaysia-singapore-brunei-261003.osm.pbf.part006",
+      "sha256": "dc8452919a2a90d522793729f164d2fbe7398bff354f5746b8851eea51e6708e"
+    },
+    {
+      "file": "malaysia-singapore-brunei-261003.osm.pbf.part007",
+      "sha256": "3f8f3ddf8a8011b9a035cf8f001840b170077a2afb2bacfefbacf8afd694e9f5"
+    },
+    {
+      "file": "malaysia-singapore-brunei-261003.osm.pbf.part008",
+      "sha256": "17d1ab89b16e9c9d7b7bae2bb3982d5417a4739548763a2a2f1289c33adae4ef"
+    },
+    {
+      "file": "malaysia-singapore-brunei-261003.osm.pbf.part009",
+      "sha256": "525a9d09ad862902281b33e64aff9a0aa54928bc3b8d3f4745bc7db9fcce3795"
+    },
+    {
+      "file": "malaysia-singapore-brunei-261003.osm.pbf.part010",
+      "sha256": "feeb27cefa6d7253e5670713e7c0cd0d9f5355fe7f76a41a21710ea72ba94f8c"
+    },
+    {
+      "file": "malaysia-singapore-brunei-261003.osm.pbf.part011",
+      "sha256": "8189f787541da9bed7dc2bf152a8a05e4ed40b8f6f95c41f1b60874bde003112"
+    },
+    {
+      "file": "malaysia-singapore-brunei-261003.osm.pbf.part012",
+      "sha256": "dcad9bf948c2c7f83e35bcc5b52a19b3006c8111e01fd14106655b294ce56328"
+    }
+  ]
+}

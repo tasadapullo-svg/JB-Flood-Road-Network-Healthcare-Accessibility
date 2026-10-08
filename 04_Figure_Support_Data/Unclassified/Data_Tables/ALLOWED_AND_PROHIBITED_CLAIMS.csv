@@ -1,0 +1,13 @@
+Status,Phrase / claim,Use rule
+ALLOWED,historically evidenced / observed flood zones,Use for F01–F19.
+ALLOWED,recurrent flood geography,Use for repeated historical evidence.
+ALLOWED,operational road-impact correspondence,Use for 2023 same-road evidence.
+ALLOWED,localized loss of healthcare-network reachability,Use for 2025 accessibility result.
+ALLOWED,spatially concentrated accessibility loss,Use for Mukim Tebrau/Plentong result.
+ALLOWED,recovery-critical corridor group,Use for J105 + FT01.
+PROHIBITED,complete citywide flood inundation map,F01–F19 are not hydraulically modeled extents.
+PROHIBITED,independent validation by D09,Circularity audit rejects this wording.
+PROHIBITED,flood probability / calibrated susceptibility probability,No calibrated probability model was built.
+PROHIBITED,severe citywide travel-time increase,Mean common-reachable delay is very small.
+PROHIBITED,J105 is always the single most important road,Rank is location-sensitive.
+PROHIBITED,2025 proves long-term citywide flood patterns,"2025 is the primary quantitative event, not the long-term proof."

@@ -1,0 +1,25 @@
+JB Flood Spatial Baseline 2016–2026 Download Package
+Created: 2026-10-06
+
+CONTENTS
+- Year folders: 2016 through 2026
+- XLSX files for each formal stage/year
+- Available/derived GeoJSON polygon files
+- 00_SUMMARY/JB_Flood_2016_2026_Summary.xlsx
+- 00_SUMMARY/JB_Flood_All_Closed_Polygons_2016_2021.geojson
+- SHA256 manifest
+
+VERSION NOTES
+1. 2021–2026 files are current original generated formal files.
+2. 2016, 2017 and 2020 project XLSX binaries could not be raw-materialized. Their downloadable XLSX copies are reconstructed from indexed formal spreadsheet text and explicitly suffixed RECONSTRUCTED.
+3. Original R007–R010 binaries for 2018–2019 are unavailable in the downloadable store. R007/R008 and R009/R010 in this ZIP are DERIVED strictly from formal cumulative R012. Legacy A1/A2 files were not used.
+4. 2016, 2017 and 2020 GeoJSON content was recovered from the original indexed GeoJSON files.
+5. 2018 and 2019 GeoJSONs are derived from exact Geometry_WKT stored in R012 Polygon_Master.
+6. No new Polygon_IDs were created after 2021, so 2022–2026 have no new yearly polygon GeoJSON.
+7. 2026 is partial through 2026-10-06.
+
+FROZEN TOTALS THROUGH 2026-10-06
+- Event-location rows: 346
+- Exact/date-anchored episode groups: 78
+- Formal Polygon_IDs: 14
+- Next-stage frequency classes: 1–3 / 4–6 / >=7 independent events

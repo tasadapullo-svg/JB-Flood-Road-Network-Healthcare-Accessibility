@@ -1,0 +1,2 @@
+Path,Reason,Action,Notes
+None,No additional files were excluded during the final GitHub-ready publication pass,No exclusion,"Metadata/path screening did not identify credential files, private keys, token files, .env files, or obvious restricted-publication files in the already prepared GitHub_Ready tree. This does not constitute a license or redistribution-rights guarantee."

@@ -1,0 +1,4272 @@
+{
+  "type": "FeatureCollection",
+  "name": "JB_Flood_Validated_Points_2016_2026",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.7363992,
+          1.46757569999999
+        ]
+      },
+      "properties": {
+        "Master_Location_ID": "JBLOC-0002",
+        "Standardized_Location": "Jalan Mohd Amin",
+        "Object_Types": "ROAD",
+        "Years": null,
+        "First_Year": null,
+        "Last_Year": null,
+        "Independent_Event_Count": 0,
+        "Frequency_Class": "Baseline reference only",
+        "GIS_Ready": "YES",
+        "Plot_Status": "PLOT",
+        "Primary_Polygon_IDs": null,
+        "Fixed45_IDs": "HF27",
+        "Source_Object_IDs": null,
+        "Coordinate_Source": "Fixed45 baseline",
+        "Notes": "Baseline-only fixed point; no annual object linked in current 2016–2026 event inventory."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.7515869,
+          1.4877309
+        ]
+      },
+      "properties": {
+        "Master_Location_ID": "JBLOC-0003",
+        "Standardized_Location": "Taman Dato' Onn",
+        "Object_Types": "COMMUNITY/AREA",
+        "Years": null,
+        "First_Year": null,
+        "Last_Year": null,
+        "Independent_Event_Count": 0,
+        "Frequency_Class": "Baseline reference only",
+        "GIS_Ready": "YES",
+        "Plot_Status": "PLOT",
+        "Primary_Polygon_IDs": null,
+        "Fixed45_IDs": "HF09",
+        "Source_Object_IDs": null,
+        "Coordinate_Source": "Fixed45 baseline",
+        "Notes": "Baseline-only fixed point; no annual object linked in current 2016–2026 event inventory."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.9119375,
+          1.5850625
+        ]
+      },
+      "properties": {
+        "Master_Location_ID": "JBLOC-0005",
+        "Standardized_Location": "Batu 20, Jalan Sungai Tiram",
+        "Object_Types": "COMMUNITY/AREA; ROAD/LOCALITY; Road",
+        "Years": "2019;2021;2024",
+        "First_Year": 2019,
+        "Last_Year": 2024,
+        "Independent_Event_Count": 3,
+        "Frequency_Class": "1–3 / Occasional",
+        "GIS_Ready": "YES",
+        "Plot_Status": "PLOT",
+        "Primary_Polygon_IDs": null,
+        "Fixed45_IDs": null,
+        "Source_Object_IDs": "LOC-CAND-JB-JALAN-BATU-20-2019;S2021-013;S2024-008",
+        "Coordinate_Source": "RESOLVED_REPRESENTATIVE_ROAD_POINT",
+        "Notes": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.76237,
+          1.4831
+        ]
+      },
+      "properties": {
+        "Master_Location_ID": "JBLOC-0006",
+        "Standardized_Location": "Century Garden / Taman Century",
+        "Object_Types": "AREA/RESIDENTIAL",
+        "Years": "2026",
+        "First_Year": 2026,
+        "Last_Year": 2026,
+        "Independent_Event_Count": 1,
+        "Frequency_Class": "1–3 / Occasional",
+        "GIS_Ready": "YES",
+        "Plot_Status": "PLOT",
+        "Primary_Polygon_IDs": null,
+        "Fixed45_IDs": null,
+        "Source_Object_IDs": "S2026-018",
+        "Coordinate_Source": "PLOT",
+        "Notes": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.71846,
+          1.48118
+        ]
+      },
+      "properties": {
+        "Master_Location_ID": "JBLOC-0007",
+        "Standardized_Location": "Danga Bay",
+        "Object_Types": "AREA/RESIDENTIAL",
+        "Years": "2026",
+        "First_Year": 2026,
+        "Last_Year": 2026,
+        "Independent_Event_Count": 1,
+        "Frequency_Class": "1–3 / Occasional",
+        "GIS_Ready": "YES",
+        "Plot_Status": "PLOT",
+        "Primary_Polygon_IDs": null,
+        "Fixed45_IDs": null,
+        "Source_Object_IDs": "S2026-019",
+        "Coordinate_Source": "PLOT",
+        "Notes": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.74196336546,
+          1.4597388
+        ]
+      },
+      "properties": {
+        "Master_Location_ID": "JBLOC-0008",
+        "Standardized_Location": "Dataran Bandaraya Johor Bahru",
+        "Object_Types": "CIVIC AREA",
+        "Years": "2023",
+        "First_Year": 2023,
+        "Last_Year": 2023,
+        "Independent_Event_Count": 1,
+        "Frequency_Class": "1–3 / Occasional",
+        "GIS_Ready": "YES",
+        "Plot_Status": "PLOT",
+        "Primary_Polygon_IDs": null,
+        "Fixed45_IDs": "HF21",
+        "Source_Object_IDs": "S2023-020",
+        "Coordinate_Source": "Fixed45 baseline",
+        "Notes": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.9308,
+          1.52768
+        ]
+      },
+      "properties": {
+        "Master_Location_ID": "JBLOC-0009",
+        "Standardized_Location": "FELDA / Kampung Cahaya Baru",
+        "Object_Types": "COMMUNITY/AREA",
+        "Years": "2023",
+        "First_Year": 2023,
+        "Last_Year": 2023,
+        "Independent_Event_Count": 1,
+        "Frequency_Class": "1–3 / Occasional",
+        "GIS_Ready": "YES",
+        "Plot_Status": "PLOT",
+        "Primary_Polygon_IDs": null,
+        "Fixed45_IDs": null,
+        "Source_Object_IDs": "S2023-006",
+        "Coordinate_Source": "PLOT",
+        "Notes": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.76168,
+          1.48698
+        ]
+      },
+      "properties": {
+        "Master_Location_ID": "JBLOC-0015",
+        "Standardized_Location": "Holiday Villa Johor Bahru City Centre",
+        "Object_Types": "FACILITY/POI",
+        "Years": "2026",
+        "First_Year": 2026,
+        "Last_Year": 2026,
+        "Independent_Event_Count": 1,
+        "Frequency_Class": "1–3 / Occasional",
+        "GIS_Ready": "YES",
+        "Plot_Status": "PLOT",
+        "Primary_Polygon_IDs": null,
+        "Fixed45_IDs": null,
+        "Source_Object_IDs": "S2026-016",
+        "Coordinate_Source": "PLOT",
+        "Notes": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.7466457,
+          1.4575013
+        ]
+      },
+      "properties": {
+        "Master_Location_ID": "JBLOC-0016",
+        "Standardized_Location": "Hospital Sultanah Aminah",
+        "Object_Types": "CRITICAL_FACILITY; Hospital campus / access area",
+        "Years": "2016;2022",
+        "First_Year": 2016,
+        "Last_Year": 2022,
+        "Independent_Event_Count": 3,
+        "Frequency_Class": "1–3 / Occasional",
+        "GIS_Ready": "YES",
+        "Plot_Status": "PLOT",
+        "Primary_Polygon_IDs": "PG2016-HSA-CAMPUS",
+        "Fixed45_IDs": "HF22",
+        "Source_Object_IDs": "LOC-JB-HSA;S2022-011",
+        "Coordinate_Source": "Fixed45 baseline",
+        "Notes": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.74271,
+          1.479856
+        ]
+      },
+      "properties": {
+        "Master_Location_ID": "JBLOC-0017",
+        "Standardized_Location": "Hutan Bandar MBJB",
+        "Object_Types": "URBAN PARK/AREA",
+        "Years": "2023",
+        "First_Year": 2023,
+        "Last_Year": 2023,
+        "Independent_Event_Count": 1,
+        "Frequency_Class": "1–3 / Occasional",
+        "GIS_Ready": "YES",
+        "Plot_Status": "PLOT",
+        "Primary_Polygon_IDs": null,
+        "Fixed45_IDs": null,
+        "Source_Object_IDs": "S2023-038",
+        "Coordinate_Source": "PLOT",
+        "Notes": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.7587117,
+          1.4594963
+        ]
+      },
+      "properties": {
+        "Master_Location_ID": "JBLOC-0021",
+        "Standardized_Location": "Jalan Ayer Molek",
+        "Object_Types": "ROAD; ROAD/ROAD CONTEXT",
+        "Years": "2022;2023;2026",
+        "First_Year": 2022,
+        "Last_Year": 2026,
+        "Independent_Event_Count": 3,
+        "Frequency_Class": "1–3 / Occasional",
+        "GIS_Ready": "YES",
+        "Plot_Status": "PLOT",
+        "Primary_Polygon_IDs": null,
+        "Fixed45_IDs": "HF01",
+        "Source_Object_IDs": "S2022-006;S2023-022;S2026-002",
+        "Coordinate_Source": "Fixed45 baseline",
+        "Notes": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.7460468,
+          1.46528000000001
+        ]
+      },
+      "properties": {
+        "Master_Location_ID": "JBLOC-0022",
+        "Standardized_Location": "Jalan Bilal Mahmood",
+        "Object_Types": "ROAD",
+        "Years": "2023",
+        "First_Year": 2023,
+        "Last_Year": 2023,
+        "Independent_Event_Count": 1,
+        "Frequency_Class": "1–3 / Occasional",
+        "GIS_Ready": "YES",
+        "Plot_Status": "PLOT",
+        "Primary_Polygon_IDs": null,
+        "Fixed45_IDs": "HF23",
+        "Source_Object_IDs": "S2023-023",
+        "Coordinate_Source": "Fixed45 baseline",
+        "Notes": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.7359187,
+          1.4794199
+        ]
+      },
+      "properties": {
+        "Master_Location_ID": "JBLOC-0024",
+        "Standardized_Location": "Jalan Datin Halimah / Taman Merdeka vicinity",
+        "Object_Types": "ROAD",
+        "Years": "2023",
+        "First_Year": 2023,
+        "Last_Year": 2023,
+        "Independent_Event_Count": 1,
+        "Frequency_Class": "1–3 / Occasional",
+        "GIS_Ready": "YES",
+        "Plot_Status": "PLOT",
+        "Primary_Polygon_IDs": null,
+        "Fixed45_IDs": null,
+        "Source_Object_IDs": "S2023-053",
+        "Coordinate_Source": "PLOT",
+        "Notes": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.7570514,
+          1.48073119999999
+        ]
+      },
+      "properties": {
+        "Master_Location_ID": "JBLOC-0025",
+        "Standardized_Location": "Jalan Dato Sulaiman",
+        "Object_Types": "ROAD; Road",
+        "Years": "2018;2023",
+        "First_Year": 2018,
+        "Last_Year": 2023,
+        "Independent_Event_Count": 3,
+        "Frequency_Class": "1–3 / Occasional",
+        "GIS_Ready": "YES",
+        "Plot_Status": "PLOT",
+        "Primary_Polygon_IDs": null,
+        "Fixed45_IDs": "HF24;HF25",
+        "Source_Object_IDs": "LOC-JB-JLN-DATO-SULAIMAN;S2023-024",
+        "Coordinate_Source": "Fixed45 baseline",
+        "Notes": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.71851,
+          1.514607
+        ]
+      },
+      "properties": {
+        "Master_Location_ID": "JBLOC-0026",
+        "Standardized_Location": "Jalan Denai Utama, Kempas",
+        "Object_Types": "Road",
+        "Years": "2018",
+        "First_Year": 2018,
+        "Last_Year": 2018,
+        "Independent_Event_Count": 2,
+        "Frequency_Class": "1–3 / Occasional",
+        "GIS_Ready": "YES",
+        "Plot_Status": "PLOT",
+        "Primary_Polygon_IDs": null,
+        "Fixed45_IDs": null,
+        "Source_Object_IDs": "LOC-JB-JLN-DENAI-UTAMA-KEMPAS",
+        "Coordinate_Source": "SRC_GEO_2018_DENAI_UTAMA",
+        "Notes": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.79419,
+          1.55191
+        ]
+      },
+      "properties": {
+        "Master_Location_ID": "JBLOC-0028",
+        "Standardized_Location": "Jalan Harmonium 24/1 area",
+        "Object_Types": "ROAD",
+        "Years": "2023",
+        "First_Year": 2023,
+        "Last_Year": 2023,
+        "Independent_Event_Count": 1,
+        "Frequency_Class": "1–3 / Occasional",
+        "GIS_Ready": "YES",
+        "Plot_Status": "PLOT",
+        "Primary_Polygon_IDs": null,
+        "Fixed45_IDs": null,
+        "Source_Object_IDs": "S2023-052",
+        "Coordinate_Source": "PLOT",
+        "Notes": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.7755173,
+          1.4644141
+        ]
+      },
+      "properties": {
+        "Master_Location_ID": "JBLOC-0029",
+        "Standardized_Location": "Jalan Ibrahim Sultan",
+        "Object_Types": "ROAD",
+        "Years": "2023",
+        "First_Year": 2023,
+        "Last_Year": 2023,
+        "Independent_Event_Count": 1,
+        "Frequency_Class": "1–3 / Occasional",
+        "GIS_Ready": "YES",
+        "Plot_Status": "PLOT",
+        "Primary_Polygon_IDs": null,
+        "Fixed45_IDs": "HF26",
+        "Source_Object_IDs": "S2023-025",
+        "Coordinate_Source": "Fixed45 baseline",
+        "Notes": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.6763692,
+          1.47258519999999
+        ]
+      },
+      "properties": {
+        "Master_Location_ID": "JBLOC-0030",
+        "Standardized_Location": "Jalan Ismail Sultan",
+        "Object_Types": "ROAD",
+        "Years": "2023",
+        "First_Year": 2023,
+        "Last_Year": 2023,
+        "Independent_Event_Count": 1,
+        "Frequency_Class": "1–3 / Occasional",
+        "GIS_Ready": "YES",
+        "Plot_Status": "PLOT",
+        "Primary_Polygon_IDs": null,
+        "Fixed45_IDs": "HF38",
+        "Source_Object_IDs": "S2023-026",
+        "Coordinate_Source": "Fixed45 baseline",
+        "Notes": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.7648053,
+          1.531945
+        ]
+      },
+      "properties": {
+        "Master_Location_ID": "JBLOC-0034",
+        "Standardized_Location": "Jalan Kangkar Tebrau",
+        "Object_Types": "ROAD",
+        "Years": "2023;2024",
+        "First_Year": 2023,
+        "Last_Year": 2024,
+        "Independent_Event_Count": 2,
+        "Frequency_Class": "1–3 / Occasional",
+        "GIS_Ready": "YES",
+        "Plot_Status": "PLOT",
+        "Primary_Polygon_IDs": null,
+        "Fixed45_IDs": null,
+        "Source_Object_IDs": "S2023-017;S2024-013",
+        "Coordinate_Source": "PLOT",
+        "Notes": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.7679,
+          1.4899
+        ]
+      },
+      "properties": {
+        "Master_Location_ID": "JBLOC-0035",
+        "Standardized_Location": "Jalan Keris 2, Taman Sri Tebrau",
+        "Object_Types": "ROAD",
+        "Years": "2022",
+        "First_Year": 2022,
+        "Last_Year": 2022,
+        "Independent_Event_Count": 1,
+        "Frequency_Class": "1–3 / Occasional",
+        "GIS_Ready": "YES",
+        "Plot_Status": "PLOT",
+        "Primary_Polygon_IDs": null,
+        "Fixed45_IDs": null,
+        "Source_Object_IDs": "S2022-035",
+        "Coordinate_Source": "7 Nov Astro Awani event evidence",
+        "Notes": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.7625739,
+          1.4864896
+        ]
+      },
+      "properties": {
+        "Master_Location_ID": "JBLOC-0036",
+        "Standardized_Location": "Jalan Kijang",
+        "Object_Types": "Road",
+        "Years": "2018",
+        "First_Year": 2018,
+        "Last_Year": 2018,
+        "Independent_Event_Count": 1,
+        "Frequency_Class": "1–3 / Occasional",
+        "GIS_Ready": "YES",
+        "Plot_Status": "PLOT",
+        "Primary_Polygon_IDs": null,
+        "Fixed45_IDs": null,
+        "Source_Object_IDs": "LOC-JB-JLN-KIJANG",
+        "Coordinate_Source": "SRC_GEO_2018_JALAN_KIJANG",
+        "Notes": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.7220526,
+          1.48238540000001
+        ]
+      },
+      "properties": {
+        "Master_Location_ID": "JBLOC-0037",
+        "Standardized_Location": "Jalan Kolam Ayer",
+        "Object_Types": "ROAD; ROAD/ROAD SEGMENT; Road",
+        "Years": "2020;2022;2023;2025",
+        "First_Year": 2020,
+        "Last_Year": 2025,
+        "Independent_Event_Count": 4,
+        "Frequency_Class": "4–6 / Recurrent",
+        "GIS_Ready": "YES",
+        "Plot_Status": "PLOT",
+        "Primary_Polygon_IDs": null,
+        "Fixed45_IDs": "HF02",
+        "Source_Object_IDs": "LOC-JB-JLN-KOLAM-AYER;S2022-009;S2023-021;S2025-034",
+        "Coordinate_Source": "Fixed45 baseline",
+        "Notes": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.7220526,
+          1.4823854
+        ]
+      },
+      "properties": {
+        "Master_Location_ID": "JBLOC-0038",
+        "Standardized_Location": "Jalan Kolam Ayer / Nong Chik context",
+        "Object_Types": "ROAD/ROAD CONTEXT",
+        "Years": "2026",
+        "First_Year": 2026,
+        "Last_Year": 2026,
+        "Independent_Event_Count": 1,
+        "Frequency_Class": "1–3 / Occasional",
+        "GIS_Ready": "YES",
+        "Plot_Status": "PLOT",
+        "Primary_Polygon_IDs": null,
+        "Fixed45_IDs": null,
+        "Source_Object_IDs": "S2026-001",
+        "Coordinate_Source": "Frozen HF02 Jalan Kolam Ayer reference; Nong Chik context retained in label",
+        "Notes": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.8012632,
+          1.5566538
+        ]
+      },
+      "properties": {
+        "Master_Location_ID": "JBLOC-0039",
+        "Standardized_Location": "Jalan Kota Tinggi / FT003",
+        "Object_Types": "ROAD",
+        "Years": "2022",
+        "First_Year": 2022,
+        "Last_Year": 2022,
+        "Independent_Event_Count": 1,
+        "Frequency_Class": "1–3 / Occasional",
+        "GIS_Ready": "YES",
+        "Plot_Status": "PLOT",
+        "Primary_Polygon_IDs": null,
+        "Fixed45_IDs": null,
+        "Source_Object_IDs": "S2022-004",
+        "Coordinate_Source": "JPS 17 Apr event label",
+        "Notes": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.749959,
+          1.4664595
+        ]
+      },
+      "properties": {
+        "Master_Location_ID": "JBLOC-0040",
+        "Standardized_Location": "Jalan Lingkaran Dalam, Johor Bahru",
+        "Object_Types": "ROAD",
+        "Years": "2017",
+        "First_Year": 2017,
+        "Last_Year": 2017,
+        "Independent_Event_Count": 1,
+        "Frequency_Class": "1–3 / Occasional",
+        "GIS_Ready": "YES",
+        "Plot_Status": "PLOT",
+        "Primary_Polygon_IDs": null,
+        "Fixed45_IDs": null,
+        "Source_Object_IDs": "LOC-JB-JLN-LINGKARAN-DALAM",
+        "Coordinate_Source": "SRC_GEO_JALAN_LINGKARAN",
+        "Notes": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.7155955,
+          1.5302594
+        ]
+      },
+      "properties": {
+        "Master_Location_ID": "JBLOC-0041",
+        "Standardized_Location": "Jalan Lurah 3",
+        "Object_Types": "ROAD",
+        "Years": "2023",
+        "First_Year": 2023,
+        "Last_Year": 2023,
+        "Independent_Event_Count": 1,
+        "Frequency_Class": "1–3 / Occasional",
+        "GIS_Ready": "YES",
+        "Plot_Status": "PLOT",
+        "Primary_Polygon_IDs": null,
+        "Fixed45_IDs": "HF41",
+        "Source_Object_IDs": "S2023-027",
+        "Coordinate_Source": "Fixed45 baseline",
+        "Notes": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.7482815,
+          1.4629658
+        ]
+      },
+      "properties": {
+        "Master_Location_ID": "JBLOC-0042",
+        "Standardized_Location": "Jalan Mahmoodiah",
+        "Object_Types": "ROAD",
+        "Years": "2022;2023",
+        "First_Year": 2022,
+        "Last_Year": 2023,
+        "Independent_Event_Count": 2,
+        "Frequency_Class": "1–3 / Occasional",
+        "GIS_Ready": "YES",
+        "Plot_Status": "PLOT",
+        "Primary_Polygon_IDs": null,
+        "Fixed45_IDs": "HF03",
+        "Source_Object_IDs": "S2022-015;S2023-028",
+        "Coordinate_Source": "Fixed45 baseline",
+        "Notes": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.7804,
+          1.5605
+        ]
+      },
+      "properties": {
+        "Master_Location_ID": "JBLOC-0044",
+        "Standardized_Location": "Jalan Mutiara Emas Utama",
+        "Object_Types": "ROAD",
+        "Years": "2023",
+        "First_Year": 2023,
+        "Last_Year": 2023,
+        "Independent_Event_Count": 1,
+        "Frequency_Class": "1–3 / Occasional",
+        "GIS_Ready": "YES",
+        "Plot_Status": "PLOT",
+        "Primary_Polygon_IDs": null,
+        "Fixed45_IDs": null,
+        "Source_Object_IDs": "S2023-049",
+        "Coordinate_Source": "PLOT",
+        "Notes": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.7234744,
+          1.49891240000001
+        ]
+      },
+      "properties": {
+        "Master_Location_ID": "JBLOC-0045",
+        "Standardized_Location": "Jalan Padi Huma 10",
+        "Object_Types": "ROAD",
+        "Years": "2023",
+        "First_Year": 2023,
+        "Last_Year": 2023,
+        "Independent_Event_Count": 1,
+        "Frequency_Class": "1–3 / Occasional",
+        "GIS_Ready": "YES",
+        "Plot_Status": "PLOT",
+        "Primary_Polygon_IDs": null,
+        "Fixed45_IDs": "HF28",
+        "Source_Object_IDs": "S2023-040",
+        "Coordinate_Source": "Fixed45 baseline",
+        "Notes": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.7237744,
+          1.4983831
+        ]
+      },
+      "properties": {
+        "Master_Location_ID": "JBLOC-0046",
+        "Standardized_Location": "Jalan Padi Huma 9",
+        "Object_Types": "ROAD",
+        "Years": "2023",
+        "First_Year": 2023,
+        "Last_Year": 2023,
+        "Independent_Event_Count": 1,
+        "Frequency_Class": "1–3 / Occasional",
+        "GIS_Ready": "YES",
+        "Plot_Status": "PLOT",
+        "Primary_Polygon_IDs": null,
+        "Fixed45_IDs": "HF29",
+        "Source_Object_IDs": "S2023-039",
+        "Coordinate_Source": "Fixed45 baseline",
+        "Notes": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.7208677,
+          1.4866099
+        ]
+      },
+      "properties": {
+        "Master_Location_ID": "JBLOC-0047",
+        "Standardized_Location": "Jalan Padi Makmur",
+        "Object_Types": "ROAD",
+        "Years": "2023",
+        "First_Year": 2023,
+        "Last_Year": 2023,
+        "Independent_Event_Count": 1,
+        "Frequency_Class": "1–3 / Occasional",
+        "GIS_Ready": "YES",
+        "Plot_Status": "PLOT",
+        "Primary_Polygon_IDs": null,
+        "Fixed45_IDs": "HF30",
+        "Source_Object_IDs": "S2023-030",
+        "Coordinate_Source": "Fixed45 baseline",
+        "Notes": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.74418,
+          1.4593
+        ]
+      },
+      "properties": {
+        "Master_Location_ID": "JBLOC-0049",
+        "Standardized_Location": "Jalan Pantai Lido",
+        "Object_Types": "ROAD",
+        "Years": "2022",
+        "First_Year": 2022,
+        "Last_Year": 2022,
+        "Independent_Event_Count": 1,
+        "Frequency_Class": "1–3 / Occasional",
+        "GIS_Ready": "YES",
+        "Plot_Status": "PLOT",
+        "Primary_Polygon_IDs": null,
+        "Fixed45_IDs": null,
+        "Source_Object_IDs": "S2022-014",
+        "Coordinate_Source": "Malay Mail 2 Aug event evidence",
+        "Notes": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.7232702328,
+          1.5353449124
+        ]
+      },
+      "properties": {
+        "Master_Location_ID": "JBLOC-0051",
+        "Standardized_Location": "Jalan Permatang, Kempas",
+        "Object_Types": "Road",
+        "Years": "2018",
+        "First_Year": 2018,
+        "Last_Year": 2018,
+        "Independent_Event_Count": 1,
+        "Frequency_Class": "1–3 / Occasional",
+        "GIS_Ready": "YES",
+        "Plot_Status": "PLOT",
+        "Primary_Polygon_IDs": null,
+        "Fixed45_IDs": null,
+        "Source_Object_IDs": "LOC-JB-JLN-PERMATANG-KEMPAS",
+        "Coordinate_Source": "SRC_GEO_2018_JALAN_PERMATANG_KTMB",
+        "Notes": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.7947712,
+          1.534148
+        ]
+      },
+      "properties": {
+        "Master_Location_ID": "JBLOC-0054",
+        "Standardized_Location": "Jalan Ros Merah",
+        "Object_Types": "ROAD; Road",
+        "Years": "2017;2020",
+        "First_Year": 2017,
+        "Last_Year": 2020,
+        "Independent_Event_Count": 2,
+        "Frequency_Class": "1–3 / Occasional",
+        "GIS_Ready": "YES",
+        "Plot_Status": "PLOT",
+        "Primary_Polygon_IDs": null,
+        "Fixed45_IDs": null,
+        "Source_Object_IDs": "LOC-JB-JLN-ROS-MERAH",
+        "Coordinate_Source": "SRC_GEO_JALAN_ROS_MERAH",
+        "Notes": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.760885,
+          1.48538309999999
+        ]
+      },
+      "properties": {
+        "Master_Location_ID": "JBLOC-0058",
+        "Standardized_Location": "Jalan Serigala",
+        "Object_Types": "ROAD",
+        "Years": "2023",
+        "First_Year": 2023,
+        "Last_Year": 2023,
+        "Independent_Event_Count": 1,
+        "Frequency_Class": "1–3 / Occasional",
+        "GIS_Ready": "YES",
+        "Plot_Status": "PLOT",
+        "Primary_Polygon_IDs": null,
+        "Fixed45_IDs": "HF31",
+        "Source_Object_IDs": "S2023-031",
+        "Coordinate_Source": "Fixed45 baseline",
+        "Notes": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.7256712,
+          1.4714218
+        ]
+      },
+      "properties": {
+        "Master_Location_ID": "JBLOC-0061",
+        "Standardized_Location": "Jalan Skudai",
+        "Object_Types": "ROAD",
+        "Years": "2023",
+        "First_Year": 2023,
+        "Last_Year": 2023,
+        "Independent_Event_Count": 1,
+        "Frequency_Class": "1–3 / Occasional",
+        "GIS_Ready": "YES",
+        "Plot_Status": "PLOT",
+        "Primary_Polygon_IDs": null,
+        "Fixed45_IDs": null,
+        "Source_Object_IDs": "S2023-054",
+        "Coordinate_Source": "PLOT",
+        "Notes": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.7773894,
+          1.47246319999999
+        ]
+      },
+      "properties": {
+        "Master_Location_ID": "JBLOC-0062",
+        "Standardized_Location": "Jalan Stulang Darat",
+        "Object_Types": "ROAD",
+        "Years": "2023",
+        "First_Year": 2023,
+        "Last_Year": 2023,
+        "Independent_Event_Count": 1,
+        "Frequency_Class": "1–3 / Occasional",
+        "GIS_Ready": "YES",
+        "Plot_Status": "PLOT",
+        "Primary_Polygon_IDs": null,
+        "Fixed45_IDs": "HF10",
+        "Source_Object_IDs": "S2023-032",
+        "Coordinate_Source": "Fixed45 baseline",
+        "Notes": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.6963972,
+          1.4999611
+        ]
+      },
+      "properties": {
+        "Master_Location_ID": "JBLOC-0063",
+        "Standardized_Location": "Jalan Sukun, Kampung Pasir",
+        "Object_Types": "ROAD/ROAD SEGMENT; Road within flood locality",
+        "Years": "2018;2025",
+        "First_Year": 2018,
+        "Last_Year": 2025,
+        "Independent_Event_Count": 2,
+        "Frequency_Class": "1–3 / Occasional",
+        "GIS_Ready": "YES",
+        "Plot_Status": "PLOT",
+        "Primary_Polygon_IDs": null,
+        "Fixed45_IDs": null,
+        "Source_Object_IDs": "LOC-JB-JLN-SUKUN-KG-PASIR;S2025-018",
+        "Coordinate_Source": "SRC_GEO_2018_JALAN_SUKUN",
+        "Notes": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.7385575,
+          1.4609922
+        ]
+      },
+      "properties": {
+        "Master_Location_ID": "JBLOC-0064",
+        "Standardized_Location": "Jalan Sungai Chat",
+        "Object_Types": "ROAD; ROAD/ROAD CONTEXT; ROAD/ROAD SEGMENT",
+        "Years": "2023;2025;2026",
+        "First_Year": 2023,
+        "Last_Year": 2026,
+        "Independent_Event_Count": 3,
+        "Frequency_Class": "1–3 / Occasional",
+        "GIS_Ready": "YES",
+        "Plot_Status": "PLOT",
+        "Primary_Polygon_IDs": null,
+        "Fixed45_IDs": "HF04",
+        "Source_Object_IDs": "S2023-044;S2025-036;S2026-011",
+        "Coordinate_Source": "Fixed45 baseline",
+        "Notes": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.708266,
+          1.500366
+        ]
+      },
+      "properties": {
+        "Master_Location_ID": "JBLOC-0065",
+        "Standardized_Location": "Jalan Tampoi",
+        "Object_Types": "ROAD",
+        "Years": "2023",
+        "First_Year": 2023,
+        "Last_Year": 2023,
+        "Independent_Event_Count": 1,
+        "Frequency_Class": "1–3 / Occasional",
+        "GIS_Ready": "YES",
+        "Plot_Status": "PLOT",
+        "Primary_Polygon_IDs": null,
+        "Fixed45_IDs": null,
+        "Source_Object_IDs": "S2023-055",
+        "Coordinate_Source": "PLOT",
+        "Notes": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.58622188,
+          1.55797471
+        ]
+      },
+      "properties": {
+        "Master_Location_ID": "JBLOC-0066",
+        "Standardized_Location": "Jalan Tawakal, Kampung Melayu Kangkar Pulai",
+        "Object_Types": "Road within residential community",
+        "Years": "2020",
+        "First_Year": 2020,
+        "Last_Year": 2020,
+        "Independent_Event_Count": 1,
+        "Frequency_Class": "1–3 / Occasional",
+        "GIS_Ready": "YES",
+        "Plot_Status": "PLOT",
+        "Primary_Polygon_IDs": null,
+        "Fixed45_IDs": null,
+        "Source_Object_IDs": "LOC-JB-JLN-TAWAKAL-KG-MELAYU-KANGKAR-PULAI",
+        "Coordinate_Source": "SRC_R2020_JPS_2020_TABLE",
+        "Notes": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.762918,
+          1.47486940000001
+        ]
+      },
+      "properties": {
+        "Master_Location_ID": "JBLOC-0067",
+        "Standardized_Location": "Jalan Tebrau",
+        "Object_Types": "ROAD",
+        "Years": "2023",
+        "First_Year": 2023,
+        "Last_Year": 2023,
+        "Independent_Event_Count": 1,
+        "Frequency_Class": "1–3 / Occasional",
+        "GIS_Ready": "YES",
+        "Plot_Status": "PLOT",
+        "Primary_Polygon_IDs": null,
+        "Fixed45_IDs": "HF05",
+        "Source_Object_IDs": "S2023-033",
+        "Coordinate_Source": "Fixed45 baseline",
+        "Notes": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.76676,
+          1.49464
+        ]
+      },
+      "properties": {
+        "Master_Location_ID": "JBLOC-0068",
+        "Standardized_Location": "Jalan Tebrau near Wisma Daiman",
+        "Object_Types": "ROAD",
+        "Years": "2017",
+        "First_Year": 2017,
+        "Last_Year": 2017,
+        "Independent_Event_Count": 1,
+        "Frequency_Class": "1–3 / Occasional",
+        "GIS_Ready": "YES",
+        "Plot_Status": "PLOT",
+        "Primary_Polygon_IDs": null,
+        "Fixed45_IDs": null,
+        "Source_Object_IDs": "LOC-JB-JLN-TEBRAU-WISMA-DAIMAN",
+        "Coordinate_Source": "SRC_GEO_WISMA_DAIMAN_OSM",
+        "Notes": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.7773,
+          1.4942
+        ]
+      },
+      "properties": {
+        "Master_Location_ID": "JBLOC-0069",
+        "Standardized_Location": "Jalan Tebrau, Taman Sentosa",
+        "Object_Types": "Road-area event reference",
+        "Years": "2018",
+        "First_Year": 2018,
+        "Last_Year": 2018,
+        "Independent_Event_Count": 1,
+        "Frequency_Class": "1–3 / Occasional",
+        "GIS_Ready": "YES",
+        "Plot_Status": "PLOT",
+        "Primary_Polygon_IDs": null,
+        "Fixed45_IDs": null,
+        "Source_Object_IDs": "LOC-JB-JLN-TEBRAU-TAMAN-SENTOSA",
+        "Coordinate_Source": "SRC_R2018_MMAIL_20181010",
+        "Notes": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.7527329,
+          1.48037910000001
+        ]
+      },
+      "properties": {
+        "Master_Location_ID": "JBLOC-0070",
+        "Standardized_Location": "Jalan Tun Abdul Razak",
+        "Object_Types": "ROAD; ROAD/ROAD SEGMENT",
+        "Years": "2022;2023;2025",
+        "First_Year": 2022,
+        "Last_Year": 2025,
+        "Independent_Event_Count": 5,
+        "Frequency_Class": "4–6 / Recurrent",
+        "GIS_Ready": "YES",
+        "Plot_Status": "PLOT",
+        "Primary_Polygon_IDs": null,
+        "Fixed45_IDs": "HF06",
+        "Source_Object_IDs": "S2022-008;S2023-034;S2023-035;S2023-036;S2025-040",
+        "Coordinate_Source": "Fixed45 baseline",
+        "Notes": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.7656178,
+          1.4576093
+        ]
+      },
+      "properties": {
+        "Master_Location_ID": "JBLOC-0071",
+        "Standardized_Location": "Jalan Wong Ah Fook",
+        "Object_Types": "ROAD/ROAD CONTEXT; ROAD/ROAD SEGMENT",
+        "Years": "2025;2026",
+        "First_Year": 2025,
+        "Last_Year": 2026,
+        "Independent_Event_Count": 2,
+        "Frequency_Class": "1–3 / Occasional",
+        "GIS_Ready": "YES",
+        "Plot_Status": "PLOT",
+        "Primary_Polygon_IDs": null,
+        "Fixed45_IDs": "HF32",
+        "Source_Object_IDs": "S2025-039;S2026-005",
+        "Coordinate_Source": "Fixed45 baseline",
+        "Notes": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.76189,
+          1.46395
+        ]
+      },
+      "properties": {
+        "Master_Location_ID": "JBLOC-0072",
+        "Standardized_Location": "Jalan Wong Ah Fook / Sungai Segget Project Area",
+        "Object_Types": "ROAD; ROAD/CORRIDOR; Urban road-river/project corridor",
+        "Years": "2016;2017;2022",
+        "First_Year": 2016,
+        "Last_Year": 2022,
+        "Independent_Event_Count": 3,
+        "Frequency_Class": "1–3 / Occasional",
+        "GIS_Ready": "YES",
+        "Plot_Status": "PLOT",
+        "Primary_Polygon_IDs": "PG2016-CBD-SEGGET",
+        "Fixed45_IDs": null,
+        "Source_Object_IDs": "LOC-JB-CBD-WAF-SEGGET;S2022-007",
+        "Coordinate_Source": "SRC_GEO_WAF_HOTEL_OSM",
+        "Notes": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.7553464,
+          1.46337250000001
+        ]
+      },
+      "properties": {
+        "Master_Location_ID": "JBLOC-0073",
+        "Standardized_Location": "Jalan Yahya Awal",
+        "Object_Types": "ROAD; ROAD/ROAD CONTEXT",
+        "Years": "2022;2023;2026",
+        "First_Year": 2022,
+        "Last_Year": 2026,
+        "Independent_Event_Count": 3,
+        "Frequency_Class": "1–3 / Occasional",
+        "GIS_Ready": "YES",
+        "Plot_Status": "PLOT",
+        "Primary_Polygon_IDs": null,
+        "Fixed45_IDs": "HF07",
+        "Source_Object_IDs": "S2022-010;S2023-037;S2026-003",
+        "Coordinate_Source": "Fixed45 baseline",
+        "Notes": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.7368,
+          1.50516
+        ]
+      },
+      "properties": {
+        "Master_Location_ID": "JBLOC-0074",
+        "Standardized_Location": "Kampung Aman",
+        "Object_Types": "COMMUNITY/AREA",
+        "Years": "2023",
+        "First_Year": 2023,
+        "Last_Year": 2023,
+        "Independent_Event_Count": 1,
+        "Frequency_Class": "1–3 / Occasional",
+        "GIS_Ready": "YES",
+        "Plot_Status": "PLOT",
+        "Primary_Polygon_IDs": null,
+        "Fixed45_IDs": null,
+        "Source_Object_IDs": "S2023-002",
+        "Coordinate_Source": "PLOT",
+        "Notes": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.708604,
+          1.473954
+        ]
+      },
+      "properties": {
+        "Master_Location_ID": "JBLOC-0075",
+        "Standardized_Location": "Kampung Bakar Batu",
+        "Object_Types": "COMMUNITY/AREA",
+        "Years": "2017",
+        "First_Year": 2017,
+        "Last_Year": 2017,
+        "Independent_Event_Count": 1,
+        "Frequency_Class": "1–3 / Occasional",
+        "GIS_Ready": "YES",
+        "Plot_Status": "PLOT",
+        "Primary_Polygon_IDs": null,
+        "Fixed45_IDs": null,
+        "Source_Object_IDs": "LOC-JB-KG-BAKAR-BATU",
+        "Coordinate_Source": "SRC_GEO_MYGEONAME_JOHOR",
+        "Notes": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.5947457,
+          1.4430619
+        ]
+      },
+      "properties": {
+        "Master_Location_ID": "JBLOC-0076",
+        "Standardized_Location": "Kampung Baru Muafakat",
+        "Object_Types": "COMMUNITY",
+        "Years": "2022",
+        "First_Year": 2022,
+        "Last_Year": 2022,
+        "Independent_Event_Count": 2,
+        "Frequency_Class": "1–3 / Occasional",
+        "GIS_Ready": "YES",
+        "Plot_Status": "PLOT",
+        "Primary_Polygon_IDs": "PG2020-KG-BARU-MUAFAKAT",
+        "Fixed45_IDs": null,
+        "Source_Object_IDs": "S2022-002",
+        "Coordinate_Source": "R012 frozen polygon centroid / OSM way 468638324",
+        "Notes": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.59504428,
+          1.44271108
+        ]
+      },
+      "properties": {
+        "Master_Location_ID": "JBLOC-0077",
+        "Standardized_Location": "Kampung Baru Muafakat, Gelang Patah",
+        "Object_Types": "Residential kampung",
+        "Years": "2020",
+        "First_Year": 2020,
+        "Last_Year": 2020,
+        "Independent_Event_Count": 2,
+        "Frequency_Class": "1–3 / Occasional",
+        "GIS_Ready": "YES",
+        "Plot_Status": "PLOT",
+        "Primary_Polygon_IDs": null,
+        "Fixed45_IDs": null,
+        "Source_Object_IDs": "LOC-JB-KG-BARU-MUAFAKAT-GP",
+        "Coordinate_Source": "SRC_R2020_JPS_2020_TABLE",
+        "Notes": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.67230887,
+          1.52340697
+        ]
+      },
+      "properties": {
+        "Master_Location_ID": "JBLOC-0078",
+        "Standardized_Location": "Kampung Batu 8 1/2, TUTA",
+        "Object_Types": "Kampung",
+        "Years": "2019",
+        "First_Year": 2019,
+        "Last_Year": 2019,
+        "Independent_Event_Count": 1,
+        "Frequency_Class": "1–3 / Occasional",
+        "GIS_Ready": "YES",
+        "Plot_Status": "PLOT",
+        "Primary_Polygon_IDs": null,
+        "Fixed45_IDs": null,
+        "Source_Object_IDs": "LOC-JB-KG-BATU-8-5-TUTA",
+        "Coordinate_Source": "2019 spatial baseline",
+        "Notes": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.76650814,
+          1.51378258
+        ]
+      },
+      "properties": {
+        "Master_Location_ID": "JBLOC-0079",
+        "Standardized_Location": "Kampung Belantik",
+        "Object_Types": "COMMUNITY/AREA; Kampung",
+        "Years": "2018;2025",
+        "First_Year": 2018,
+        "Last_Year": 2025,
+        "Independent_Event_Count": 2,
+        "Frequency_Class": "1–3 / Occasional",
+        "GIS_Ready": "YES",
+        "Plot_Status": "PLOT",
+        "Primary_Polygon_IDs": null,
+        "Fixed45_IDs": null,
+        "Source_Object_IDs": "LOC-JB-KG-BELANTIK;S2025-015",
+        "Coordinate_Source": "PLOT",
+        "Notes": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.7627931,
+          1.512616
+        ]
+      },
+      "properties": {
+        "Master_Location_ID": "JBLOC-0080",
+        "Standardized_Location": "Kampung Bendahara",
+        "Object_Types": "Kampung",
+        "Years": "2018",
+        "First_Year": 2018,
+        "Last_Year": 2018,
+        "Independent_Event_Count": 1,
+        "Frequency_Class": "1–3 / Occasional",
+        "GIS_Ready": "YES",
+        "Plot_Status": "PLOT",
+        "Primary_Polygon_IDs": null,
+        "Fixed45_IDs": "HF11",
+        "Source_Object_IDs": "LOC-JB-KG-BENDAHARA",
+        "Coordinate_Source": "Fixed45 baseline",
+        "Notes": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.9223,
+          1.6692
+        ]
+      },
+      "properties": {
+        "Master_Location_ID": "JBLOC-0081",
+        "Standardized_Location": "Kampung Bukit Berangan",
+        "Object_Types": "COMMUNITY/AREA",
+        "Years": "2017",
+        "First_Year": 2017,
+        "Last_Year": 2017,
+        "Independent_Event_Count": 1,
+        "Frequency_Class": "1–3 / Occasional",
+        "GIS_Ready": "YES",
+        "Plot_Status": "PLOT",
+        "Primary_Polygon_IDs": null,
+        "Fixed45_IDs": null,
+        "Source_Object_IDs": "LOC-JB-KG-BUKIT-BERANGAN-2017",
+        "Coordinate_Source": "2017 spatial baseline",
+        "Notes": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.924811,
+          1.59376731
+        ]
+      },
+      "properties": {
+        "Master_Location_ID": "JBLOC-0082",
+        "Standardized_Location": "Kampung Bukit Dagang",
+        "Object_Types": "COMMUNITY/AREA; Kampung",
+        "Years": "2019;2024",
+        "First_Year": 2019,
+        "Last_Year": 2024,
+        "Independent_Event_Count": 2,
+        "Frequency_Class": "1–3 / Occasional",
+        "GIS_Ready": "YES",
+        "Plot_Status": "PLOT",
+        "Primary_Polygon_IDs": null,
+        "Fixed45_IDs": null,
+        "Source_Object_IDs": "LOC-JB-KG-BUKIT-DAGANG;S2024-007",
+        "Coordinate_Source": "2019 spatial baseline",
+        "Notes": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.75965347,
+          1.53411714
+        ]
+      },
+      "properties": {
+        "Master_Location_ID": "JBLOC-0083",
+        "Standardized_Location": "Kampung Bunga Ros",
+        "Object_Types": "COMMUNITY; COMMUNITY/AREA; Kampung",
+        "Years": "2019;2022;2025",
+        "First_Year": 2019,
+        "Last_Year": 2025,
+        "Independent_Event_Count": 3,
+        "Frequency_Class": "1–3 / Occasional",
+        "GIS_Ready": "YES",
+        "Plot_Status": "PLOT",
+        "Primary_Polygon_IDs": null,
+        "Fixed45_IDs": null,
+        "Source_Object_IDs": "LOC-JB-KG-BUNGA-ROS;S2022-023;S2025-007",
+        "Coordinate_Source": "2019 spatial baseline",
+        "Notes": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.76977282,
+          1.50468654
+        ]
+      },
+      "properties": {
+        "Master_Location_ID": "JBLOC-0085",
+        "Standardized_Location": "Kg. Dato Hajah Hasnah",
+        "Object_Types": "COMMUNITY/AREA",
+        "Years": "2023;2026",
+        "First_Year": 2023,
+        "Last_Year": 2026,
+        "Independent_Event_Count": 2,
+        "Frequency_Class": "1–3 / Occasional",
+        "GIS_Ready": "YES",
+        "Plot_Status": "PLOT",
+        "Primary_Polygon_IDs": null,
+        "Fixed45_IDs": null,
+        "Source_Object_IDs": "S2023-004;S2026-010",
+        "Coordinate_Source": "PLOT",
+        "Notes": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.76902,
+          1.50481
+        ]
+      },
+      "properties": {
+        "Master_Location_ID": "JBLOC-0086",
+        "Standardized_Location": "Kampung Dato' Hajah Hasnah Ahmad",
+        "Object_Types": "Kampung",
+        "Years": "2018",
+        "First_Year": 2018,
+        "Last_Year": 2018,
+        "Independent_Event_Count": 1,
+        "Frequency_Class": "1–3 / Occasional",
+        "GIS_Ready": "YES",
+        "Plot_Status": "PLOT",
+        "Primary_Polygon_IDs": null,
+        "Fixed45_IDs": null,
+        "Source_Object_IDs": "LOC-JB-KG-HAJAH-HASNAH",
+        "Coordinate_Source": "SRC_GEO_2018_HAJAH_HASNAH",
+        "Notes": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.76665,
+          1.50759
+        ]
+      },
+      "properties": {
+        "Master_Location_ID": "JBLOC-0087",
+        "Standardized_Location": "Kampung Dato Sulaiman Menteri",
+        "Object_Types": "COMMUNITY; Kampung",
+        "Years": "2018;2022",
+        "First_Year": 2018,
+        "Last_Year": 2022,
+        "Independent_Event_Count": 2,
+        "Frequency_Class": "1–3 / Occasional",
+        "GIS_Ready": "YES",
+        "Plot_Status": "PLOT",
+        "Primary_Polygon_IDs": null,
+        "Fixed45_IDs": null,
+        "Source_Object_IDs": "LOC-JB-KG-DATO-SULAIMAN-MENTERI;S2022-027",
+        "Coordinate_Source": "SRC_GEO_2018_DATO_SULAIMAN_MENTERI",
+        "Notes": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.65153,
+          1.5874
+        ]
+      },
+      "properties": {
+        "Master_Location_ID": "JBLOC-0089",
+        "Standardized_Location": "Kampung Jaya Sepakat",
+        "Object_Types": "COMMUNITY/AREA",
+        "Years": "2017",
+        "First_Year": 2017,
+        "Last_Year": 2017,
+        "Independent_Event_Count": 1,
+        "Frequency_Class": "1–3 / Occasional",
+        "GIS_Ready": "YES",
+        "Plot_Status": "PLOT",
+        "Primary_Polygon_IDs": null,
+        "Fixed45_IDs": null,
+        "Source_Object_IDs": "LOC-CAND-JB-KG-SEPAKAT-JAYA-SKUDAI",
+        "Coordinate_Source": "RESOLVED_NORMALIZED_POINT",
+        "Notes": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.756604173059,
+          1.531815
+        ]
+      },
+      "properties": {
+        "Master_Location_ID": "JBLOC-0090",
+        "Standardized_Location": "Kampung Kangkar Tebrau",
+        "Object_Types": "COMMUNITY; COMMUNITY/AREA",
+        "Years": "2017;2021;2023;2025",
+        "First_Year": 2017,
+        "Last_Year": 2025,
+        "Independent_Event_Count": 8,
+        "Frequency_Class": "≥7 / Frequent",
+        "GIS_Ready": "YES",
+        "Plot_Status": "PLOT",
+        "Primary_Polygon_IDs": "PG2017-KANGKAR-TEBRAU;PG2017-KG-KANGKAR-TEBRAU",
+        "Fixed45_IDs": "HF17",
+        "Source_Object_IDs": "LOC-JB-KG-KANGKAR-TEBRAU;S2021-011;S2023-013;S2025-001",
+        "Coordinate_Source": "Fixed45 baseline",
+        "Notes": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.72438747,
+          1.52886592
+        ]
+      },
+      "properties": {
+        "Master_Location_ID": "JBLOC-0091",
+        "Standardized_Location": "Kampung Kempas Permatang",
+        "Object_Types": "COMMUNITY/AREA",
+        "Years": "2017",
+        "First_Year": 2017,
+        "Last_Year": 2017,
+        "Independent_Event_Count": 3,
+        "Frequency_Class": "1–3 / Occasional",
+        "GIS_Ready": "YES",
+        "Plot_Status": "PLOT",
+        "Primary_Polygon_IDs": null,
+        "Fixed45_IDs": null,
+        "Source_Object_IDs": "LOC-JB-KG-KEMPAS-PERMATANG",
+        "Coordinate_Source": "SRC_GEO_MYGEONAME_JOHOR",
+        "Notes": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.75612,
+          1.49744
+        ]
+      },
+      "properties": {
+        "Master_Location_ID": "JBLOC-0092",
+        "Standardized_Location": "Kampung Kurnia, Johor Bahru",
+        "Object_Types": "COMMUNITY; COMMUNITY/AREA",
+        "Years": "2022;2023",
+        "First_Year": 2022,
+        "Last_Year": 2023,
+        "Independent_Event_Count": 2,
+        "Frequency_Class": "1–3 / Occasional",
+        "GIS_Ready": "YES",
+        "Plot_Status": "PLOT",
+        "Primary_Polygon_IDs": null,
+        "Fixed45_IDs": null,
+        "Source_Object_IDs": "S2022-036;S2023-005",
+        "Coordinate_Source": "7 Nov Astro Awani event evidence",
+        "Notes": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.6605,
+          1.5453
+        ]
+      },
+      "properties": {
+        "Master_Location_ID": "JBLOC-0093",
+        "Standardized_Location": "Kampung Laut Batu 10, Skudai",
+        "Object_Types": "COMMUNITY; Kampung",
+        "Years": "2020;2021;2022",
+        "First_Year": 2020,
+        "Last_Year": 2022,
+        "Independent_Event_Count": 9,
+        "Frequency_Class": "≥7 / Frequent",
+        "GIS_Ready": "YES",
+        "Plot_Status": "PLOT",
+        "Primary_Polygon_IDs": null,
+        "Fixed45_IDs": null,
+        "Source_Object_IDs": "LOC-JB-KG-LAUT-SKUDAI;S2021-001;S2022-017",
+        "Coordinate_Source": "SRC_R2020_JPS_2020_TABLE; SRC_R2020_MMAIL_20201123",
+        "Notes": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.6605,
+          1.5453
+        ]
+      },
+      "properties": {
+        "Master_Location_ID": "JBLOC-0094",
+        "Standardized_Location": "Kampung Laut, Skudai",
+        "Object_Types": "COMMUNITY/AREA; Kampung",
+        "Years": "2017;2019;2025",
+        "First_Year": 2017,
+        "Last_Year": 2025,
+        "Independent_Event_Count": 5,
+        "Frequency_Class": "4–6 / Recurrent",
+        "GIS_Ready": "YES",
+        "Plot_Status": "PLOT",
+        "Primary_Polygon_IDs": null,
+        "Fixed45_IDs": null,
+        "Source_Object_IDs": "LOC-JB-KG-LAUT-SKUDAI;S2025-009",
+        "Coordinate_Source": "SRC_GEO_KG_LAUT_SKUDAI",
+        "Notes": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.7159181,
+          1.58109209999999
+        ]
+      },
+      "properties": {
+        "Master_Location_ID": "JBLOC-0095",
+        "Standardized_Location": "Kampung Maju Jaya",
+        "Object_Types": "COMMUNITY; COMMUNITY/AREA; Kampung",
+        "Years": "2019;2022;2024",
+        "First_Year": 2019,
+        "Last_Year": 2024,
+        "Independent_Event_Count": 3,
+        "Frequency_Class": "1–3 / Occasional",
+        "GIS_Ready": "YES",
+        "Plot_Status": "PLOT",
+        "Primary_Polygon_IDs": null,
+        "Fixed45_IDs": "HF18",
+        "Source_Object_IDs": "LOC-JB-KG-MAJU-JAYA;S2022-018;S2024-009",
+        "Coordinate_Source": "Fixed45 baseline",
+        "Notes": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.62481,
+          1.50435
+        ]
+      },
+      "properties": {
+        "Master_Location_ID": "JBLOC-0096",
+        "Standardized_Location": "Kampung Melayu Lima Kedai",
+        "Object_Types": "Residential hamlet",
+        "Years": "2018",
+        "First_Year": 2018,
+        "Last_Year": 2018,
+        "Independent_Event_Count": 1,
+        "Frequency_Class": "1–3 / Occasional",
+        "GIS_Ready": "YES",
+        "Plot_Status": "PLOT",
+        "Primary_Polygon_IDs": null,
+        "Fixed45_IDs": null,
+        "Source_Object_IDs": "LOC-JB-KG-MELAYU-LIMA-KEDAI",
+        "Coordinate_Source": "SRC_GEO_2018_MELAYU_LIMA_KEDAI",
+        "Notes": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.75192484,
+          1.51174352
+        ]
+      },
+      "properties": {
+        "Master_Location_ID": "JBLOC-0097",
+        "Standardized_Location": "Kampung Melayu Majidee",
+        "Object_Types": "COMMUNITY",
+        "Years": "2021;2022",
+        "First_Year": 2021,
+        "Last_Year": 2022,
+        "Independent_Event_Count": 2,
+        "Frequency_Class": "1–3 / Occasional",
+        "GIS_Ready": "YES",
+        "Plot_Status": "PLOT",
+        "Primary_Polygon_IDs": null,
+        "Fixed45_IDs": null,
+        "Source_Object_IDs": "S2021-022;S2022-034",
+        "Coordinate_Source": "MyGeoName Johor gazetteer",
+        "Notes": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.75192484,
+          1.51174352
+        ]
+      },
+      "properties": {
+        "Master_Location_ID": "JBLOC-0098",
+        "Standardized_Location": "Kg. Melayu Majidi",
+        "Object_Types": "Kampung",
+        "Years": "2018",
+        "First_Year": 2018,
+        "Last_Year": 2018,
+        "Independent_Event_Count": 1,
+        "Frequency_Class": "1–3 / Occasional",
+        "GIS_Ready": "YES",
+        "Plot_Status": "PLOT",
+        "Primary_Polygon_IDs": null,
+        "Fixed45_IDs": null,
+        "Source_Object_IDs": "LOC-CAND-JB-KG-MELAYU-2018",
+        "Coordinate_Source": "SRC_R2018_MMAIL_20181010",
+        "Notes": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.773858346421,
+          1.52264915000001
+        ]
+      },
+      "properties": {
+        "Master_Location_ID": "JBLOC-0099",
+        "Standardized_Location": "Kampung Melayu Pandan",
+        "Object_Types": "COMMUNITY/AREA; Kampung",
+        "Years": "2019;2025",
+        "First_Year": 2019,
+        "Last_Year": 2025,
+        "Independent_Event_Count": 2,
+        "Frequency_Class": "1–3 / Occasional",
+        "GIS_Ready": "YES",
+        "Plot_Status": "PLOT",
+        "Primary_Polygon_IDs": null,
+        "Fixed45_IDs": "HF12",
+        "Source_Object_IDs": "LOC-JB-KG-MELAYU-PANDAN;S2025-014",
+        "Coordinate_Source": "Fixed45 baseline",
+        "Notes": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.7354126,
+          1.46736369999999
+        ]
+      },
+      "properties": {
+        "Master_Location_ID": "JBLOC-0100",
+        "Standardized_Location": "Kampung Mohd Amin",
+        "Object_Types": "COMMUNITY; COMMUNITY/AREA",
+        "Years": "2022;2026",
+        "First_Year": 2022,
+        "Last_Year": 2026,
+        "Independent_Event_Count": 3,
+        "Frequency_Class": "1–3 / Occasional",
+        "GIS_Ready": "YES",
+        "Plot_Status": "PLOT",
+        "Primary_Polygon_IDs": null,
+        "Fixed45_IDs": "HF08",
+        "Source_Object_IDs": "S2022-012;S2026-015",
+        "Coordinate_Source": "Fixed45 baseline",
+        "Notes": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.7354126,
+          1.4673637
+        ]
+      },
+      "properties": {
+        "Master_Location_ID": "JBLOC-0101",
+        "Standardized_Location": "Kampung Mohd Amin / Jalan Md Amin context",
+        "Object_Types": "COMMUNITY/AREA",
+        "Years": "2025",
+        "First_Year": 2025,
+        "Last_Year": 2025,
+        "Independent_Event_Count": 2,
+        "Frequency_Class": "1–3 / Occasional",
+        "GIS_Ready": "YES",
+        "Plot_Status": "PLOT",
+        "Primary_Polygon_IDs": null,
+        "Fixed45_IDs": null,
+        "Source_Object_IDs": "S2025-038",
+        "Coordinate_Source": "Frozen canonical Kampung Mohd Amin reference",
+        "Notes": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.7354126,
+          1.4673637
+        ]
+      },
+      "properties": {
+        "Master_Location_ID": "JBLOC-0102",
+        "Standardized_Location": "Kampung Mohd Amin / Jalan Mohd Amin context",
+        "Object_Types": "AREA",
+        "Years": "2023",
+        "First_Year": 2023,
+        "Last_Year": 2023,
+        "Independent_Event_Count": 1,
+        "Frequency_Class": "1–3 / Occasional",
+        "GIS_Ready": "YES",
+        "Plot_Status": "PLOT",
+        "Primary_Polygon_IDs": null,
+        "Fixed45_IDs": null,
+        "Source_Object_IDs": "S2023-029",
+        "Coordinate_Source": "Frozen canonical Kampung Mohd Amin reference; road alias retained",
+        "Notes": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.73541,
+          1.46736
+        ]
+      },
+      "properties": {
+        "Master_Location_ID": "JBLOC-0103",
+        "Standardized_Location": "Kampung Mohd Amin, Kolam Air",
+        "Object_Types": "COMMUNITY; Kampung",
+        "Years": "2018;2019;2020;2021",
+        "First_Year": 2018,
+        "Last_Year": 2021,
+        "Independent_Event_Count": 4,
+        "Frequency_Class": "4–6 / Recurrent",
+        "GIS_Ready": "YES",
+        "Plot_Status": "PLOT",
+        "Primary_Polygon_IDs": null,
+        "Fixed45_IDs": null,
+        "Source_Object_IDs": "LOC-JB-KG-MOHD-AMIN-KOLAM-AIR;S2021-031",
+        "Coordinate_Source": "SRC_GEO_2018_MOHD_AMIN",
+        "Notes": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.6969651,
+          1.49553030000001
+        ]
+      },
+      "properties": {
+        "Master_Location_ID": "JBLOC-0104",
+        "Standardized_Location": "Kampung Pasir",
+        "Object_Types": "COMMUNITY; COMMUNITY/AREA",
+        "Years": "2021;2022;2023;2025;2026",
+        "First_Year": 2021,
+        "Last_Year": 2026,
+        "Independent_Event_Count": 10,
+        "Frequency_Class": "≥7 / Frequent",
+        "GIS_Ready": "YES",
+        "Plot_Status": "PLOT",
+        "Primary_Polygon_IDs": null,
+        "Fixed45_IDs": "HF14",
+        "Source_Object_IDs": "S2021-006;S2022-003;S2023-018;S2025-005;S2026-006",
+        "Coordinate_Source": "Fixed45 baseline",
+        "Notes": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.6963972,
+          1.4999611
+        ]
+      },
+      "properties": {
+        "Master_Location_ID": "JBLOC-0105",
+        "Standardized_Location": "Kampung Pasir, Tampoi",
+        "Object_Types": "Kampung",
+        "Years": "2020",
+        "First_Year": 2020,
+        "Last_Year": 2020,
+        "Independent_Event_Count": 2,
+        "Frequency_Class": "1–3 / Occasional",
+        "GIS_Ready": "YES",
+        "Plot_Status": "PLOT",
+        "Primary_Polygon_IDs": null,
+        "Fixed45_IDs": null,
+        "Source_Object_IDs": "LOC-JB-KG-PASIR-TAMPOI",
+        "Coordinate_Source": "SRC_R2020_MMAIL_20201123; SRC_R2020_UTUSAN_20201121",
+        "Notes": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.6963972,
+          1.4999611
+        ]
+      },
+      "properties": {
+        "Master_Location_ID": "JBLOC-0106",
+        "Standardized_Location": "Kampung Pasir, Tampoi/Skudai area",
+        "Object_Types": "COMMUNITY/AREA",
+        "Years": "2017",
+        "First_Year": 2017,
+        "Last_Year": 2017,
+        "Independent_Event_Count": 2,
+        "Frequency_Class": "1–3 / Occasional",
+        "GIS_Ready": "YES",
+        "Plot_Status": "PLOT",
+        "Primary_Polygon_IDs": null,
+        "Fixed45_IDs": null,
+        "Source_Object_IDs": "LOC-JB-KG-PASIR-TAMPOI",
+        "Coordinate_Source": "SRC_GEO_KG_PASIR_RKK",
+        "Notes": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.74327778,
+          1.54413889
+        ]
+      },
+      "properties": {
+        "Master_Location_ID": "JBLOC-0107",
+        "Standardized_Location": "Kampung Pasir Tebrau",
+        "Object_Types": "COMMUNITY; COMMUNITY/AREA; Kampung",
+        "Years": "2019;2021;2022;2023;2025",
+        "First_Year": 2019,
+        "Last_Year": 2025,
+        "Independent_Event_Count": 6,
+        "Frequency_Class": "4–6 / Recurrent",
+        "GIS_Ready": "YES",
+        "Plot_Status": "PLOT",
+        "Primary_Polygon_IDs": null,
+        "Fixed45_IDs": null,
+        "Source_Object_IDs": "LOC-JB-KG-PASIR-TEBRAU;S2021-010;S2022-021;S2023-007;S2025-008",
+        "Coordinate_Source": "2019 spatial baseline",
+        "Notes": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.74961954,
+          1.5403203
+        ]
+      },
+      "properties": {
+        "Master_Location_ID": "JBLOC-0110",
+        "Standardized_Location": "Kampung Paya Kenangan",
+        "Object_Types": "COMMUNITY; COMMUNITY/AREA; Kampung",
+        "Years": "2017;2019;2021;2022;2023;2025",
+        "First_Year": 2017,
+        "Last_Year": 2025,
+        "Independent_Event_Count": 9,
+        "Frequency_Class": "≥7 / Frequent",
+        "GIS_Ready": "YES",
+        "Plot_Status": "PLOT",
+        "Primary_Polygon_IDs": null,
+        "Fixed45_IDs": null,
+        "Source_Object_IDs": "LOC-JB-KG-PAYA-KENANGAN;S2021-009;S2022-022;S2023-009;S2025-002",
+        "Coordinate_Source": "SRC_GEO_MYGEONAME_JOHOR",
+        "Notes": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.58727458,
+          1.37194144
+        ]
+      },
+      "properties": {
+        "Master_Location_ID": "JBLOC-0111",
+        "Standardized_Location": "Kampung Paya Mengkuang",
+        "Object_Types": "COMMUNITY",
+        "Years": "2022",
+        "First_Year": 2022,
+        "Last_Year": 2022,
+        "Independent_Event_Count": 2,
+        "Frequency_Class": "1–3 / Occasional",
+        "GIS_Ready": "YES",
+        "Plot_Status": "PLOT",
+        "Primary_Polygon_IDs": null,
+        "Fixed45_IDs": null,
+        "Source_Object_IDs": "S2022-005",
+        "Coordinate_Source": "MyGeoName Johor official gazette point",
+        "Notes": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.931586,
+          1.619208
+        ]
+      },
+      "properties": {
+        "Master_Location_ID": "JBLOC-0113",
+        "Standardized_Location": "Kg. Paya Sg Redan",
+        "Object_Types": "COMMUNITY/AREA",
+        "Years": "2017;2024",
+        "First_Year": 2017,
+        "Last_Year": 2024,
+        "Independent_Event_Count": 3,
+        "Frequency_Class": "1–3 / Occasional",
+        "GIS_Ready": "YES",
+        "Plot_Status": "PLOT",
+        "Primary_Polygon_IDs": null,
+        "Fixed45_IDs": null,
+        "Source_Object_IDs": "LOC-JB-KG-PAYA-ULU-TIRAM;S2024-002",
+        "Coordinate_Source": "RESOLVED_NORMALIZED_POINT",
+        "Notes": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.70472574,
+          1.49166007
+        ]
+      },
+      "properties": {
+        "Master_Location_ID": "JBLOC-0117",
+        "Standardized_Location": "Kampung Pengkalan Rinting",
+        "Object_Types": "Kampung",
+        "Years": "2020",
+        "First_Year": 2020,
+        "Last_Year": 2020,
+        "Independent_Event_Count": 1,
+        "Frequency_Class": "1–3 / Occasional",
+        "GIS_Ready": "YES",
+        "Plot_Status": "PLOT",
+        "Primary_Polygon_IDs": null,
+        "Fixed45_IDs": null,
+        "Source_Object_IDs": "LOC-JB-KG-PENGKALAN-RINTING",
+        "Coordinate_Source": "SRC_R2020_SINAR_20201122_PASIR",
+        "Notes": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.800959,
+          1.493921
+        ]
+      },
+      "properties": {
+        "Master_Location_ID": "JBLOC-0118",
+        "Standardized_Location": "Kampung Plentong",
+        "Object_Types": "Kampung",
+        "Years": "2020",
+        "First_Year": 2020,
+        "Last_Year": 2020,
+        "Independent_Event_Count": 1,
+        "Frequency_Class": "1–3 / Occasional",
+        "GIS_Ready": "YES",
+        "Plot_Status": "PLOT",
+        "Primary_Polygon_IDs": null,
+        "Fixed45_IDs": null,
+        "Source_Object_IDs": "LOC-JB-KG-PLENTONG-2020",
+        "Coordinate_Source": "SRC_R2020_JPS_2020_TABLE",
+        "Notes": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.8166885,
+          1.5179158
+        ]
+      },
+      "properties": {
+        "Master_Location_ID": "JBLOC-0119",
+        "Standardized_Location": "Kampung Plentong Baru",
+        "Object_Types": "COMMUNITY",
+        "Years": "2022",
+        "First_Year": 2022,
+        "Last_Year": 2022,
+        "Independent_Event_Count": 1,
+        "Frequency_Class": "1–3 / Occasional",
+        "GIS_Ready": "YES",
+        "Plot_Status": "PLOT",
+        "Primary_Polygon_IDs": null,
+        "Fixed45_IDs": "HF13",
+        "Source_Object_IDs": "S2022-026",
+        "Coordinate_Source": "Fixed45 baseline",
+        "Notes": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.56799503,
+          1.47115514
+        ]
+      },
+      "properties": {
+        "Master_Location_ID": "JBLOC-0120",
+        "Standardized_Location": "Kampung Pulai",
+        "Object_Types": "Kampung",
+        "Years": "2019",
+        "First_Year": 2019,
+        "Last_Year": 2019,
+        "Independent_Event_Count": 1,
+        "Frequency_Class": "1–3 / Occasional",
+        "GIS_Ready": "YES",
+        "Plot_Status": "PLOT",
+        "Primary_Polygon_IDs": null,
+        "Fixed45_IDs": null,
+        "Source_Object_IDs": "LOC-JB-KG-PULAI-ULU-PULAI",
+        "Coordinate_Source": "2019 spatial baseline",
+        "Notes": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.56799503,
+          1.47115514
+        ]
+      },
+      "properties": {
+        "Master_Location_ID": "JBLOC-0121",
+        "Standardized_Location": "Kampung Pulai, Ulu Pulai",
+        "Object_Types": "Kampung",
+        "Years": "2018",
+        "First_Year": 2018,
+        "Last_Year": 2018,
+        "Independent_Event_Count": 2,
+        "Frequency_Class": "1–3 / Occasional",
+        "GIS_Ready": "YES",
+        "Plot_Status": "PLOT",
+        "Primary_Polygon_IDs": null,
+        "Fixed45_IDs": null,
+        "Source_Object_IDs": "LOC-JB-KG-PULAI-ULU-PULAI",
+        "Coordinate_Source": "SRC_GEO_2018_KG_PULAI",
+        "Notes": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.92735539,
+          1.52125286
+        ]
+      },
+      "properties": {
+        "Master_Location_ID": "JBLOC-0122",
+        "Standardized_Location": "Kg. Sentosa (Cahaya Baru / eastern Johor Bahru)",
+        "Object_Types": "COMMUNITY/AREA; Kampung",
+        "Years": "2017;2019;2020",
+        "First_Year": 2017,
+        "Last_Year": 2020,
+        "Independent_Event_Count": 3,
+        "Frequency_Class": "1–3 / Occasional",
+        "GIS_Ready": "YES",
+        "Plot_Status": "PLOT",
+        "Primary_Polygon_IDs": null,
+        "Fixed45_IDs": null,
+        "Source_Object_IDs": "LOC-CAND-JB-KG-SENTOSA-2019;LOC-JB-KG-SENTOSA-2017",
+        "Coordinate_Source": "RESOLVED_POINT",
+        "Notes": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.92185516,
+          1.52194889
+        ]
+      },
+      "properties": {
+        "Master_Location_ID": "JBLOC-0123",
+        "Standardized_Location": "Kg. Sentosa Barat",
+        "Object_Types": "COMMUNITY; COMMUNITY/AREA",
+        "Years": "2017;2021;2022;2023",
+        "First_Year": 2017,
+        "Last_Year": 2023,
+        "Independent_Event_Count": 9,
+        "Frequency_Class": "≥7 / Frequent",
+        "GIS_Ready": "YES",
+        "Plot_Status": "PLOT",
+        "Primary_Polygon_IDs": null,
+        "Fixed45_IDs": null,
+        "Source_Object_IDs": "LOC-JB-KG-SENTOSA-BARAT-MASAI;S2021-002;S2022-025;S2023-014",
+        "Coordinate_Source": "SRC_GEO_MBPG_KG_SG_TIRAM",
+        "Notes": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.93562865,
+          1.52139605
+        ]
+      },
+      "properties": {
+        "Master_Location_ID": "JBLOC-0124",
+        "Standardized_Location": "Kg. Sentosa Damai",
+        "Object_Types": "COMMUNITY; COMMUNITY/AREA",
+        "Years": "2021;2023;2024",
+        "First_Year": 2021,
+        "Last_Year": 2024,
+        "Independent_Event_Count": 6,
+        "Frequency_Class": "4–6 / Recurrent",
+        "GIS_Ready": "YES",
+        "Plot_Status": "PLOT",
+        "Primary_Polygon_IDs": null,
+        "Fixed45_IDs": null,
+        "Source_Object_IDs": "S2021-003;S2023-012;S2024-001",
+        "Coordinate_Source": "News/state statement identity evidence",
+        "Notes": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.66117,
+          1.56411
+        ]
+      },
+      "properties": {
+        "Master_Location_ID": "JBLOC-0125",
+        "Standardized_Location": "Kampung Sepakat Baru",
+        "Object_Types": "COMMUNITY; Kampung / residential hamlet",
+        "Years": "2019;2021",
+        "First_Year": 2019,
+        "Last_Year": 2021,
+        "Independent_Event_Count": 3,
+        "Frequency_Class": "1–3 / Occasional",
+        "GIS_Ready": "YES",
+        "Plot_Status": "PLOT",
+        "Primary_Polygon_IDs": "PG2019-KG-SEPAKAT-BARU",
+        "Fixed45_IDs": null,
+        "Source_Object_IDs": "LOC-JB-KG-SEPAKAT-BARU;S2021-008",
+        "Coordinate_Source": "SRC_GEO_2019_SEPAKAT_BARU",
+        "Notes": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.9404605,
+          1.47435541
+        ]
+      },
+      "properties": {
+        "Master_Location_ID": "JBLOC-0126",
+        "Standardized_Location": "Kg. Seri Aman / Batu Pulai",
+        "Object_Types": "COMMUNITY; COMMUNITY/AREA",
+        "Years": "2021;2023",
+        "First_Year": 2021,
+        "Last_Year": 2023,
+        "Independent_Event_Count": 2,
+        "Frequency_Class": "1–3 / Occasional",
+        "GIS_Ready": "YES",
+        "Plot_Status": "PLOT",
+        "Primary_Polygon_IDs": null,
+        "Fixed45_IDs": null,
+        "Source_Object_IDs": "S2021-019;S2023-015",
+        "Coordinate_Source": "2 Sep JBPM/news event evidence",
+        "Notes": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.68912,
+          1.49933
+        ]
+      },
+      "properties": {
+        "Master_Location_ID": "JBLOC-0127",
+        "Standardized_Location": "Kampung Seri Jaya",
+        "Object_Types": "Kampung",
+        "Years": "2020",
+        "First_Year": 2020,
+        "Last_Year": 2020,
+        "Independent_Event_Count": 1,
+        "Frequency_Class": "1–3 / Occasional",
+        "GIS_Ready": "YES",
+        "Plot_Status": "PLOT",
+        "Primary_Polygon_IDs": null,
+        "Fixed45_IDs": null,
+        "Source_Object_IDs": "LOC-JB-KG-SRI-JAYA-SKUDAI",
+        "Coordinate_Source": "SRC_R2020_SINAR_20201122_PASIR",
+        "Notes": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.6919335,
+          1.5017487
+        ]
+      },
+      "properties": {
+        "Master_Location_ID": "JBLOC-0129",
+        "Standardized_Location": "Kampung Seri Serdang",
+        "Object_Types": "COMMUNITY/AREA",
+        "Years": "2025;2026",
+        "First_Year": 2025,
+        "Last_Year": 2026,
+        "Independent_Event_Count": 2,
+        "Frequency_Class": "1–3 / Occasional",
+        "GIS_Ready": "YES",
+        "Plot_Status": "PLOT",
+        "Primary_Polygon_IDs": null,
+        "Fixed45_IDs": null,
+        "Source_Object_IDs": "S2025-013;S2026-009",
+        "Coordinate_Source": "Frozen HF15 / Kampung Sri Serdang reference",
+        "Notes": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.68986464,
+          1.50134219
+        ]
+      },
+      "properties": {
+        "Master_Location_ID": "JBLOC-0130",
+        "Standardized_Location": "Kampung Seri Serdang Baru",
+        "Object_Types": "Kampung",
+        "Years": "2020",
+        "First_Year": 2020,
+        "Last_Year": 2020,
+        "Independent_Event_Count": 1,
+        "Frequency_Class": "1–3 / Occasional",
+        "GIS_Ready": "YES",
+        "Plot_Status": "PLOT",
+        "Primary_Polygon_IDs": null,
+        "Fixed45_IDs": null,
+        "Source_Object_IDs": "LOC-JB-KG-SERI-SERDANG-BARU",
+        "Coordinate_Source": "SRC_R2020_SINAR_20201122_PASIR",
+        "Notes": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.71164,
+          1.48682
+        ]
+      },
+      "properties": {
+        "Master_Location_ID": "JBLOC-0132",
+        "Standardized_Location": "Kampung Skudai Kiri",
+        "Object_Types": "Neighborhood",
+        "Years": "2018",
+        "First_Year": 2018,
+        "Last_Year": 2018,
+        "Independent_Event_Count": 1,
+        "Frequency_Class": "1–3 / Occasional",
+        "GIS_Ready": "YES",
+        "Plot_Status": "PLOT",
+        "Primary_Polygon_IDs": null,
+        "Fixed45_IDs": null,
+        "Source_Object_IDs": "LOC-JB-KG-SKUDAI-KIRI",
+        "Coordinate_Source": "SRC_GEO_2018_SKUDAI_KIRI",
+        "Notes": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.68912,
+          1.49933
+        ]
+      },
+      "properties": {
+        "Master_Location_ID": "JBLOC-0133",
+        "Standardized_Location": "Kampung Sri Jaya",
+        "Object_Types": "COMMUNITY/AREA",
+        "Years": "2026",
+        "First_Year": 2026,
+        "Last_Year": 2026,
+        "Independent_Event_Count": 1,
+        "Frequency_Class": "1–3 / Occasional",
+        "GIS_Ready": "YES",
+        "Plot_Status": "PLOT",
+        "Primary_Polygon_IDs": null,
+        "Fixed45_IDs": null,
+        "Source_Object_IDs": "S2026-013",
+        "Coordinate_Source": "PLOT",
+        "Notes": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.69059841,
+          1.49949602
+        ]
+      },
+      "properties": {
+        "Master_Location_ID": "JBLOC-0134",
+        "Standardized_Location": "Kampung Sri Jaya Baru",
+        "Object_Types": "Kampung",
+        "Years": "2020",
+        "First_Year": 2020,
+        "Last_Year": 2020,
+        "Independent_Event_Count": 1,
+        "Frequency_Class": "1–3 / Occasional",
+        "GIS_Ready": "YES",
+        "Plot_Status": "PLOT",
+        "Primary_Polygon_IDs": null,
+        "Fixed45_IDs": null,
+        "Source_Object_IDs": "LOC-JB-KG-SRI-JAYA-BARU",
+        "Coordinate_Source": "SRC_R2020_SINAR_20201122_PASIR",
+        "Notes": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.68912,
+          1.49933
+        ]
+      },
+      "properties": {
+        "Master_Location_ID": "JBLOC-0135",
+        "Standardized_Location": "Kampung Sri Jaya, Skudai",
+        "Object_Types": "Neighborhood",
+        "Years": "2018",
+        "First_Year": 2018,
+        "Last_Year": 2018,
+        "Independent_Event_Count": 1,
+        "Frequency_Class": "1–3 / Occasional",
+        "GIS_Ready": "YES",
+        "Plot_Status": "PLOT",
+        "Primary_Polygon_IDs": null,
+        "Fixed45_IDs": null,
+        "Source_Object_IDs": "LOC-JB-KG-SRI-JAYA-SKUDAI",
+        "Coordinate_Source": "SRC_GEO_2018_SRI_JAYA",
+        "Notes": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.6919335,
+          1.50174870000003
+        ]
+      },
+      "properties": {
+        "Master_Location_ID": "JBLOC-0136",
+        "Standardized_Location": "Kampung Sri Serdang",
+        "Object_Types": "Kampung",
+        "Years": "2020",
+        "First_Year": 2020,
+        "Last_Year": 2020,
+        "Independent_Event_Count": 1,
+        "Frequency_Class": "1–3 / Occasional",
+        "GIS_Ready": "YES",
+        "Plot_Status": "PLOT",
+        "Primary_Polygon_IDs": null,
+        "Fixed45_IDs": "HF15",
+        "Source_Object_IDs": "LOC-JB-KG-SRI-SERDANG",
+        "Coordinate_Source": "Fixed45 baseline",
+        "Notes": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.9518889,
+          1.6123889
+        ]
+      },
+      "properties": {
+        "Master_Location_ID": "JBLOC-0137",
+        "Standardized_Location": "Kampung Sungai Redan Laut",
+        "Object_Types": "COMMUNITY/AREA",
+        "Years": "2017",
+        "First_Year": 2017,
+        "Last_Year": 2017,
+        "Independent_Event_Count": 1,
+        "Frequency_Class": "1–3 / Occasional",
+        "GIS_Ready": "YES",
+        "Plot_Status": "PLOT",
+        "Primary_Polygon_IDs": null,
+        "Fixed45_IDs": null,
+        "Source_Object_IDs": "LOC-JB-KG-REDAN-LAUT",
+        "Coordinate_Source": "SRC_GEO_MYGEONAME_JOHOR",
+        "Notes": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.8743,
+          1.48054
+        ]
+      },
+      "properties": {
+        "Master_Location_ID": "JBLOC-0138",
+        "Standardized_Location": "Kampung Sungai Rinting",
+        "Object_Types": "COMMUNITY",
+        "Years": "2021",
+        "First_Year": 2021,
+        "Last_Year": 2021,
+        "Independent_Event_Count": 1,
+        "Frequency_Class": "1–3 / Occasional",
+        "GIS_Ready": "YES",
+        "Plot_Status": "PLOT",
+        "Primary_Polygon_IDs": null,
+        "Fixed45_IDs": null,
+        "Source_Object_IDs": "S2021-015",
+        "Coordinate_Source": "GeoNames/locality mapping",
+        "Notes": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.9220255,
+          1.6536289
+        ]
+      },
+      "properties": {
+        "Master_Location_ID": "JBLOC-0140",
+        "Standardized_Location": "Kg. Sg. Serai",
+        "Object_Types": "COMMUNITY/AREA",
+        "Years": "2017;2024",
+        "First_Year": 2017,
+        "Last_Year": 2024,
+        "Independent_Event_Count": 2,
+        "Frequency_Class": "1–3 / Occasional",
+        "GIS_Ready": "YES",
+        "Plot_Status": "PLOT",
+        "Primary_Polygon_IDs": null,
+        "Fixed45_IDs": null,
+        "Source_Object_IDs": "LOC-JB-KG-SERAI-2017;S2024-003",
+        "Coordinate_Source": "RESOLVED_POINT",
+        "Notes": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.88063,
+          1.5844
+        ]
+      },
+      "properties": {
+        "Master_Location_ID": "JBLOC-0141",
+        "Standardized_Location": "Kampung Sungai Tiram",
+        "Object_Types": "COMMUNITY/AREA; Kampung",
+        "Years": "2017;2019;2023",
+        "First_Year": 2017,
+        "Last_Year": 2023,
+        "Independent_Event_Count": 5,
+        "Frequency_Class": "4–6 / Recurrent",
+        "GIS_Ready": "YES",
+        "Plot_Status": "PLOT",
+        "Primary_Polygon_IDs": null,
+        "Fixed45_IDs": null,
+        "Source_Object_IDs": "LOC-JB-KG-SUNGAI-TIRAM;S2023-008",
+        "Coordinate_Source": "SRC_GEO_MBPG_KG_SG_TIRAM",
+        "Notes": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.57953798,
+          1.38836699
+        ]
+      },
+      "properties": {
+        "Master_Location_ID": "JBLOC-0144",
+        "Standardized_Location": "Kampung Tiram Duku",
+        "Object_Types": "COMMUNITY",
+        "Years": "2022",
+        "First_Year": 2022,
+        "Last_Year": 2022,
+        "Independent_Event_Count": 1,
+        "Frequency_Class": "1–3 / Occasional",
+        "GIS_Ready": "YES",
+        "Plot_Status": "PLOT",
+        "Primary_Polygon_IDs": null,
+        "Fixed45_IDs": null,
+        "Source_Object_IDs": "S2022-030",
+        "Coordinate_Source": "MyGeoName Johor official gazette point",
+        "Notes": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.67688,
+          1.47873
+        ]
+      },
+      "properties": {
+        "Master_Location_ID": "JBLOC-0145",
+        "Standardized_Location": "Kampung Tuah Jaya",
+        "Object_Types": "COMMUNITY/AREA; Residential hamlet",
+        "Years": "2017;2019;2020;2026",
+        "First_Year": 2017,
+        "Last_Year": 2026,
+        "Independent_Event_Count": 5,
+        "Frequency_Class": "4–6 / Recurrent",
+        "GIS_Ready": "YES",
+        "Plot_Status": "PLOT",
+        "Primary_Polygon_IDs": "PG2017-TUAH-JAYA",
+        "Fixed45_IDs": null,
+        "Source_Object_IDs": "LOC-JB-KG-TUAH-JAYA;S2026-007",
+        "Coordinate_Source": "SRC_GEO_TUAH_JAYA_OSM",
+        "Notes": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.75707329,
+          1.5191611
+        ]
+      },
+      "properties": {
+        "Master_Location_ID": "JBLOC-0146",
+        "Standardized_Location": "Kampung Ubi (JPS source label)",
+        "Object_Types": "COMMUNITY/AREA",
+        "Years": "2017",
+        "First_Year": 2017,
+        "Last_Year": 2017,
+        "Independent_Event_Count": 1,
+        "Frequency_Class": "1–3 / Occasional",
+        "GIS_Ready": "YES",
+        "Plot_Status": "PLOT",
+        "Primary_Polygon_IDs": null,
+        "Fixed45_IDs": null,
+        "Source_Object_IDs": "LOC-JB-KG-UBI-2017",
+        "Coordinate_Source": "SRC_GEO_MYGEONAME_JOHOR",
+        "Notes": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.75707329,
+          1.5191611
+        ]
+      },
+      "properties": {
+        "Master_Location_ID": "JBLOC-0147",
+        "Standardized_Location": "Kampung Ubi Baru",
+        "Object_Types": "COMMUNITY; COMMUNITY/AREA; Kampung",
+        "Years": "2018;2022;2023;2026",
+        "First_Year": 2018,
+        "Last_Year": 2026,
+        "Independent_Event_Count": 4,
+        "Frequency_Class": "4–6 / Recurrent",
+        "GIS_Ready": "YES",
+        "Plot_Status": "PLOT",
+        "Primary_Polygon_IDs": null,
+        "Fixed45_IDs": null,
+        "Source_Object_IDs": "LOC-JB-KG-UBI-2017;S2022-029;S2023-056;S2026-020",
+        "Coordinate_Source": "SRC_R2018_JPS_2018_2019_TABLE; existing R006 spatial sources",
+        "Notes": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.7683272,
+          1.53455009999999
+        ]
+      },
+      "properties": {
+        "Master_Location_ID": "JBLOC-0148",
+        "Standardized_Location": "Kampung Ulu Pandan",
+        "Object_Types": "COMMUNITY/AREA",
+        "Years": "2025",
+        "First_Year": 2025,
+        "Last_Year": 2025,
+        "Independent_Event_Count": 1,
+        "Frequency_Class": "1–3 / Occasional",
+        "GIS_Ready": "YES",
+        "Plot_Status": "PLOT",
+        "Primary_Polygon_IDs": null,
+        "Fixed45_IDs": "HF42",
+        "Source_Object_IDs": "S2025-006",
+        "Coordinate_Source": "Fixed45 baseline",
+        "Notes": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.71851,
+          1.514607
+        ]
+      },
+      "properties": {
+        "Master_Location_ID": "JBLOC-0152",
+        "Standardized_Location": "Kempas Denai",
+        "Object_Types": "ROAD/AREA",
+        "Years": "2021",
+        "First_Year": 2021,
+        "Last_Year": 2021,
+        "Independent_Event_Count": 1,
+        "Frequency_Class": "1–3 / Occasional",
+        "GIS_Ready": "YES",
+        "Plot_Status": "PLOT",
+        "Primary_Polygon_IDs": null,
+        "Fixed45_IDs": null,
+        "Source_Object_IDs": "S2021-028",
+        "Coordinate_Source": "Sinar generic area + Kosmo road-specific wording",
+        "Notes": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.71579344,
+          1.52911376
+        ]
+      },
+      "properties": {
+        "Master_Location_ID": "JBLOC-0153",
+        "Standardized_Location": "Kempas Lurah",
+        "Object_Types": "COMMUNITY",
+        "Years": "2021",
+        "First_Year": 2021,
+        "Last_Year": 2021,
+        "Independent_Event_Count": 1,
+        "Frequency_Class": "1–3 / Occasional",
+        "GIS_Ready": "YES",
+        "Plot_Status": "PLOT",
+        "Primary_Polygon_IDs": "PG2021-KEMPAS-LURAH",
+        "Fixed45_IDs": null,
+        "Source_Object_IDs": "S2021-023",
+        "Coordinate_Source": "OSM way 407852454 polygon centroid",
+        "Notes": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.72755,
+          1.52696
+        ]
+      },
+      "properties": {
+        "Master_Location_ID": "JBLOC-0154",
+        "Standardized_Location": "Kempas Permatang",
+        "Object_Types": "ROAD/AREA",
+        "Years": "2021",
+        "First_Year": 2021,
+        "Last_Year": 2021,
+        "Independent_Event_Count": 1,
+        "Frequency_Class": "1–3 / Occasional",
+        "GIS_Ready": "YES",
+        "Plot_Status": "PLOT",
+        "Primary_Polygon_IDs": null,
+        "Fixed45_IDs": null,
+        "Source_Object_IDs": "S2021-029",
+        "Coordinate_Source": "OSM locality node / news context",
+        "Notes": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.687206,
+          1.508748
+        ]
+      },
+      "properties": {
+        "Master_Location_ID": "JBLOC-0155",
+        "Standardized_Location": "KIPMall Tampoi",
+        "Object_Types": "AREA/LOCALITY",
+        "Years": "2017",
+        "First_Year": 2017,
+        "Last_Year": 2017,
+        "Independent_Event_Count": 1,
+        "Frequency_Class": "1–3 / Occasional",
+        "GIS_Ready": "YES",
+        "Plot_Status": "PLOT",
+        "Primary_Polygon_IDs": "PG2017-KIPMALL-TAMPOI",
+        "Fixed45_IDs": null,
+        "Source_Object_IDs": "LOC-JB-KIPMALL-TAMPOI",
+        "Coordinate_Source": "SRC_GEO_KIPMALL_OSM",
+        "Notes": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.75802,
+          1.53597
+        ]
+      },
+      "properties": {
+        "Master_Location_ID": "JBLOC-0156",
+        "Standardized_Location": "Klinik Desa Kangkar Tebrau",
+        "Object_Types": "CRITICAL FACILITY",
+        "Years": "2025",
+        "First_Year": 2025,
+        "Last_Year": 2025,
+        "Independent_Event_Count": 1,
+        "Frequency_Class": "1–3 / Occasional",
+        "GIS_Ready": "YES",
+        "Plot_Status": "PLOT",
+        "Primary_Polygon_IDs": null,
+        "Fixed45_IDs": null,
+        "Source_Object_IDs": "S2025-021",
+        "Coordinate_Source": "PLOT",
+        "Notes": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.82057,
+          1.5225
+        ]
+      },
+      "properties": {
+        "Master_Location_ID": "JBLOC-0157",
+        "Standardized_Location": "Klinik Desa Plentong",
+        "Object_Types": "CRITICAL FACILITY",
+        "Years": "2025",
+        "First_Year": 2025,
+        "Last_Year": 2025,
+        "Independent_Event_Count": 1,
+        "Frequency_Class": "1–3 / Occasional",
+        "GIS_Ready": "YES",
+        "Plot_Status": "PLOT",
+        "Primary_Polygon_IDs": null,
+        "Fixed45_IDs": null,
+        "Source_Object_IDs": "S2025-023",
+        "Coordinate_Source": "PLOT",
+        "Notes": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.76228,
+          1.48537
+        ]
+      },
+      "properties": {
+        "Master_Location_ID": "JBLOC-0158",
+        "Standardized_Location": "KSL City Mall",
+        "Object_Types": "FACILITY/POI",
+        "Years": "2026",
+        "First_Year": 2026,
+        "Last_Year": 2026,
+        "Independent_Event_Count": 1,
+        "Frequency_Class": "1–3 / Occasional",
+        "GIS_Ready": "YES",
+        "Plot_Status": "PLOT",
+        "Primary_Polygon_IDs": null,
+        "Fixed45_IDs": null,
+        "Source_Object_IDs": "S2026-017",
+        "Coordinate_Source": "PLOT",
+        "Notes": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.74826,
+          1.50108
+        ]
+      },
+      "properties": {
+        "Master_Location_ID": "JBLOC-0160",
+        "Standardized_Location": "Larkin Perdana",
+        "Object_Types": "COMMUNITY/AREA",
+        "Years": "2023",
+        "First_Year": 2023,
+        "Last_Year": 2023,
+        "Independent_Event_Count": 1,
+        "Frequency_Class": "1–3 / Occasional",
+        "GIS_Ready": "YES",
+        "Plot_Status": "PLOT",
+        "Primary_Polygon_IDs": null,
+        "Fixed45_IDs": null,
+        "Source_Object_IDs": "S2023-001",
+        "Coordinate_Source": "PLOT",
+        "Notes": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.7149533,
+          1.5118305
+        ]
+      },
+      "properties": {
+        "Master_Location_ID": "JBLOC-0161",
+        "Standardized_Location": "Lebuhraya Pasir Gudang",
+        "Object_Types": "ROAD",
+        "Years": "2021",
+        "First_Year": 2021,
+        "Last_Year": 2021,
+        "Independent_Event_Count": 1,
+        "Frequency_Class": "1–3 / Occasional",
+        "GIS_Ready": "YES",
+        "Plot_Status": "PLOT",
+        "Primary_Polygon_IDs": null,
+        "Fixed45_IDs": null,
+        "Source_Object_IDs": "S2021-018",
+        "Coordinate_Source": "12 Jul source reports traffic severely affected",
+        "Notes": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.67230887,
+          1.52340697
+        ]
+      },
+      "properties": {
+        "Master_Location_ID": "JBLOC-0164",
+        "Standardized_Location": "Lorong Aris / Kg. Batu 8 1/2, Skudai",
+        "Object_Types": "ROAD/SUBAREA",
+        "Years": "2021",
+        "First_Year": 2021,
+        "Last_Year": 2021,
+        "Independent_Event_Count": 2,
+        "Frequency_Class": "1–3 / Occasional",
+        "GIS_Ready": "YES",
+        "Plot_Status": "PLOT",
+        "Primary_Polygon_IDs": null,
+        "Fixed45_IDs": null,
+        "Source_Object_IDs": "S2021-004",
+        "Coordinate_Source": "MBIP project-map context only",
+        "Notes": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.7579076,
+          1.5145389
+        ]
+      },
+      "properties": {
+        "Master_Location_ID": "JBLOC-0166",
+        "Standardized_Location": "Majidee",
+        "Object_Types": "COMMUNITY/AREA",
+        "Years": "2023",
+        "First_Year": 2023,
+        "Last_Year": 2023,
+        "Independent_Event_Count": 1,
+        "Frequency_Class": "1–3 / Occasional",
+        "GIS_Ready": "YES",
+        "Plot_Status": "PLOT",
+        "Primary_Polygon_IDs": null,
+        "Fixed45_IDs": "HF36",
+        "Source_Object_IDs": "S2023-042",
+        "Coordinate_Source": "Fixed45 baseline",
+        "Notes": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.73922,
+          1.46358
+        ]
+      },
+      "properties": {
+        "Master_Location_ID": "JBLOC-0167",
+        "Standardized_Location": "Maktab Sultan Abu Bakar / English College",
+        "Object_Types": "FACILITY/POI",
+        "Years": "2026",
+        "First_Year": 2026,
+        "Last_Year": 2026,
+        "Independent_Event_Count": 1,
+        "Frequency_Class": "1–3 / Occasional",
+        "GIS_Ready": "YES",
+        "Plot_Status": "PLOT",
+        "Primary_Polygon_IDs": null,
+        "Fixed45_IDs": null,
+        "Source_Object_IDs": "S2026-022",
+        "Coordinate_Source": "PLOT",
+        "Notes": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.75623,
+          1.53382
+        ]
+      },
+      "properties": {
+        "Master_Location_ID": "JBLOC-0168",
+        "Standardized_Location": "Masjid Kg. Kangkar Tebrau",
+        "Object_Types": "CRITICAL FACILITY",
+        "Years": "2025",
+        "First_Year": 2025,
+        "Last_Year": 2025,
+        "Independent_Event_Count": 1,
+        "Frequency_Class": "1–3 / Occasional",
+        "GIS_Ready": "YES",
+        "Plot_Status": "PLOT",
+        "Primary_Polygon_IDs": null,
+        "Fixed45_IDs": null,
+        "Source_Object_IDs": "S2025-004",
+        "Coordinate_Source": "PLOT",
+        "Notes": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.7639473,
+          1.52182970000001
+        ]
+      },
+      "properties": {
+        "Master_Location_ID": "JBLOC-0170",
+        "Standardized_Location": "Pandan",
+        "Object_Types": "AREA/RESIDENTIAL",
+        "Years": "2025",
+        "First_Year": 2025,
+        "Last_Year": 2025,
+        "Independent_Event_Count": 1,
+        "Frequency_Class": "1–3 / Occasional",
+        "GIS_Ready": "YES",
+        "Plot_Status": "PLOT",
+        "Primary_Polygon_IDs": null,
+        "Fixed45_IDs": "HF43",
+        "Source_Object_IDs": "S2025-010",
+        "Coordinate_Source": "Fixed45 baseline",
+        "Notes": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.683194,
+          1.487722
+        ]
+      },
+      "properties": {
+        "Master_Location_ID": "JBLOC-0171",
+        "Standardized_Location": "Perling / Taman Perling",
+        "Object_Types": "AREA/RESIDENTIAL",
+        "Years": "2025",
+        "First_Year": 2025,
+        "Last_Year": 2025,
+        "Independent_Event_Count": 1,
+        "Frequency_Class": "1–3 / Occasional",
+        "GIS_Ready": "YES",
+        "Plot_Status": "PLOT",
+        "Primary_Polygon_IDs": null,
+        "Fixed45_IDs": null,
+        "Source_Object_IDs": "S2025-017",
+        "Coordinate_Source": "PLOT",
+        "Notes": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.7190029,
+          1.4843025
+        ]
+      },
+      "properties": {
+        "Master_Location_ID": "JBLOC-0172",
+        "Standardized_Location": "Persiaran Abu Bakar Sultan",
+        "Object_Types": "ROAD",
+        "Years": "2022",
+        "First_Year": 2022,
+        "Last_Year": 2022,
+        "Independent_Event_Count": 1,
+        "Frequency_Class": "1–3 / Occasional",
+        "GIS_Ready": "YES",
+        "Plot_Status": "PLOT",
+        "Primary_Polygon_IDs": null,
+        "Fixed45_IDs": "HF33",
+        "Source_Object_IDs": "S2022-013",
+        "Coordinate_Source": "Fixed45 baseline",
+        "Notes": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.66077,
+          1.41407400000001
+        ]
+      },
+      "properties": {
+        "Master_Location_ID": "JBLOC-0173",
+        "Standardized_Location": "Puteri Harbour Iskandar Puteri",
+        "Object_Types": "AREA",
+        "Years": "2022",
+        "First_Year": 2022,
+        "Last_Year": 2022,
+        "Independent_Event_Count": 1,
+        "Frequency_Class": "1–3 / Occasional",
+        "GIS_Ready": "YES",
+        "Plot_Status": "PLOT",
+        "Primary_Polygon_IDs": null,
+        "Fixed45_IDs": "HF39",
+        "Source_Object_IDs": "S2022-024",
+        "Coordinate_Source": "Fixed45 baseline",
+        "Notes": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.75113,
+          1.46787
+        ]
+      },
+      "properties": {
+        "Master_Location_ID": "JBLOC-0177",
+        "Standardized_Location": "Sekolah Agama Bandar Johor Bahru",
+        "Object_Types": "FACILITY/POI",
+        "Years": "2026",
+        "First_Year": 2026,
+        "Last_Year": 2026,
+        "Independent_Event_Count": 1,
+        "Frequency_Class": "1–3 / Occasional",
+        "GIS_Ready": "YES",
+        "Plot_Status": "PLOT",
+        "Primary_Polygon_IDs": null,
+        "Fixed45_IDs": null,
+        "Source_Object_IDs": "S2026-023",
+        "Coordinate_Source": "PLOT",
+        "Notes": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.741375207901,
+          1.54085596501295
+        ]
+      },
+      "properties": {
+        "Master_Location_ID": "JBLOC-0178",
+        "Standardized_Location": "SK Bukit Mutiara",
+        "Object_Types": "CRITICAL FACILITY",
+        "Years": "2024",
+        "First_Year": 2024,
+        "Last_Year": 2024,
+        "Independent_Event_Count": 1,
+        "Frequency_Class": "1–3 / Occasional",
+        "GIS_Ready": "YES",
+        "Plot_Status": "PLOT",
+        "Primary_Polygon_IDs": null,
+        "Fixed45_IDs": null,
+        "Source_Object_IDs": "S2024-011",
+        "Coordinate_Source": "PLOT",
+        "Notes": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.718275204555,
+          1.5804887
+        ]
+      },
+      "properties": {
+        "Master_Location_ID": "JBLOC-0179",
+        "Standardized_Location": "SK Kampung Maju Jaya",
+        "Object_Types": "CRITICAL FACILITY",
+        "Years": "2024;2025",
+        "First_Year": 2024,
+        "Last_Year": 2025,
+        "Independent_Event_Count": 2,
+        "Frequency_Class": "1–3 / Occasional",
+        "GIS_Ready": "YES",
+        "Plot_Status": "PLOT",
+        "Primary_Polygon_IDs": null,
+        "Fixed45_IDs": "HF44",
+        "Source_Object_IDs": "S2024-010;S2025-019",
+        "Coordinate_Source": "Fixed45 baseline",
+        "Notes": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.7555,
+          1.53241
+        ]
+      },
+      "properties": {
+        "Master_Location_ID": "JBLOC-0180",
+        "Standardized_Location": "Sekolah Kebangsaan Kangkar Tebrau",
+        "Object_Types": "CRITICAL FACILITY",
+        "Years": "2025",
+        "First_Year": 2025,
+        "Last_Year": 2025,
+        "Independent_Event_Count": 2,
+        "Frequency_Class": "1–3 / Occasional",
+        "GIS_Ready": "YES",
+        "Plot_Status": "PLOT",
+        "Primary_Polygon_IDs": null,
+        "Fixed45_IDs": null,
+        "Source_Object_IDs": "S2025-003",
+        "Coordinate_Source": "PLOT",
+        "Notes": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.879771828651,
+          1.58516029538754
+        ]
+      },
+      "properties": {
+        "Master_Location_ID": "JBLOC-0181",
+        "Standardized_Location": "SK Sungai Tiram",
+        "Object_Types": "CRITICAL FACILITY",
+        "Years": "2024",
+        "First_Year": 2024,
+        "Last_Year": 2024,
+        "Independent_Event_Count": 1,
+        "Frequency_Class": "1–3 / Occasional",
+        "GIS_Ready": "YES",
+        "Plot_Status": "PLOT",
+        "Primary_Polygon_IDs": null,
+        "Fixed45_IDs": null,
+        "Source_Object_IDs": "S2024-012",
+        "Coordinate_Source": "PLOT",
+        "Notes": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.680172562599,
+          1.51604363425928
+        ]
+      },
+      "properties": {
+        "Master_Location_ID": "JBLOC-0182",
+        "Standardized_Location": "SK Taman Tampoi Utama",
+        "Object_Types": "CRITICAL FACILITY",
+        "Years": "2025",
+        "First_Year": 2025,
+        "Last_Year": 2025,
+        "Independent_Event_Count": 1,
+        "Frequency_Class": "1–3 / Occasional",
+        "GIS_Ready": "YES",
+        "Plot_Status": "PLOT",
+        "Primary_Polygon_IDs": null,
+        "Fixed45_IDs": null,
+        "Source_Object_IDs": "S2025-020",
+        "Coordinate_Source": "PLOT",
+        "Notes": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.8806315,
+          1.5843974
+        ]
+      },
+      "properties": {
+        "Master_Location_ID": "JBLOC-0185",
+        "Standardized_Location": "Sungai Tiram PPS catchment",
+        "Object_Types": "AREA/COMMUNITY",
+        "Years": "2022",
+        "First_Year": 2022,
+        "Last_Year": 2022,
+        "Independent_Event_Count": 1,
+        "Frequency_Class": "1–3 / Occasional",
+        "GIS_Ready": "YES",
+        "Plot_Status": "PLOT",
+        "Primary_Polygon_IDs": null,
+        "Fixed45_IDs": null,
+        "Source_Object_IDs": "S2022-001",
+        "Coordinate_Source": "R012 policy/reference point; Jan source identifies PPS, not exact inundated subarea",
+        "Notes": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.7595973,
+          1.482543
+        ]
+      },
+      "properties": {
+        "Master_Location_ID": "JBLOC-0188",
+        "Standardized_Location": "Taman Abad",
+        "Object_Types": "COMMUNITY/AREA",
+        "Years": "2023",
+        "First_Year": 2023,
+        "Last_Year": 2023,
+        "Independent_Event_Count": 1,
+        "Frequency_Class": "1–3 / Occasional",
+        "GIS_Ready": "YES",
+        "Plot_Status": "PLOT",
+        "Primary_Polygon_IDs": null,
+        "Fixed45_IDs": null,
+        "Source_Object_IDs": "S2023-045",
+        "Coordinate_Source": "PLOT",
+        "Notes": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.8206509,
+          1.5212749
+        ]
+      },
+      "properties": {
+        "Master_Location_ID": "JBLOC-0189",
+        "Standardized_Location": "Taman Bunga Ros",
+        "Object_Types": "COMMUNITY/AREA",
+        "Years": "2023",
+        "First_Year": 2023,
+        "Last_Year": 2023,
+        "Independent_Event_Count": 1,
+        "Frequency_Class": "1–3 / Occasional",
+        "GIS_Ready": "YES",
+        "Plot_Status": "PLOT",
+        "Primary_Polygon_IDs": null,
+        "Fixed45_IDs": "HF37",
+        "Source_Object_IDs": "S2023-016",
+        "Coordinate_Source": "Fixed45 baseline",
+        "Notes": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.64612,
+          1.5035
+        ]
+      },
+      "properties": {
+        "Master_Location_ID": "JBLOC-0190",
+        "Standardized_Location": "Taman Damai Jaya",
+        "Object_Types": "Neighborhood; Residential neighbourhood",
+        "Years": "2018;2020",
+        "First_Year": 2018,
+        "Last_Year": 2020,
+        "Independent_Event_Count": 2,
+        "Frequency_Class": "1–3 / Occasional",
+        "GIS_Ready": "YES",
+        "Plot_Status": "PLOT",
+        "Primary_Polygon_IDs": null,
+        "Fixed45_IDs": null,
+        "Source_Object_IDs": "LOC-JB-TAMAN-DAMAI-JAYA",
+        "Coordinate_Source": "SRC_GEO_2018_TAMAN_DAMAI_JAYA",
+        "Notes": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.5923,
+          1.4417
+        ]
+      },
+      "properties": {
+        "Master_Location_ID": "JBLOC-0191",
+        "Standardized_Location": "Taman Dato Syed Mohammad Idrus",
+        "Object_Types": "Locality / residential area",
+        "Years": "2020",
+        "First_Year": 2020,
+        "Last_Year": 2020,
+        "Independent_Event_Count": 1,
+        "Frequency_Class": "1–3 / Occasional",
+        "GIS_Ready": "YES",
+        "Plot_Status": "PLOT",
+        "Primary_Polygon_IDs": null,
+        "Fixed45_IDs": null,
+        "Source_Object_IDs": "LOC-JB-TAMAN-SYED-IDRUS",
+        "Coordinate_Source": "SRC_R2020_JPS_2020_TABLE",
+        "Notes": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.747256167436,
+          1.5406298
+        ]
+      },
+      "properties": {
+        "Master_Location_ID": "JBLOC-0192",
+        "Standardized_Location": "Taman Desa Mutiara",
+        "Object_Types": "AREA/RESIDENTIAL",
+        "Years": "2025",
+        "First_Year": 2025,
+        "Last_Year": 2025,
+        "Independent_Event_Count": 1,
+        "Frequency_Class": "1–3 / Occasional",
+        "GIS_Ready": "YES",
+        "Plot_Status": "PLOT",
+        "Primary_Polygon_IDs": null,
+        "Fixed45_IDs": "HF45",
+        "Source_Object_IDs": "S2025-011",
+        "Coordinate_Source": "Fixed45 baseline",
+        "Notes": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.7698568,
+          1.5305637
+        ]
+      },
+      "properties": {
+        "Master_Location_ID": "JBLOC-0193",
+        "Standardized_Location": "Taman Istimewa",
+        "Object_Types": "Neighborhood",
+        "Years": "2019",
+        "First_Year": 2019,
+        "Last_Year": 2019,
+        "Independent_Event_Count": 1,
+        "Frequency_Class": "1–3 / Occasional",
+        "GIS_Ready": "YES",
+        "Plot_Status": "PLOT",
+        "Primary_Polygon_IDs": null,
+        "Fixed45_IDs": "HF19",
+        "Source_Object_IDs": "LOC-JB-TAMAN-ISTIMEWA",
+        "Coordinate_Source": "Fixed45 baseline",
+        "Notes": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.8024,
+          1.5428
+        ]
+      },
+      "properties": {
+        "Master_Location_ID": "JBLOC-0194",
+        "Standardized_Location": "Taman Johor Jaya",
+        "Object_Types": "RESIDENTIAL",
+        "Years": "2021",
+        "First_Year": 2021,
+        "Last_Year": 2021,
+        "Independent_Event_Count": 1,
+        "Frequency_Class": "1–3 / Occasional",
+        "GIS_Ready": "YES",
+        "Plot_Status": "PLOT",
+        "Primary_Polygon_IDs": null,
+        "Fixed45_IDs": null,
+        "Source_Object_IDs": "S2021-025",
+        "Coordinate_Source": "OSM locality node 4938487621",
+        "Notes": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.736444,
+          1.473837
+        ]
+      },
+      "properties": {
+        "Master_Location_ID": "JBLOC-0195",
+        "Standardized_Location": "Taman Kolam Air",
+        "Object_Types": "AREA; AREA/RESIDENTIAL",
+        "Years": "2021;2026",
+        "First_Year": 2021,
+        "Last_Year": 2026,
+        "Independent_Event_Count": 2,
+        "Frequency_Class": "1–3 / Occasional",
+        "GIS_Ready": "YES",
+        "Plot_Status": "PLOT",
+        "Primary_Polygon_IDs": null,
+        "Fixed45_IDs": null,
+        "Source_Object_IDs": "S2021-027;S2026-021",
+        "Coordinate_Source": "30 Sep news event evidence",
+        "Notes": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.8948094913,
+          1.4696218674
+        ]
+      },
+      "properties": {
+        "Master_Location_ID": "JBLOC-0196",
+        "Standardized_Location": "Taman Mawar",
+        "Object_Types": "RESIDENTIAL",
+        "Years": "2021",
+        "First_Year": 2021,
+        "Last_Year": 2021,
+        "Independent_Event_Count": 1,
+        "Frequency_Class": "1–3 / Occasional",
+        "GIS_Ready": "YES",
+        "Plot_Status": "PLOT",
+        "Primary_Polygon_IDs": "PG2021-TAMAN-MAWAR",
+        "Fixed45_IDs": null,
+        "Source_Object_IDs": "S2021-016",
+        "Coordinate_Source": "OSM way 617816429 polygon centroid",
+        "Notes": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.7613894,
+          1.49019649999999
+        ]
+      },
+      "properties": {
+        "Master_Location_ID": "JBLOC-0197",
+        "Standardized_Location": "Taman Melodies",
+        "Object_Types": "COMMUNITY/AREA; RESIDENTIAL",
+        "Years": "2022;2023",
+        "First_Year": 2022,
+        "Last_Year": 2023,
+        "Independent_Event_Count": 2,
+        "Frequency_Class": "1–3 / Occasional",
+        "GIS_Ready": "YES",
+        "Plot_Status": "PLOT",
+        "Primary_Polygon_IDs": null,
+        "Fixed45_IDs": "HF34",
+        "Source_Object_IDs": "S2022-037;S2023-043",
+        "Coordinate_Source": "Fixed45 baseline",
+        "Notes": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.7395647,
+          1.47655640000002
+        ]
+      },
+      "properties": {
+        "Master_Location_ID": "JBLOC-0198",
+        "Standardized_Location": "Taman Nong Chik",
+        "Object_Types": "AREA/RESIDENTIAL; COMMUNITY/AREA",
+        "Years": "2023;2025",
+        "First_Year": 2023,
+        "Last_Year": 2025,
+        "Independent_Event_Count": 2,
+        "Frequency_Class": "1–3 / Occasional",
+        "GIS_Ready": "YES",
+        "Plot_Status": "PLOT",
+        "Primary_Polygon_IDs": null,
+        "Fixed45_IDs": "HF35",
+        "Source_Object_IDs": "S2023-041;S2025-035",
+        "Coordinate_Source": "Fixed45 baseline",
+        "Notes": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.60088,
+          1.48009
+        ]
+      },
+      "properties": {
+        "Master_Location_ID": "JBLOC-0199",
+        "Standardized_Location": "Taman Nusa Bayu",
+        "Object_Types": "Residential neighborhood",
+        "Years": "2019",
+        "First_Year": 2019,
+        "Last_Year": 2019,
+        "Independent_Event_Count": 1,
+        "Frequency_Class": "1–3 / Occasional",
+        "GIS_Ready": "YES",
+        "Plot_Status": "PLOT",
+        "Primary_Polygon_IDs": null,
+        "Fixed45_IDs": null,
+        "Source_Object_IDs": "LOC-JB-TAMAN-NUSA-BAYU",
+        "Coordinate_Source": "SRC_GEO_2019_NUSA_BAYU",
+        "Notes": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.58949,
+          1.47979
+        ]
+      },
+      "properties": {
+        "Master_Location_ID": "JBLOC-0200",
+        "Standardized_Location": "Taman Nusantara Prima",
+        "Object_Types": "Neighborhood",
+        "Years": "2019",
+        "First_Year": 2019,
+        "Last_Year": 2019,
+        "Independent_Event_Count": 1,
+        "Frequency_Class": "1–3 / Occasional",
+        "GIS_Ready": "YES",
+        "Plot_Status": "PLOT",
+        "Primary_Polygon_IDs": null,
+        "Fixed45_IDs": null,
+        "Source_Object_IDs": "LOC-CAND-JB-TAMAN-NUSA-PRIMA-2019",
+        "Coordinate_Source": "RESOLVED_NORMALIZED_POINT",
+        "Notes": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.93887,
+          1.47292
+        ]
+      },
+      "properties": {
+        "Master_Location_ID": "JBLOC-0201",
+        "Standardized_Location": "Taman Pasir Putih",
+        "Object_Types": "RESIDENTIAL",
+        "Years": "2021",
+        "First_Year": 2021,
+        "Last_Year": 2021,
+        "Independent_Event_Count": 1,
+        "Frequency_Class": "1–3 / Occasional",
+        "GIS_Ready": "YES",
+        "Plot_Status": "PLOT",
+        "Primary_Polygon_IDs": null,
+        "Fixed45_IDs": null,
+        "Source_Object_IDs": "S2021-020",
+        "Coordinate_Source": "OSM node 2409009368",
+        "Notes": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.7738869,
+          1.478838
+        ]
+      },
+      "properties": {
+        "Master_Location_ID": "JBLOC-0202",
+        "Standardized_Location": "Taman Pelangi",
+        "Object_Types": "AREA/RESIDENTIAL",
+        "Years": "2025",
+        "First_Year": 2025,
+        "Last_Year": 2025,
+        "Independent_Event_Count": 1,
+        "Frequency_Class": "1–3 / Occasional",
+        "GIS_Ready": "YES",
+        "Plot_Status": "PLOT",
+        "Primary_Polygon_IDs": null,
+        "Fixed45_IDs": null,
+        "Source_Object_IDs": "S2025-041",
+        "Coordinate_Source": "PLOT",
+        "Notes": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.6827079,
+          1.481217
+        ]
+      },
+      "properties": {
+        "Master_Location_ID": "JBLOC-0203",
+        "Standardized_Location": "Taman Perling",
+        "Object_Types": "AREA/RESIDENTIAL",
+        "Years": "2026",
+        "First_Year": 2026,
+        "Last_Year": 2026,
+        "Independent_Event_Count": 1,
+        "Frequency_Class": "1–3 / Occasional",
+        "GIS_Ready": "YES",
+        "Plot_Status": "PLOT",
+        "Primary_Polygon_IDs": null,
+        "Fixed45_IDs": null,
+        "Source_Object_IDs": "S2026-008",
+        "Coordinate_Source": "PLOT",
+        "Notes": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.8788,
+          1.4959
+        ]
+      },
+      "properties": {
+        "Master_Location_ID": "JBLOC-0204",
+        "Standardized_Location": "Taman Rinting",
+        "Object_Types": "RESIDENTIAL",
+        "Years": "2021",
+        "First_Year": 2021,
+        "Last_Year": 2021,
+        "Independent_Event_Count": 1,
+        "Frequency_Class": "1–3 / Occasional",
+        "GIS_Ready": "YES",
+        "Plot_Status": "PLOT",
+        "Primary_Polygon_IDs": null,
+        "Fixed45_IDs": null,
+        "Source_Object_IDs": "S2021-017",
+        "Coordinate_Source": "GeoNames locality",
+        "Notes": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.7592769,
+          1.56898939999998
+        ]
+      },
+      "properties": {
+        "Master_Location_ID": "JBLOC-0205",
+        "Standardized_Location": "Taman Setia Indah",
+        "Object_Types": "COMMUNITY/AREA; Township / quarter",
+        "Years": "2019;2024",
+        "First_Year": 2019,
+        "Last_Year": 2024,
+        "Independent_Event_Count": 2,
+        "Frequency_Class": "1–3 / Occasional",
+        "GIS_Ready": "YES",
+        "Plot_Status": "PLOT",
+        "Primary_Polygon_IDs": null,
+        "Fixed45_IDs": "HF20",
+        "Source_Object_IDs": "LOC-JB-TAMAN-SETIA-INDAH;S2024-014",
+        "Coordinate_Source": "Fixed45 baseline",
+        "Notes": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.6448842,
+          1.510224
+        ]
+      },
+      "properties": {
+        "Master_Location_ID": "JBLOC-0206",
+        "Standardized_Location": "Taman Skudai Baru",
+        "Object_Types": "RESIDENTIAL",
+        "Years": "2021",
+        "First_Year": 2021,
+        "Last_Year": 2021,
+        "Independent_Event_Count": 1,
+        "Frequency_Class": "1–3 / Occasional",
+        "GIS_Ready": "YES",
+        "Plot_Status": "PLOT",
+        "Primary_Polygon_IDs": null,
+        "Fixed45_IDs": null,
+        "Source_Object_IDs": "S2021-024",
+        "Coordinate_Source": "Multiple same-name OSM objects",
+        "Notes": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.72822,
+          1.51083
+        ]
+      },
+      "properties": {
+        "Master_Location_ID": "JBLOC-0207",
+        "Standardized_Location": "Taman Sri Bahagia",
+        "Object_Types": "COMMUNITY/AREA",
+        "Years": "2023",
+        "First_Year": 2023,
+        "Last_Year": 2023,
+        "Independent_Event_Count": 1,
+        "Frequency_Class": "1–3 / Occasional",
+        "GIS_Ready": "YES",
+        "Plot_Status": "PLOT",
+        "Primary_Polygon_IDs": null,
+        "Fixed45_IDs": null,
+        "Source_Object_IDs": "S2023-003",
+        "Coordinate_Source": "PLOT",
+        "Notes": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.6818886,
+          1.51047560000001
+        ]
+      },
+      "properties": {
+        "Master_Location_ID": "JBLOC-0208",
+        "Standardized_Location": "Taman Tampoi Indah",
+        "Object_Types": "AREA/RESIDENTIAL",
+        "Years": "2025",
+        "First_Year": 2025,
+        "Last_Year": 2025,
+        "Independent_Event_Count": 1,
+        "Frequency_Class": "1–3 / Occasional",
+        "GIS_Ready": "YES",
+        "Plot_Status": "PLOT",
+        "Primary_Polygon_IDs": null,
+        "Fixed45_IDs": "HF16",
+        "Source_Object_IDs": "S2025-016",
+        "Coordinate_Source": "Fixed45 baseline",
+        "Notes": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.6859554,
+          1.50251799999999
+        ]
+      },
+      "properties": {
+        "Master_Location_ID": "JBLOC-0209",
+        "Standardized_Location": "Taman Tampoi Utama",
+        "Object_Types": "AREA/RESIDENTIAL; Neighborhood",
+        "Years": "2020;2025",
+        "First_Year": 2020,
+        "Last_Year": 2025,
+        "Independent_Event_Count": 2,
+        "Frequency_Class": "1–3 / Occasional",
+        "GIS_Ready": "YES",
+        "Plot_Status": "PLOT",
+        "Primary_Polygon_IDs": null,
+        "Fixed45_IDs": "HF40",
+        "Source_Object_IDs": "LOC-JB-TAMAN-TAMPOI-UTAMA;S2025-012",
+        "Coordinate_Source": "Fixed45 baseline",
+        "Notes": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.7359187,
+          1.4794199
+        ]
+      },
+      "properties": {
+        "Master_Location_ID": "JBLOC-0210",
+        "Standardized_Location": "Taman Tasik / Taman Merdeka",
+        "Object_Types": "AREA/RESIDENTIAL; COMMUNITY/AREA",
+        "Years": "2023;2025",
+        "First_Year": 2023,
+        "Last_Year": 2025,
+        "Independent_Event_Count": 2,
+        "Frequency_Class": "1–3 / Occasional",
+        "GIS_Ready": "YES",
+        "Plot_Status": "PLOT",
+        "Primary_Polygon_IDs": null,
+        "Fixed45_IDs": null,
+        "Source_Object_IDs": "S2023-046;S2025-037",
+        "Coordinate_Source": "PLOT",
+        "Notes": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.75878,
+          1.46036
+        ]
+      },
+      "properties": {
+        "Master_Location_ID": "JBLOC-0211",
+        "Standardized_Location": "Wisma Persekutuan Johor Bahru",
+        "Object_Types": "FACILITY/POI",
+        "Years": "2026",
+        "First_Year": 2026,
+        "Last_Year": 2026,
+        "Independent_Event_Count": 1,
+        "Frequency_Class": "1–3 / Occasional",
+        "GIS_Ready": "YES",
+        "Plot_Status": "PLOT",
+        "Primary_Polygon_IDs": null,
+        "Fixed45_IDs": null,
+        "Source_Object_IDs": "S2026-012",
+        "Coordinate_Source": "PLOT",
+        "Notes": null
+      }
+    }
+  ]
+}

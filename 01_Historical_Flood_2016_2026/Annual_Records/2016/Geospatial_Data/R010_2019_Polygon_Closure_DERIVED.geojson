@@ -1,0 +1,314 @@
+{
+  "type": "FeatureCollection",
+  "name": "R010_2019_Polygon_Closure_DERIVED",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "Year": 2019,
+        "Derivation": "Derived from formal cumulative R012 Polygon_Master",
+        "Polygon_ID": "PG2019-TAMAN-NUSA-BAYU",
+        "Polygon_Name": "Taman Nusa Bayu Residential Area",
+        "Locality_Area": "Iskandar Puteri / Nusajaya",
+        "Centroid_Latitude": "1.4802172",
+        "Centroid_Longitude": "103.6005774",
+        "Boundary_Type": "OSM closed residential/neighbourhood boundary",
+        "Polygon_Area_km2": "1.019146",
+        "Geometry_CRS": "EPSG:4326 / WGS 84",
+        "Geometry_Source_URL": "https://www.openstreetmap.org/way/681880040",
+        "Notes": "Community/neighbourhood analysis polygon; not automatically the exact observed inundation footprint."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              103.5950946,
+              1.4845784
+            ],
+            [
+              103.5928811,
+              1.4811328
+            ],
+            [
+              103.5925638,
+              1.4793895
+            ],
+            [
+              103.5932736,
+              1.4791976
+            ],
+            [
+              103.5942782,
+              1.4789738
+            ],
+            [
+              103.5959668,
+              1.4785442
+            ],
+            [
+              103.6018251,
+              1.4761605
+            ],
+            [
+              103.603326,
+              1.4755978
+            ],
+            [
+              103.6046272,
+              1.4769712
+            ],
+            [
+              103.605535,
+              1.4775581
+            ],
+            [
+              103.6068907,
+              1.478278
+            ],
+            [
+              103.6079679,
+              1.4786047
+            ],
+            [
+              103.6084461,
+              1.4785926
+            ],
+            [
+              103.6086639,
+              1.4787015
+            ],
+            [
+              103.6088273,
+              1.479004
+            ],
+            [
+              103.609021,
+              1.4795485
+            ],
+            [
+              103.6091964,
+              1.4801263
+            ],
+            [
+              103.6082705,
+              1.4801777
+            ],
+            [
+              103.6069996,
+              1.4803653
+            ],
+            [
+              103.6074293,
+              1.4812546
+            ],
+            [
+              103.6045055,
+              1.4840408
+            ],
+            [
+              103.6026962,
+              1.4819937
+            ],
+            [
+              103.5982687,
+              1.4834379
+            ],
+            [
+              103.5950946,
+              1.4845784
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Year": 2019,
+        "Derivation": "Derived from formal cumulative R012 Polygon_Master",
+        "Polygon_ID": "PG2019-KG-SEPAKAT-BARU",
+        "Polygon_Name": "Kampung Sepakat Baru Residential Area",
+        "Locality_Area": "Skudai/Senai edge context",
+        "Centroid_Latitude": "1.5653146",
+        "Centroid_Longitude": "103.6613236",
+        "Boundary_Type": "OSM closed residential/hamlet boundary",
+        "Polygon_Area_km2": "0.105241",
+        "Geometry_CRS": "EPSG:4326 / WGS 84",
+        "Geometry_Source_URL": "https://www.openstreetmap.org/way/463347299",
+        "Notes": "Community analysis polygon, not an observed inundation footprint. Preserve the location's administrative/context provenance note."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              103.6603483,
+              1.5735834
+            ],
+            [
+              103.6608408,
+              1.5730391
+            ],
+            [
+              103.6614802,
+              1.5718246
+            ],
+            [
+              103.6620649,
+              1.5705462
+            ],
+            [
+              103.66214,
+              1.5700124
+            ],
+            [
+              103.6621654,
+              1.5689025
+            ],
+            [
+              103.6619744,
+              1.5678612
+            ],
+            [
+              103.6619644,
+              1.5678067
+            ],
+            [
+              103.6617634,
+              1.5668387
+            ],
+            [
+              103.661736,
+              1.5656699
+            ],
+            [
+              103.6615502,
+              1.5652101
+            ],
+            [
+              103.6613176,
+              1.5646342
+            ],
+            [
+              103.661216,
+              1.5640607
+            ],
+            [
+              103.6611742,
+              1.562322
+            ],
+            [
+              103.6603015,
+              1.5588507
+            ],
+            [
+              103.6598473,
+              1.5567535
+            ],
+            [
+              103.6598054,
+              1.5549491
+            ],
+            [
+              103.6597397,
+              1.5541365
+            ],
+            [
+              103.6600744,
+              1.5541664
+            ],
+            [
+              103.6603063,
+              1.5568157
+            ],
+            [
+              103.6604389,
+              1.5584088
+            ],
+            [
+              103.6608096,
+              1.5598485
+            ],
+            [
+              103.6610845,
+              1.5610195
+            ],
+            [
+              103.6613774,
+              1.5610195
+            ],
+            [
+              103.6616643,
+              1.562334
+            ],
+            [
+              103.6615328,
+              1.5624953
+            ],
+            [
+              103.6616344,
+              1.5635588
+            ],
+            [
+              103.6615985,
+              1.5638516
+            ],
+            [
+              103.6618615,
+              1.5638695
+            ],
+            [
+              103.661999,
+              1.5645566
+            ],
+            [
+              103.661742,
+              1.5646641
+            ],
+            [
+              103.6619691,
+              1.5656141
+            ],
+            [
+              103.6620229,
+              1.5663849
+            ],
+            [
+              103.662525,
+              1.5685178
+            ],
+            [
+              103.6626027,
+              1.5696351
+            ],
+            [
+              103.6624712,
+              1.5710093
+            ],
+            [
+              103.6621365,
+              1.5719414
+            ],
+            [
+              103.6618077,
+              1.5727002
+            ],
+            [
+              103.6613116,
+              1.5734709
+            ],
+            [
+              103.6608141,
+              1.5740803
+            ],
+            [
+              103.6603483,
+              1.5735834
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,182 @@
+{
+  "type": "FeatureCollection",
+  "name": "R008_2018_Polygon_Closure_DERIVED",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "Year": 2018,
+        "Derivation": "Derived from formal cumulative R012 Polygon_Master",
+        "Polygon_ID": "PG2018-MELAYU-LIMA-KEDAI",
+        "Polygon_Name": "Kampung Melayu Lima Kedai Residential Area",
+        "Locality_Area": "Lima Kedai / Gelang Patah",
+        "Centroid_Latitude": "1.504473",
+        "Centroid_Longitude": "103.6248637",
+        "Boundary_Type": "OSM closed residential/community boundary",
+        "Polygon_Area_km2": "0.167286",
+        "Geometry_CRS": "EPSG:4326 / WGS 84",
+        "Geometry_Source_URL": "https://www.openstreetmap.org/way/683471898",
+        "Notes": "Community analysis polygon; not automatically the exact observed inundation footprint."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              103.6219212,
+              1.5026829
+            ],
+            [
+              103.6221269,
+              1.5024542
+            ],
+            [
+              103.6228266,
+              1.5014957
+            ],
+            [
+              103.6257843,
+              1.5037827
+            ],
+            [
+              103.6276997,
+              1.5049791
+            ],
+            [
+              103.6266098,
+              1.5068595
+            ],
+            [
+              103.6261874,
+              1.5072115
+            ],
+            [
+              103.6248327,
+              1.506455
+            ],
+            [
+              103.6241732,
+              1.5059471
+            ],
+            [
+              103.6243615,
+              1.5055257
+            ],
+            [
+              103.6219212,
+              1.5026829
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Year": 2018,
+        "Derivation": "Derived from formal cumulative R012 Polygon_Master",
+        "Polygon_ID": "PG2018-TAMAN-DAMAI-JAYA",
+        "Polygon_Name": "Taman Damai Jaya Residential Area",
+        "Locality_Area": "Skudai / Iskandar Puteri",
+        "Centroid_Latitude": "1.5039105",
+        "Centroid_Longitude": "103.6460508",
+        "Boundary_Type": "OSM closed residential/neighbourhood boundary",
+        "Polygon_Area_km2": "0.713393",
+        "Geometry_CRS": "EPSG:4326 / WGS 84",
+        "Geometry_Source_URL": "https://www.openstreetmap.org/way/681808163",
+        "Notes": "Neighbourhood analysis polygon; not automatically the exact observed inundation footprint."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              103.6395509,
+              1.5029772
+            ],
+            [
+              103.6405036,
+              1.5021707
+            ],
+            [
+              103.6418804,
+              1.501345
+            ],
+            [
+              103.6426756,
+              1.5015198
+            ],
+            [
+              103.6441112,
+              1.5009483
+            ],
+            [
+              103.6455262,
+              1.5009362
+            ],
+            [
+              103.647033,
+              1.4995334
+            ],
+            [
+              103.647198,
+              1.4997061
+            ],
+            [
+              103.649606,
+              1.5022273
+            ],
+            [
+              103.6525411,
+              1.5052492
+            ],
+            [
+              103.6526898,
+              1.5054361
+            ],
+            [
+              103.6519609,
+              1.5061448
+            ],
+            [
+              103.6516037,
+              1.5064228
+            ],
+            [
+              103.6503074,
+              1.506476
+            ],
+            [
+              103.6487366,
+              1.5069565
+            ],
+            [
+              103.6478669,
+              1.5058087
+            ],
+            [
+              103.6460059,
+              1.5074674
+            ],
+            [
+              103.6450413,
+              1.5074684
+            ],
+            [
+              103.6442959,
+              1.5071591
+            ],
+            [
+              103.6430492,
+              1.5066961
+            ],
+            [
+              103.6395509,
+              1.5029772
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

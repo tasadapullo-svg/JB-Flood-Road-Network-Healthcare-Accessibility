@@ -1,0 +1,3420 @@
+{
+  "type": "FeatureCollection",
+  "name": "JB_Flood_GIS_Plot_Data_2016_2026_FINAL",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.9119375,
+          1.5850625
+        ]
+      },
+      "properties": {
+        "Final_Location_ID": "FLOC-0003",
+        "Standardized_Location": "Batu 20, Jalan Sungai Tiram",
+        "Object_Types": "COMMUNITY/AREA; ROAD/LOCALITY; Road",
+        "Independent_Event_Count": 3,
+        "Frequency_Band": "1-3",
+        "Frequency_Class": "Occasional",
+        "Years_Observed": "2019;2021;2024",
+        "First_Event_Date": "2019-12-15",
+        "Last_Event_Date": "2024-01-07",
+        "Polygon_IDs": null,
+        "Fixed45_IDs": null,
+        "Plot_Status": "PLOT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.76237,
+          1.4831
+        ]
+      },
+      "properties": {
+        "Final_Location_ID": "FLOC-0004",
+        "Standardized_Location": "Century Garden / Taman Century",
+        "Object_Types": "AREA/RESIDENTIAL",
+        "Independent_Event_Count": 1,
+        "Frequency_Band": "1-3",
+        "Frequency_Class": "Occasional",
+        "Years_Observed": "2026",
+        "First_Event_Date": "2026-09-30",
+        "Last_Event_Date": "2026-09-30",
+        "Polygon_IDs": null,
+        "Fixed45_IDs": null,
+        "Plot_Status": "PLOT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.71846,
+          1.48118
+        ]
+      },
+      "properties": {
+        "Final_Location_ID": "FLOC-0005",
+        "Standardized_Location": "Danga Bay",
+        "Object_Types": "AREA/RESIDENTIAL",
+        "Independent_Event_Count": 1,
+        "Frequency_Band": "1-3",
+        "Frequency_Class": "Occasional",
+        "Years_Observed": "2026",
+        "First_Event_Date": "2026-09-30",
+        "Last_Event_Date": "2026-09-30",
+        "Polygon_IDs": null,
+        "Fixed45_IDs": null,
+        "Plot_Status": "PLOT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.74196336546,
+          1.4597388
+        ]
+      },
+      "properties": {
+        "Final_Location_ID": "FLOC-0006",
+        "Standardized_Location": "Dataran Bandaraya Johor Bahru",
+        "Object_Types": "CIVIC AREA",
+        "Independent_Event_Count": 1,
+        "Frequency_Band": "1-3",
+        "Frequency_Class": "Occasional",
+        "Years_Observed": "2023",
+        "First_Event_Date": "2023-12-06",
+        "Last_Event_Date": "2023-12-06",
+        "Polygon_IDs": null,
+        "Fixed45_IDs": "HF21",
+        "Plot_Status": "PLOT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.9308,
+          1.52768
+        ]
+      },
+      "properties": {
+        "Final_Location_ID": "FLOC-0007",
+        "Standardized_Location": "FELDA / Kampung Cahaya Baru",
+        "Object_Types": "COMMUNITY/AREA",
+        "Independent_Event_Count": 1,
+        "Frequency_Band": "1-3",
+        "Frequency_Class": "Occasional",
+        "Years_Observed": "2023",
+        "First_Event_Date": "2023-03-01",
+        "Last_Event_Date": "2023-03-01",
+        "Polygon_IDs": null,
+        "Fixed45_IDs": null,
+        "Plot_Status": "PLOT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.76168,
+          1.48698
+        ]
+      },
+      "properties": {
+        "Final_Location_ID": "FLOC-0013",
+        "Standardized_Location": "Holiday Villa Johor Bahru City Centre",
+        "Object_Types": "FACILITY/POI",
+        "Independent_Event_Count": 1,
+        "Frequency_Band": "1-3",
+        "Frequency_Class": "Occasional",
+        "Years_Observed": "2026",
+        "First_Event_Date": "2026-09-30",
+        "Last_Event_Date": "2026-09-30",
+        "Polygon_IDs": null,
+        "Fixed45_IDs": null,
+        "Plot_Status": "PLOT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.7466457,
+          1.4575013
+        ]
+      },
+      "properties": {
+        "Final_Location_ID": "FLOC-0014",
+        "Standardized_Location": "Hospital Sultanah Aminah",
+        "Object_Types": "CRITICAL_FACILITY; Hospital campus / access area",
+        "Independent_Event_Count": 3,
+        "Frequency_Band": "1-3",
+        "Frequency_Class": "Occasional",
+        "Years_Observed": "2016;2022",
+        "First_Event_Date": "2016-10-25",
+        "Last_Event_Date": "2022-08-02",
+        "Polygon_IDs": "PG2016-HSA-CAMPUS",
+        "Fixed45_IDs": "HF22",
+        "Plot_Status": "PLOT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.74271,
+          1.479856
+        ]
+      },
+      "properties": {
+        "Final_Location_ID": "FLOC-0015",
+        "Standardized_Location": "Hutan Bandar MBJB",
+        "Object_Types": "URBAN PARK/AREA",
+        "Independent_Event_Count": 1,
+        "Frequency_Band": "1-3",
+        "Frequency_Class": "Occasional",
+        "Years_Observed": "2023",
+        "First_Event_Date": "2023-12-06",
+        "Last_Event_Date": "2023-12-06",
+        "Polygon_IDs": null,
+        "Fixed45_IDs": null,
+        "Plot_Status": "PLOT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.7587117,
+          1.4594963
+        ]
+      },
+      "properties": {
+        "Final_Location_ID": "FLOC-0019",
+        "Standardized_Location": "Jalan Ayer Molek",
+        "Object_Types": "ROAD; ROAD/ROAD CONTEXT",
+        "Independent_Event_Count": 3,
+        "Frequency_Band": "1-3",
+        "Frequency_Class": "Occasional",
+        "Years_Observed": "2022;2023;2026",
+        "First_Event_Date": "2022-08-02",
+        "Last_Event_Date": "2026-09-30",
+        "Polygon_IDs": null,
+        "Fixed45_IDs": "HF01",
+        "Plot_Status": "PLOT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.7460468,
+          1.46528000000001
+        ]
+      },
+      "properties": {
+        "Final_Location_ID": "FLOC-0020",
+        "Standardized_Location": "Jalan Bilal Mahmood",
+        "Object_Types": "ROAD",
+        "Independent_Event_Count": 1,
+        "Frequency_Band": "1-3",
+        "Frequency_Class": "Occasional",
+        "Years_Observed": "2023",
+        "First_Event_Date": "2023-12-06",
+        "Last_Event_Date": "2023-12-06",
+        "Polygon_IDs": null,
+        "Fixed45_IDs": "HF23",
+        "Plot_Status": "PLOT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.7359187,
+          1.4794199
+        ]
+      },
+      "properties": {
+        "Final_Location_ID": "FLOC-0022",
+        "Standardized_Location": "Jalan Datin Halimah / Taman Merdeka vicinity",
+        "Object_Types": "ROAD",
+        "Independent_Event_Count": 1,
+        "Frequency_Band": "1-3",
+        "Frequency_Class": "Occasional",
+        "Years_Observed": "2023",
+        "First_Event_Date": "2023-12-14",
+        "Last_Event_Date": "2023-12-14",
+        "Polygon_IDs": null,
+        "Fixed45_IDs": null,
+        "Plot_Status": "PLOT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.7570514,
+          1.48073119999999
+        ]
+      },
+      "properties": {
+        "Final_Location_ID": "FLOC-0023",
+        "Standardized_Location": "Jalan Dato Sulaiman",
+        "Object_Types": "ROAD; Road",
+        "Independent_Event_Count": 3,
+        "Frequency_Band": "1-3",
+        "Frequency_Class": "Occasional",
+        "Years_Observed": "2018;2023",
+        "First_Event_Date": "2018-10-10",
+        "Last_Event_Date": "2023-12-14",
+        "Polygon_IDs": null,
+        "Fixed45_IDs": "HF24; HF25",
+        "Plot_Status": "PLOT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.71851,
+          1.514607
+        ]
+      },
+      "properties": {
+        "Final_Location_ID": "FLOC-0024",
+        "Standardized_Location": "Jalan Denai Utama, Kempas",
+        "Object_Types": "Road",
+        "Independent_Event_Count": 2,
+        "Frequency_Band": "1-3",
+        "Frequency_Class": "Occasional",
+        "Years_Observed": "2018",
+        "First_Event_Date": "2018-04-19",
+        "Last_Event_Date": "2018-04-20",
+        "Polygon_IDs": null,
+        "Fixed45_IDs": null,
+        "Plot_Status": "PLOT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.79419,
+          1.55191
+        ]
+      },
+      "properties": {
+        "Final_Location_ID": "FLOC-0026",
+        "Standardized_Location": "Jalan Harmonium 24/1 area",
+        "Object_Types": "ROAD",
+        "Independent_Event_Count": 1,
+        "Frequency_Band": "1-3",
+        "Frequency_Class": "Occasional",
+        "Years_Observed": "2023",
+        "First_Event_Date": "2023-12-14",
+        "Last_Event_Date": "2023-12-14",
+        "Polygon_IDs": null,
+        "Fixed45_IDs": null,
+        "Plot_Status": "PLOT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.7755173,
+          1.4644141
+        ]
+      },
+      "properties": {
+        "Final_Location_ID": "FLOC-0027",
+        "Standardized_Location": "Jalan Ibrahim Sultan",
+        "Object_Types": "ROAD",
+        "Independent_Event_Count": 1,
+        "Frequency_Band": "1-3",
+        "Frequency_Class": "Occasional",
+        "Years_Observed": "2023",
+        "First_Event_Date": "2023-12-06",
+        "Last_Event_Date": "2023-12-06",
+        "Polygon_IDs": null,
+        "Fixed45_IDs": "HF26",
+        "Plot_Status": "PLOT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.6763692,
+          1.47258519999999
+        ]
+      },
+      "properties": {
+        "Final_Location_ID": "FLOC-0028",
+        "Standardized_Location": "Jalan Ismail Sultan",
+        "Object_Types": "ROAD",
+        "Independent_Event_Count": 1,
+        "Frequency_Band": "1-3",
+        "Frequency_Class": "Occasional",
+        "Years_Observed": "2023",
+        "First_Event_Date": "2023-12-06",
+        "Last_Event_Date": "2023-12-06",
+        "Polygon_IDs": null,
+        "Fixed45_IDs": "HF38",
+        "Plot_Status": "PLOT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.7648053,
+          1.531945
+        ]
+      },
+      "properties": {
+        "Final_Location_ID": "FLOC-0032",
+        "Standardized_Location": "Jalan Kangkar Tebrau",
+        "Object_Types": "ROAD",
+        "Independent_Event_Count": 2,
+        "Frequency_Band": "1-3",
+        "Frequency_Class": "Occasional",
+        "Years_Observed": "2023;2024",
+        "First_Event_Date": "2023-12-01",
+        "Last_Event_Date": "2024-01-09",
+        "Polygon_IDs": null,
+        "Fixed45_IDs": null,
+        "Plot_Status": "PLOT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.7679,
+          1.4899
+        ]
+      },
+      "properties": {
+        "Final_Location_ID": "FLOC-0033",
+        "Standardized_Location": "Jalan Keris 2, Taman Sri Tebrau",
+        "Object_Types": "ROAD",
+        "Independent_Event_Count": 1,
+        "Frequency_Band": "1-3",
+        "Frequency_Class": "Occasional",
+        "Years_Observed": "2022",
+        "First_Event_Date": "2022-11-07",
+        "Last_Event_Date": "2022-11-07",
+        "Polygon_IDs": null,
+        "Fixed45_IDs": null,
+        "Plot_Status": "PLOT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.7625739,
+          1.4864896
+        ]
+      },
+      "properties": {
+        "Final_Location_ID": "FLOC-0034",
+        "Standardized_Location": "Jalan Kijang",
+        "Object_Types": "Road",
+        "Independent_Event_Count": 1,
+        "Frequency_Band": "1-3",
+        "Frequency_Class": "Occasional",
+        "Years_Observed": "2018",
+        "First_Event_Date": "2018-10-10",
+        "Last_Event_Date": "2018-10-10",
+        "Polygon_IDs": null,
+        "Fixed45_IDs": null,
+        "Plot_Status": "PLOT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.7220526,
+          1.48238540000001
+        ]
+      },
+      "properties": {
+        "Final_Location_ID": "FLOC-0035",
+        "Standardized_Location": "Jalan Kolam Ayer",
+        "Object_Types": "ROAD; ROAD/ROAD SEGMENT; Road; ROAD/ROAD CONTEXT",
+        "Independent_Event_Count": 5,
+        "Frequency_Band": "4-6",
+        "Frequency_Class": "Recurrent",
+        "Years_Observed": "2020;2022;2023;2025;2026",
+        "First_Event_Date": "2020-10-01",
+        "Last_Event_Date": "2026-09-30",
+        "Polygon_IDs": null,
+        "Fixed45_IDs": "HF02",
+        "Plot_Status": "PLOT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.8012632,
+          1.5566538
+        ]
+      },
+      "properties": {
+        "Final_Location_ID": "FLOC-0036",
+        "Standardized_Location": "Jalan Kota Tinggi / FT003",
+        "Object_Types": "ROAD",
+        "Independent_Event_Count": 1,
+        "Frequency_Band": "1-3",
+        "Frequency_Class": "Occasional",
+        "Years_Observed": "2022",
+        "First_Event_Date": "2022-04-17",
+        "Last_Event_Date": "2022-04-17",
+        "Polygon_IDs": null,
+        "Fixed45_IDs": null,
+        "Plot_Status": "PLOT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.749959,
+          1.4664595
+        ]
+      },
+      "properties": {
+        "Final_Location_ID": "FLOC-0037",
+        "Standardized_Location": "Jalan Lingkaran Dalam, Johor Bahru",
+        "Object_Types": "ROAD",
+        "Independent_Event_Count": 1,
+        "Frequency_Band": "1-3",
+        "Frequency_Class": "Occasional",
+        "Years_Observed": "2017",
+        "First_Event_Date": "2017-12-25",
+        "Last_Event_Date": "2017-12-25",
+        "Polygon_IDs": null,
+        "Fixed45_IDs": null,
+        "Plot_Status": "PLOT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.7155955,
+          1.5302594
+        ]
+      },
+      "properties": {
+        "Final_Location_ID": "FLOC-0038",
+        "Standardized_Location": "Jalan Lurah 3",
+        "Object_Types": "ROAD",
+        "Independent_Event_Count": 1,
+        "Frequency_Band": "1-3",
+        "Frequency_Class": "Occasional",
+        "Years_Observed": "2023",
+        "First_Event_Date": "2023-12-06",
+        "Last_Event_Date": "2023-12-06",
+        "Polygon_IDs": null,
+        "Fixed45_IDs": "HF41",
+        "Plot_Status": "PLOT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.7482815,
+          1.4629658
+        ]
+      },
+      "properties": {
+        "Final_Location_ID": "FLOC-0039",
+        "Standardized_Location": "Jalan Mahmoodiah",
+        "Object_Types": "ROAD",
+        "Independent_Event_Count": 2,
+        "Frequency_Band": "1-3",
+        "Frequency_Class": "Occasional",
+        "Years_Observed": "2022;2023",
+        "First_Event_Date": "2022-08-02",
+        "Last_Event_Date": "2023-12-06",
+        "Polygon_IDs": null,
+        "Fixed45_IDs": "HF03",
+        "Plot_Status": "PLOT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.7804,
+          1.5605
+        ]
+      },
+      "properties": {
+        "Final_Location_ID": "FLOC-0042",
+        "Standardized_Location": "Jalan Mutiara Emas Utama",
+        "Object_Types": "ROAD",
+        "Independent_Event_Count": 1,
+        "Frequency_Band": "1-3",
+        "Frequency_Class": "Occasional",
+        "Years_Observed": "2023",
+        "First_Event_Date": "2023-12-14",
+        "Last_Event_Date": "2023-12-14",
+        "Polygon_IDs": null,
+        "Fixed45_IDs": null,
+        "Plot_Status": "PLOT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.7234744,
+          1.49891240000001
+        ]
+      },
+      "properties": {
+        "Final_Location_ID": "FLOC-0043",
+        "Standardized_Location": "Jalan Padi Huma 10",
+        "Object_Types": "ROAD",
+        "Independent_Event_Count": 1,
+        "Frequency_Band": "1-3",
+        "Frequency_Class": "Occasional",
+        "Years_Observed": "2023",
+        "First_Event_Date": "2023-12-06",
+        "Last_Event_Date": "2023-12-06",
+        "Polygon_IDs": null,
+        "Fixed45_IDs": "HF28",
+        "Plot_Status": "PLOT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.7237744,
+          1.4983831
+        ]
+      },
+      "properties": {
+        "Final_Location_ID": "FLOC-0044",
+        "Standardized_Location": "Jalan Padi Huma 9",
+        "Object_Types": "ROAD",
+        "Independent_Event_Count": 1,
+        "Frequency_Band": "1-3",
+        "Frequency_Class": "Occasional",
+        "Years_Observed": "2023",
+        "First_Event_Date": "2023-12-06",
+        "Last_Event_Date": "2023-12-06",
+        "Polygon_IDs": null,
+        "Fixed45_IDs": "HF29",
+        "Plot_Status": "PLOT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.7208677,
+          1.4866099
+        ]
+      },
+      "properties": {
+        "Final_Location_ID": "FLOC-0045",
+        "Standardized_Location": "Jalan Padi Makmur",
+        "Object_Types": "ROAD",
+        "Independent_Event_Count": 1,
+        "Frequency_Band": "1-3",
+        "Frequency_Class": "Occasional",
+        "Years_Observed": "2023",
+        "First_Event_Date": "2023-12-06",
+        "Last_Event_Date": "2023-12-06",
+        "Polygon_IDs": null,
+        "Fixed45_IDs": "HF30",
+        "Plot_Status": "PLOT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.74418,
+          1.4593
+        ]
+      },
+      "properties": {
+        "Final_Location_ID": "FLOC-0047",
+        "Standardized_Location": "Jalan Pantai Lido",
+        "Object_Types": "ROAD",
+        "Independent_Event_Count": 1,
+        "Frequency_Band": "1-3",
+        "Frequency_Class": "Occasional",
+        "Years_Observed": "2022",
+        "First_Event_Date": "2022-08-02",
+        "Last_Event_Date": "2022-08-02",
+        "Polygon_IDs": null,
+        "Fixed45_IDs": null,
+        "Plot_Status": "PLOT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.7232702328,
+          1.5353449124
+        ]
+      },
+      "properties": {
+        "Final_Location_ID": "FLOC-0050",
+        "Standardized_Location": "Jalan Permatang, Kempas",
+        "Object_Types": "Road",
+        "Independent_Event_Count": 1,
+        "Frequency_Band": "1-3",
+        "Frequency_Class": "Occasional",
+        "Years_Observed": "2018",
+        "First_Event_Date": "2018-04-20",
+        "Last_Event_Date": "2018-04-20",
+        "Polygon_IDs": null,
+        "Fixed45_IDs": null,
+        "Plot_Status": "PLOT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.7947712,
+          1.534148
+        ]
+      },
+      "properties": {
+        "Final_Location_ID": "FLOC-0052",
+        "Standardized_Location": "Jalan Ros Merah",
+        "Object_Types": "ROAD; Road",
+        "Independent_Event_Count": 2,
+        "Frequency_Band": "1-3",
+        "Frequency_Class": "Occasional",
+        "Years_Observed": "2017;2020",
+        "First_Event_Date": "2017-06-01",
+        "Last_Event_Date": "2020-06-04",
+        "Polygon_IDs": null,
+        "Fixed45_IDs": null,
+        "Plot_Status": "PLOT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.760885,
+          1.48538309999999
+        ]
+      },
+      "properties": {
+        "Final_Location_ID": "FLOC-0056",
+        "Standardized_Location": "Jalan Serigala",
+        "Object_Types": "ROAD",
+        "Independent_Event_Count": 1,
+        "Frequency_Band": "1-3",
+        "Frequency_Class": "Occasional",
+        "Years_Observed": "2023",
+        "First_Event_Date": "2023-12-06",
+        "Last_Event_Date": "2023-12-06",
+        "Polygon_IDs": null,
+        "Fixed45_IDs": "HF31",
+        "Plot_Status": "PLOT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.7256712,
+          1.4714218
+        ]
+      },
+      "properties": {
+        "Final_Location_ID": "FLOC-0059",
+        "Standardized_Location": "Jalan Skudai",
+        "Object_Types": "ROAD",
+        "Independent_Event_Count": 1,
+        "Frequency_Band": "1-3",
+        "Frequency_Class": "Occasional",
+        "Years_Observed": "2023",
+        "First_Event_Date": "2023-12-14",
+        "Last_Event_Date": "2023-12-14",
+        "Polygon_IDs": null,
+        "Fixed45_IDs": null,
+        "Plot_Status": "PLOT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.7773894,
+          1.47246319999999
+        ]
+      },
+      "properties": {
+        "Final_Location_ID": "FLOC-0060",
+        "Standardized_Location": "Jalan Stulang Darat",
+        "Object_Types": "ROAD",
+        "Independent_Event_Count": 1,
+        "Frequency_Band": "1-3",
+        "Frequency_Class": "Occasional",
+        "Years_Observed": "2023",
+        "First_Event_Date": "2023-12-06",
+        "Last_Event_Date": "2023-12-06",
+        "Polygon_IDs": null,
+        "Fixed45_IDs": "HF10",
+        "Plot_Status": "PLOT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.6963972,
+          1.4999611
+        ]
+      },
+      "properties": {
+        "Final_Location_ID": "FLOC-0061",
+        "Standardized_Location": "Jalan Sukun, Kampung Pasir",
+        "Object_Types": "ROAD/ROAD SEGMENT; Road within flood locality",
+        "Independent_Event_Count": 2,
+        "Frequency_Band": "1-3",
+        "Frequency_Class": "Occasional",
+        "Years_Observed": "2018;2025",
+        "First_Event_Date": "2018-10-29",
+        "Last_Event_Date": "2025-03-20",
+        "Polygon_IDs": null,
+        "Fixed45_IDs": null,
+        "Plot_Status": "PLOT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.7385575,
+          1.4609922
+        ]
+      },
+      "properties": {
+        "Final_Location_ID": "FLOC-0062",
+        "Standardized_Location": "Jalan Sungai Chat",
+        "Object_Types": "ROAD; ROAD/ROAD CONTEXT; ROAD/ROAD SEGMENT",
+        "Independent_Event_Count": 3,
+        "Frequency_Band": "1-3",
+        "Frequency_Class": "Occasional",
+        "Years_Observed": "2023;2025;2026",
+        "First_Event_Date": "2023-12-06",
+        "Last_Event_Date": "2026-09-30",
+        "Polygon_IDs": null,
+        "Fixed45_IDs": "HF04",
+        "Plot_Status": "PLOT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.708266,
+          1.500366
+        ]
+      },
+      "properties": {
+        "Final_Location_ID": "FLOC-0063",
+        "Standardized_Location": "Jalan Tampoi",
+        "Object_Types": "ROAD",
+        "Independent_Event_Count": 1,
+        "Frequency_Band": "1-3",
+        "Frequency_Class": "Occasional",
+        "Years_Observed": "2023",
+        "First_Event_Date": "2023-12-14",
+        "Last_Event_Date": "2023-12-14",
+        "Polygon_IDs": null,
+        "Fixed45_IDs": null,
+        "Plot_Status": "PLOT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.58622188,
+          1.55797471
+        ]
+      },
+      "properties": {
+        "Final_Location_ID": "FLOC-0064",
+        "Standardized_Location": "Jalan Tawakal, Kampung Melayu Kangkar Pulai",
+        "Object_Types": "Road within residential community",
+        "Independent_Event_Count": 1,
+        "Frequency_Band": "1-3",
+        "Frequency_Class": "Occasional",
+        "Years_Observed": "2020",
+        "First_Event_Date": "2020-05-13",
+        "Last_Event_Date": "2020-05-13",
+        "Polygon_IDs": "PG2020-KG-MELAYU-KANGKAR-PULAI",
+        "Fixed45_IDs": null,
+        "Plot_Status": "PLOT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.762918,
+          1.47486940000001
+        ]
+      },
+      "properties": {
+        "Final_Location_ID": "FLOC-0065",
+        "Standardized_Location": "Jalan Tebrau",
+        "Object_Types": "ROAD",
+        "Independent_Event_Count": 1,
+        "Frequency_Band": "1-3",
+        "Frequency_Class": "Occasional",
+        "Years_Observed": "2023",
+        "First_Event_Date": "2023-12-06",
+        "Last_Event_Date": "2023-12-06",
+        "Polygon_IDs": null,
+        "Fixed45_IDs": "HF05",
+        "Plot_Status": "PLOT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.76676,
+          1.49464
+        ]
+      },
+      "properties": {
+        "Final_Location_ID": "FLOC-0066",
+        "Standardized_Location": "Jalan Tebrau near Wisma Daiman",
+        "Object_Types": "ROAD",
+        "Independent_Event_Count": 1,
+        "Frequency_Band": "1-3",
+        "Frequency_Class": "Occasional",
+        "Years_Observed": "2017",
+        "First_Event_Date": "2017-01-02",
+        "Last_Event_Date": "2017-01-02",
+        "Polygon_IDs": "PG2017-WISMA-DAIMAN-ANCHOR",
+        "Fixed45_IDs": null,
+        "Plot_Status": "PLOT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.7773,
+          1.4942
+        ]
+      },
+      "properties": {
+        "Final_Location_ID": "FLOC-0067",
+        "Standardized_Location": "Jalan Tebrau, Taman Sentosa",
+        "Object_Types": "Road-area event reference",
+        "Independent_Event_Count": 1,
+        "Frequency_Band": "1-3",
+        "Frequency_Class": "Occasional",
+        "Years_Observed": "2018",
+        "First_Event_Date": "2018-10-10",
+        "Last_Event_Date": "2018-10-10",
+        "Polygon_IDs": null,
+        "Fixed45_IDs": null,
+        "Plot_Status": "PLOT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.7527329,
+          1.48037910000001
+        ]
+      },
+      "properties": {
+        "Final_Location_ID": "FLOC-0068",
+        "Standardized_Location": "Jalan Tun Abdul Razak",
+        "Object_Types": "ROAD; ROAD/ROAD SEGMENT",
+        "Independent_Event_Count": 3,
+        "Frequency_Band": "1-3",
+        "Frequency_Class": "Occasional",
+        "Years_Observed": "2022;2023;2025",
+        "First_Event_Date": "2022-08-02",
+        "Last_Event_Date": "2025-12-12",
+        "Polygon_IDs": null,
+        "Fixed45_IDs": "HF06",
+        "Plot_Status": "PLOT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.7656178,
+          1.4576093
+        ]
+      },
+      "properties": {
+        "Final_Location_ID": "FLOC-0069",
+        "Standardized_Location": "Jalan Wong Ah Fook",
+        "Object_Types": "ROAD/ROAD CONTEXT; ROAD/ROAD SEGMENT",
+        "Independent_Event_Count": 2,
+        "Frequency_Band": "1-3",
+        "Frequency_Class": "Occasional",
+        "Years_Observed": "2025;2026",
+        "First_Event_Date": "2025-12-12",
+        "Last_Event_Date": "2026-09-30",
+        "Polygon_IDs": null,
+        "Fixed45_IDs": "HF32",
+        "Plot_Status": "PLOT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.76189,
+          1.46395
+        ]
+      },
+      "properties": {
+        "Final_Location_ID": "FLOC-0070",
+        "Standardized_Location": "Jalan Wong Ah Fook / Sungai Segget Project Area",
+        "Object_Types": "ROAD; ROAD/CORRIDOR; Urban road-river/project corridor",
+        "Independent_Event_Count": 3,
+        "Frequency_Band": "1-3",
+        "Frequency_Class": "Occasional",
+        "Years_Observed": "2016;2017;2022",
+        "First_Event_Date": "2016-01-17",
+        "Last_Event_Date": "2022-08-02",
+        "Polygon_IDs": "PG2016-CBD-SEGGET",
+        "Fixed45_IDs": null,
+        "Plot_Status": "PLOT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.7553464,
+          1.46337250000001
+        ]
+      },
+      "properties": {
+        "Final_Location_ID": "FLOC-0071",
+        "Standardized_Location": "Jalan Yahya Awal",
+        "Object_Types": "ROAD; ROAD/ROAD CONTEXT",
+        "Independent_Event_Count": 3,
+        "Frequency_Band": "1-3",
+        "Frequency_Class": "Occasional",
+        "Years_Observed": "2022;2023;2026",
+        "First_Event_Date": "2022-08-02",
+        "Last_Event_Date": "2026-09-30",
+        "Polygon_IDs": null,
+        "Fixed45_IDs": "HF07",
+        "Plot_Status": "PLOT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.7368,
+          1.50516
+        ]
+      },
+      "properties": {
+        "Final_Location_ID": "FLOC-0072",
+        "Standardized_Location": "Kampung Aman",
+        "Object_Types": "COMMUNITY/AREA",
+        "Independent_Event_Count": 1,
+        "Frequency_Band": "1-3",
+        "Frequency_Class": "Occasional",
+        "Years_Observed": "2023",
+        "First_Event_Date": "2023-02-14",
+        "Last_Event_Date": "2023-02-14",
+        "Polygon_IDs": null,
+        "Fixed45_IDs": null,
+        "Plot_Status": "PLOT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.708604,
+          1.473954
+        ]
+      },
+      "properties": {
+        "Final_Location_ID": "FLOC-0073",
+        "Standardized_Location": "Kampung Bakar Batu",
+        "Object_Types": "COMMUNITY/AREA",
+        "Independent_Event_Count": 1,
+        "Frequency_Band": "1-3",
+        "Frequency_Class": "Occasional",
+        "Years_Observed": "2017",
+        "First_Event_Date": "2017-01-02",
+        "Last_Event_Date": "2017-01-02",
+        "Polygon_IDs": null,
+        "Fixed45_IDs": null,
+        "Plot_Status": "PLOT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.5947457,
+          1.4430619
+        ]
+      },
+      "properties": {
+        "Final_Location_ID": "FLOC-0074",
+        "Standardized_Location": "Kampung Baru Muafakat, Gelang Patah",
+        "Object_Types": "COMMUNITY; Residential kampung",
+        "Independent_Event_Count": 4,
+        "Frequency_Band": "4-6",
+        "Frequency_Class": "Recurrent",
+        "Years_Observed": "2020;2022",
+        "First_Event_Date": "2020-06-20",
+        "Last_Event_Date": "2022-09-25",
+        "Polygon_IDs": "PG2020-KG-BARU-MUAFAKAT",
+        "Fixed45_IDs": null,
+        "Plot_Status": "PLOT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.67230887,
+          1.52340697
+        ]
+      },
+      "properties": {
+        "Final_Location_ID": "FLOC-0075",
+        "Standardized_Location": "Kampung Batu 8 1/2, TUTA",
+        "Object_Types": "Kampung",
+        "Independent_Event_Count": 1,
+        "Frequency_Band": "1-3",
+        "Frequency_Class": "Occasional",
+        "Years_Observed": "2019",
+        "First_Event_Date": "2019-12-15",
+        "Last_Event_Date": "2019-12-15",
+        "Polygon_IDs": null,
+        "Fixed45_IDs": null,
+        "Plot_Status": "PLOT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.76650814,
+          1.51378258
+        ]
+      },
+      "properties": {
+        "Final_Location_ID": "FLOC-0076",
+        "Standardized_Location": "Kampung Belantik",
+        "Object_Types": "COMMUNITY/AREA; Kampung",
+        "Independent_Event_Count": 2,
+        "Frequency_Band": "1-3",
+        "Frequency_Class": "Occasional",
+        "Years_Observed": "2018;2025",
+        "First_Event_Date": "2018-10-10",
+        "Last_Event_Date": "2025-03-20",
+        "Polygon_IDs": null,
+        "Fixed45_IDs": null,
+        "Plot_Status": "PLOT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.7627931,
+          1.512616
+        ]
+      },
+      "properties": {
+        "Final_Location_ID": "FLOC-0077",
+        "Standardized_Location": "Kampung Bendahara",
+        "Object_Types": "Kampung",
+        "Independent_Event_Count": 1,
+        "Frequency_Band": "1-3",
+        "Frequency_Class": "Occasional",
+        "Years_Observed": "2018",
+        "First_Event_Date": "2018-10-10",
+        "Last_Event_Date": "2018-10-10",
+        "Polygon_IDs": null,
+        "Fixed45_IDs": "HF11",
+        "Plot_Status": "PLOT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.9223,
+          1.6692
+        ]
+      },
+      "properties": {
+        "Final_Location_ID": "FLOC-0078",
+        "Standardized_Location": "Kampung Bukit Berangan",
+        "Object_Types": "COMMUNITY/AREA",
+        "Independent_Event_Count": 1,
+        "Frequency_Band": "1-3",
+        "Frequency_Class": "Occasional",
+        "Years_Observed": "2017",
+        "First_Event_Date": "2017-01-24",
+        "Last_Event_Date": "2017-01-24",
+        "Polygon_IDs": null,
+        "Fixed45_IDs": null,
+        "Plot_Status": "PLOT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.924811,
+          1.59376731
+        ]
+      },
+      "properties": {
+        "Final_Location_ID": "FLOC-0079",
+        "Standardized_Location": "Kampung Bukit Dagang",
+        "Object_Types": "COMMUNITY/AREA; Kampung",
+        "Independent_Event_Count": 2,
+        "Frequency_Band": "1-3",
+        "Frequency_Class": "Occasional",
+        "Years_Observed": "2019;2024",
+        "First_Event_Date": "2019-12-15",
+        "Last_Event_Date": "2024-01-07",
+        "Polygon_IDs": null,
+        "Fixed45_IDs": null,
+        "Plot_Status": "PLOT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.75965347,
+          1.53411714
+        ]
+      },
+      "properties": {
+        "Final_Location_ID": "FLOC-0080",
+        "Standardized_Location": "Kampung Bunga Ros",
+        "Object_Types": "COMMUNITY; COMMUNITY/AREA; Kampung",
+        "Independent_Event_Count": 3,
+        "Frequency_Band": "1-3",
+        "Frequency_Class": "Occasional",
+        "Years_Observed": "2019;2022;2025",
+        "First_Event_Date": "2019-12-15",
+        "Last_Event_Date": "2025-03-19",
+        "Polygon_IDs": null,
+        "Fixed45_IDs": null,
+        "Plot_Status": "PLOT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.76665,
+          1.50759
+        ]
+      },
+      "properties": {
+        "Final_Location_ID": "FLOC-0082",
+        "Standardized_Location": "Kampung Dato Sulaiman Menteri",
+        "Object_Types": "COMMUNITY; Kampung",
+        "Independent_Event_Count": 2,
+        "Frequency_Band": "1-3",
+        "Frequency_Class": "Occasional",
+        "Years_Observed": "2018;2022",
+        "First_Event_Date": "2018-10-10",
+        "Last_Event_Date": "2022-09-25",
+        "Polygon_IDs": null,
+        "Fixed45_IDs": null,
+        "Plot_Status": "PLOT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.76902,
+          1.50481
+        ]
+      },
+      "properties": {
+        "Final_Location_ID": "FLOC-0083",
+        "Standardized_Location": "Kampung Dato' Hajah Hasnah Ahmad",
+        "Object_Types": "Kampung",
+        "Independent_Event_Count": 1,
+        "Frequency_Band": "1-3",
+        "Frequency_Class": "Occasional",
+        "Years_Observed": "2018",
+        "First_Event_Date": "2018-10-10",
+        "Last_Event_Date": "2018-10-10",
+        "Polygon_IDs": null,
+        "Fixed45_IDs": null,
+        "Plot_Status": "PLOT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.65153,
+          1.5874
+        ]
+      },
+      "properties": {
+        "Final_Location_ID": "FLOC-0085",
+        "Standardized_Location": "Kampung Jaya Sepakat",
+        "Object_Types": "COMMUNITY/AREA",
+        "Independent_Event_Count": 1,
+        "Frequency_Band": "1-3",
+        "Frequency_Class": "Occasional",
+        "Years_Observed": "2017",
+        "First_Event_Date": "2017-04-18",
+        "Last_Event_Date": "2017-04-18",
+        "Polygon_IDs": null,
+        "Fixed45_IDs": null,
+        "Plot_Status": "PLOT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.756604173059,
+          1.531815
+        ]
+      },
+      "properties": {
+        "Final_Location_ID": "FLOC-0086",
+        "Standardized_Location": "Kampung Kangkar Tebrau",
+        "Object_Types": "COMMUNITY; COMMUNITY/AREA",
+        "Independent_Event_Count": 8,
+        "Frequency_Band": ">=7",
+        "Frequency_Class": "High-frequency",
+        "Years_Observed": "2017;2021;2023;2025",
+        "First_Event_Date": "2017-04-13",
+        "Last_Event_Date": "2025-03-19",
+        "Polygon_IDs": "PG2017-KANGKAR-TEBRAU",
+        "Fixed45_IDs": "HF17",
+        "Plot_Status": "PLOT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.72438747,
+          1.52886592
+        ]
+      },
+      "properties": {
+        "Final_Location_ID": "FLOC-0087",
+        "Standardized_Location": "Kampung Kempas Permatang",
+        "Object_Types": "COMMUNITY/AREA",
+        "Independent_Event_Count": 3,
+        "Frequency_Band": "1-3",
+        "Frequency_Class": "Occasional",
+        "Years_Observed": "2017",
+        "First_Event_Date": "2017-01-02",
+        "Last_Event_Date": "2017-11-14",
+        "Polygon_IDs": null,
+        "Fixed45_IDs": null,
+        "Plot_Status": "PLOT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.75612,
+          1.49744
+        ]
+      },
+      "properties": {
+        "Final_Location_ID": "FLOC-0088",
+        "Standardized_Location": "Kampung Kurnia, Johor Bahru",
+        "Object_Types": "COMMUNITY; COMMUNITY/AREA",
+        "Independent_Event_Count": 2,
+        "Frequency_Band": "1-3",
+        "Frequency_Class": "Occasional",
+        "Years_Observed": "2022;2023",
+        "First_Event_Date": "2022-11-07",
+        "Last_Event_Date": "2023-02-14",
+        "Polygon_IDs": null,
+        "Fixed45_IDs": null,
+        "Plot_Status": "PLOT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.6605,
+          1.5453
+        ]
+      },
+      "properties": {
+        "Final_Location_ID": "FLOC-0089",
+        "Standardized_Location": "Kampung Laut Batu 10, Skudai",
+        "Object_Types": "COMMUNITY; Kampung; COMMUNITY/AREA",
+        "Independent_Event_Count": 14,
+        "Frequency_Band": ">=7",
+        "Frequency_Class": "High-frequency",
+        "Years_Observed": "2017;2019;2020;2021;2022;2025",
+        "First_Event_Date": "2017-04-18",
+        "Last_Event_Date": "2025-03-20",
+        "Polygon_IDs": null,
+        "Fixed45_IDs": null,
+        "Plot_Status": "PLOT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.7159181,
+          1.58109209999999
+        ]
+      },
+      "properties": {
+        "Final_Location_ID": "FLOC-0090",
+        "Standardized_Location": "Kampung Maju Jaya",
+        "Object_Types": "COMMUNITY; COMMUNITY/AREA; Kampung",
+        "Independent_Event_Count": 3,
+        "Frequency_Band": "1-3",
+        "Frequency_Class": "Occasional",
+        "Years_Observed": "2019;2022;2024",
+        "First_Event_Date": "2019-12-15",
+        "Last_Event_Date": "2024-01-07",
+        "Polygon_IDs": null,
+        "Fixed45_IDs": "HF18",
+        "Plot_Status": "PLOT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.62481,
+          1.50435
+        ]
+      },
+      "properties": {
+        "Final_Location_ID": "FLOC-0091",
+        "Standardized_Location": "Kampung Melayu Lima Kedai",
+        "Object_Types": "Residential hamlet",
+        "Independent_Event_Count": 1,
+        "Frequency_Band": "1-3",
+        "Frequency_Class": "Occasional",
+        "Years_Observed": "2018",
+        "First_Event_Date": "2018-10-22",
+        "Last_Event_Date": "2018-10-22",
+        "Polygon_IDs": "PG2018-MELAYU-LIMA-KEDAI",
+        "Fixed45_IDs": null,
+        "Plot_Status": "PLOT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.75192484,
+          1.51174352
+        ]
+      },
+      "properties": {
+        "Final_Location_ID": "FLOC-0092",
+        "Standardized_Location": "Kampung Melayu Majidi",
+        "Object_Types": "COMMUNITY; Kampung",
+        "Independent_Event_Count": 3,
+        "Frequency_Band": "1-3",
+        "Frequency_Class": "Occasional",
+        "Years_Observed": "2018;2021;2022",
+        "First_Event_Date": "2018-10-10",
+        "Last_Event_Date": "2022-11-07",
+        "Polygon_IDs": null,
+        "Fixed45_IDs": null,
+        "Plot_Status": "PLOT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.773858346421,
+          1.52264915000001
+        ]
+      },
+      "properties": {
+        "Final_Location_ID": "FLOC-0093",
+        "Standardized_Location": "Kampung Melayu Pandan",
+        "Object_Types": "COMMUNITY/AREA; Kampung",
+        "Independent_Event_Count": 2,
+        "Frequency_Band": "1-3",
+        "Frequency_Class": "Occasional",
+        "Years_Observed": "2019;2025",
+        "First_Event_Date": "2019-10-22",
+        "Last_Event_Date": "2025-03-20",
+        "Polygon_IDs": null,
+        "Fixed45_IDs": "HF12",
+        "Plot_Status": "PLOT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.7354126,
+          1.46736369999999
+        ]
+      },
+      "properties": {
+        "Final_Location_ID": "FLOC-0094",
+        "Standardized_Location": "Kampung Mohd Amin, Kolam Air",
+        "Object_Types": "COMMUNITY; COMMUNITY/AREA; AREA; Kampung",
+        "Independent_Event_Count": 10,
+        "Frequency_Band": ">=7",
+        "Frequency_Class": "High-frequency",
+        "Years_Observed": "2018;2019;2020;2021;2022;2023;2025;2026",
+        "First_Event_Date": "2018-10-10",
+        "Last_Event_Date": "2026-09-30",
+        "Polygon_IDs": null,
+        "Fixed45_IDs": "HF08",
+        "Plot_Status": "PLOT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.74327778,
+          1.54413889
+        ]
+      },
+      "properties": {
+        "Final_Location_ID": "FLOC-0095",
+        "Standardized_Location": "Kampung Pasir Tebrau",
+        "Object_Types": "COMMUNITY; COMMUNITY/AREA; Kampung",
+        "Independent_Event_Count": 6,
+        "Frequency_Band": "4-6",
+        "Frequency_Class": "Recurrent",
+        "Years_Observed": "2019;2021;2022;2023;2025",
+        "First_Event_Date": "2019-12-15",
+        "Last_Event_Date": "2025-03-19",
+        "Polygon_IDs": null,
+        "Fixed45_IDs": null,
+        "Plot_Status": "PLOT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.6969651,
+          1.49553030000001
+        ]
+      },
+      "properties": {
+        "Final_Location_ID": "FLOC-0096",
+        "Standardized_Location": "Kampung Pasir, Tampoi/Skudai",
+        "Object_Types": "COMMUNITY; COMMUNITY/AREA; Kampung",
+        "Independent_Event_Count": 14,
+        "Frequency_Band": ">=7",
+        "Frequency_Class": "High-frequency",
+        "Years_Observed": "2017;2020;2021;2022;2023;2025;2026",
+        "First_Event_Date": "2017-11-10",
+        "Last_Event_Date": "2026-09-30",
+        "Polygon_IDs": null,
+        "Fixed45_IDs": "HF14",
+        "Plot_Status": "PLOT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.74961954,
+          1.5403203
+        ]
+      },
+      "properties": {
+        "Final_Location_ID": "FLOC-0098",
+        "Standardized_Location": "Kampung Paya Kenangan",
+        "Object_Types": "COMMUNITY; COMMUNITY/AREA; Kampung",
+        "Independent_Event_Count": 9,
+        "Frequency_Band": ">=7",
+        "Frequency_Class": "High-frequency",
+        "Years_Observed": "2017;2019;2021;2022;2023;2025",
+        "First_Event_Date": "2017-04-18",
+        "Last_Event_Date": "2025-03-19",
+        "Polygon_IDs": null,
+        "Fixed45_IDs": null,
+        "Plot_Status": "PLOT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.58727458,
+          1.37194144
+        ]
+      },
+      "properties": {
+        "Final_Location_ID": "FLOC-0099",
+        "Standardized_Location": "Kampung Paya Mengkuang",
+        "Object_Types": "COMMUNITY",
+        "Independent_Event_Count": 2,
+        "Frequency_Band": "1-3",
+        "Frequency_Class": "Occasional",
+        "Years_Observed": "2022",
+        "First_Event_Date": "2022-05-04",
+        "Last_Event_Date": "2022-09-25",
+        "Polygon_IDs": null,
+        "Fixed45_IDs": null,
+        "Plot_Status": "PLOT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.70472574,
+          1.49166007
+        ]
+      },
+      "properties": {
+        "Final_Location_ID": "FLOC-0105",
+        "Standardized_Location": "Kampung Pengkalan Rinting",
+        "Object_Types": "Kampung",
+        "Independent_Event_Count": 1,
+        "Frequency_Band": "1-3",
+        "Frequency_Class": "Occasional",
+        "Years_Observed": "2020",
+        "First_Event_Date": "2020-11-21",
+        "Last_Event_Date": "2020-11-21",
+        "Polygon_IDs": null,
+        "Fixed45_IDs": null,
+        "Plot_Status": "PLOT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.800959,
+          1.493921
+        ]
+      },
+      "properties": {
+        "Final_Location_ID": "FLOC-0106",
+        "Standardized_Location": "Kampung Plentong",
+        "Object_Types": "Kampung",
+        "Independent_Event_Count": 1,
+        "Frequency_Band": "1-3",
+        "Frequency_Class": "Occasional",
+        "Years_Observed": "2020",
+        "First_Event_Date": "2020-06-04",
+        "Last_Event_Date": "2020-06-04",
+        "Polygon_IDs": null,
+        "Fixed45_IDs": null,
+        "Plot_Status": "PLOT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.8166885,
+          1.5179158
+        ]
+      },
+      "properties": {
+        "Final_Location_ID": "FLOC-0107",
+        "Standardized_Location": "Kampung Plentong Baru",
+        "Object_Types": "COMMUNITY",
+        "Independent_Event_Count": 1,
+        "Frequency_Band": "1-3",
+        "Frequency_Class": "Occasional",
+        "Years_Observed": "2022",
+        "First_Event_Date": "2022-09-06",
+        "Last_Event_Date": "2022-09-06",
+        "Polygon_IDs": null,
+        "Fixed45_IDs": "HF13",
+        "Plot_Status": "PLOT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.56799503,
+          1.47115514
+        ]
+      },
+      "properties": {
+        "Final_Location_ID": "FLOC-0108",
+        "Standardized_Location": "Kampung Pulai, Ulu Pulai",
+        "Object_Types": "Kampung",
+        "Independent_Event_Count": 3,
+        "Frequency_Band": "1-3",
+        "Frequency_Class": "Occasional",
+        "Years_Observed": "2018;2019",
+        "First_Event_Date": "2018-05-17",
+        "Last_Event_Date": "2019-10-22",
+        "Polygon_IDs": null,
+        "Fixed45_IDs": null,
+        "Plot_Status": "PLOT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.66117,
+          1.56411
+        ]
+      },
+      "properties": {
+        "Final_Location_ID": "FLOC-0109",
+        "Standardized_Location": "Kampung Sepakat Baru",
+        "Object_Types": "COMMUNITY; Kampung / residential hamlet",
+        "Independent_Event_Count": 3,
+        "Frequency_Band": "1-3",
+        "Frequency_Class": "Occasional",
+        "Years_Observed": "2019;2021",
+        "First_Event_Date": "2019-12-15",
+        "Last_Event_Date": "2021-01-10",
+        "Polygon_IDs": "PG2019-KG-SEPAKAT-BARU",
+        "Fixed45_IDs": null,
+        "Plot_Status": "PLOT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.68986464,
+          1.50134219
+        ]
+      },
+      "properties": {
+        "Final_Location_ID": "FLOC-0110",
+        "Standardized_Location": "Kampung Seri Serdang Baru",
+        "Object_Types": "Kampung",
+        "Independent_Event_Count": 1,
+        "Frequency_Band": "1-3",
+        "Frequency_Class": "Occasional",
+        "Years_Observed": "2020",
+        "First_Event_Date": "2020-11-21",
+        "Last_Event_Date": "2020-11-21",
+        "Polygon_IDs": null,
+        "Fixed45_IDs": null,
+        "Plot_Status": "PLOT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.71164,
+          1.48682
+        ]
+      },
+      "properties": {
+        "Final_Location_ID": "FLOC-0112",
+        "Standardized_Location": "Kampung Skudai Kiri",
+        "Object_Types": "Neighborhood",
+        "Independent_Event_Count": 1,
+        "Frequency_Band": "1-3",
+        "Frequency_Class": "Occasional",
+        "Years_Observed": "2018",
+        "First_Event_Date": "2018-04-20",
+        "Last_Event_Date": "2018-04-20",
+        "Polygon_IDs": null,
+        "Fixed45_IDs": null,
+        "Plot_Status": "PLOT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.69059841,
+          1.49949602
+        ]
+      },
+      "properties": {
+        "Final_Location_ID": "FLOC-0113",
+        "Standardized_Location": "Kampung Sri Jaya Baru",
+        "Object_Types": "COMMUNITY; Kampung",
+        "Independent_Event_Count": 2,
+        "Frequency_Band": "1-3",
+        "Frequency_Class": "Occasional",
+        "Years_Observed": "2020;2021",
+        "First_Event_Date": "2020-11-21",
+        "Last_Event_Date": "2021-09-30",
+        "Polygon_IDs": null,
+        "Fixed45_IDs": null,
+        "Plot_Status": "PLOT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.68912,
+          1.49933
+        ]
+      },
+      "properties": {
+        "Final_Location_ID": "FLOC-0114",
+        "Standardized_Location": "Kampung Sri Jaya, Skudai",
+        "Object_Types": "Kampung; COMMUNITY/AREA; Neighborhood",
+        "Independent_Event_Count": 3,
+        "Frequency_Band": "1-3",
+        "Frequency_Class": "Occasional",
+        "Years_Observed": "2018;2020;2026",
+        "First_Event_Date": "2018-10-22",
+        "Last_Event_Date": "2026-09-30",
+        "Polygon_IDs": null,
+        "Fixed45_IDs": null,
+        "Plot_Status": "PLOT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.6919335,
+          1.50174870000003
+        ]
+      },
+      "properties": {
+        "Final_Location_ID": "FLOC-0115",
+        "Standardized_Location": "Kampung Sri Serdang",
+        "Object_Types": "COMMUNITY/AREA; Kampung",
+        "Independent_Event_Count": 3,
+        "Frequency_Band": "1-3",
+        "Frequency_Class": "Occasional",
+        "Years_Observed": "2020;2025;2026",
+        "First_Event_Date": "2020-11-21",
+        "Last_Event_Date": "2026-09-30",
+        "Polygon_IDs": null,
+        "Fixed45_IDs": "HF15",
+        "Plot_Status": "PLOT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.9518889,
+          1.6123889
+        ]
+      },
+      "properties": {
+        "Final_Location_ID": "FLOC-0116",
+        "Standardized_Location": "Kampung Sungai Redan Laut",
+        "Object_Types": "COMMUNITY/AREA",
+        "Independent_Event_Count": 1,
+        "Frequency_Band": "1-3",
+        "Frequency_Class": "Occasional",
+        "Years_Observed": "2017",
+        "First_Event_Date": "2017-01-24",
+        "Last_Event_Date": "2017-01-24",
+        "Polygon_IDs": null,
+        "Fixed45_IDs": null,
+        "Plot_Status": "PLOT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.8743,
+          1.48054
+        ]
+      },
+      "properties": {
+        "Final_Location_ID": "FLOC-0117",
+        "Standardized_Location": "Kampung Sungai Rinting",
+        "Object_Types": "COMMUNITY",
+        "Independent_Event_Count": 1,
+        "Frequency_Band": "1-3",
+        "Frequency_Class": "Occasional",
+        "Years_Observed": "2021",
+        "First_Event_Date": "2021-07-12",
+        "Last_Event_Date": "2021-07-12",
+        "Polygon_IDs": null,
+        "Fixed45_IDs": null,
+        "Plot_Status": "PLOT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.88063,
+          1.5844
+        ]
+      },
+      "properties": {
+        "Final_Location_ID": "FLOC-0119",
+        "Standardized_Location": "Kampung Sungai Tiram",
+        "Object_Types": "COMMUNITY/AREA; Kampung",
+        "Independent_Event_Count": 5,
+        "Frequency_Band": "4-6",
+        "Frequency_Class": "Recurrent",
+        "Years_Observed": "2017;2019;2023",
+        "First_Event_Date": "2017-01-24",
+        "Last_Event_Date": "2023-03-01",
+        "Polygon_IDs": null,
+        "Fixed45_IDs": null,
+        "Plot_Status": "PLOT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.57953798,
+          1.38836699
+        ]
+      },
+      "properties": {
+        "Final_Location_ID": "FLOC-0122",
+        "Standardized_Location": "Kampung Tiram Duku",
+        "Object_Types": "COMMUNITY",
+        "Independent_Event_Count": 1,
+        "Frequency_Band": "1-3",
+        "Frequency_Class": "Occasional",
+        "Years_Observed": "2022",
+        "First_Event_Date": "2022-09-25",
+        "Last_Event_Date": "2022-09-25",
+        "Polygon_IDs": null,
+        "Fixed45_IDs": null,
+        "Plot_Status": "PLOT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.67688,
+          1.47873
+        ]
+      },
+      "properties": {
+        "Final_Location_ID": "FLOC-0123",
+        "Standardized_Location": "Kampung Tuah Jaya",
+        "Object_Types": "COMMUNITY/AREA; Residential hamlet",
+        "Independent_Event_Count": 5,
+        "Frequency_Band": "4-6",
+        "Frequency_Class": "Recurrent",
+        "Years_Observed": "2017;2019;2020;2026",
+        "First_Event_Date": "2017-09-19",
+        "Last_Event_Date": "2026-09-30",
+        "Polygon_IDs": "PG2017-TUAH-JAYA",
+        "Fixed45_IDs": null,
+        "Plot_Status": "PLOT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.75707329,
+          1.5191611
+        ]
+      },
+      "properties": {
+        "Final_Location_ID": "FLOC-0124",
+        "Standardized_Location": "Kampung Ubi Baru",
+        "Object_Types": "COMMUNITY/AREA; COMMUNITY; Kampung",
+        "Independent_Event_Count": 5,
+        "Frequency_Band": "4-6",
+        "Frequency_Class": "Recurrent",
+        "Years_Observed": "2017;2018;2022;2023;2026",
+        "First_Event_Date": "2017-06-10",
+        "Last_Event_Date": "2026-09-30",
+        "Polygon_IDs": null,
+        "Fixed45_IDs": null,
+        "Plot_Status": "PLOT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.7683272,
+          1.53455009999999
+        ]
+      },
+      "properties": {
+        "Final_Location_ID": "FLOC-0125",
+        "Standardized_Location": "Kampung Ulu Pandan",
+        "Object_Types": "COMMUNITY/AREA",
+        "Independent_Event_Count": 1,
+        "Frequency_Band": "1-3",
+        "Frequency_Class": "Occasional",
+        "Years_Observed": "2025",
+        "First_Event_Date": "2025-03-19",
+        "Last_Event_Date": "2025-03-19",
+        "Polygon_IDs": null,
+        "Fixed45_IDs": "HF42",
+        "Plot_Status": "PLOT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.71851,
+          1.514607
+        ]
+      },
+      "properties": {
+        "Final_Location_ID": "FLOC-0129",
+        "Standardized_Location": "Kempas Denai",
+        "Object_Types": "ROAD/AREA",
+        "Independent_Event_Count": 1,
+        "Frequency_Band": "1-3",
+        "Frequency_Class": "Occasional",
+        "Years_Observed": "2021",
+        "First_Event_Date": "2021-09-30",
+        "Last_Event_Date": "2021-09-30",
+        "Polygon_IDs": null,
+        "Fixed45_IDs": null,
+        "Plot_Status": "PLOT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.71579344,
+          1.52911376
+        ]
+      },
+      "properties": {
+        "Final_Location_ID": "FLOC-0130",
+        "Standardized_Location": "Kempas Lurah",
+        "Object_Types": "COMMUNITY",
+        "Independent_Event_Count": 1,
+        "Frequency_Band": "1-3",
+        "Frequency_Class": "Occasional",
+        "Years_Observed": "2021",
+        "First_Event_Date": "2021-09-30",
+        "Last_Event_Date": "2021-09-30",
+        "Polygon_IDs": "PG2021-KEMPAS-LURAH",
+        "Fixed45_IDs": null,
+        "Plot_Status": "PLOT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.72755,
+          1.52696
+        ]
+      },
+      "properties": {
+        "Final_Location_ID": "FLOC-0131",
+        "Standardized_Location": "Kempas Permatang",
+        "Object_Types": "ROAD/AREA",
+        "Independent_Event_Count": 1,
+        "Frequency_Band": "1-3",
+        "Frequency_Class": "Occasional",
+        "Years_Observed": "2021",
+        "First_Event_Date": "2021-09-30",
+        "Last_Event_Date": "2021-09-30",
+        "Polygon_IDs": null,
+        "Fixed45_IDs": null,
+        "Plot_Status": "PLOT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.76977282,
+          1.50468654
+        ]
+      },
+      "properties": {
+        "Final_Location_ID": "FLOC-0132",
+        "Standardized_Location": "Kg. Dato Hajah Hasnah",
+        "Object_Types": "COMMUNITY/AREA",
+        "Independent_Event_Count": 2,
+        "Frequency_Band": "1-3",
+        "Frequency_Class": "Occasional",
+        "Years_Observed": "2023;2026",
+        "First_Event_Date": "2023-02-14",
+        "Last_Event_Date": "2026-09-30",
+        "Polygon_IDs": null,
+        "Fixed45_IDs": null,
+        "Plot_Status": "PLOT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.931586,
+          1.619208
+        ]
+      },
+      "properties": {
+        "Final_Location_ID": "FLOC-0133",
+        "Standardized_Location": "Kg. Paya Sg Redan",
+        "Object_Types": "COMMUNITY/AREA",
+        "Independent_Event_Count": 3,
+        "Frequency_Band": "1-3",
+        "Frequency_Class": "Occasional",
+        "Years_Observed": "2017;2024",
+        "First_Event_Date": "2017-01-23",
+        "Last_Event_Date": "2024-01-04",
+        "Polygon_IDs": null,
+        "Fixed45_IDs": null,
+        "Plot_Status": "PLOT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.92735539,
+          1.52125286
+        ]
+      },
+      "properties": {
+        "Final_Location_ID": "FLOC-0134",
+        "Standardized_Location": "Kg. Sentosa (Cahaya Baru / eastern Johor Bahru)",
+        "Object_Types": "COMMUNITY/AREA; Kampung",
+        "Independent_Event_Count": 3,
+        "Frequency_Band": "1-3",
+        "Frequency_Class": "Occasional",
+        "Years_Observed": "2017;2019;2020",
+        "First_Event_Date": "2017-01-24",
+        "Last_Event_Date": "2020-05-05",
+        "Polygon_IDs": null,
+        "Fixed45_IDs": null,
+        "Plot_Status": "PLOT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.92185516,
+          1.52194889
+        ]
+      },
+      "properties": {
+        "Final_Location_ID": "FLOC-0135",
+        "Standardized_Location": "Kg. Sentosa Barat",
+        "Object_Types": "COMMUNITY; COMMUNITY/AREA",
+        "Independent_Event_Count": 9,
+        "Frequency_Band": ">=7",
+        "Frequency_Class": "High-frequency",
+        "Years_Observed": "2017;2021;2022;2023",
+        "First_Event_Date": "2017-04-18",
+        "Last_Event_Date": "2023-12-01",
+        "Polygon_IDs": null,
+        "Fixed45_IDs": null,
+        "Plot_Status": "PLOT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.93562865,
+          1.52139605
+        ]
+      },
+      "properties": {
+        "Final_Location_ID": "FLOC-0136",
+        "Standardized_Location": "Kg. Sentosa Damai",
+        "Object_Types": "COMMUNITY; COMMUNITY/AREA",
+        "Independent_Event_Count": 6,
+        "Frequency_Band": "4-6",
+        "Frequency_Class": "Recurrent",
+        "Years_Observed": "2021;2023;2024",
+        "First_Event_Date": "2021-01-02",
+        "Last_Event_Date": "2024-01-04",
+        "Polygon_IDs": null,
+        "Fixed45_IDs": null,
+        "Plot_Status": "PLOT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.9404605,
+          1.47435541
+        ]
+      },
+      "properties": {
+        "Final_Location_ID": "FLOC-0137",
+        "Standardized_Location": "Kg. Seri Aman / Batu Pulai",
+        "Object_Types": "COMMUNITY; COMMUNITY/AREA",
+        "Independent_Event_Count": 2,
+        "Frequency_Band": "1-3",
+        "Frequency_Class": "Occasional",
+        "Years_Observed": "2021;2023",
+        "First_Event_Date": "2021-09-02",
+        "Last_Event_Date": "2023-12-01",
+        "Polygon_IDs": null,
+        "Fixed45_IDs": null,
+        "Plot_Status": "PLOT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.9220255,
+          1.6536289
+        ]
+      },
+      "properties": {
+        "Final_Location_ID": "FLOC-0138",
+        "Standardized_Location": "Kg. Sg. Serai",
+        "Object_Types": "COMMUNITY/AREA",
+        "Independent_Event_Count": 2,
+        "Frequency_Band": "1-3",
+        "Frequency_Class": "Occasional",
+        "Years_Observed": "2017;2024",
+        "First_Event_Date": "2017-01-24",
+        "Last_Event_Date": "2024-01-04",
+        "Polygon_IDs": null,
+        "Fixed45_IDs": null,
+        "Plot_Status": "PLOT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.687206,
+          1.508748
+        ]
+      },
+      "properties": {
+        "Final_Location_ID": "FLOC-0139",
+        "Standardized_Location": "KIPMall Tampoi",
+        "Object_Types": "AREA/LOCALITY",
+        "Independent_Event_Count": 1,
+        "Frequency_Band": "1-3",
+        "Frequency_Class": "Occasional",
+        "Years_Observed": "2017",
+        "First_Event_Date": "2017-01-02",
+        "Last_Event_Date": "2017-01-02",
+        "Polygon_IDs": "PG2017-KIPMALL-TAMPOI",
+        "Fixed45_IDs": null,
+        "Plot_Status": "PLOT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.75802,
+          1.53597
+        ]
+      },
+      "properties": {
+        "Final_Location_ID": "FLOC-0140",
+        "Standardized_Location": "Klinik Desa Kangkar Tebrau",
+        "Object_Types": "CRITICAL FACILITY",
+        "Independent_Event_Count": 1,
+        "Frequency_Band": "1-3",
+        "Frequency_Class": "Occasional",
+        "Years_Observed": "2025",
+        "First_Event_Date": "2025-03-21",
+        "Last_Event_Date": "2025-03-21",
+        "Polygon_IDs": null,
+        "Fixed45_IDs": null,
+        "Plot_Status": "PLOT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.82057,
+          1.5225
+        ]
+      },
+      "properties": {
+        "Final_Location_ID": "FLOC-0141",
+        "Standardized_Location": "Klinik Desa Plentong",
+        "Object_Types": "CRITICAL FACILITY",
+        "Independent_Event_Count": 1,
+        "Frequency_Band": "1-3",
+        "Frequency_Class": "Occasional",
+        "Years_Observed": "2025",
+        "First_Event_Date": "2025-03-21",
+        "Last_Event_Date": "2025-03-21",
+        "Polygon_IDs": null,
+        "Fixed45_IDs": null,
+        "Plot_Status": "PLOT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.76228,
+          1.48537
+        ]
+      },
+      "properties": {
+        "Final_Location_ID": "FLOC-0142",
+        "Standardized_Location": "KSL City Mall",
+        "Object_Types": "FACILITY/POI",
+        "Independent_Event_Count": 1,
+        "Frequency_Band": "1-3",
+        "Frequency_Class": "Occasional",
+        "Years_Observed": "2026",
+        "First_Event_Date": "2026-09-30",
+        "Last_Event_Date": "2026-09-30",
+        "Polygon_IDs": null,
+        "Fixed45_IDs": null,
+        "Plot_Status": "PLOT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.74826,
+          1.50108
+        ]
+      },
+      "properties": {
+        "Final_Location_ID": "FLOC-0144",
+        "Standardized_Location": "Larkin Perdana",
+        "Object_Types": "COMMUNITY/AREA",
+        "Independent_Event_Count": 1,
+        "Frequency_Band": "1-3",
+        "Frequency_Class": "Occasional",
+        "Years_Observed": "2023",
+        "First_Event_Date": "2023-02-14",
+        "Last_Event_Date": "2023-02-14",
+        "Polygon_IDs": null,
+        "Fixed45_IDs": null,
+        "Plot_Status": "PLOT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.7149533,
+          1.5118305
+        ]
+      },
+      "properties": {
+        "Final_Location_ID": "FLOC-0145",
+        "Standardized_Location": "Lebuhraya Pasir Gudang",
+        "Object_Types": "ROAD",
+        "Independent_Event_Count": 1,
+        "Frequency_Band": "1-3",
+        "Frequency_Class": "Occasional",
+        "Years_Observed": "2021",
+        "First_Event_Date": "2021-07-12",
+        "Last_Event_Date": "2021-07-12",
+        "Polygon_IDs": null,
+        "Fixed45_IDs": null,
+        "Plot_Status": "PLOT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.67230887,
+          1.52340697
+        ]
+      },
+      "properties": {
+        "Final_Location_ID": "FLOC-0148",
+        "Standardized_Location": "Lorong Aris / Kg. Batu 8 1/2, Skudai",
+        "Object_Types": "ROAD/SUBAREA",
+        "Independent_Event_Count": 2,
+        "Frequency_Band": "1-3",
+        "Frequency_Class": "Occasional",
+        "Years_Observed": "2021",
+        "First_Event_Date": "2021-01-02",
+        "Last_Event_Date": "2021-01-10",
+        "Polygon_IDs": null,
+        "Fixed45_IDs": null,
+        "Plot_Status": "PLOT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.7579076,
+          1.5145389
+        ]
+      },
+      "properties": {
+        "Final_Location_ID": "FLOC-0150",
+        "Standardized_Location": "Majidee",
+        "Object_Types": "COMMUNITY/AREA",
+        "Independent_Event_Count": 1,
+        "Frequency_Band": "1-3",
+        "Frequency_Class": "Occasional",
+        "Years_Observed": "2023",
+        "First_Event_Date": "2023-12-06",
+        "Last_Event_Date": "2023-12-06",
+        "Polygon_IDs": null,
+        "Fixed45_IDs": "HF36",
+        "Plot_Status": "PLOT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.73922,
+          1.46358
+        ]
+      },
+      "properties": {
+        "Final_Location_ID": "FLOC-0151",
+        "Standardized_Location": "Maktab Sultan Abu Bakar / English College",
+        "Object_Types": "FACILITY/POI",
+        "Independent_Event_Count": 1,
+        "Frequency_Band": "1-3",
+        "Frequency_Class": "Occasional",
+        "Years_Observed": "2026",
+        "First_Event_Date": "2026-09-30",
+        "Last_Event_Date": "2026-09-30",
+        "Polygon_IDs": null,
+        "Fixed45_IDs": null,
+        "Plot_Status": "PLOT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.75623,
+          1.53382
+        ]
+      },
+      "properties": {
+        "Final_Location_ID": "FLOC-0152",
+        "Standardized_Location": "Masjid Kg. Kangkar Tebrau",
+        "Object_Types": "CRITICAL FACILITY",
+        "Independent_Event_Count": 1,
+        "Frequency_Band": "1-3",
+        "Frequency_Class": "Occasional",
+        "Years_Observed": "2025",
+        "First_Event_Date": "2025-01-11",
+        "Last_Event_Date": "2025-01-11",
+        "Polygon_IDs": null,
+        "Fixed45_IDs": null,
+        "Plot_Status": "PLOT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.7639473,
+          1.52182970000001
+        ]
+      },
+      "properties": {
+        "Final_Location_ID": "FLOC-0154",
+        "Standardized_Location": "Pandan",
+        "Object_Types": "AREA/RESIDENTIAL",
+        "Independent_Event_Count": 1,
+        "Frequency_Band": "1-3",
+        "Frequency_Class": "Occasional",
+        "Years_Observed": "2025",
+        "First_Event_Date": "2025-03-20",
+        "Last_Event_Date": "2025-03-20",
+        "Polygon_IDs": null,
+        "Fixed45_IDs": "HF43",
+        "Plot_Status": "PLOT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.683194,
+          1.487722
+        ]
+      },
+      "properties": {
+        "Final_Location_ID": "FLOC-0155",
+        "Standardized_Location": "Perling / Taman Perling",
+        "Object_Types": "AREA/RESIDENTIAL",
+        "Independent_Event_Count": 1,
+        "Frequency_Band": "1-3",
+        "Frequency_Class": "Occasional",
+        "Years_Observed": "2025",
+        "First_Event_Date": "2025-03-20",
+        "Last_Event_Date": "2025-03-20",
+        "Polygon_IDs": null,
+        "Fixed45_IDs": null,
+        "Plot_Status": "PLOT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.7190029,
+          1.4843025
+        ]
+      },
+      "properties": {
+        "Final_Location_ID": "FLOC-0156",
+        "Standardized_Location": "Persiaran Abu Bakar Sultan",
+        "Object_Types": "ROAD",
+        "Independent_Event_Count": 1,
+        "Frequency_Band": "1-3",
+        "Frequency_Class": "Occasional",
+        "Years_Observed": "2022",
+        "First_Event_Date": "2022-08-02",
+        "Last_Event_Date": "2022-08-02",
+        "Polygon_IDs": null,
+        "Fixed45_IDs": "HF33",
+        "Plot_Status": "PLOT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.66077,
+          1.41407400000001
+        ]
+      },
+      "properties": {
+        "Final_Location_ID": "FLOC-0157",
+        "Standardized_Location": "Puteri Harbour Iskandar Puteri",
+        "Object_Types": "AREA",
+        "Independent_Event_Count": 1,
+        "Frequency_Band": "1-3",
+        "Frequency_Class": "Occasional",
+        "Years_Observed": "2022",
+        "First_Event_Date": "2022-09-05",
+        "Last_Event_Date": "2022-09-05",
+        "Polygon_IDs": null,
+        "Fixed45_IDs": "HF39",
+        "Plot_Status": "PLOT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.75113,
+          1.46787
+        ]
+      },
+      "properties": {
+        "Final_Location_ID": "FLOC-0161",
+        "Standardized_Location": "Sekolah Agama Bandar Johor Bahru",
+        "Object_Types": "FACILITY/POI",
+        "Independent_Event_Count": 1,
+        "Frequency_Band": "1-3",
+        "Frequency_Class": "Occasional",
+        "Years_Observed": "2026",
+        "First_Event_Date": "2026-09-30",
+        "Last_Event_Date": "2026-09-30",
+        "Polygon_IDs": null,
+        "Fixed45_IDs": null,
+        "Plot_Status": "PLOT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.7555,
+          1.53241
+        ]
+      },
+      "properties": {
+        "Final_Location_ID": "FLOC-0162",
+        "Standardized_Location": "Sekolah Kebangsaan Kangkar Tebrau",
+        "Object_Types": "CRITICAL FACILITY",
+        "Independent_Event_Count": 2,
+        "Frequency_Band": "1-3",
+        "Frequency_Class": "Occasional",
+        "Years_Observed": "2025",
+        "First_Event_Date": "2025-01-11",
+        "Last_Event_Date": "2025-03-20",
+        "Polygon_IDs": null,
+        "Fixed45_IDs": null,
+        "Plot_Status": "PLOT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.741375207901,
+          1.54085596501295
+        ]
+      },
+      "properties": {
+        "Final_Location_ID": "FLOC-0165",
+        "Standardized_Location": "SK Bukit Mutiara",
+        "Object_Types": "CRITICAL FACILITY",
+        "Independent_Event_Count": 1,
+        "Frequency_Band": "1-3",
+        "Frequency_Class": "Occasional",
+        "Years_Observed": "2024",
+        "First_Event_Date": "2024-01-07",
+        "Last_Event_Date": "2024-01-07",
+        "Polygon_IDs": null,
+        "Fixed45_IDs": null,
+        "Plot_Status": "PLOT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.718275204555,
+          1.5804887
+        ]
+      },
+      "properties": {
+        "Final_Location_ID": "FLOC-0166",
+        "Standardized_Location": "SK Kampung Maju Jaya",
+        "Object_Types": "CRITICAL FACILITY",
+        "Independent_Event_Count": 2,
+        "Frequency_Band": "1-3",
+        "Frequency_Class": "Occasional",
+        "Years_Observed": "2024;2025",
+        "First_Event_Date": "2024-01-07",
+        "Last_Event_Date": "2025-03-20",
+        "Polygon_IDs": null,
+        "Fixed45_IDs": "HF44",
+        "Plot_Status": "PLOT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.879771828651,
+          1.58516029538754
+        ]
+      },
+      "properties": {
+        "Final_Location_ID": "FLOC-0167",
+        "Standardized_Location": "SK Sungai Tiram",
+        "Object_Types": "CRITICAL FACILITY",
+        "Independent_Event_Count": 1,
+        "Frequency_Band": "1-3",
+        "Frequency_Class": "Occasional",
+        "Years_Observed": "2024",
+        "First_Event_Date": "2024-01-07",
+        "Last_Event_Date": "2024-01-07",
+        "Polygon_IDs": null,
+        "Fixed45_IDs": null,
+        "Plot_Status": "PLOT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.680172562599,
+          1.51604363425928
+        ]
+      },
+      "properties": {
+        "Final_Location_ID": "FLOC-0168",
+        "Standardized_Location": "SK Taman Tampoi Utama",
+        "Object_Types": "CRITICAL FACILITY",
+        "Independent_Event_Count": 1,
+        "Frequency_Band": "1-3",
+        "Frequency_Class": "Occasional",
+        "Years_Observed": "2025",
+        "First_Event_Date": "2025-03-20",
+        "Last_Event_Date": "2025-03-20",
+        "Polygon_IDs": null,
+        "Fixed45_IDs": null,
+        "Plot_Status": "PLOT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.8806315,
+          1.5843974
+        ]
+      },
+      "properties": {
+        "Final_Location_ID": "FLOC-0169",
+        "Standardized_Location": "Sungai Tiram PPS catchment",
+        "Object_Types": "AREA/COMMUNITY",
+        "Independent_Event_Count": 1,
+        "Frequency_Band": "1-3",
+        "Frequency_Class": "Occasional",
+        "Years_Observed": "2022",
+        "First_Event_Date": "2022-01-03",
+        "Last_Event_Date": "2022-01-03",
+        "Polygon_IDs": null,
+        "Fixed45_IDs": null,
+        "Plot_Status": "PLOT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.7595973,
+          1.482543
+        ]
+      },
+      "properties": {
+        "Final_Location_ID": "FLOC-0172",
+        "Standardized_Location": "Taman Abad",
+        "Object_Types": "COMMUNITY/AREA",
+        "Independent_Event_Count": 1,
+        "Frequency_Band": "1-3",
+        "Frequency_Class": "Occasional",
+        "Years_Observed": "2023",
+        "First_Event_Date": "2023-12-06",
+        "Last_Event_Date": "2023-12-06",
+        "Polygon_IDs": null,
+        "Fixed45_IDs": null,
+        "Plot_Status": "PLOT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.8206509,
+          1.5212749
+        ]
+      },
+      "properties": {
+        "Final_Location_ID": "FLOC-0173",
+        "Standardized_Location": "Taman Bunga Ros",
+        "Object_Types": "COMMUNITY/AREA",
+        "Independent_Event_Count": 1,
+        "Frequency_Band": "1-3",
+        "Frequency_Class": "Occasional",
+        "Years_Observed": "2023",
+        "First_Event_Date": "2023-12-01",
+        "Last_Event_Date": "2023-12-01",
+        "Polygon_IDs": null,
+        "Fixed45_IDs": "HF37",
+        "Plot_Status": "PLOT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.64612,
+          1.5035
+        ]
+      },
+      "properties": {
+        "Final_Location_ID": "FLOC-0174",
+        "Standardized_Location": "Taman Damai Jaya",
+        "Object_Types": "Neighborhood; Residential neighbourhood",
+        "Independent_Event_Count": 2,
+        "Frequency_Band": "1-3",
+        "Frequency_Class": "Occasional",
+        "Years_Observed": "2018;2020",
+        "First_Event_Date": "2018-10-22",
+        "Last_Event_Date": "2020-07-05",
+        "Polygon_IDs": "PG2018-TAMAN-DAMAI-JAYA",
+        "Fixed45_IDs": null,
+        "Plot_Status": "PLOT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.5923,
+          1.4417
+        ]
+      },
+      "properties": {
+        "Final_Location_ID": "FLOC-0175",
+        "Standardized_Location": "Taman Dato Syed Mohammad Idrus",
+        "Object_Types": "Locality / residential area",
+        "Independent_Event_Count": 1,
+        "Frequency_Band": "1-3",
+        "Frequency_Class": "Occasional",
+        "Years_Observed": "2020",
+        "First_Event_Date": "2020-06-20",
+        "Last_Event_Date": "2020-06-20",
+        "Polygon_IDs": null,
+        "Fixed45_IDs": null,
+        "Plot_Status": "PLOT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.747256167436,
+          1.5406298
+        ]
+      },
+      "properties": {
+        "Final_Location_ID": "FLOC-0177",
+        "Standardized_Location": "Taman Desa Mutiara",
+        "Object_Types": "AREA/RESIDENTIAL",
+        "Independent_Event_Count": 1,
+        "Frequency_Band": "1-3",
+        "Frequency_Class": "Occasional",
+        "Years_Observed": "2025",
+        "First_Event_Date": "2025-03-20",
+        "Last_Event_Date": "2025-03-20",
+        "Polygon_IDs": null,
+        "Fixed45_IDs": "HF45",
+        "Plot_Status": "PLOT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.7698568,
+          1.5305637
+        ]
+      },
+      "properties": {
+        "Final_Location_ID": "FLOC-0178",
+        "Standardized_Location": "Taman Istimewa",
+        "Object_Types": "Neighborhood",
+        "Independent_Event_Count": 1,
+        "Frequency_Band": "1-3",
+        "Frequency_Class": "Occasional",
+        "Years_Observed": "2019",
+        "First_Event_Date": "2019-02-17",
+        "Last_Event_Date": "2019-02-17",
+        "Polygon_IDs": null,
+        "Fixed45_IDs": "HF19",
+        "Plot_Status": "PLOT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.8024,
+          1.5428
+        ]
+      },
+      "properties": {
+        "Final_Location_ID": "FLOC-0179",
+        "Standardized_Location": "Taman Johor Jaya",
+        "Object_Types": "RESIDENTIAL",
+        "Independent_Event_Count": 1,
+        "Frequency_Band": "1-3",
+        "Frequency_Class": "Occasional",
+        "Years_Observed": "2021",
+        "First_Event_Date": "2021-09-30",
+        "Last_Event_Date": "2021-09-30",
+        "Polygon_IDs": null,
+        "Fixed45_IDs": null,
+        "Plot_Status": "PLOT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.736444,
+          1.473837
+        ]
+      },
+      "properties": {
+        "Final_Location_ID": "FLOC-0180",
+        "Standardized_Location": "Taman Kolam Air",
+        "Object_Types": "AREA; AREA/RESIDENTIAL",
+        "Independent_Event_Count": 2,
+        "Frequency_Band": "1-3",
+        "Frequency_Class": "Occasional",
+        "Years_Observed": "2021;2026",
+        "First_Event_Date": "2021-09-30",
+        "Last_Event_Date": "2026-09-30",
+        "Polygon_IDs": null,
+        "Fixed45_IDs": null,
+        "Plot_Status": "PLOT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.8948094913,
+          1.4696218674
+        ]
+      },
+      "properties": {
+        "Final_Location_ID": "FLOC-0181",
+        "Standardized_Location": "Taman Mawar",
+        "Object_Types": "RESIDENTIAL",
+        "Independent_Event_Count": 1,
+        "Frequency_Band": "1-3",
+        "Frequency_Class": "Occasional",
+        "Years_Observed": "2021",
+        "First_Event_Date": "2021-07-12",
+        "Last_Event_Date": "2021-07-12",
+        "Polygon_IDs": "PG2021-TAMAN-MAWAR",
+        "Fixed45_IDs": null,
+        "Plot_Status": "PLOT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.7613894,
+          1.49019649999999
+        ]
+      },
+      "properties": {
+        "Final_Location_ID": "FLOC-0182",
+        "Standardized_Location": "Taman Melodies",
+        "Object_Types": "COMMUNITY/AREA; RESIDENTIAL",
+        "Independent_Event_Count": 2,
+        "Frequency_Band": "1-3",
+        "Frequency_Class": "Occasional",
+        "Years_Observed": "2022;2023",
+        "First_Event_Date": "2022-11-07",
+        "Last_Event_Date": "2023-12-06",
+        "Polygon_IDs": null,
+        "Fixed45_IDs": "HF34",
+        "Plot_Status": "PLOT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.7395647,
+          1.47655640000002
+        ]
+      },
+      "properties": {
+        "Final_Location_ID": "FLOC-0183",
+        "Standardized_Location": "Taman Nong Chik",
+        "Object_Types": "AREA/RESIDENTIAL; COMMUNITY/AREA",
+        "Independent_Event_Count": 2,
+        "Frequency_Band": "1-3",
+        "Frequency_Class": "Occasional",
+        "Years_Observed": "2023;2025",
+        "First_Event_Date": "2023-12-06",
+        "Last_Event_Date": "2025-12-12",
+        "Polygon_IDs": null,
+        "Fixed45_IDs": "HF35",
+        "Plot_Status": "PLOT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.60088,
+          1.48009
+        ]
+      },
+      "properties": {
+        "Final_Location_ID": "FLOC-0184",
+        "Standardized_Location": "Taman Nusa Bayu",
+        "Object_Types": "Residential neighborhood",
+        "Independent_Event_Count": 1,
+        "Frequency_Band": "1-3",
+        "Frequency_Class": "Occasional",
+        "Years_Observed": "2019",
+        "First_Event_Date": "2019-10-22",
+        "Last_Event_Date": "2019-10-22",
+        "Polygon_IDs": "PG2019-TAMAN-NUSA-BAYU",
+        "Fixed45_IDs": null,
+        "Plot_Status": "PLOT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.58949,
+          1.47979
+        ]
+      },
+      "properties": {
+        "Final_Location_ID": "FLOC-0185",
+        "Standardized_Location": "Taman Nusantara Prima",
+        "Object_Types": "Neighborhood",
+        "Independent_Event_Count": 1,
+        "Frequency_Band": "1-3",
+        "Frequency_Class": "Occasional",
+        "Years_Observed": "2019",
+        "First_Event_Date": "2019-10-22",
+        "Last_Event_Date": "2019-10-22",
+        "Polygon_IDs": null,
+        "Fixed45_IDs": null,
+        "Plot_Status": "PLOT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.93887,
+          1.47292
+        ]
+      },
+      "properties": {
+        "Final_Location_ID": "FLOC-0186",
+        "Standardized_Location": "Taman Pasir Putih",
+        "Object_Types": "RESIDENTIAL",
+        "Independent_Event_Count": 1,
+        "Frequency_Band": "1-3",
+        "Frequency_Class": "Occasional",
+        "Years_Observed": "2021",
+        "First_Event_Date": "2021-09-02",
+        "Last_Event_Date": "2021-09-02",
+        "Polygon_IDs": null,
+        "Fixed45_IDs": null,
+        "Plot_Status": "PLOT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.7738869,
+          1.478838
+        ]
+      },
+      "properties": {
+        "Final_Location_ID": "FLOC-0187",
+        "Standardized_Location": "Taman Pelangi",
+        "Object_Types": "AREA/RESIDENTIAL",
+        "Independent_Event_Count": 1,
+        "Frequency_Band": "1-3",
+        "Frequency_Class": "Occasional",
+        "Years_Observed": "2025",
+        "First_Event_Date": "2025-12-12",
+        "Last_Event_Date": "2025-12-12",
+        "Polygon_IDs": null,
+        "Fixed45_IDs": null,
+        "Plot_Status": "PLOT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.6827079,
+          1.481217
+        ]
+      },
+      "properties": {
+        "Final_Location_ID": "FLOC-0188",
+        "Standardized_Location": "Taman Perling",
+        "Object_Types": "AREA/RESIDENTIAL",
+        "Independent_Event_Count": 1,
+        "Frequency_Band": "1-3",
+        "Frequency_Class": "Occasional",
+        "Years_Observed": "2026",
+        "First_Event_Date": "2026-09-30",
+        "Last_Event_Date": "2026-09-30",
+        "Polygon_IDs": null,
+        "Fixed45_IDs": null,
+        "Plot_Status": "PLOT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.8788,
+          1.4959
+        ]
+      },
+      "properties": {
+        "Final_Location_ID": "FLOC-0189",
+        "Standardized_Location": "Taman Rinting",
+        "Object_Types": "RESIDENTIAL",
+        "Independent_Event_Count": 1,
+        "Frequency_Band": "1-3",
+        "Frequency_Class": "Occasional",
+        "Years_Observed": "2021",
+        "First_Event_Date": "2021-07-12",
+        "Last_Event_Date": "2021-07-12",
+        "Polygon_IDs": null,
+        "Fixed45_IDs": null,
+        "Plot_Status": "PLOT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.7592769,
+          1.56898939999998
+        ]
+      },
+      "properties": {
+        "Final_Location_ID": "FLOC-0190",
+        "Standardized_Location": "Taman Setia Indah",
+        "Object_Types": "COMMUNITY/AREA; Township / quarter",
+        "Independent_Event_Count": 2,
+        "Frequency_Band": "1-3",
+        "Frequency_Class": "Occasional",
+        "Years_Observed": "2019;2024",
+        "First_Event_Date": "2019-10-22",
+        "Last_Event_Date": "2024-01-11",
+        "Polygon_IDs": null,
+        "Fixed45_IDs": "HF20",
+        "Plot_Status": "PLOT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.6448842,
+          1.510224
+        ]
+      },
+      "properties": {
+        "Final_Location_ID": "FLOC-0191",
+        "Standardized_Location": "Taman Skudai Baru",
+        "Object_Types": "RESIDENTIAL",
+        "Independent_Event_Count": 1,
+        "Frequency_Band": "1-3",
+        "Frequency_Class": "Occasional",
+        "Years_Observed": "2021",
+        "First_Event_Date": "2021-09-30",
+        "Last_Event_Date": "2021-09-30",
+        "Polygon_IDs": null,
+        "Fixed45_IDs": null,
+        "Plot_Status": "PLOT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.72822,
+          1.51083
+        ]
+      },
+      "properties": {
+        "Final_Location_ID": "FLOC-0192",
+        "Standardized_Location": "Taman Sri Bahagia",
+        "Object_Types": "COMMUNITY/AREA",
+        "Independent_Event_Count": 1,
+        "Frequency_Band": "1-3",
+        "Frequency_Class": "Occasional",
+        "Years_Observed": "2023",
+        "First_Event_Date": "2023-02-14",
+        "Last_Event_Date": "2023-02-14",
+        "Polygon_IDs": null,
+        "Fixed45_IDs": null,
+        "Plot_Status": "PLOT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.6818886,
+          1.51047560000001
+        ]
+      },
+      "properties": {
+        "Final_Location_ID": "FLOC-0193",
+        "Standardized_Location": "Taman Tampoi Indah",
+        "Object_Types": "AREA/RESIDENTIAL",
+        "Independent_Event_Count": 1,
+        "Frequency_Band": "1-3",
+        "Frequency_Class": "Occasional",
+        "Years_Observed": "2025",
+        "First_Event_Date": "2025-03-20",
+        "Last_Event_Date": "2025-03-20",
+        "Polygon_IDs": null,
+        "Fixed45_IDs": "HF16",
+        "Plot_Status": "PLOT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.6859554,
+          1.50251799999999
+        ]
+      },
+      "properties": {
+        "Final_Location_ID": "FLOC-0194",
+        "Standardized_Location": "Taman Tampoi Utama",
+        "Object_Types": "AREA/RESIDENTIAL; Neighborhood",
+        "Independent_Event_Count": 2,
+        "Frequency_Band": "1-3",
+        "Frequency_Class": "Occasional",
+        "Years_Observed": "2020;2025",
+        "First_Event_Date": "2020-11-21",
+        "Last_Event_Date": "2025-03-20",
+        "Polygon_IDs": null,
+        "Fixed45_IDs": "HF40",
+        "Plot_Status": "PLOT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.7359187,
+          1.4794199
+        ]
+      },
+      "properties": {
+        "Final_Location_ID": "FLOC-0195",
+        "Standardized_Location": "Taman Tasik / Taman Merdeka",
+        "Object_Types": "AREA/RESIDENTIAL; COMMUNITY/AREA",
+        "Independent_Event_Count": 2,
+        "Frequency_Band": "1-3",
+        "Frequency_Class": "Occasional",
+        "Years_Observed": "2023;2025",
+        "First_Event_Date": "2023-12-06",
+        "Last_Event_Date": "2025-12-12",
+        "Polygon_IDs": null,
+        "Fixed45_IDs": null,
+        "Plot_Status": "PLOT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.75878,
+          1.46036
+        ]
+      },
+      "properties": {
+        "Final_Location_ID": "FLOC-0196",
+        "Standardized_Location": "Wisma Persekutuan Johor Bahru",
+        "Object_Types": "FACILITY/POI",
+        "Independent_Event_Count": 1,
+        "Frequency_Band": "1-3",
+        "Frequency_Class": "Occasional",
+        "Years_Observed": "2026",
+        "First_Event_Date": "2026-09-30",
+        "Last_Event_Date": "2026-09-30",
+        "Polygon_IDs": null,
+        "Fixed45_IDs": null,
+        "Plot_Status": "PLOT"
+      }
+    }
+  ]
+}

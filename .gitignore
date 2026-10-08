@@ -1,0 +1,48 @@
+# Local operating-system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Local editor and IDE folders
+.idea/
+.vscode/
+
+# Python cache and virtual environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Local restore outputs and temporary verification folders
+restored_large_files/
+restore_output/
+tmp/
+temp/
+*.tmp
+
+# Keep research archives publishable unless they match an explicit secret rule.
+!*.zip
+!*.gz
+!*.tar
+!*.tgz
+!*.7z
+!*.rar
+
+# Local secrets and credentials must never be published
+.env
+.env.*
+*.pem
+*.key
+id_rsa
+id_rsa.*
+id_ed25519
+id_ed25519.*
+token.txt
+tokens.txt
+secret.txt
+secrets.txt
+credentials.txt
+credential.txt
+*_TOKEN.txt
+*_SECRET.txt
+*_CREDENTIALS.txt

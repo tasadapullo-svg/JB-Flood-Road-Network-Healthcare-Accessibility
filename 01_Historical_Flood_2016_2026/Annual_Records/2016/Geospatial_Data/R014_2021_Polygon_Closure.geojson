@@ -1,0 +1,190 @@
+{
+  "type": "FeatureCollection",
+  "name": "R014_2021_Polygon_Closure",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "Polygon_ID": "PG2021-KEMPAS-LURAH",
+        "Object_Name": "Kempas Lurah",
+        "CRS": "EPSG:4326 / WGS84",
+        "Area_km2": 0.619978,
+        "Perimeter_km": 3.542863,
+        "Geometry_Valid": true,
+        "Geometry_Closed": true,
+        "Interpretation": "Defensible community/residential analysis boundary; not an observed inundation footprint.",
+        "Source_URL": "https://www.openstreetmap.org/way/407852454",
+        "Annual_Pass": "2021 Polygon Closure"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              103.716333,
+              1.5343375
+            ],
+            [
+              103.7203241,
+              1.5293396
+            ],
+            [
+              103.71938,
+              1.5282671
+            ],
+            [
+              103.7202893,
+              1.5269702
+            ],
+            [
+              103.715284,
+              1.5254401
+            ],
+            [
+              103.7151137,
+              1.5255063
+            ],
+            [
+              103.7118719,
+              1.5245453
+            ],
+            [
+              103.7115345,
+              1.5249308
+            ],
+            [
+              103.7124738,
+              1.5253081
+            ],
+            [
+              103.712706,
+              1.5282342
+            ],
+            [
+              103.7116622,
+              1.5289591
+            ],
+            [
+              103.7110511,
+              1.5293632
+            ],
+            [
+              103.716333,
+              1.5343375
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Polygon_ID": "PG2021-TAMAN-MAWAR",
+        "Object_Name": "Taman Mawar",
+        "CRS": "EPSG:4326 / WGS84",
+        "Area_km2": 1.232917,
+        "Perimeter_km": 4.505178,
+        "Geometry_Valid": true,
+        "Geometry_Closed": true,
+        "Interpretation": "Defensible community/residential analysis boundary; not an observed inundation footprint.",
+        "Source_URL": "https://www.openstreetmap.org/way/617816429",
+        "Annual_Pass": "2021 Polygon Closure"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              103.9009559,
+              1.4736497
+            ],
+            [
+              103.8968816,
+              1.4754756
+            ],
+            [
+              103.894642,
+              1.4764114
+            ],
+            [
+              103.8925754,
+              1.4763337
+            ],
+            [
+              103.8917787,
+              1.4759636
+            ],
+            [
+              103.89154,
+              1.4753081
+            ],
+            [
+              103.8915347,
+              1.4749514
+            ],
+            [
+              103.89176,
+              1.4742087
+            ],
+            [
+              103.8918284,
+              1.473049
+            ],
+            [
+              103.8917693,
+              1.4724431
+            ],
+            [
+              103.8915332,
+              1.4710501
+            ],
+            [
+              103.8896917,
+              1.4669938
+            ],
+            [
+              103.8896646,
+              1.4665708
+            ],
+            [
+              103.8898363,
+              1.4661203
+            ],
+            [
+              103.8909565,
+              1.4639096
+            ],
+            [
+              103.8912891,
+              1.4636843
+            ],
+            [
+              103.891804,
+              1.4632017
+            ],
+            [
+              103.895171,
+              1.4618683
+            ],
+            [
+              103.895407,
+              1.4619219
+            ],
+            [
+              103.8968963,
+              1.4649027
+            ],
+            [
+              103.8978577,
+              1.4669742
+            ],
+            [
+              103.9009559,
+              1.4736497
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

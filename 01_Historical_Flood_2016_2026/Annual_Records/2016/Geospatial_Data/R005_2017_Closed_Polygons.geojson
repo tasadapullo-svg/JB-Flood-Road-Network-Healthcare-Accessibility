@@ -1,0 +1,573 @@
+{
+  "type": "FeatureCollection",
+  "name": "R005_2017_Closed_Polygons",
+  "crs_note": "All coordinates are WGS84 / EPSG:4326",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "Polygon_ID": "PG2016-CBD-SEGGET",
+        "Polygon_Name": "Jalan Wong Ah Fook / Sungai Segget Project Corridor",
+        "2017_Role": "REUSED_2016_LOCATION_POLYGON",
+        "Boundary_Type": "Derived closed core project-corridor analysis polygon",
+        "Location_ID": "LOC-JB-CBD-WAF-SEGGET",
+        "Area_km2": 0.029149,
+        "CRS": "EPSG:4326",
+        "Notes": "Derived analysis-area polygon, not observed flood-water extent. If a higher-authority official project polygon becomes available, retain this geometry for audit and version the replacement.",
+        "Source_URL": "https://waterwaymap.org/river/Sungai%20Segget%20004200366310/geometry.geojson",
+        "GIS_Ready_Location_Polygon": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              103.7616988,
+              1.4650215
+            ],
+            [
+              103.7617905,
+              1.4648775
+            ],
+            [
+              103.7620707,
+              1.4643301
+            ],
+            [
+              103.7626501,
+              1.4633174
+            ],
+            [
+              103.7632366,
+              1.4621273
+            ],
+            [
+              103.7638586,
+              1.4609823
+            ],
+            [
+              103.7642726,
+              1.4601424
+            ],
+            [
+              103.7644817,
+              1.4597591
+            ],
+            [
+              103.7645631,
+              1.4595921
+            ],
+            [
+              103.7646674,
+              1.4592804
+            ],
+            [
+              103.7650213,
+              1.4586255
+            ],
+            [
+              103.7651644,
+              1.4584093
+            ],
+            [
+              103.765603,
+              1.4575897
+            ],
+            [
+              103.765746,
+              1.4574105
+            ],
+            [
+              103.7662775,
+              1.4568978
+            ],
+            [
+              103.7665951,
+              1.4566239
+            ],
+            [
+              103.7664489,
+              1.4564521
+            ],
+            [
+              103.7661265,
+              1.4567302
+            ],
+            [
+              103.76558,
+              1.4572575
+            ],
+            [
+              103.765415,
+              1.4574643
+            ],
+            [
+              103.7649716,
+              1.4582927
+            ],
+            [
+              103.7648287,
+              1.4585085
+            ],
+            [
+              103.7644606,
+              1.4591896
+            ],
+            [
+              103.7643549,
+              1.4595059
+            ],
+            [
+              103.7642823,
+              1.4596549
+            ],
+            [
+              103.7640734,
+              1.4600376
+            ],
+            [
+              103.7636594,
+              1.4608777
+            ],
+            [
+              103.7630374,
+              1.4620227
+            ],
+            [
+              103.7624519,
+              1.4632106
+            ],
+            [
+              103.7618733,
+              1.4642219
+            ],
+            [
+              103.7615955,
+              1.4647645
+            ],
+            [
+              103.7615052,
+              1.4649065
+            ],
+            [
+              103.7611712,
+              1.4655282
+            ],
+            [
+              103.7613688,
+              1.4656358
+            ],
+            [
+              103.7616988,
+              1.4650215
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Polygon_ID": "PG2017-KANGKAR-TEBRAU",
+        "Polygon_Name": "Kampung Kangkar Tebrau Residential Area",
+        "2017_Role": "LOCATION_POLYGON",
+        "Boundary_Type": "OSM closed residential/hamlet boundary",
+        "Location_ID": "LOC-JB-KG-KANGKAR-TEBRAU",
+        "Area_km2": 0.370071,
+        "CRS": "EPSG:4326",
+        "Notes": "Analysis polygon/anchor only; never interpret automatically as the observed flood-water footprint.",
+        "Source_URL": "https://www.openstreetmap.org/way/657910839",
+        "GIS_Ready_Location_Polygon": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              103.7572469,
+              1.5348636
+            ],
+            [
+              103.7602739,
+              1.5317088
+            ],
+            [
+              103.7577665,
+              1.5298698
+            ],
+            [
+              103.7563327,
+              1.5291569
+            ],
+            [
+              103.7546713,
+              1.5286753
+            ],
+            [
+              103.7530933,
+              1.528664
+            ],
+            [
+              103.7515001,
+              1.5292593
+            ],
+            [
+              103.7518415,
+              1.5314017
+            ],
+            [
+              103.7524902,
+              1.531542
+            ],
+            [
+              103.7532488,
+              1.5319212
+            ],
+            [
+              103.7562758,
+              1.5341091
+            ],
+            [
+              103.7572469,
+              1.5348636
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Polygon_ID": "PG2017-TUAH-JAYA",
+        "Polygon_Name": "Kampung Tuah Jaya Residential Area",
+        "2017_Role": "LOCATION_POLYGON",
+        "Boundary_Type": "OSM closed residential/hamlet boundary",
+        "Location_ID": "LOC-JB-KG-TUAH-JAYA",
+        "Area_km2": 0.127928,
+        "CRS": "EPSG:4326",
+        "Notes": "Analysis polygon/anchor only; never interpret automatically as the observed flood-water footprint.",
+        "Source_URL": "https://www.openstreetmap.org/way/473550504",
+        "GIS_Ready_Location_Polygon": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              103.6738487,
+              1.47945
+            ],
+            [
+              103.6739347,
+              1.4799031
+            ],
+            [
+              103.6741557,
+              1.4810677
+            ],
+            [
+              103.6742456,
+              1.4811465
+            ],
+            [
+              103.6744329,
+              1.4810895
+            ],
+            [
+              103.6749258,
+              1.4808297
+            ],
+            [
+              103.6750639,
+              1.4807181
+            ],
+            [
+              103.6752499,
+              1.4809571
+            ],
+            [
+              103.6760786,
+              1.4803198
+            ],
+            [
+              103.6758768,
+              1.4799852
+            ],
+            [
+              103.6762487,
+              1.4797165
+            ],
+            [
+              103.6767078,
+              1.4793848
+            ],
+            [
+              103.6772104,
+              1.4794215
+            ],
+            [
+              103.677292,
+              1.4792899
+            ],
+            [
+              103.6767799,
+              1.47887
+            ],
+            [
+              103.676849,
+              1.4787691
+            ],
+            [
+              103.6770402,
+              1.4788009
+            ],
+            [
+              103.6772634,
+              1.4788487
+            ],
+            [
+              103.6779859,
+              1.4786044
+            ],
+            [
+              103.6780656,
+              1.4784451
+            ],
+            [
+              103.6780974,
+              1.478376
+            ],
+            [
+              103.6782143,
+              1.4783229
+            ],
+            [
+              103.6783949,
+              1.4782539
+            ],
+            [
+              103.6782993,
+              1.4780202
+            ],
+            [
+              103.678735,
+              1.4778875
+            ],
+            [
+              103.6788387,
+              1.4781538
+            ],
+            [
+              103.6794153,
+              1.4779302
+            ],
+            [
+              103.6792487,
+              1.4775332
+            ],
+            [
+              103.6798026,
+              1.4773338
+            ],
+            [
+              103.6799143,
+              1.476422
+            ],
+            [
+              103.6798074,
+              1.4763034
+            ],
+            [
+              103.6796899,
+              1.4763491
+            ],
+            [
+              103.6796665,
+              1.4763987
+            ],
+            [
+              103.6793852,
+              1.4764935
+            ],
+            [
+              103.6792787,
+              1.4765683
+            ],
+            [
+              103.6770758,
+              1.4773933
+            ],
+            [
+              103.6767925,
+              1.4773241
+            ],
+            [
+              103.6758095,
+              1.4779619
+            ],
+            [
+              103.6756487,
+              1.4781221
+            ],
+            [
+              103.6751325,
+              1.4784969
+            ],
+            [
+              103.6750837,
+              1.4785324
+            ],
+            [
+              103.6746354,
+              1.4788171
+            ],
+            [
+              103.6738487,
+              1.47945
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Polygon_ID": "PG2017-KIPMALL-TAMPOI",
+        "Polygon_Name": "KIPMall Tampoi Building",
+        "2017_Role": "LOCATION_POLYGON",
+        "Boundary_Type": "OSM closed commercial building/facility boundary",
+        "Location_ID": "LOC-JB-KIPMALL-TAMPOI",
+        "Area_km2": 0.018912,
+        "CRS": "EPSG:4326",
+        "Notes": "Analysis polygon/anchor only; never interpret automatically as the observed flood-water footprint.",
+        "Source_URL": "https://www.openstreetmap.org/way/231526258",
+        "GIS_Ready_Location_Polygon": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              103.6864267,
+              1.5092543
+            ],
+            [
+              103.6871319,
+              1.5096164
+            ],
+            [
+              103.6871128,
+              1.5096537
+            ],
+            [
+              103.6871843,
+              1.5096904
+            ],
+            [
+              103.6872004,
+              1.509659
+            ],
+            [
+              103.6872606,
+              1.5096899
+            ],
+            [
+              103.6879857,
+              1.5082787
+            ],
+            [
+              103.6878943,
+              1.5082318
+            ],
+            [
+              103.6879157,
+              1.5081902
+            ],
+            [
+              103.6871667,
+              1.5078056
+            ],
+            [
+              103.6869996,
+              1.5081308
+            ],
+            [
+              103.6869402,
+              1.5081003
+            ],
+            [
+              103.6868982,
+              1.508182
+            ],
+            [
+              103.6869611,
+              1.5082143
+            ],
+            [
+              103.6864267,
+              1.5092543
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Polygon_ID": "PG2017-WISMA-DAIMAN-ANCHOR",
+        "Polygon_Name": "Wisma Daiman Landmark Anchor",
+        "2017_Role": "LANDMARK_ANCHOR_ONLY",
+        "Boundary_Type": "OSM closed commercial-building landmark boundary",
+        "Location_ID": "LOC-JB-JLN-TEBRAU-WISMA-DAIMAN",
+        "Area_km2": 0.002401,
+        "CRS": "EPSG:4326",
+        "Notes": "Analysis polygon/anchor only; never interpret automatically as the observed flood-water footprint.",
+        "Source_URL": "https://www.openstreetmap.org/way/176304886",
+        "GIS_Ready_Location_Polygon": false
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              103.7665484,
+              1.4944405
+            ],
+            [
+              103.7664753,
+              1.4947925
+            ],
+            [
+              103.7665115,
+              1.494838
+            ],
+            [
+              103.7669393,
+              1.4948622
+            ],
+            [
+              103.7669943,
+              1.4948219
+            ],
+            [
+              103.7670428,
+              1.4945178
+            ],
+            [
+              103.7665712,
+              1.4944224
+            ],
+            [
+              103.7665672,
+              1.4944432
+            ],
+            [
+              103.7665484,
+              1.4944405
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "original_relative_path": "03_Nature_Portfolio_Project/Unclassified/Original_Archives/D03_Copernicus_GLO30_Final.zip",
+  "original_file_name": "D03_Copernicus_GLO30_Final.zip",
+  "original_size_bytes": 59854047,
+  "original_sha256": "bcb777c69134b6fa4c1dd66ace36dfc45c4340a94ae1f4d1c8285bd63b38e262",
+  "part_size_limit_bytes": 20971520,
+  "parts": [
+    {
+      "file": "D03_Copernicus_GLO30_Final.zip.part001",
+      "sha256": "4e31913853365b73c86fd07eef5e96c4793db7b2f8920c01d3f2c6dcfe8e6b1e"
+    },
+    {
+      "file": "D03_Copernicus_GLO30_Final.zip.part002",
+      "sha256": "19acd9df898c92f405b6a9e4b923704fb65b9e1684e99bf57530c217b5945d23"
+    },
+    {
+      "file": "D03_Copernicus_GLO30_Final.zip.part003",
+      "sha256": "5159e3adeba7570ab8b3a898732486d0f57563365b70c9a8c5e634203bc806d5"
+    }
+  ]
+}

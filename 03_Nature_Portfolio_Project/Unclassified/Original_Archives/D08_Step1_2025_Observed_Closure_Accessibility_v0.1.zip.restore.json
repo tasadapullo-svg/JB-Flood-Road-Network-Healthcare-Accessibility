@@ -1,0 +1,17 @@
+{
+  "original_relative_path": "03_Nature_Portfolio_Project/Unclassified/Original_Archives/D08_Step1_2025_Observed_Closure_Accessibility_v0.1.zip",
+  "original_file_name": "D08_Step1_2025_Observed_Closure_Accessibility_v0.1.zip",
+  "original_size_bytes": 22359307,
+  "original_sha256": "8ce6105b5f1789311e2ffc6081b29ac9f9afa32ceedd4ac7593b6d55295031b4",
+  "part_size_limit_bytes": 20971520,
+  "parts": [
+    {
+      "file": "D08_Step1_2025_Observed_Closure_Accessibility_v0.1.zip.part001",
+      "sha256": "f52f639b3abfd54533296e7bf03f3a9b634c9a2336a94476d68789f592eced91"
+    },
+    {
+      "file": "D08_Step1_2025_Observed_Closure_Accessibility_v0.1.zip.part002",
+      "sha256": "12892187fd5aa124e3096deb1c4db6b1d5f372c4f74f83b0009cc968d65db2aa"
+    }
+  ]
+}

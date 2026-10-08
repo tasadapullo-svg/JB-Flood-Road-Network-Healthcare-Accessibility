@@ -1,0 +1,17 @@
+{
+  "original_relative_path": "03_Nature_Portfolio_Project/Unclassified/Original_Archives/D09_FloodSusceptibility_CriticalRoadPriority_v1.0.zip",
+  "original_file_name": "D09_FloodSusceptibility_CriticalRoadPriority_v1.0.zip",
+  "original_size_bytes": 36453296,
+  "original_sha256": "0805cdcc396f74095559da39dcf8b966a28bc0542d364639ba0822f6ba9700b3",
+  "part_size_limit_bytes": 20971520,
+  "parts": [
+    {
+      "file": "D09_FloodSusceptibility_CriticalRoadPriority_v1.0.zip.part001",
+      "sha256": "f983c05ec18d284bec6823928d0f5d7be6451baa4012a76e3a5663245d7373a3"
+    },
+    {
+      "file": "D09_FloodSusceptibility_CriticalRoadPriority_v1.0.zip.part002",
+      "sha256": "7f7cca188e857942d6f800a38a0443a1c2eb7795292a5b41ce147e27cff41e8e"
+    }
+  ]
+}

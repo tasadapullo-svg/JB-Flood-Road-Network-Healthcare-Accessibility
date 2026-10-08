@@ -1,0 +1,21 @@
+{
+  "original_relative_path": "03_Nature_Portfolio_Project/Unclassified/Original_Archives/D06R_Corrected_Baseline_Healthcare_Accessibility_v1.0.zip",
+  "original_file_name": "D06R_Corrected_Baseline_Healthcare_Accessibility_v1.0.zip",
+  "original_size_bytes": 49503991,
+  "original_sha256": "d8e71048c6029856f691279ad6bafdcd23233afae505f2f12ed8b423fb1a7d50",
+  "part_size_limit_bytes": 20971520,
+  "parts": [
+    {
+      "file": "D06R_Corrected_Baseline_Healthcare_Accessibility_v1.0.zip.part001",
+      "sha256": "8dbd16d0790b4ff659e380b624bd9ec5eed4d6be67fc87110bb5cb8ed8c32c4f"
+    },
+    {
+      "file": "D06R_Corrected_Baseline_Healthcare_Accessibility_v1.0.zip.part002",
+      "sha256": "173d7f373d64356fb823994f7934a47b26a88855b37ab9c20e9ef648c86572c6"
+    },
+    {
+      "file": "D06R_Corrected_Baseline_Healthcare_Accessibility_v1.0.zip.part003",
+      "sha256": "dde31f0e6f58da007e4971fd8468a273f0a72c13da3bdd47de9b384cfc43e6b0"
+    }
+  ]
+}

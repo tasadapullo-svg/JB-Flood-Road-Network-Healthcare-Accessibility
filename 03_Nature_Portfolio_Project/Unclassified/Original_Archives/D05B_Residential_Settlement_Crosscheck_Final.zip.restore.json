@@ -1,0 +1,17 @@
+{
+  "original_relative_path": "03_Nature_Portfolio_Project/Unclassified/Original_Archives/D05B_Residential_Settlement_Crosscheck_Final.zip",
+  "original_file_name": "D05B_Residential_Settlement_Crosscheck_Final.zip",
+  "original_size_bytes": 29239781,
+  "original_sha256": "a99290ded81f611d42585f401bf2f55c28fe63a7e138b0bdad455e4606a9dfb3",
+  "part_size_limit_bytes": 20971520,
+  "parts": [
+    {
+      "file": "D05B_Residential_Settlement_Crosscheck_Final.zip.part001",
+      "sha256": "9e67948f485987c5e52812825f4f8d81e37971ba1c6ff56f72df2a542a5e75b5"
+    },
+    {
+      "file": "D05B_Residential_Settlement_Crosscheck_Final.zip.part002",
+      "sha256": "39e973a5774756ddde6c24cfaf075d9cab6777f4b3f671b0e6a9f6906b352508"
+    }
+  ]
+}

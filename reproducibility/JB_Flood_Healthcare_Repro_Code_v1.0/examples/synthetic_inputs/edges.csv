@@ -1,0 +1,11 @@
+subedge_idx,from_node,to_node,time_min
+segJ105,H,A,0.1
+segJ105,A,H,0.1
+segFT01,H,B,0.1
+segFT01,B,H,0.1
+segFT003,H,C,0.1
+segFT003,C,H,0.1
+segJ46,H,Z,0.1
+segJ46,Z,H,0.1
+hospital_edge,H,X,0.1
+hospital_edge,X,H,0.1

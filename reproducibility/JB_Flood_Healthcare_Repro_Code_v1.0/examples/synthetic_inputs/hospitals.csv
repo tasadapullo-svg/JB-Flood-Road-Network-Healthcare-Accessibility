@@ -1,0 +1,2 @@
+facility_id,facility_name,route_subedge_idx,route_node_u,route_node_v,route_edge_length_m,chainage_from_u_m,oneway_code,speed_kmh
+HOSP_S,Synthetic hospital,hospital_edge,H,X,100.0,20.0,0,60.0

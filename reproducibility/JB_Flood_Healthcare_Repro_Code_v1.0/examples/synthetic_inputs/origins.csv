@@ -1,0 +1,4 @@
+origin_id,population,subdistrict,route_subedge_idx,route_node_u,route_node_v,route_edge_length_m,chainage_from_u_m,oneway_code,speed_kmh
+oA,8,Mukim Tebrau,segJ105,H,A,100.0,90.0,0,60.0
+oB,3,Mukim Tebrau,segFT01,H,B,100.0,90.0,0,60.0
+oC,2,Mukim Plentong,segFT003,H,C,100.0,90.0,0,60.0

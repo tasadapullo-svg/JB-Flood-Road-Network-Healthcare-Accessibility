@@ -17,6 +17,8 @@ GitHub_Ready/
 |-- 03_Nature_Portfolio_Project/
 |-- 04_Figure_Support_Data/
 |-- 90_Organization_Reports/
+|-- reproducibility/
+|   `-- JB_Flood_Healthcare_Repro_Code_v1.0/
 |-- tools/
 |   `-- restore_large_files.py
 `-- README.md
@@ -52,6 +54,10 @@ Traceability and quality-assurance reports generated during organization:
 - `Publication_Exclusions.csv`: public-publication screening result and exclusion notes.
 - `QA_Report.md`: final quality-assurance summary and unresolved issues.
 - `summary.json`: machine-readable measured summary of organization results.
+
+### reproducibility
+
+Supporting reproducibility code for the flood-road-healthcare accessibility workflow. The current code package is stored under `reproducibility/JB_Flood_Healthcare_Repro_Code_v1.0/` and is added without replacing the archived data files.
 
 ## Measured Archive Summary
 

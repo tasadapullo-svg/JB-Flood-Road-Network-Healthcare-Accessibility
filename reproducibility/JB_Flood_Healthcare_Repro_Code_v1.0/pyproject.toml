@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "jb-flood-healthcare-reference-reimplementation"
+version = "0.1.0"
+description = "Independent, auditable reference implementation for directed healthcare accessibility and road-restoration stress tests"
+requires-python = ">=3.10"
+dependencies = ["numpy>=1.24,<3", "pandas>=2.0,<3", "scipy>=1.11,<2"]
+
+[project.optional-dependencies]
+test = ["pytest>=7,<10"]
+
+[project.scripts]
+jb-repro = "jb_repro.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
